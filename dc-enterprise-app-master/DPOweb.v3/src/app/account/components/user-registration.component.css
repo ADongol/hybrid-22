@@ -1,0 +1,61 @@
+﻿#signup-form {
+    background-color: #BDEBFF;
+}
+
+    #signup-form .main-content {
+        background-color: #FFFFFF;
+    }
+
+@media (min-width: 1200px) {
+    #signup-form .main-content {
+        width: 1100px;
+        margin: auto;
+    }
+}
+
+
+#signup-form .section.form {
+    background-color: #F4FCFE;
+    margin: 20px;
+    padding: 30px;
+}
+
+@media (max-width: 576px) {
+    #signup-form .section.form {
+        margin: 0px;
+    }
+}
+
+
+#signup-form .section.form h4 {
+    padding-left: 10px;
+}
+
+
+#signup-form .form-group p {
+    font-weight: bold;
+    margin: 0 0 5px;
+}
+
+#signup-form .section.action {
+    background-color: #DEF5FF;
+    margin: 18px;
+}
+
+@media (max-width: 576px) {
+    #signup-form .section.action {
+        margin: 0px;
+    }
+}
+
+input[type=search]::-webkit-search-cancel-button {
+    -webkit-appearance: searchfield-cancel-button;
+}
+
+
+/*.blue-tooltip + .tooltip > .tooltip-inner {background-color: #c5dee9;}*/
+/*.tooltip-inner {
+    color:black !important;
+    background-color:white !important;
+}*/
+

@@ -1,0 +1,95 @@
+﻿@model ProductModel
+@{
+    var specs = Model.Specifications;
+}
+<tr>
+    <td colspan="4" align="center" style="background-color:#85C1E9">COOLING - Airfolw Rate (cfm):</td>
+    <td colspan="4" align="center" style="background-color:#F5B7B1">HEATING - Airfolw Rate (cfm):</td>
+</tr>
+
+<tr>
+    <td style="background-color:#85C1E9">High: </td>
+    <td style="background-color:#85C1E9">@specs.GetDecimal("AirFlowRateHighCooling", "N0")</td>
+    <td style="background-color:#85C1E9">Med: </td>
+    <td style="background-color:#85C1E9">@specs.GetDecimal("AirFlowRateMediumCooling", "N0")</td>
+    <td style="background-color:#F5B7B1">High: </td>
+    <td style="background-color:#F5B7B1">@specs.GetDecimal("AirFlowRateHighHeating", "N0")</td>
+    <td style="background-color:#F5B7B1">Med: </td>
+    <td style="background-color:#F5B7B1">@specs.GetDecimal("AirFlowRateMediumHeating", "N0")</td>
+</tr>
+<tr>
+    <td style="background-color:#85C1E9">Low: </td>
+    <td style="background-color:#85C1E9">@specs.GetDecimal("AirFlowRateLowCooling", "N0")</td>
+    <td style="background-color:#85C1E9">SuperLow: </td>
+    <td style="background-color:#85C1E9">@specs.GetDecimal("AirFlowRateSuperLowCooling", "N0")</td>
+    <td style="background-color:#F5B7B1">Low: </td>
+    <td style="background-color:#F5B7B1">@specs.GetDecimal("AirFlowRateLowHeating", "N0")</td>
+    <td style="background-color:#F5B7B1">SuperLow: </td>
+    <td style="background-color:#F5B7B1">@specs.GetDecimal("AirFlowRateSuperLowHeating", "N0")</td>
+</tr>
+<tr>
+    @{
+        var soundPressureCoolingLabels = new List<string>
+        {
+            "H","M","L","SL"
+        };
+
+        var soundPressureCoolingRates = new List<string>{
+            specs.GetDecimal("SoundPressureHighCooling", "N0") != null? specs.GetDecimal("SoundPressureHighCooling", "N0"): specs.GetDecimal("SoundPressureHighCooling", "N0"),
+            specs.GetDecimal("SoundPressureMediumCooling", "N0") != null? specs.GetDecimal("SoundPressureMediumCooling", "N0"): specs.GetDecimal("SoundPressureMediumCooling", "N0"),
+            specs.GetDecimal("SoundPressureLowCooling", "N0") != null? specs.GetDecimal("SoundPressureLowCooling", "N0"): specs.GetDecimal("SoundPressureLowCooling", "N0"),
+            specs.GetDecimal("SoundPressureSuperLowCooling", "N0") != null? specs.GetDecimal("SoundPressureSuperLowCooling", "N0"): specs.GetDecimal("SoundPressureSuperLowCooling", "N0")
+        };
+
+        var soundPressureCoolingLabelsCombined = new List<string>();
+        var soundPressureCoolingRatesCombined = new List<string>();
+
+        for (var i = 0; i < soundPressureCoolingRates.Count; i++)
+        {
+            if (soundPressureCoolingRates[i] != null)
+            {
+                soundPressureCoolingRatesCombined.Add(soundPressureCoolingRates[i]);
+                soundPressureCoolingLabelsCombined.Add(soundPressureCoolingLabels[i]);
+            }
+        }
+    }
+
+    <td colspan="2" style="background-color:#85C1E9">Sound Pressure (@string.Join("/", soundPressureCoolingLabelsCombined)) (dBA):</td>
+    <td colspan="2"  style="background-color:#85C1E9">@string.Join("/", soundPressureCoolingRatesCombined)</td>
+    @{
+        var soundPressureHeatingLabels = new List<string>
+        {
+            "H","M","L","SL"
+        };
+
+        var soundPressureHeatingRates = new List<string>{
+            specs.GetDecimal("SoundPressureHighHeating", "N0") != null? specs.GetDecimal("SoundPressureHighHeating", "N0"): specs.GetDecimal("SoundPressureHighHeating", "N0"),
+            specs.GetDecimal("SoundPressureMediumHeating", "N0") != null? specs.GetDecimal("SoundPressureMediumHeating", "N0"): specs.GetDecimal("SoundPressureMediumHeating", "N0"),
+            specs.GetDecimal("SoundPressureLowHeating", "N0") != null? specs.GetDecimal("SoundPressureLowHeating", "N0"): specs.GetDecimal("SoundPressureLowHeating", "N0"),
+            specs.GetDecimal("SoundPressureSuperLowHeating", "N0") != null? specs.GetDecimal("SoundPressureSuperLowHeating", "N0"): specs.GetDecimal("SoundPressureSuperLowHeating", "N0")
+        };
+
+        var soundPressureHeatingLabelsCombined = new List<string>();
+        var soundPressureHeatingRatesCombined = new List<string>();
+
+        for (var i = 0; i < soundPressureHeatingRates.Count; i++)
+        {
+            if (soundPressureHeatingRates[i] != null)
+            {
+                soundPressureHeatingRatesCombined.Add(soundPressureHeatingRates[i]);
+                soundPressureHeatingLabelsCombined.Add(soundPressureHeatingLabels[i]);
+            }
+        }
+    }
+
+    <td colspan="2"  style="background-color:#F5B7B1">Sound Pressure (@string.Join("/", soundPressureHeatingLabelsCombined)) (dBA):</td>
+    <td colspan="2"  style="background-color:#F5B7B1">@string.Join("/", soundPressureHeatingRatesCombined)</td>
+
+</tr>
+<tr>
+    <td colspan="2">Dimensions (HxWxD) (in):</td>
+    <td colspan="2">@specs.GetString("DimensionsUnitHeight") x @specs.GetString("DimensionsUnitWidth") x @specs.GetString("DimensionsUnitDepth")</td>
+    <td colspan="2">Net Weight (lb):</td>
+    <td colspan="2">@specs.GetString("WeightUnit")</td>
+</tr>
+

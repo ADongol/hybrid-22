@@ -1,0 +1,70 @@
+﻿@model ProductModel
+@{
+    var specs = Model.Specifications;
+}
+<tr>
+    <td></td>
+    <td>SEER</td>
+    <td>EER</td>
+    <td>HSPF</td>
+    <td>COP</td>
+</tr>
+
+<tr>
+    <td>Non-Ducted:</td>
+    <td>@specs.GetDecimal("SEERNonDucted", "N2")</td>
+    <td>@specs.GetDecimal("EERNonDucted", "N2")</td>
+    <td>@specs.GetDecimal("HSPFNonDucted", "N2")</td>
+    <td>@specs.GetDecimal("COP47NonDucted", "N2")</td>
+</tr>
+<tr>
+    <td>Ducted:</td>
+    <td>@specs.GetDecimal("SEERDucted", "N2")</td>
+    <td>@specs.GetDecimal("EERDucted", "N2")</td>
+    <td>@specs.GetDecimal("HSPFDucted", "N2")</td>
+    <td>@specs.GetDecimal("COP47Ducted", "N2")</td>
+</tr>
+<tr>
+    <td>Mixed:</td>
+    @{
+        decimal mixedSEER = 0;
+        mixedSEER = System.Convert.ToDecimal(specs.GetDecimal("SEERNonDucted", "N2")) + System.Convert.ToDecimal(specs.GetDecimal("SEERDucted", "N2"));
+        if (specs.GetDecimal("SEERNonDucted", "N2") != null && specs.GetDecimal("SEERDucted", "N2") != null)
+        {
+            mixedSEER = (mixedSEER / 2);
+        }
+
+        decimal mixedEER = 0;
+        mixedEER = System.Convert.ToDecimal(specs.GetDecimal("EERNonDucted", "N2")) + System.Convert.ToDecimal(specs.GetDecimal("EERDucted", "N2"));
+        if (specs.GetDecimal("EERNonDucted", "N2") != null && specs.GetDecimal("EERDucted", "N2") != null)
+        {
+            mixedEER = (mixedEER / 2);
+        }
+
+        decimal mixedHSPF = 0;
+        mixedHSPF = System.Convert.ToDecimal(specs.GetDecimal("HSPFNonDucted", "N2")) + System.Convert.ToDecimal(specs.GetDecimal("HSPFDucted", "N2"));
+        if (specs.GetDecimal("HSPFNonDucted", "N2") != null && specs.GetDecimal("HSPFDucted", "N2") != null)
+        {
+            mixedHSPF = (mixedHSPF / 2);
+        }
+
+        decimal mixedCOP = 0;
+        mixedCOP = System.Convert.ToDecimal(specs.GetDecimal("COP47NonDucted", "N2")) + System.Convert.ToDecimal(specs.GetDecimal("COP47Ducted", "N2"));
+        if (specs.GetDecimal("COP47NonDucted", "N2") != null && specs.GetDecimal("COP47Ducted", "N2") != null)
+        {
+            mixedCOP = (mixedCOP / 2);
+        }
+
+    }
+
+    <td>@mixedSEER</td>
+    <td>@mixedEER</td>
+    <td>@mixedHSPF</td>
+    <td>@mixedCOP</td>
+
+</tr>
+<tr>
+    <td colspan="5"><br />&nbsp;<br /></td>
+</tr>
+
+

@@ -1,0 +1,123 @@
+﻿{
+    "building": {
+        "id": "6",
+        "type": "functional",
+        "name": "Bank",
+        "videoIn": "daikincityweb/video/Bank.mp4",
+        "videoInPoster": "daikincityweb/images/city.jpg",
+        "hotspotX": "59%",
+        "hotspotY": "35%",
+        "floors": {
+            "floor": [
+                {
+                    "id": "1",
+                    "type": "functional",
+                    "name": "Bank",
+                    "size": "10",
+                    "floorImage": "daikincityweb/images/buildings/bank/bank.png",
+                    "configurations": {
+                        "configuration": [
+                            {
+                                "id": "1",
+                                "name": "Baseline System",
+                                "systemName": "RTU HP (2x5-Ton)",
+                                "systemType": "Rooftop",
+                                "systemSize": "2 x 5-Ton",
+                                "energy": "14.6",
+                                "overlayImage": "daikincityweb/images/buildings/bank/bank_baseline.png",
+                                "systemImage": "daikincityweb/images/systems/baseline_system3-6tons.png"
+                            },
+                            {
+                                "id": "2",
+                                "name": "VRV Heat Pump",
+                                "systemName": "VRV Heat Pump (10-Ton)",
+                                "systemType": "VRV Heat Pump",
+                                "systemSize": "10-Ton",
+                                "energy": "21.5",
+                                "overlayImage": "daikincityweb/images/buildings/bank/bank_heat_pump.png",
+                                "systemImage": "daikincityweb/images/systems/heat_pump.png",
+                                "efficiency": "165",
+                                "indoorUnits": {
+                                    "indoorUnit": [
+                                        "7",
+                                        "6"
+                                    ]
+                                },
+                                "layouts": {
+                                    "layout": [
+                                        {
+                                            "id" : "1",
+                                            "name": "Zone Level",
+                                            "node": {
+                                                "id": "3",
+                                                "node": [
+                                                    {
+                                                        "id": "1"
+                                                    },
+                                                    {
+                                                        "id": "2"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id" : "2",
+                                            "name": "System Level",
+                                            "node": {
+                                                "id": "4"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "3",
+                                "name": "VRV Heat Recovery",
+                                "systemName": "VRV Heat Recovery (1x8-Ton)",
+                                "systemType": "VRV Heat Recovery",
+                                "systemSize": "8-Ton",
+                                "energy": "21.06",
+                                "overlayImage": "daikincityweb/images/buildings/bank/bank_heat_recovery.png",
+                                "systemImage": "daikincityweb/images/systems/heat_recovery.png",
+                                "efficiency": "144",
+                                "indoorUnits": {
+                                    "indoorUnit": [
+                                        "7",
+                                        "6"
+                                    ]
+                                },
+                                "layouts": {
+                                    "layout": [
+                                        {
+                                            "id" : "1",
+                                            "name": "Zone Level",
+                                            "node": {
+                                                "id": "3",
+                                                "node": [
+                                                    {
+                                                        "id": "1"
+                                                    },
+                                                    {
+                                                        "id": "2"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "alternativeConfigurations": {
+                        "configuration": [{
+                            "id": "1",
+                            "name": "Split System",
+                            "systemName": "Split System (2x5-Ton)",
+                            "energy": "14.5"
+                        }]
+                    }
+                }
+            ]
+        }
+    }
+}

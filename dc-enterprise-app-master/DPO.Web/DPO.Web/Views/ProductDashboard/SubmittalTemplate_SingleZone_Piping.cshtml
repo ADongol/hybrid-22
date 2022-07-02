@@ -1,0 +1,68 @@
+﻿@model ProductModel
+@{
+    var specs = Model.Specifications;
+}
+
+<tr>
+    @{
+        var PowerVoltages = specs.GetString("PowerVoltage");
+        if (PowerVoltages != null && PowerVoltages.Equals("208/230") || PowerVoltages != null && PowerVoltages.Equals("208/240"))
+        {
+            PowerVoltages = PowerVoltages.Replace('/', '-');
+        }
+    }
+    @{
+        if (PowerVoltages.Contains("-"))
+        {
+            <td colspan="2">Gas Connection (in):<br />&nbsp;</td>
+            <td></td>
+            <td>@specs.GetString("PipeSizeGas")</td>
+        }
+        else
+        {
+            <td colspan="2">Gas Connection (in):</td>
+            <td></td>
+            <td>@specs.GetString("PipeSizeGas")</td>
+        }
+    }
+</tr>
+
+<tr>
+    <td  colspan="2">Liquid Connection (in):</td>
+    <td></td>
+    <td>@specs.GetString("PipeSizeLiquid")</td>
+</tr>
+<tr>
+    <td  colspan="2">Drain Connection (in):</td>
+    <td></td>
+    <td>@specs.GetString("CondensateDrainOutlet")</td>
+</tr>
+    <tr>
+    <td colspan="2">Max. Interunit Piping Length (ft):</td>
+    <td></td>
+    <td>@specs.GetString("MaxPipeLengthTotal")</td>
+</tr>
+<tr>
+    <td colspan="2">Max. Interunit Height Difference (ft):</td>
+    <td></td>
+    <td>@specs.GetString("MaxPipeLengthVertical")</td>
+</tr>
+    <tr>
+    <td colspan="2">Refrigerant Pre-Charged Pipe Length (ft):</td>
+    <td></td>
+    <td>@specs.GetString("RefrigerantPreChargedLineLength")</td>
+</tr>
+    <tr>
+    <td colspan="2">Additional Charge of Refrigerant (oz/ft):</td>
+    <td></td>
+    <td>@specs.GetString("AdditionalRefrigerantCharge")</td>
+</tr>
+<tr>
+    <td colspan="4">&nbsp;</td>
+</tr>    
+<tr>
+    <td colspan="4"><b>FLA:</b> Full load amps &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>W:</b> Rated output watts</td>
+</tr>
+@*<tr>
+    <td colspan="4">&nbsp;</td>
+</tr>*@

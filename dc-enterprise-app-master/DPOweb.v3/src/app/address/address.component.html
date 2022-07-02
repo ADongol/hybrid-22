@@ -1,0 +1,50 @@
+﻿
+<div class="row no-gutters">
+    <div class="form-group col-md-5">
+        <label class="control-label">Address Line 1</label>
+        <input type="text" class="form-control" #addressLine1="ngModel" name="addressLine1" [(ngModel)]="address.addressLine1">
+    </div>
+    <div class="form-group col-md-5">
+        <label class="control-label">Address Line 2</label>
+        <input type="text" class="form-control" #addressLine2="ngModel" name="addressLine2" [(ngModel)]="address.addressLine2">
+    </div>
+</div>
+
+
+<div class="row no-gutters">
+    <div class="form-group col-md-2">
+        <label class="control-label">Country</label>
+        <select class="form-control" [(ngModel)]="address.countryCode" (ngModelChange)="countryCodeChange($event)" name="countryCode">
+            <option [value]="null" selected disabled>Select ...</option>
+            <option *ngFor="let item of address.countries.items"
+                    [value]="item.value">
+                {{item.text}}
+            </option>
+        </select>
+    </div>
+
+    <div class="form-group col-md-3">
+        <label class="control-label">State</label>
+        <select class="form-control" [(ngModel)]="address.stateId" name="state" (ngModelChange)="stateChange($event)">
+            <option [value]="null" selected disabled>Select ...</option>
+            <option *ngFor="let item of address.states.items"
+                    [value]="item.value">
+                {{item.text}}
+            </option>
+        </select>
+    </div>
+
+    <div class="form-group col-md-2">
+        <label class="control-label">City</label>
+        <input type="text" class="form-control" #location="ngModel" name="location" [(ngModel)]="address.location">
+    </div>
+
+    <div class="form-group col-md-3">
+        <label class="control-label">Zip Code</label>
+        <input type="text" class="form-control" #postalCode="ngModel" name="postalCode" [(ngModel)]="address.postalCode">
+
+    </div>
+
+</div>
+
+

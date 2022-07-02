@@ -1,0 +1,63 @@
+﻿
+#main-container {
+    margin-top: 25px;
+}
+
+.message-body {
+    font-family: 'Noto Sans', Arial, serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;    
+    line-height: 1.618em;
+    /*background: #464646;*/
+    background-size: cover;
+    margin: 5%;
+}
+
+h2 {
+    font-family: 'Noto Sans', Arial, serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.618em;
+    margin-bottom: 10px;
+}
+
+.message-section {
+    max-width: 800px;
+    margin: 1% auto 1% auto;
+    background-color: #222;
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+    color: #fff;
+    padding: 1em 5%;
+}
+
+.message-text {
+    padding:5px;
+}
+
+a {
+    color: #00CC66;
+}
+
+    a:focus {
+        outline: none;
+        outline-offset: inherit;
+    }
+
+@media (max-device-width: 1027px) {
+
+    .message-body {
+        text-align: center;
+        font-size: larger;
+    }
+
+    .message-section {
+        max-width: 90%;
+    }
+}
+
+@media (max-device-width: 640px) {
+    .message-section {
+        max-width: 97%;
+    }
+}

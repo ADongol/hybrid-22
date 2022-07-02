@@ -1,0 +1,199 @@
+﻿@model ProductModel
+@{
+    Layout = null;
+    @Styles.Render("~/Content/css/pdf-base");
+
+    var IndoorAccessoriesCount = Model.GetSystemIndoorUnit.Accessories.Count();
+    var OutdoorAccessoriesCount = Model.GetSystemOutdoorUnit.Accessories.Count();
+    int IndoorAccessoryPageCount = (IndoorAccessoriesCount / 25) + 1;   // 25 = number of rows per page for accessories
+    int OutdoorAccessoryPageCount = (OutdoorAccessoriesCount / 25) + 1;   // 25 = number of rows per page for accessories
+
+    int accessoryPageCount = ( 4 + IndoorAccessoryPageCount + OutdoorAccessoryPageCount);   // 25 = number of rows per page for accessories
+    Model.PageTotal = (4 + IndoorAccessoryPageCount + OutdoorAccessoryPageCount);             // 4= # of pages up to accessories
+}
+<div class="pdf">
+
+    <div class="static-page">
+
+        @Html.Partial("SubmittalTemplate_Print_Header")
+
+        <div class="row">
+            @Html.Partial("ProductFeaturesAndBenefits", Model)
+            <div class="row-end">&nbsp;</div>
+        </div>
+
+        <div class="row clearfix">
+            @{
+                ViewBag.UnitTypeLabel = "Indoor Unit";
+            }
+
+            @Html.Partial("SubmittalTemplate_ProductImageAndLogos", Model.GetSystemIndoorUnit)
+           
+             @{
+                ViewBag.UnitTypeLabel = "Outdoor Unit";
+            }
+           
+             @Html.Partial("SubmittalTemplate_ProductImageAndLogos", Model.GetSystemOutdoorUnit)
+            <div class="row-end">&nbsp;</div>
+        </div>
+
+        @{
+            ViewBag.UnitTypeLabel = "";
+        }
+        @Html.Partial("ProductNotes", Model)
+
+        @Html.Partial("SubmittalTemplate_Print_Footer")
+    </div>
+
+    <div class="new static-page">
+        @Html.Partial("SubmittalTemplate_Print_Header")
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="4"><b>Efficieny:</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @Html.Partial("SubmittalTemplate_SingleZoneHP_Efficiency")
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="4"><b>Performance:</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @Html.Partial("SubmittalTemplate_SingleZoneHP_Performance")
+                </tbody>
+            </table>
+
+        <div class="col-half">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="3"><b>Electrical</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @Html.Partial("SubmittalTemplate_SingleZone_Electrical")
+                </tbody>
+            </table>
+        </div>
+        <div class="col-half">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="4"><b>Piping</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @Html.Partial("SubmittalTemplate_SingleZone_Piping")
+                </tbody>
+            </table>
+        </div>
+        @Html.Partial("SubmittalTemplate_Print_Footer")
+    </div>
+   
+    <div class="new static-page">
+        @Html.Partial("SubmittalTemplate_Print_Header")
+
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="8"><b>Indoor Specifications</b></th>
+                </tr>
+            </thead>
+            <tbody>
+                @Html.Partial("SubmittalTemplate_SingleZoneHP_Indoor_Details", Model.GetSystemIndoorUnit)
+            </tbody>
+        </table>
+        @{
+            ViewBag.UnitTypeLabel = "Indoor Unit";
+        }
+        @Html.Partial("ProductDimensionalDrawing", Model.GetSystemIndoorUnit)
+        @Html.Partial("SubmittalTemplate_Print_Footer")
+    </div>
+
+    <div class="new static-page">
+        @Html.Partial("SubmittalTemplate_Print_Header")
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4"><b>Outdoor Specifications</b></th>
+                </tr>
+            </thead>
+            <tbody>
+                @Html.Partial("SubmittalTemplate_SingleZoneHP_Outdoor_Details", Model.GetSystemOutdoorUnit)
+            </tbody>
+        </table>
+        @{
+            ViewBag.UnitTypeLabel = "Outdoor Unit";
+        }
+        @Html.Partial("ProductDimensionalDrawing", Model.GetSystemOutdoorUnit)
+        @Html.Partial("SubmittalTemplate_Print_Footer")
+    </div>
+
+    @if (accessoryPageCount > 0  && IndoorAccessoryPageCount >= 1 )  //change to accessoriesCount >0 to NOT display the one default accy pg.
+    {
+        var IndooraccessoryRowsPerPage = 1;
+        for (int i = 0; i < IndoorAccessoryPageCount; i += 1)
+        {
+            <div class="new static-page">
+                @Html.Partial("SubmittalTemplate_Print_Header")
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="4">Optional Indoor Accessories</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @Html.Partial("SubmittalTemplate_Accessories", Model.GetSystemIndoorUnit, new ViewDataDictionary(this.ViewData) { { "StartAccessoriesCount", @IndooraccessoryRowsPerPage } })
+                    </tbody>
+                </table>
+                @Html.Partial("SubmittalTemplate_Print_Footer")
+            </div>
+            IndooraccessoryRowsPerPage += 26;  //increment the Accessories Pages for 26 Rows/Records
+        }
+    }
+
+    @if (accessoryPageCount > 0 && OutdoorAccessoryPageCount >= 1)  //change to accessoriesCount >0 to NOT display the one default accy pg.
+    {
+        var OutdooraccessoryRowsPerPage = 1;
+        for (int i = 0; i < OutdoorAccessoryPageCount; i += 1)
+        {
+            <div class="new static-page">
+                @Html.Partial("SubmittalTemplate_Print_Header")
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="4">Optional Outdoor Accessories</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @Html.Partial("SubmittalTemplate_Accessories", Model.GetSystemOutdoorUnit, new ViewDataDictionary(this.ViewData) { { "StartAccessoriesCount", @OutdooraccessoryRowsPerPage } })
+                    </tbody>
+                </table>
+                @Html.Partial("SubmittalTemplate_Print_Footer")
+            </div>
+            OutdooraccessoryRowsPerPage += 26;  //increment the Accessories Pages for 26 Rows/Records
+        }
+    }
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+  
+    
+   
+   
+

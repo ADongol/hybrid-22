@@ -1,0 +1,52 @@
+.footer-anchor{
+    padding-left: 20px;
+    text-decoration: underline;
+}
+
+.card {
+    border: 0;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    border-radius: 6px;
+    color: #333333;
+    background: #fff;
+    width: 100%;
+}
+
+.card-title {
+    color: #3C4858;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.card-list {
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+}
+
+.topic-header{
+    display: block;
+    float: left;
+     width: 30%;
+}
+
+.topic-content {
+    display: block;
+    margin-bottom: 16px;
+    margin-top: 10px;
+    font-weight: bold; 
+}
+
+.topic-footer {
+    padding-left: 15px;
+    padding-bottom:15px; 
+
+}
+
+.mat-icon-header {
+    display: block;
+    float: right;
+    cursor: pointer;
+}
+    

@@ -1,0 +1,26 @@
+﻿@model QuoteItemsModel
+
+<div class="modal" id="quote_package_modal" style="display: none;">
+    <div>
+        <img src="~/Images/modal-close-btn.png" class="close-btn" />
+        <h1>Attach New File To Quote Package</h1>
+
+            @Html.PageMessages()
+            @using (Html.BeginForm("QuotePackageAttachFile", "projectdashboard", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.HiddenFor(m => m.ProjectId)
+                @Html.HiddenFor(m => m.QuoteId)
+
+                <br/>
+                <label for="importFile">Please select a file :</label>
+                <br/>
+                <input id="importfile" type="file" name="importfile">
+                <br />
+                <br />
+
+                <button type="button" class="btn cancel-btn">@ResourceUI.Cancel</button>
+                <button type="submit" class="submit-btn">@ResourceUI.Import</button>
+            }
+    </div>
+</div>

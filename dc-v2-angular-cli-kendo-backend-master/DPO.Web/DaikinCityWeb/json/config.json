@@ -1,0 +1,196 @@
+{
+    "config": {
+        "buildings": {
+            "building": [
+                {
+                    "path": "daikincityweb/json/hotel.json"
+                },
+                {
+                    "path": "daikincityweb/json/convenience_store.json"
+                },
+                {
+                    "path": "daikincityweb/json/library.json"
+                },
+                {
+                    "path": "daikincityweb/json/retail_store.json"
+                },
+                {
+                    "path": "daikincityweb/json/restaurant.json"
+                },
+                {
+                    "path": "daikincityweb/json/bank.json"
+                },
+                {
+                    "path": "daikincityweb/json/school.json"
+                },
+                {
+                    "path": "daikincityweb/json/office.json"
+                },
+                {
+                    "path": "daikincityweb/json/comms_center.json"
+                },
+                {
+                    "path": "daikincityweb/json/project_office.json"
+                },
+                {
+                    "path": "daikincityweb/json/training_center.json"
+                },
+                {
+                    "path": "daikincityweb/json/logistics_center.json"
+                }
+            ]
+        },
+        "billboard": {
+            "poster": [
+                {
+                    "id": 1,
+                    "url": "www.bbc.co.uk",
+                    "image": "/daikincityweb/images/billboard_01.jpg",
+                    "enabled": true
+                },
+                {
+                    "id": 2,
+                    "url": "http://www.daikinac.com/content/resources/software/#daikin-equip",
+                    "image": "/daikincityweb/images/billboard_02.jpg",
+                    "enabled": false
+                },
+                {
+                    "id": 3,
+                    "url": "http://www.daikinac.com/content/commercial/accessories-and-controllers/dzk-zoning-kit-vrv-meets-vav/",
+                    "image": "/daikincityweb/images/billboard_03.jpg",
+                    "enabled": true
+                }
+            ]
+        },
+        "systems": {
+            "system": [
+                {
+                    "id": 1,
+                    "name": "Self Cleaning Filter",
+                    "description": "Optional accessory for the Round Flow Cassette Indoor Unit.\\n The self cleaning filter will automatically clean the unit filter on daily basis to keep the unit operating in its optimum and most efficient.\\n\\n Typical energy savings at a zone level are around 15% when this option is used however greater savings are feasible",
+                    "image": "/daikincityweb/images/systems/self_cleaning_filter.png",
+                    "icon": "/daikincityweb/images/icons/self_cleaning_filter.gif"
+                },
+                {
+                    "id": 2,
+                    "name": "Presence Sensor",
+                    "description": "A standard feature of the Round Flow Cassette Indoor Unit. Designed to minimize energy use &amp; maximize comfort in 3 ways: - Measure temp variance from floor to ceiling to maximize Redirect airflow away from zone occupants to prevent drafts Automatically go into set-back mode when a room becomes unnoccupied. Typical savings per zone for automatic set-back are up to 15%",
+                    "image": "/daikincityweb/images/systems/presence_sensor.png",
+                    "icon": "/daikincityweb/images/icons/presence_sensor.gif"
+                },
+                {
+                    "id": 3,
+                    "name": "Temperature Set-Back",
+                    "description": "When matched with Navigation or iTM Central controls, Daikin VRV indoor units offer Zone level temperature set-back capabilities to match the occupancy schedules of the building. A typical 5F setback condition utilized for unoccupied periods can realize up to 10% reduction in electrical use for each zone based on DOE estimates.",
+                    "image": "/daikincityweb/images/systems/temp_setback.jpg",
+                    "icon": "/daikincityweb/images/icons/temp_set_back.gif"
+                },
+                {
+                    "id": 4,
+                    "name": "Variable Refrigerant Temperature",
+                    "description": "Daikin VRV IV systems can improve seasonal efficiency by using the automatic and customizable Variable Refrigerant Temperature \\\"climate tuning\\\" function. This function enhances the inherent operation of varying the speed of compressor and refrigerant volume to increase efficiency, by additionally adjusting the target refrigerant temperatures in the system versus the space load and current weather conditions. The VRT function can realize up to a 28% increase in Seasonal Cooling efficiency during operation versus Daikin VRV III.",
+                    "image": "/daikincityweb/images/systems/variable_refrigerant_temperature.png",
+                    "icon": "/daikincityweb/images/icons/refrigeration_recovery.gif"
+                },
+                {
+                    "id": 5,
+                    "name": "Inncom Thermostat",
+                    "description": "Daikin have partnered with INNCOM to develop a fully integrated control capability with its VRV systems for the hotel/hospitality industry. The integration efforts realizes optimum room comfort, ease of use for hotel guests and alignment to hotel energy saving initiatives such as occupancy set-back control, optimized temperature settings, and for further property savings by utilizing the INNCOM centralized hotel energy management system.",
+                    "image": "/daikincityweb/images/systems/inncom_thermostat.png",
+                    "icon": "/daikincityweb/images/icons/inncom_thermostat.gif"
+                },
+                {
+                    "id": 6,
+                    "name": "DC Ducted Indoor Unit",
+                    "description": "From 7.5MBH to 54MBH Capacity. Highly flexible solution for offices, classrooms, retail, banks, restaurants etc who desire a ducted solution. Low profile, Low Sound Up to 0.8\\\" External Static with auto airflow adjustment, Integrated condensate pump. Options include = - MERV Filters, DZK zoning kit, Economizer Kit",
+                    "image": "/daikincityweb/images/systems/dc_ducted_indoor_unit.png",
+                    "icon": "/daikincityweb/images/icons/ducted_indoor.gif"
+                },
+                {
+                    "id": 7,
+                    "name": "Round Flow Cassette Indoor Unit",
+                    "description": "From 7.5MBH to 48MBH Capacity. Highly flexible solution for offices, classrooms, retail and other applications. Low sound levels, customizable airflow patterns, integrated condensate pump, ventilation connection. Options include = MERV Filters, Presence Sensor and Self Cleaning Filter",
+                    "image": "/daikincityweb/images/systems/round_flow_cassette.png",
+                    "icon": "/daikincityweb/images/icons/round_flow_cassette.gif"
+                },
+                {
+                    "id": 8,
+                    "name": "Slim Ducted Indoor Unit",
+                    "description": "From 7.5MBH to 24MBH Capacity. Optimized for bulkhead type installations typical in hotels, condos, small offices. 8\\\" profile, Ultra Low Sound Levels, Integrated condensate pump, designed for lower external static pressure applications. Options include = - Access Panels, Adaptor PCB for Aux Heat, Humidifier integration",
+                    "image": "/daikincityweb/images/systems/slim_ducted_indoor_unit.png",
+                    "icon": "/daikincityweb/images/icons/slim_ducted_indoor.gif"
+                },
+                {
+                    "id": 12,
+                    "name": "test product!",
+                    "description": "hi i am a test product",
+                    "image": "/daikincityweb/images/systems/system_image_12.png",
+                    "icon": "/daikincityweb/images/icons/system_icon_12.gif"
+                },
+                {
+                    "id": 13,
+                    "name": "Dans Mega Product 5000",
+                    "description": "description",
+                    "image": "/daikincityweb/images/systems/system_image_13.png",
+                    "icon": "/daikincityweb/images/icons/system_icon_13.gif"
+                },
+                {
+                    "id": 14,
+                    "name": "Great Product",
+                    "description": "Buy me now pls kthxbi",
+                    "image": "/daikincityweb/images/systems/system_image_14.png",
+                    "icon": "/daikincityweb/images/icons/system_icon_14.gif"
+                }
+            ]
+        },
+        "communications": {
+            "ContactUsLink": "http://daikincity.co.uk/contact.php?local=us",
+            "YouTubeLink": "https://www.youtube.com/user/DaikinAC",
+            "videos": {
+                "video": [
+                    {
+                        "id": 1,
+                        "title": "",
+                        "thumb": "http://img.youtube.com/vi/xcby2P2SQC8/mqdefault.jpg",
+                        "url": "xcby2P2SQC8"
+                    },
+                    {
+                        "id": 2,
+                        "title": "",
+                        "thumb": "/daikincityweb/images/buildings/communications-center/vrv-configurator.jpg",
+                        "url": "xcby2P2SQC8"
+                    },
+                    {
+                        "id": 3,
+                        "title": "",
+                        "thumb": "/daikincityweb/images/buildings/communications-center/thumb_6.png",
+                        "url": "https://www.youtube.com/user/DaikinAC"
+                    },
+                    {
+                        "id": 4,
+                        "title": "",
+                        "thumb": "/daikincityweb/images/buildings/communications-center/round-flow-sensing-cassette.jpg",
+                        "url": "nBoTmjDyGF4"
+                    },
+                    {
+                        "id": 5,
+                        "title": "",
+                        "thumb": "/daikincityweb/images/buildings/communications-center/itm-overview.jpg",
+                        "url": "Ii9ybrKKFQQ"
+                    },
+                    {
+                        "id": 6,
+                        "title": "",
+                        "thumb": "/daikincityweb/images/buildings/communications-center/thumb_5.png",
+                        "url": "/Account/ContactRequest"
+                    }
+                ]
+            }
+        },
+        "home": {
+            "title": "Welcome to Daikin City",
+            "bodytext": "Discover a new realm of energy efficiency and see what saving you can achieve. Explore the city to see Daikin's integrated heating, ventilation and air conditioning solutions",
+            "privacypolicy": "Privacy Policy"
+        }
+    }
+}

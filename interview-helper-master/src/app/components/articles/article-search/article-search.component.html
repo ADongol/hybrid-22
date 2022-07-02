@@ -1,0 +1,87 @@
+<div class="main-content">
+    <div class="container-fluid">        
+        <!-- <form (ngSubmit)='searchArticles()' autocomplete="off"> -->
+            <div class="container">
+                
+                <div>
+                    <form (ngSubmit)='searchArticles()' autocomplete="off">
+                        <mat-form-field>
+                            <input matInput #articleInput type="text" [(ngModel)]='article.title' 
+                                name='articleSearchBox' id="articleSearchBox"
+                                placeholder="Search articles...">
+
+                           
+                        </mat-form-field>
+                    </form>
+                </div>
+                <div class="two"></div>
+               <div>
+                    <form>
+                        <mat-form-field>
+                            <input matInput [(ngModel)]="datex" [matDatepicker]="datepicker" name='articleDateSearchBox' placeholder="Choose a date">
+                            <mat-datepicker-toggle matSuffix [for]="datepicker"></mat-datepicker-toggle>
+                            <mat-datepicker #datepicker (selectedChanged)="onDateSelect($event)"></mat-datepicker>
+                        </mat-form-field>
+                    </form>
+               </div>               
+            </div>
+            <!-- <div layout="row" layout-align="start left" flex-start>
+                <div class="col-md-4">
+                    <input matInput #articleInput type="text" class="form-control" 
+                            [(ngModel)]='article.title' name='articleSearchBox' 
+                            id="articleSearchBox"
+                            placeholder="Search articles..." > -->
+                    <!-- <div class="input-group" > -->
+                        
+                        <!-- <span class="input-group-addon" id="addon">
+                            <i class="fa fa-search" type="submit"></i> 
+                            <button class="success" type="submit">
+                                Search 
+                            </button>
+                        </span> -->
+                    <!-- </div> -->
+                <!-- </div>
+                <div class="col-md-4">
+                    <mat-form-field>
+                        <input matInput [(ngModel)]="datex" [matDatepicker]="datepicker" 
+                               name='articleDateSearchBox' placeholder="Choose a date">
+                        <mat-datepicker-toggle matSuffix [for]="datepicker"></mat-datepicker-toggle>
+                        <mat-datepicker #datepicker (selectedChanged)="onDateSelect($event)"></mat-datepicker>
+                    </mat-form-field>
+                </div> -->
+                
+            <!-- </div> -->
+
+        <!-- </form> -->
+        <br />
+
+        <div class="row">
+            <div *ngIf="hasArticle">
+                <div class="article-block" *ngFor="let item of pagedItems">
+                    <h6><a class="article-title" href="{{item.referenceUrl}}">{{item.title}}</a></h6>
+                    {{item.synopsis}} <br />
+                </div>
+                <br />
+                <br />
+                <!-- pager -->
+                <ul *ngIf="pager.pages && pager.pages.length" class="pagination">
+                    <li [ngClass]="{disabled:pager.currentPage === 1}">
+                        <a (click)="setPage(1)">First</a>
+                    </li>
+                    <li [ngClass]="{disabled:pager.currentPage === 1}">
+                        <a (click)="setPage(pager.currentPage - 1)">Previous</a>
+                    </li>
+                    <li *ngFor="let page of pager.pages" [ngClass]="{active:pager.currentPage === page}">
+                        <a (click)="setPage(page)">{{page}}</a>
+                    </li>
+                    <li [ngClass]="{disabled:pager.currentPage === pager.totalPages}">
+                        <a (click)="setPage(pager.currentPage + 1)">Next</a>
+                    </li>
+                    <li [ngClass]="{disabled:pager.currentPage === pager.totalPages}">
+                        <a (click)="setPage(pager.totalPages)">Last</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

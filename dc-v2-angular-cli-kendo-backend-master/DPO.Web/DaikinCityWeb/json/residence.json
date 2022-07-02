@@ -1,0 +1,21 @@
+﻿{
+  "building": {
+    "id": "14",
+    "type": "functional",
+    "name": "Residence",
+    "videoIn": "daikincityweb/video/Residence.mp4",
+    "videoInPoster": "daikincityweb/images/city.jpg",
+    "hotspotX": "15%",
+    "hotspotY": "50%",
+    "floors": {
+      "floor": [
+        {
+          "id": "1",
+          "type": "application",
+          "name": "Residence",
+          "applicationId": "4"
+        }
+      ]
+    }
+  }
+}

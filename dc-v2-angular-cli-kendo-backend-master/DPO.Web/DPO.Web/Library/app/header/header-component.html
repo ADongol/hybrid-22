@@ -1,0 +1,60 @@
+<div class="container container-1676 top-header-section">
+  <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2">
+    <div class="logo-dlibe">
+      <a href="/"><img src="./assets/images/daikin-logo.png" alt="www.daikin.co.uk"></a>
+    </div>
+  </div>
+  <div class="col-xs-9 col-sm-9 col-md-10 col-lg-10 no-padding top-header-right-wrapper text-right">
+    <ul class="top-header-menu">
+      <li class="active document-library"><a (click)= "goToHome()"><span><span class="hidden-xs hidden-sm">Document Library</span></span></a></li>
+      <li *ngIf="userDetails?.Email" class="project-office"><a href="/v2/#/home/home"><span><span class="hidden-xs hidden-sm">Project Office</span></span></a></li>
+      <li class="profile-list-item user-menu">
+        <span class="dropdown-toggle" data-toggle="dropdown">
+        <a *ngIf="userDetails?.Email">
+	   <span class="profile-text-wrap"><span class="signed-text">Signed in as:</span><span class="profile-user-name">{{userDetails?.FullName}}</span></span>
+        </a>
+        </span>
+        <ul class="dropdown-menu">
+          <li><a href="/Content/pdf/DaikinCityUserGuide.pdf">User Guide</a></li>
+          <li><a href="/Account/AccountDetailsEdit">Your Account</a></li>
+          <li><a (click)="signOut()">Sign Out</a></li>
+        </ul>
+        <a *ngIf="!userDetails?.Email" href="/v2/#/login/login">           
+         <span class="profile-text-wrap"><span class="sign-in">Sign in</span></span>
+        </a>
+
+      </li>
+      <li class="menu-toggle dropdown menu">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          <span>Menu</span>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a href="/#conveniencestore">Convenience Store</a></li>
+          <li><a href="/#bank">Bank</a></li>
+          <li><a href="/#hotel">Hotel</a></li>
+          <li><a href="/#office">Office</a></li>
+          <li><a href="/#restaurant">Restaurant</a></li>
+          <li><a href="/#retailstore">Retail Store</a></li>
+          <li><a href="/#commscenter">School</a></li>
+          <li><a href="/#conveniencestore">Comms Center</a></li>
+          <li><a href="/#projectoffice">Project Office</a></li>
+          <li><a href="/#trainingcenter">Training Center</a></li>
+          <li><a href="/Library">Library</a></li>
+          <li *ngIf="userDetails?.Email"><a href="/#logisticscenter">Logistics Center</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="header-bg-section">
+  <div class="container container-1175">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 pd-top-46">
+        <h1 *ngIf="homePage">Daikin Resource Library</h1>
+        <p *ngIf="homePage">Use the search bar to browse and download documents.</p>
+      </div>
+
+    </div>
+  </div>
+  <ng-content></ng-content>
+</div>

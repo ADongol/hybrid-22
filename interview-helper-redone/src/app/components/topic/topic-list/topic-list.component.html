@@ -1,0 +1,78 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <mat-expansion-panel [expanded]="isOpen" *ngFor="let topic of topics">
+            <mat-expansion-panel-header>
+                {{ topic.termName }}
+            </mat-expansion-panel-header>
+                <div *ngIf="topic.definition.length>0">
+                    <ul *ngFor="let def of topic.definition">
+                        <li>{{def}}</li>
+                    </ul>
+                </div>
+                <div class="topic-footer">
+                    <a class="footer-anchor" href="{{topic.referenceUrl}}">{{ topic.referenceUrl}}</a>
+                </div>              
+                        
+        </mat-expansion-panel>
+    </div>
+</div>  
+
+
+<!-- <div class="main-content">
+    <div class="container-fluid">
+        <div class="card-list" *ngIf="topics.length>0">
+            <div *ngFor="let topic of topics">
+            <mat-card>
+                <mat-card-header>
+                    <span class="topic-header">
+                        <h4>{{topic.termName}}</h4>
+                    </span>
+                    <span class="mat-icon-header">
+                        <mat-icon #addIcon  
+                                    class="add-icon-header" 
+                            (click)="hideme[topic.termId] = !hideme[topic.termId]">add_circle</mat-icon>
+                        <!-- <mat-icon #removeIcon [hidden]="!hideme[topic.termId]"
+                                class="remove-icon-header"
+                                (click)="hideDefinition(topic)">remove_circle</mat-icon> -->
+                    <!-- </span>                        
+                </mat-card-header>               
+                <div [hidden]="!hideme[topic.termId]" class="topic-content">
+                    <mat-card-content>
+                        <div *ngIf="topic.definition.length>0">
+                            <ul *ngFor="let def of topic.definition">
+                                <li>{{def}}</li>
+                            </ul>
+                        </div>
+                    </mat-card-content>                             
+                     
+                    <div class="topic-footer"> 
+                        <mat-card-footer>
+                            {{topic.referenceUrl}}</a>
+                        </mat-card-footer>
+                    </div>
+                    
+                </div>
+            </mat-card>
+        </div>
+    </div>
+</div> --> 
+
+        
+            <!-- <div class="row" *ngIf="topics.length>0"> 
+                <div *ngIf="showContent">
+                    <div class="card" *ngFor="let topic of topics">
+                        <div class="card-header">
+                            <h4 class="card-title ">{{topic.termName}}</h4>
+                        </div>
+                    <div class="" *ngIf="topic.definition.length>0">
+                        <ul *ngFor="let def of topic.definition">
+                            <li>{{def}}</li>
+                        </ul>
+
+                    </div>
+                    <div class="">
+                        <a class="footer-anchor" href="{{topic.referenceUrl}}">{{topic.referenceUrl}}</a>
+                    </div>
+                </div>
+            </div>-->
+        

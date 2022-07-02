@@ -1,0 +1,230 @@
+﻿{
+    "building": {
+        "id": "1",
+        "type": "functional",
+        "name": "Hotel",
+        "videoIn": "daikincityweb/video/Hotel.mp4",
+        "videoInPoster": "daikincityweb/images/city.jpg",
+        "hotspotX": "22.5%",
+        "hotspotY": "34%",
+        "menuImage": "daikincityweb/images/buildings/hotel/Hotel.png",
+        "floors": {
+            "floor": [
+                {
+                    "id": "1",
+                    "type": "functional",
+                    "name": "Hotel Public Spaces",
+                    "size": "30",
+                    "floorImage": "daikincityweb/images/buildings/hotel/hotel-ground-floor.png",
+                    "configurations": {
+                        "configuration": [
+                            {
+                                "id": "1",
+                                "name": "Baseline System",
+                                "systemName": "RTU HP (6x5-Ton)",
+                                "systemType": "Rooftop",
+                                "systemSize": "6 x 5-Ton",
+                                "energy": "14.6",
+                                "overlayImage": "daikincityweb/images/buildings/hotel/hotel-ground-baseline.png",
+                                "systemImage": "daikincityweb/images/systems/baseline_system3-6tons.png"
+                            },
+                            {
+                                "id": "2",
+                                "name": "VRV Heat Pump",
+                                "systemName": "VRV Heat Pump (1x30-Ton)",
+                                "systemType": "VRV Heat Pump",
+                                "systemSize": "1 x 30-Ton",
+                                "energy": "18.67",
+                                "overlayImage": "daikincityweb/images/buildings/hotel/hotel-ground-heat-pump.png",
+                                "systemImage": "daikincityweb/images/systems/heat_pump.png",
+                                "efficiency": "128",
+                                "indoorUnits": {
+                                    "indoorUnit": [
+                                        "7",
+                                        "6"
+                                    ]
+                                },
+                                "layouts": {
+                                    "layout": [
+                                        {
+                                            "id" : "1",
+                                            "name": "Zone Level",
+                                            "node": {
+                                                "id": "1"
+                                            }
+                                        },
+                                        {
+                                            "id" : "2",
+                                            "name": "System Level",
+                                            "node": {
+                                                "id": "4"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "3",
+                                "name": "VRV Heat Recovery",
+                                "systemName": "VRV Heat Recovery (1x24-Ton)",
+                                "systemType": "VRV Heat Recovery",
+                                "systemSize": "1 x 24-Ton",
+                                "energy": "17.02",
+                                "overlayImage": "daikincityweb/images/buildings/hotel/hotel-ground-heat-recovery.png",
+                                "systemImage": "daikincityweb/images/systems/heat_recovery.png",
+                                "efficiency": "117",
+                                "indoorUnits": {
+                                    "indoorUnit": [
+                                        "7",
+                                        "6"
+                                    ]
+                                },
+                                "layouts": {
+                                    "layout": [
+                                        {
+                                            "id" : "1",
+                                            "name": "Zone Level",
+                                            "node": {
+                                                "id": "1"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "alternativeConfigurations": {
+                        "configuration": [
+                            {
+                            "id": "1",
+                            "name": "Water Cooled Chiller",
+                            "systemName": "Water Cooled Chiller - 1 x 200-Ton (as part of room system)",
+                            "energy": "16.55"
+                        },
+                            {
+                            "id": "2",
+                            "name": "WSHP",
+                            "systemName": "WSHP - 6 x 5-Ton",
+                            "energy": "15.39"
+                        }
+                      ]
+                    }
+                },
+                {
+                    "id": "2",
+                    "type": "functional",
+                    "name": "Hotel 200 Bedrooms",
+                    "size": "150",
+                    "floorImage": "daikincityweb/images/buildings/hotel/hotel-first-floor.png",
+                    "configurations": {
+                        "configuration": [
+                            {
+                                "id": "1",
+                                "name": "Baseline System",
+                                "systemName": "PTHP (200x0.75-Ton)",
+                                "systemType": "PTHP",
+                                "systemSize": "200 x 0.75-Ton",
+                                "energy": "11.4",
+                                "overlayImage": "daikincityweb/images/buildings/hotel/hotel-bedrooms-baseline.png",
+                                "systemImage": "daikincityweb/images/systems/pthp.png"
+                            },
+                            {
+                                "id": "2",
+                                "name": "VRV Heat Pump",
+                                "systemName": "VRV Heat Pump (8x20-Ton)",
+                                "systemType": "VRV Heat Pump",
+                                "systemSize": "8 x 20-Ton",
+                                "energy": "18.67",
+                                "overlayImage": "daikincityweb/images/buildings/hotel/hotel-bedrooms-heat-pump.png",
+                                "systemImage": "daikincityweb/images/systems/heat_pump.png",
+                                "efficiency": "164",
+                                "indoorUnits": {
+                                    "indoorUnit": [
+                                        "8"
+                                    ]
+                                },
+                                "layouts": {
+                                    "layout": [
+                                        {
+                                            "id" : "1",
+                                            "name": "Zone Level",
+                                            "node": {
+                                                "id": "3",
+                                                "node": [
+                                                    {
+                                                        "id": "5"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id" : "2",
+                                            "name": "System Level",
+                                            "node": {
+                                                "id": "4"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "3",
+                                "name": "VRV Heat Recovery",
+                                "systemName": "VRV Heat Recovery (8x12-Ton)",
+                                "systemType": "VRV Heat Recovery",
+                                "systemSize": "8 x 12-Ton",
+                                "energy": "18.48",
+                                "overlayImage": "daikincityweb/images/buildings/hotel/hotel-bedrooms-heat-recovery.png",
+                                "systemImage": "daikincityweb/images/systems/heat_recovery.png",
+                                "efficiency": "162",
+                                "indoorUnits": {
+                                    "indoorUnit": [
+                                        "8"
+                                    ]
+                                },
+                                "layouts": {
+                                    "layout": [
+                                        {
+                                            "id" : "1",
+                                            "name": "Zone Level",
+                                            "node": {
+                                                "id": "3",
+                                                "node": [
+                                                    {
+                                                        "id": "5"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "alternativeConfigurations": {
+                        "configuration": [
+                            {
+                            "id": "1",
+                            "name": "Water Cooled Chiller",
+                            "systemName": "Water Cooled Chiller - 1 x 200-Ton",
+                            "energy": "16.55"
+                        },
+                            {
+                            "id": "2",
+                            "name": "WSHP",
+                            "systemName": "WSHP - 200 x 0.75-Ton",
+                            "energy": "15.39"
+                        }
+                      ]
+                    }
+                },
+                {
+                  "id": "3",
+                  "type": "application",
+                  "name": "Hotel Room",
+                  "applicationId": "1"
+                }
+            ]
+        }
+    }
+}

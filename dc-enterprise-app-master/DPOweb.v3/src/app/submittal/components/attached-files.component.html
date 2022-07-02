@@ -1,0 +1,41 @@
+﻿<link rel="stylesheet" href="/v3/src/css/tablestyles.css" />
+
+<div class="tbl-holder-custom scroll-x">
+    <table class="tbl" id="attachedfiles_table" #attachedFileListTable>
+        <thead>
+            <tr>
+                <th>
+                    <input type="checkbox"
+                           name="chkAllAttachedFiles"
+                           class="pull-left"
+                           [checked]="hasAttachedFiles"
+                           (change)="checkAllFileRows($event)" />
+                    <span class="filename-header">File Name</span>
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody *ngIf="quotePackageAttachedFiles.length > 0">
+            <tr *ngFor="let item of quotePackageAttachedFiles; let i= index;">
+                <td>
+                    <input type="checkbox"
+                           id="{{item.fileName}}"
+                           name="chkFileRow"
+                           [attr.rowIndex]="i + 1"
+                           value="{{item.description}}"
+                           [checked]="hasAttachedFiles"
+                           />
+                    <span>{{item.fileName}}</span>
+
+                </td>
+                <td>
+                    <button class="delete_quote_package_attached_file context-btn h-slim"
+                       (click)="onDeleteFile(item.fileName)">
+                        <img src="/v3/src/assets/images/context-btn-delete-icon.png" />
+                        Delete File
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

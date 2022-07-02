@@ -1,0 +1,24 @@
+﻿@media (min-width: 1200px) {
+}
+
+@media (max-width: 576px) {
+    nav#topHeader {
+        background-color: white;
+    }
+}
+
+#importantInfoIcon {
+    height: 25px;
+    width:25px;
+    margin-top:15px;
+    /*margin-left:15px;*/
+    margin-bottom:15px;
+    cursor: pointer;
+}
+
+.importantInfoLabel {
+    cursor: pointer;
+    padding-right: 20px;
+    vertical-align: middle;
+    color: indianred;
+}

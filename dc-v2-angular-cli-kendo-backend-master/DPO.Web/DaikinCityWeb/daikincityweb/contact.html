@@ -1,0 +1,115 @@
+﻿
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Daikin City - Contact</title>
+    <script type="text/javascript" src="//use.typekit.net/dnz0bzd.js"></script>
+    <script type="text/javascript">try { Typekit.load(); } catch (e) { }</script>
+    <style>
+        body, html {
+            width: 100%;
+            height: 100%;
+            color: #2E3641;
+            background-color: #FFF;
+            margin: 0;
+            padding: 0;
+            font-family: "museo-sans", sans-serif;
+            text-align: center;
+            font-size:14px;
+        }
+
+        h1, strong {
+            color: #666;
+            font-weight: 800;
+        }
+
+        h1 {
+            font-size: 18px;
+            text-transform:uppercase;
+        }
+
+        a {
+            color: #09C;
+            text-decoration: none;
+        }
+
+        #contact
+        {
+            margin-top:28px;
+        }
+
+        table strong
+        {
+            color:#00A1E4;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div id="contact">
+        <div style='margin-bottom:30px; height:25px; width:380px; margin-left:auto; margin-right:auto;'><img src="/daikincityweb/images/daikin-logo-small.gif" width="120" height="25" align="left" /></div>
+        <h1>Contact Us</h1>
+        <p>5151 San Felipe, Suite 500, Houston, TX, 77056</p>
+        <p><strong>Tel: </strong> 1-866-4DAIKIN<br /><strong>Email: </strong> daikincity@daikincomfort.com </p>
+        <p> <a href="http://www.daikin.com" target="_blank" onclick="javascript:window.close();"> www.daikin.com</a></p>
+        <div align="center">
+            <form action="/Account/DaikinCityContactRequestSendMail" method="post" enctype="application/x-www-form-urlencoded" name="enquiry" id="enquiry">
+                <table border="0" align="center" cellpadding="0" cellspacing="8">
+                    <tr>
+                        <td align="right" valign="middle">
+                            <strong>Name</strong>
+                        </td>
+                        <td valign="top">&nbsp;</td>
+                        <td align="left" valign="top"><input name="enquiry[enquiry_name]" type="text" size="48" maxlength="128" value="" /></td>
+                        <td class="error">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td align="right" valign="middle">
+                            <strong>Email</strong>
+                        </td>
+                        <td valign="top">&nbsp;</td>
+                        <td align="left" valign="top"><input name="enquiry[enquiry_email]" type="text" size="48" maxlength="128" value="" /></td>
+                        <td class="error">&nbsp;</td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td align="right" valign="middle">
+                            <strong>Subject</strong>
+                        </td>
+                        <td valign="top">&nbsp;</td>
+                        <td align="left" valign="top">
+                            <select name="enquiry[enquiry_subject]">
+                                <option selected="selected" value="">Please Select...</option>
+                                <option>General Information</option>
+                                <option>Project Enquiry</option>
+                                <option>Request contact</option>
+                                <option>Product Details - VRV Airconditioning</option>
+                                <option>Product Details - Heating</option>
+                                <option>Product Details - Refrigeration</option>
+                                <option>Product Details - Chilled Water systems</option>
+                                <option>Product Details - Ventilation</option>
+                            </select>
+                        </td>
+                        <td class="error">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td align="right" valign="top">
+                            <strong>Message</strong>
+                        </td>
+                        <td valign="top">&nbsp;</td>
+                        <td align="left" valign="top"><textarea name="enquiry[enquiry_message]" cols="38" rows="5"></textarea></td>
+                        <td class="error">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td align="right"></td>
+                        <td>&nbsp;</td>
+                        <td align="left" valign="top"><input name="submit" type="submit" id="submit" value="Submit" class="btn" /></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <p><a href="javascript:top.window.close();">Close Window</a></p>
+    </div>
+</body>
+</html>

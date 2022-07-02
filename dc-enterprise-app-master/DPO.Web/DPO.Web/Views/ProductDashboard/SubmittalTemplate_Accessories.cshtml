@@ -1,0 +1,48 @@
+﻿@model ProductModel
+
+@{
+    var accessories = Model.Accessories;
+    var accyRecordsStart = System.Convert.ToInt64(this.ViewData["StartAccessoriesCount"]);
+    int accyIterate = 0;
+}
+
+    <tr>
+        <td><h2>INCLUDED</h2></td>
+        <td><h2>PART NUMBER</h2></td>
+        <td colspan="2"><h2>DESCRIPTION</h2></td>
+    </tr>
+
+    @if (accessories.Count == 0)
+    {
+        <tr>
+            <td colspan="4">No Accessories specified.</td>
+        </tr>
+    }
+    else
+    {
+        foreach (var item in accessories.OrderBy(item => item.Accessory.ProductNumber))
+        {
+            accyIterate++;
+            if (accyIterate >= accyRecordsStart && accyIterate < (accyRecordsStart + 25))
+            {
+                <tr>
+                    @if (item.Accessory.RequirementTypeId == (int)RequirementTypeEnums.Standard)
+                    {
+                        <td>Yes</td>
+                    }
+                    else
+                    {
+                        <td>No</td>
+                    }
+                    <td>@item.Accessory.ProductNumber</td>
+                    <td colspan="2">@item.Accessory.Name</td>
+                </tr>
+
+            }
+        }
+    }
+                
+
+
+
+

@@ -1,0 +1,584 @@
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\ApplicationInsights.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\roslyn\csc.exe
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\roslyn\vbc.exe
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\roslyn\VBCSCompiler.exe
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\DPO.WebAPI.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\DPO.WebAPI.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\DPO.WebAPI.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\DPO.Common.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\DPO.Data.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\DPO.Domain.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\DPO.LightServices.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\DPO.Model.Light.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.AI.Web.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.ApplicationInsights.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.Data.Edm.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.Data.OData.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.Owin.Cors.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.Owin.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.Owin.Security.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Newtonsoft.Json.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Owin.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\System.Net.Http.Formatting.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\System.Spatial.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\System.Web.Cors.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\System.Web.Http.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\System.Web.Http.OData.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\System.Web.Http.WebHost.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\EntityFramework.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\log4net.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\DPO.Resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\System.Web.Mvc.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\EO.Pdf.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Elmah.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\FlakeGen.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\EntityFramework.Extended.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Ghostscript.NET.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\NPOI.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Renci.SshNet.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\CsvHelper.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\MiniProfiler.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\System.Web.Helpers.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\System.Web.Razor.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\System.Web.WebPages.Razor.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\System.Web.WebPages.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\ICSharpCode.SharpZipLib.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\System.Web.WebPages.Deployment.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\DPO.Common.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\DPO.Common.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\DPO.Data.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\DPO.Data.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\DPO.Domain.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\DPO.Domain.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\DPO.Model.Light.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\DPO.Model.Light.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\DPO.LightServices.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\DPO.LightServices.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.AI.Web.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.ApplicationInsights.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.Data.Edm.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.Data.OData.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.Owin.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.Owin.Cors.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.Owin.Security.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Newtonsoft.Json.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\System.Spatial.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\System.Web.Http.OData.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\System.Net.Http.Formatting.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\System.Web.Http.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\System.Web.Http.WebHost.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\EntityFramework.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\log4net.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\DPO.Resources.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\DPO.Resources.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\System.Web.Mvc.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\FlakeGen.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\FlakeGen.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\EntityFramework.Extended.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Ghostscript.NET.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\NPOI.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\Renci.SshNet.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\CsvHelper.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\CsvHelper.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\MiniProfiler.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\MiniProfiler.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\System.Web.Helpers.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\System.Web.Razor.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\System.Web.WebPages.Razor.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\System.Web.WebPages.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\System.Web.WebPages.Deployment.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\de\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\es\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\it\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\de\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\es\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\fr\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\it\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\ja\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\ko\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\ru\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\de\System.Spatial.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\es\System.Spatial.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\fr\System.Spatial.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\it\System.Spatial.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\ja\System.Spatial.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\ko\System.Spatial.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\ru\System.Spatial.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\zh-Hans\System.Spatial.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\zh-Hant\System.Spatial.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\en-CA\DPO.Resources.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\bin\en-GB\DPO.Resources.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\obj\Debug\DPO.WebAPI.csprojResolveAssemblyReference.cache
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\obj\Debug\DPO.WebAPI.csproj.CoreCompileInputs.cache
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\obj\Debug\DPO.WebAPI.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.WebAPI\obj\Debug\DPO.WebAPI.pdb
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\ApplicationInsights.config
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\roslyn\csc.exe
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\roslyn\vbc.exe
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\roslyn\VBCSCompiler.exe
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\DPO.WebAPI.dll.config
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\DPO.WebAPI.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\DPO.WebAPI.pdb
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\DPO.Common.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\DPO.Data.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\DPO.Domain.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\DPO.LightServices.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\DPO.Model.Light.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.AI.Web.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.ApplicationInsights.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.Data.Edm.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.Data.OData.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.Owin.Cors.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.Owin.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.Owin.Security.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Newtonsoft.Json.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Owin.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\System.Net.Http.Formatting.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\System.Spatial.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\System.Web.Cors.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\System.Web.Http.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\System.Web.Http.OData.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\System.Web.Http.WebHost.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\EntityFramework.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\log4net.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\DPO.Resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\System.Web.Mvc.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\EO.Pdf.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Elmah.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\FlakeGen.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\EntityFramework.Extended.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Ghostscript.NET.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\NPOI.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Renci.SshNet.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\CsvHelper.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\MiniProfiler.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\System.Web.Helpers.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\System.Web.Razor.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\System.Web.WebPages.Razor.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\System.Web.WebPages.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\ICSharpCode.SharpZipLib.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\System.Web.WebPages.Deployment.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\DPO.Common.pdb
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\DPO.Common.dll.config
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\DPO.Data.pdb
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\DPO.Data.dll.config
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\DPO.Domain.pdb
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\DPO.Domain.dll.config
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\DPO.Model.Light.pdb
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\DPO.Model.Light.dll.config
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\DPO.LightServices.pdb
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\DPO.LightServices.dll.config
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.AI.Web.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.ApplicationInsights.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.Data.Edm.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.Data.OData.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.Owin.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.Owin.Cors.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.Owin.Security.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Newtonsoft.Json.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\System.Spatial.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\System.Web.Http.OData.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\System.Net.Http.Formatting.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\System.Web.Http.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\System.Web.Http.WebHost.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\EntityFramework.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\log4net.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\DPO.Resources.pdb
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\DPO.Resources.dll.config
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\System.Web.Mvc.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\FlakeGen.pdb
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\FlakeGen.dll.config
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\EntityFramework.Extended.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Ghostscript.NET.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\NPOI.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\Renci.SshNet.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\CsvHelper.pdb
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\CsvHelper.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\MiniProfiler.pdb
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\MiniProfiler.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\System.Web.Helpers.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\System.Web.Razor.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\System.Web.WebPages.Razor.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\System.Web.WebPages.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\System.Web.WebPages.Deployment.xml
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\de\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\es\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\it\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\de\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\es\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\fr\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\it\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\ja\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\ko\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\ru\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\de\System.Spatial.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\es\System.Spatial.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\fr\System.Spatial.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\it\System.Spatial.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\ja\System.Spatial.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\ko\System.Spatial.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\ru\System.Spatial.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\zh-Hans\System.Spatial.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\zh-Hant\System.Spatial.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\en-CA\DPO.Resources.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\bin\en-GB\DPO.Resources.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\obj\Debug\DPO.WebAPI.csprojResolveAssemblyReference.cache
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\obj\Debug\DPO.WebAPI.csproj.CoreCompileInputs.cache
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\obj\Debug\DPO.WebAPI.dll
+C:\dttp-Projects\AngularCLI\DPO.WebAPI\obj\Debug\DPO.WebAPI.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\ApplicationInsights.config
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\roslyn\csc.exe
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\roslyn\vbc.exe
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\roslyn\VBCSCompiler.exe
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\DPO.WebAPI.dll.config
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\DPO.WebAPI.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\DPO.WebAPI.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\DPO.Common.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\DPO.Data.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\DPO.Domain.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\DPO.LightServices.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\DPO.Model.Light.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.AI.Web.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.ApplicationInsights.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.Data.Edm.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.Data.OData.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.Owin.Cors.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.Owin.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.Owin.Security.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Newtonsoft.Json.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Owin.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\System.Net.Http.Formatting.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\System.Spatial.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\System.Web.Cors.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\System.Web.Http.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\System.Web.Http.OData.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\System.Web.Http.WebHost.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\EntityFramework.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\log4net.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\DPO.Resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\System.Web.Mvc.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\EO.Pdf.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Elmah.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\FlakeGen.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\EntityFramework.Extended.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Ghostscript.NET.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\NPOI.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Renci.SshNet.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\CsvHelper.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\MiniProfiler.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\System.Web.Helpers.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\System.Web.Razor.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\System.Web.WebPages.Razor.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\System.Web.WebPages.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\ICSharpCode.SharpZipLib.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\System.Web.WebPages.Deployment.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\DPO.Common.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\DPO.Common.dll.config
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\DPO.Data.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\DPO.Data.dll.config
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\DPO.Domain.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\DPO.Domain.dll.config
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\DPO.Model.Light.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\DPO.Model.Light.dll.config
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\DPO.LightServices.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\DPO.LightServices.dll.config
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.AI.Web.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.ApplicationInsights.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.Data.Edm.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.Data.OData.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.Owin.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.Owin.Cors.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.Owin.Security.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Newtonsoft.Json.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\System.Net.Http.Formatting.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\System.Spatial.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\System.Web.Http.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\System.Web.Http.OData.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\System.Web.Http.WebHost.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\EntityFramework.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\log4net.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\DPO.Resources.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\DPO.Resources.dll.config
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\System.Web.Mvc.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\FlakeGen.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\FlakeGen.dll.config
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\EntityFramework.Extended.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Ghostscript.NET.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\NPOI.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\Renci.SshNet.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\CsvHelper.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\CsvHelper.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\MiniProfiler.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\MiniProfiler.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\System.Web.Helpers.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\System.Web.Razor.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\System.Web.WebPages.Razor.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\System.Web.WebPages.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\System.Web.WebPages.Deployment.xml
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\de\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\es\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\it\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\de\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\es\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\fr\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\it\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\ja\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\ko\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\ru\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\de\System.Spatial.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\es\System.Spatial.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\fr\System.Spatial.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\it\System.Spatial.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\ja\System.Spatial.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\ko\System.Spatial.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\ru\System.Spatial.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\zh-Hans\System.Spatial.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\zh-Hant\System.Spatial.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\en-CA\DPO.Resources.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\bin\en-GB\DPO.Resources.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\obj\Debug\DPO.WebAPI.csprojResolveAssemblyReference.cache
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\obj\Debug\DPO.WebAPI.csproj.CoreCompileInputs.cache
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\obj\Debug\DPO.WebAPI.dll
+C:\dttp-Projects\AngularCLI-4\DPO.WebAPI\obj\Debug\DPO.WebAPI.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\ApplicationInsights.config
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\roslyn\csc.exe
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\roslyn\vbc.exe
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\roslyn\VBCSCompiler.exe
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\DPO.WebAPI.dll.config
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\DPO.WebAPI.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\DPO.WebAPI.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\DPO.Common.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\DPO.Data.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\DPO.Domain.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\DPO.LightServices.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\DPO.Model.Light.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.AI.Web.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.ApplicationInsights.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.Data.Edm.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.Data.OData.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.Owin.Cors.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.Owin.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.Owin.Security.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Newtonsoft.Json.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Owin.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\System.Net.Http.Formatting.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\System.Spatial.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\System.Web.Cors.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\System.Web.Http.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\System.Web.Http.OData.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\System.Web.Http.WebHost.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\EntityFramework.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\log4net.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\DPO.Resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\System.Web.Mvc.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\EO.Pdf.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Elmah.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\FlakeGen.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\EntityFramework.Extended.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Ghostscript.NET.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\NPOI.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Renci.SshNet.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\CsvHelper.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\MiniProfiler.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\System.Web.Helpers.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\System.Web.Razor.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\System.Web.WebPages.Razor.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\System.Web.WebPages.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\ICSharpCode.SharpZipLib.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\System.Web.WebPages.Deployment.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\DPO.Common.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\DPO.Common.dll.config
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\DPO.Data.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\DPO.Data.dll.config
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\DPO.Domain.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\DPO.Domain.dll.config
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\DPO.Model.Light.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\DPO.Model.Light.dll.config
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\DPO.LightServices.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\DPO.LightServices.dll.config
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.AI.Web.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.ApplicationInsights.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.Data.Edm.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.Data.OData.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.Owin.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.Owin.Cors.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.Owin.Security.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Newtonsoft.Json.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\System.Net.Http.Formatting.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\System.Spatial.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\System.Web.Http.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\System.Web.Http.OData.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\System.Web.Http.WebHost.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\EntityFramework.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\log4net.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\DPO.Resources.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\DPO.Resources.dll.config
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\System.Web.Mvc.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\FlakeGen.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\FlakeGen.dll.config
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\EntityFramework.Extended.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Ghostscript.NET.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\NPOI.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\Renci.SshNet.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\CsvHelper.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\CsvHelper.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\MiniProfiler.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\MiniProfiler.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\System.Web.Helpers.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\System.Web.Razor.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\System.Web.WebPages.Razor.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\System.Web.WebPages.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\System.Web.WebPages.Deployment.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\de\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\es\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\it\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\de\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\es\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\fr\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\it\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\ja\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\ko\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\ru\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\de\System.Spatial.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\es\System.Spatial.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\fr\System.Spatial.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\it\System.Spatial.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\ja\System.Spatial.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\ko\System.Spatial.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\ru\System.Spatial.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\zh-Hans\System.Spatial.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\zh-Hant\System.Spatial.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\en-CA\DPO.Resources.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\bin\en-GB\DPO.Resources.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\obj\Debug\DPO.WebAPI.csprojResolveAssemblyReference.cache
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\obj\Debug\DPO.WebAPI.csproj.CoreCompileInputs.cache
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\obj\Debug\DPO.WebAPI.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.WebAPI\obj\Debug\DPO.WebAPI.pdb

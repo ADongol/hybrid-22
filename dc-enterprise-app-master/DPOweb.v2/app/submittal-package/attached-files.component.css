@@ -1,0 +1,99 @@
+﻿.tbl-holder-custom {
+    width: 100%;
+    max-width: 100%;
+    padding-top: 10px;
+    min-height: 90px;
+}
+
+.tbl thead tr th input[type="checkbox"], .tbl tbody tr td input[type="checkbox"] {
+    position: relative;
+    top: 0px;
+}
+
+.filename-header {
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+.delete_quote_package_attached_file {
+    float: right;
+}
+
+.context-btn {
+    align-items: flex-start;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-image: linear-gradient(rgb(241, 241, 241), rgb(209, 209, 209));
+    background-origin: padding-box;
+    background-size: auto;
+    border-bottom-color: rgb(184, 184, 184);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(184, 184, 184);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(184, 184, 184);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(184, 184, 184);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: rgb(77, 84, 93);
+    cursor: pointer;
+    display: inline-block;
+    filter: none;
+    font-family: museo-sans, sans-serif;
+    font-size: 13.3333px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: bold;
+    height: 30px;
+    letter-spacing: normal;
+    line-height: 30px;
+    margin-bottom: 9px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 8px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 10px;
+    padding-top: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0px;
+    text-rendering: auto;
+    text-shadow: none;
+    text-transform: uppercase;
+    vertical-align: top;
+    width: 169px;
+    word-spacing: 0px;
+    writing-mode: horizontal-tb;
+    -webkit-appearance: none;
+    -webkit-border-image: none
+}
+
+.context-btn img {
+    padding-right: 6px;
+    position: relative;
+    top: 0px;
+}
+
+img {
+    border: 0;
+    box-sizing: border-box;
+    font-family: museo-sans, sans-serif;
+}

@@ -1,0 +1,28 @@
+﻿.orderForm {
+    background-color: #E5F2FA;
+}
+
+#orderForm legend {
+    padding-top: 10px;
+}
+
+.height-45 {
+    height: 45px;
+}
+
+#expedite-reasons {
+    width: 500px;
+}
+
+.additional-doc-label { 
+    font-weight: 400;
+}
+
+.expedite-label{
+    font-weight: 400;
+}
+
+.additional-docs-td {
+    padding-left: 16px;
+}
+

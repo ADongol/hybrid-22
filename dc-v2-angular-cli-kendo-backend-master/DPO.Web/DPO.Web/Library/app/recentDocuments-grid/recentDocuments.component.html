@@ -1,0 +1,292 @@
+<section class="banner-size-1 white-bg">
+	<div class="container container-1175">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12">
+				<h3 class="heading_recently_viewed">Recently Published Documents</h3>
+			</div>
+
+			<div *ngFor="let item of recentlyPublishedDocs" class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-recently-viewed">
+
+				<div class="col-xs-12 col-sm-12 col-md-12 border-col no-padding">
+					<div [ngClass]="{'pdfBg':(item.DocExtension == 'pdf')} " class="col-xs-12 col-sm-12 col-md-12 col-recently-viewed-img text-center"
+					 (click)="showPreview(item)">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'pdf'.toUpperCase()" src="{{item.ThumbnailUrl}}" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'ppt'.toUpperCase()" src="./assets/images/ppt-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'pptx'.toUpperCase()" src="./assets/images/ppt-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'xls'.toUpperCase()" src="./assets/images/xls-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'xlsx'.toUpperCase()" src="./assets/images/xls-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'doc'.toUpperCase()" src="./assets/images/doc-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'docx'.toUpperCase()" src="./assets/images/doc-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'jpg'.toUpperCase()" src="{{item.DocURL}}" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'jpeg'.toUpperCase()" src="{{item.DocURL}}" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'png'.toUpperCase()" src="{{item.DocURL}}" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'bmp'.toUpperCase()" src="./assets/images/cam-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'gif'.toUpperCase()" src="./assets/images/cam-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'tiff'.toUpperCase()" src="./assets/images/cam-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'eps'.toUpperCase()" src="./assets/images/cam-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'dwg'.toUpperCase()" src="./assets/images/cam-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'cad'.toUpperCase()" src="./assets/images/cam-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'mp4'.toUpperCase()" src="./assets/images/play-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'ogv'.toUpperCase()" src="./assets/images/play-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'webm'.toUpperCase()" src="./assets/images/play-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'zip'.toUpperCase()" src="./assets/images/zip-lg.png" class="doc-type-img">
+						<img *ngIf="item?.WebLink" src="./assets/images/weblink-lg.png" class="doc-type-img">
+					</div>
+
+					<div class="col-xs-12 col-sm-12 col-md-12 list-inline-icons-wrap no-padding">
+						<div class="action-item-bar text-center">
+							<a class="add-library-btn" *ngIf="!item.isInMylibrary" (click)="addOrRemoveToLibrary(item,'add')" popover="Add to Library"
+							 placement="bottom" triggers="mouseenter:mouseleave">
+								<img src="./assets/images/bookmark.png" class="img-responsive">
+							</a>
+							<a class="remove-btn" *ngIf="item.isInMylibrary" (click)="addOrRemoveToLibrary(item,'remove')" popover="Remove from my Library"
+							 placement="bottom" triggers="mouseenter:mouseleave">
+								<img src="./assets/images/bookmark_active.png" class="img-responsive">
+							</a>
+							<a [ngClass]="{'disabled': item?.WebLink,'no-popover': item?.WebLink} "  class="download-btn" popover="Download Now" placement="bottom" triggers="mouseenter:mouseleave" (click)="item.WebLink?'':downloadFile(item)">
+								<img src="./assets/images/download.png" class="img-responsive">
+							</a>
+							<a class="copy-btn" (click)="copyToClipBoard(item.DocURL)" popover="Copy Link" placement="bottom" triggers="mouseenter:mouseleave">
+								<img src="./assets/images/arrow.png" class="img-responsive">
+							</a>
+						</div>
+						<!-- 			<ul class="list-inline list-inline-icons-1">
+							<li *ngIf="!item.isInMylibrary" (click)="addOrRemoveToLibrary(item,'add')" popover="Add to Library" placement="bottom" triggers="mouseenter:mouseleave"><img src="./assets/images/bookmark.png" class="img-responsive"></li>
+							<li *ngIf="item.isInMylibrary" (click)="addOrRemoveToLibrary(item,'remove')" popover="Remove from my Library" placement="bottom"
+							 triggers="mouseenter:mouseleave"><img src="./assets/images/bookmark_active.png" class="img-responsive"></li>
+							<li popover="Download Now" placement="bottom" triggers="mouseenter:mouseleave"> <a href="href={{item.DocURL}}" download=""><img src="./assets/images/download.png" class="img-responsive"></a></li>
+
+							<li (click)="copyToClipBoard(item.DocURL)" popover="Copy Link" placement="bottom" triggers="mouseenter:mouseleave" class="no-border-right"><img src="./assets/images/arrow.png" class="img-responsive"></li>
+						</ul> -->
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<p class="p-alth" (click)="showPreview(item)">{{item.DocTitle |truncate:14}}&nbsp;</p>
+						<p class="product-series">{{item.ProductSeries |truncate:14}}&nbsp;</p>
+					</div>
+					<div class="col-xs-12 col-xs-12 col-md-12 margin-bottom-22 doc-details">
+						<div class="col-xs-9 col-sm-9 col-md-9 no-padding">
+							<p class="p-alth2">{{item.ProductCategory |truncate:14}}&nbsp;</p>
+							<p class="p-install">{{item.DocumentType |truncate:14}}&nbsp;</p>
+							<p class="p-published">Published: {{item.PublishedDate| date: 'MM/dd/yyyy'}}</p>
+							<p [ngClass]="{'no-docSize': !item.DocSize}" class="p-filesize">File Size: {{item.DocSize |convertFileSize}}&nbsp;</p>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3 col-pdf">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'pdf'.toUpperCase()" src="./assets/images/pdf-type-icon.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'ppt'.toUpperCase()" src="./assets/images/ppt.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'pptx'.toUpperCase()" src="./assets/images/ppt.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'xls'.toUpperCase()" src="./assets/images/xls.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'xlsx'.toUpperCase()" src="./assets/images/xls.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'doc'.toUpperCase()" src="./assets/images/doc.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'docx'.toUpperCase()" src="./assets/images/doc.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'jpg'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'jpeg'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'png'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'bmp'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'gif'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'tiff'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'eps'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'dwg'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'cad'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'mp4'.toUpperCase()" src="./assets/images/play.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'ogv'.toUpperCase()" src="./assets/images/play.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'webm'.toUpperCase()" src="./assets/images/play.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'zip'.toUpperCase()" src="./assets/images/zip.png" class="doc-type-icon">
+							<img *ngIf="item?.WebLink" src="./assets/images/weblink.png" class="doc-type-icon">
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-12 no-padding col-download-a">
+					<a [ngClass]="{'disabled': item?.WebLink}" *ngIf="!item.inDownloadQueue" (click)="addToDownloadQueue(item,true)" class="btn btn-primary btn-black">Add to Download Queue</a>
+					<a [ngClass]="{'disabled': item?.WebLink}" *ngIf="item.inDownloadQueue" (click)="addToDownloadQueue(item,false)" class="btn btn-primary btn-remove">Remove From Download Queue</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="light-blue-bg banner-size-1" *ngIf="userInfo?.Email">
+	<div class="container container-1175">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12">
+				<h3 class="heading_recently_viewed">Recently Viewed Documents</h3>
+			</div>
+			<div *ngFor="let item of recentlyViewedDocs" class="col-sm-6 col-md-4 col-lg-3 col-recently-viewed">
+				<div class="col-xs-12 col-sm-12 col-md-12 border-col no-padding">
+					<div [ngClass]="{'pdfBg':(item.DocExtension == 'pdf')} " class="col-md-12 col-recently-viewed-img text-center" (click)="showPreview(item)">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'pdf'.toUpperCase()" src="{{item?.ThumbnailUrl}}" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'ppt'.toUpperCase()" src="./assets/images/ppt-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'pptx'.toUpperCase()" src="./assets/images/ppt-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'xls'.toUpperCase()" src="./assets/images/xls-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'xlsx'.toUpperCase()" src="./assets/images/xls-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'doc'.toUpperCase()" src="./assets/images/doc-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'docx'.toUpperCase()" src="./assets/images/doc-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'jpg'.toUpperCase()" src="{{item.DocURL}}" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'jpeg'.toUpperCase()" src="{{item.DocURL}}" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'png'.toUpperCase()" src="{{item.DocURL}}" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'bmp'.toUpperCase()" src="./assets/images/cam-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'gif'.toUpperCase()" src="./assets/images/cam-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'tiff'.toUpperCase()" src="./assets/images/cam-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'eps'.toUpperCase()" src="./assets/images/cam-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'dwg'.toUpperCase()" src="./assets/images/cam-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'cad'.toUpperCase()" src="./assets/images/cam-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'mp4'.toUpperCase()" src="./assets/images/play-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'ogv'.toUpperCase()" src="./assets/images/play-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'webm'.toUpperCase()" src="./assets/images/play-lg.png" class="doc-type-img">
+						<img *ngIf="item?.DocExtension.toUpperCase() == 'zip'.toUpperCase()" src="./assets/images/zip-lg.png" class="doc-type-img">
+						<img *ngIf="item?.WebLink" src="./assets/images/weblink-lg.png" class="doc-type-img">
+
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 list-inline-icons-wrap no-padding">
+						<div class="action-item-bar text-center">
+							<a class="add-library-btn" *ngIf="!item.isInMylibrary" (click)="addOrRemoveToLibrary(item,'add')" popover="Add to Library"
+							 placement="bottom" triggers="mouseenter:mouseleave">
+								<img src="./assets/images/bookmark.png" class="img-responsive">
+							</a>
+							<a class="remove-btn" *ngIf="item.isInMylibrary" (click)="addOrRemoveToLibrary(item,'remove')" popover="Remove from my Library"
+							 placement="bottom" triggers="mouseenter:mouseleave">
+								<img src="./assets/images/bookmark_active.png" class="img-responsive">
+							</a>
+							<a [ngClass]="{'disabled': item?.WebLink,'no-popover': item?.WebLink} "  popover="Download Now" placement="bottom" triggers="mouseenter:mouseleave" (click)="item.WebLink?'':downloadFile(item)">
+								<img src="./assets/images/download.png" class="img-responsive">
+							</a>
+							<a class="copy-btn" (click)="copyToClipBoard(item.DocURL)" popover="Copy Link" placement="bottom" triggers="mouseenter:mouseleave">
+								<img src="./assets/images/arrow.png" class="img-responsive">
+							</a>
+						</div>
+
+						<!-- <ul class="list-inline list-inline-icons-1">
+							<li *ngIf="!item.isInMylibrary" (click)="addOrRemoveToLibrary(item,'add')" popover="Add to Library" placement="bottom" triggers="mouseenter:mouseleave"><img src="./assets/images/bookmark.png" class="img-responsive"></li>
+							<li *ngIf="item.isInMylibrary" (click)="addOrRemoveToLibrary(item,'remove')" popover="Remove from my Library" placement="bottom" triggers="mouseenter:mouseleave"><img src="./assets/images/bookmark_active.png" class="img-responsive"></li>
+							<li popover="Download Now" placement="bottom" triggers="mouseenter:mouseleave"><a href={{item.DocURL}} download=""><img src="./assets/images/download.png" class="img-responsive">	</a></li>
+							<li (click)="copyToClipBoard(item.DocURL)" popover="Copy Link" placement="bottom" triggers="mouseenter:mouseleave" class="no-border-right"><img src="./assets/images/arrow.png" class="img-responsive"></li>
+						</ul> -->
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<p class="p-alth" (click)="showPreview(item)">{{item.DocTitle |truncate:14}}&nbsp;</p>
+						<p class="product-series">{{item.ProductSeries |truncate:14}}&nbsp;</p>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 margin-bottom-22 doc-details">
+						<div class="col-xs-9 col-sm-9 col-md-9 no-padding">
+							<p class="p-alth2">{{item.ProductCategory |truncate:14}}&nbsp;</p>
+							<p class="p-install">{{item.DocumentType |truncate:14}}&nbsp;</p>
+							<p class="p-published">Published: {{item.PublishedDate| date: 'MM/dd/yyyy'}}</p>
+							<p [ngClass]="{'no-docSize': !item.DocSize}" class="p-filesize">File Size: {{item.DocSize|convertFileSize}}&nbsp;</p>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3 col-pdf">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'pdf'.toUpperCase()" src="./assets/images/pdf-type-icon.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'ppt'.toUpperCase()" src="./assets/images/ppt.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'pptx'.toUpperCase()" src="./assets/images/ppt.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'xls'.toUpperCase()" src="./assets/images/xls.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'xlsx'.toUpperCase()" src="./assets/images/xls.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'doc'.toUpperCase()" src="./assets/images/doc.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'docx'.toUpperCase()" src="./assets/images/doc.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'jpg'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'jpeg'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'png'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'bmp'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'gif'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'tiff'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'eps'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'dwg'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'cad'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'mp4'.toUpperCase()" src="./assets/images/play.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'ogv'.toUpperCase()" src="./assets/images/play.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'webm'.toUpperCase()" src="./assets/images/play.png" class="doc-type-icon">
+							<img *ngIf="item?.DocExtension.toUpperCase() == 'zip'.toUpperCase()" src="./assets/images/zip.png" class="doc-type-icon">
+							<img *ngIf="item?.WebLink" src="./assets/images/weblink.png" class="doc-type-icon">
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-12 no-padding col-download-a">
+					<a [ngClass]="{'disabled': item?.WebLink} " *ngIf="!item.inDownloadQueue" (click)="addToDownloadQueue(item,true)" class="btn btn-primary btn-black">Add to Download Queue</a>
+					<a [ngClass]="{'disabled': item?.WebLink} " *ngIf="item.inDownloadQueue" (click)="addToDownloadQueue(item,false)" class="btn btn-primary btn-remove">Remove From Download Queue</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- <button type="button" class="btn btn-primary" >Static modal</button> -->
+<div class="modal fade iframe-popup" bsModal #staticModal="bs-modal" [config]="{backdrop: 'static'}" tabindex="-1" role="dialog"
+ aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="container-fluid preview">
+					<div class="row">
+						<div class="col-md-10 col-sm-9">
+							<div class="border-grey">
+								<div class="model-series-wrap">
+									<div class="model-series-number">{{previewData.DocTitle}}</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-3">
+							<div class="close-wrap">
+								<button type="button" class="close" aria-label="Close" (click)="staticModal.hide()">
+							<span aria-hidden="true" (click)="closePreview()">
+								<img src="./assets/images/close.png"> Close</span>
+							</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-body file-download">
+				<div *ngIf="previewData.noPreview" class="text-center">
+					<h4 class="no-preview-text">The preview for the following document is currently not available. Please use the Download option below.
+					</h4>
+					<a (click)="previewData.WebLink?'':downloadFile(previewData)"> <span class="download-icon" popover="Download now" placement="top" triggers="mouseenter:mouseleave" placement="bottom"> 
+					  <img src="./assets/images/download.png" /></span></a>
+				</div>
+				<div *ngIf="previewData.showImg" class="preview-img-wrap">
+					<img src="{{previewSrc}}">
+				</div>
+				<div>
+					<videojs *ngFor="let video of videos; let idx = index" [idx]="idx" [url]="video"></videojs>
+				</div>
+				<div *ngIf="previewData.showIframe">
+					<iframe width="100%" height="600" [src]="previewSrc | safe"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade downloadPopup" bsModal #downloadPopup="bs-modal" [config]="{backdrop: 'static'}" tabindex="-1" role="dialog"
+ aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close pull-right" aria-label="Close" (click)="downloadPopup.hide()">
+<span aria-hidden="true" (click)="closeDownloadPopup();">
+<img src="./assets/images/close.png"> Close</span>
+</button>
+			</div>
+			<div class="modal-body">
+				<h3 class="download-hd">Image Download Size</h3>
+				<p class="dwnload-text">The files you have selected to download contain images. Select image download size.</p>
+				<div class="select-wrap form-inline">
+					<div class="form-group">
+						<label>Image Size</label>
+						<div class="select-btn">
+							<select class="sortDropDown form-control" (change)="updateFileSize()" [(ngModel)]="ImageSize">
+	<option *ngFor="let n of imageSizeOptions" [attr.value]="n">{{n}}</option>
+  </select>
+						</div>
+					</div>
+				</div>
+				<div class="btn-foot-wrap">
+					<div class="row">
+						<div class="col-md-offset-3 col-md-9 col-sm-offset-3 col-sm-9">
+							<div class="pull-right">
+								<span class="file-size">File Size: {{downloadFileSize|convertFileSize}}</span>
+								<button type="button" class="btn black-button" (click)="downloadImageFile()">
+									Download 
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="snackbar">{{alertMessage}}</div>

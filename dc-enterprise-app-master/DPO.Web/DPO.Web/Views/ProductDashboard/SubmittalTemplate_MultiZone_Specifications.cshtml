@@ -1,0 +1,143 @@
+﻿@model ProductModel
+@{
+    var specs = Model.Specifications;
+}
+
+@{
+    if (specs.GetString("UnitType") == "Indoor")
+    {
+        <tr>
+            <td colspan="2" align="center" style="background-color:#85C1E9">COOLING - Airfolw Rate (cfm):</td>
+            <td colspan="2" align="center" style="background-color:#F5B7B1">HEATING - Airfolw Rate (cfm):</td>
+        </tr>
+        <tr>
+            <td style="background-color:#85C1E9">High: </td>
+            <td style="background-color:#85C1E9">@specs.GetDecimal("AirFlowRateHighCooling", "N0")</td>
+            <td style="background-color:#F5B7B1">High: </td>
+            <td style="background-color:#F5B7B1">@specs.GetDecimal("AirFlowRateHighHeating", "N0")</td>
+        </tr>
+        <tr>
+            <td style="background-color:#85C1E9">Med: </td>
+            <td style="background-color:#85C1E9">@specs.GetDecimal("AirFlowRateMediumCooling", "N0")</td>
+            <td style="background-color:#F5B7B1">Med: </td>
+            <td style="background-color:#F5B7B1">@specs.GetDecimal("AirFlowRateMediumHeating", "N0")</td>
+        </tr>
+        <tr>
+            <td style="background-color:#85C1E9">Low: </td>
+            <td style="background-color:#85C1E9">@specs.GetDecimal("AirFlowRateLowCooling", "N0")</td>
+            <td style="background-color:#F5B7B1">Low: </td>
+            <td style="background-color:#F5B7B1">@specs.GetDecimal("AirFlowRateLowHeating", "N0")</td>
+        </tr>
+        <tr>
+            <td style="background-color:#85C1E9">SuperLow: </td>
+            <td style="background-color:#85C1E9">@specs.GetDecimal("AirFlowRateSuperLowCooling", "N0")</td>
+            <td style="background-color:#F5B7B1">SuperLow: </td>
+            <td style="background-color:#F5B7B1">@specs.GetDecimal("AirFlowRateSuperLowHeating", "N0")</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center" style="background-color:#85C1E9">COOLING - Sound Level (dBA):</td>
+            <td colspan="2" align="center" style="background-color:#F5B7B1">HEATING - Sound Level (dBA):</td>
+        </tr>
+        <tr>
+            <td style="background-color:#85C1E9">High: </td>
+            <td style="background-color:#85C1E9">@specs.GetDecimal("SoundPressureHighCooling", "N0")</td>
+            <td style="background-color:#F5B7B1">High: </td>
+            <td style="background-color:#F5B7B1">@specs.GetDecimal("SoundPressureHighHeating", "N0")</td>
+        </tr>
+        <tr>
+            <td style="background-color:#85C1E9">Med: </td>
+            <td style="background-color:#85C1E9">@specs.GetDecimal("SoundPressureMediumCooling", "N0")</td>
+            <td style="background-color:#F5B7B1">Med: </td>
+            <td style="background-color:#F5B7B1">@specs.GetDecimal("SoundPressureMediumHeating", "N0")</td>
+        </tr>
+        <tr>
+            <td style="background-color:#85C1E9">Low: </td>
+            <td style="background-color:#85C1E9">@specs.GetDecimal("SoundPressureLowCooling", "N0")</td>
+            <td style="background-color:#F5B7B1">Low: </td>
+            <td style="background-color:#F5B7B1">@specs.GetDecimal("SoundPressureLowHeating", "N0")</td>
+        </tr>
+        <tr>
+            <td style="background-color:#85C1E9">SuperLow: </td>
+            <td style="background-color:#85C1E9">@specs.GetDecimal("SoundPressureSuperLowCooling", "N0")</td>
+            <td style="background-color:#F5B7B1">SuperLow: </td>
+            <td style="background-color:#F5B7B1">@specs.GetDecimal("SoundPressureSuperLowHeating", "N0")</td>
+        </tr>
+       <tr>
+            <td>Dimensions (HxWxD) (in):</td>
+            <td>@specs.GetString("DimensionsUnitHeight") x @specs.GetString("DimensionsUnitWidth") x @specs.GetString("DimensionsUnitDepth")</td>
+            <td>Net Weight (lb):</td>
+            <td>
+                @specs.GetString("WeightUnit")
+            </td>
+        </tr>
+        <tr>
+            <td>Capacity Rated (Btu/hr):</td>
+            <td>@specs.GetDecimal("CoolingCapacityRated", "N0")</td>
+            <td></td>
+            <td></td>
+        </tr>
+
+    }
+    else
+    {
+        <tr>
+            <td>Compressor Type:</td>
+            <td>@specs.GetString("CompressorType")</td>
+            <td>Compressor Stage:</td>
+            <td>@specs.GetString("CompressorStages")</td>
+        </tr>
+
+        <tr>
+            <td>Refrigerant Type:</td>
+            <td>@specs.GetString("Refrigerant")</td>
+            <td>Refrigerant Oil:</td>
+            <td>@specs.GetString("RefrigerantOil")</td>
+        </tr>
+        <tr>
+            <td>Factory Charge (Lbs):</td>
+            <td>@specs.GetString("FactoryStdRefrigerantCharge")</td>
+            <td>Additional Refrigerant Charge (Ozs/ft):</td>
+            <td>@specs.GetString("AdditionalRefrigerantCharge")</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center" style="background-color:#85C1E9">COOLING - Airfolw Rate (cfm):</td>
+            <td colspan="2" align="center" style="background-color:#F5B7B1">HEATING - Airfolw Rate (cfm):</td>
+        </tr>
+        <tr>
+            <td style="background-color:#85C1E9">High: </td>
+            <td style="background-color:#85C1E9">@specs.GetDecimal("AirFlowRateHighCooling", "N0")</td>
+            <td style="background-color:#F5B7B1">High: </td>
+            <td style="background-color:#F5B7B1">@specs.GetDecimal("AirFlowRateHighHeating", "N0")</td>
+        </tr>
+        <tr>
+            <td style="background-color:#85C1E9">Med: </td>
+            <td style="background-color:#85C1E9">@specs.GetDecimal("AirFlowRateMediumCooling", "N0")</td>
+            <td style="background-color:#F5B7B1">Med: </td>
+            <td style="background-color:#F5B7B1">@specs.GetDecimal("AirFlowRateMediumHeating", "N0")</td>
+        </tr>
+        <tr>
+            <td style="background-color:#85C1E9">Low: </td>
+            <td style="background-color:#85C1E9">@specs.GetDecimal("AirFlowRateLowCooling", "N0")</td>
+            <td style="background-color:#F5B7B1">Low: </td>
+            <td style="background-color:#F5B7B1">@specs.GetDecimal("AirFlowRateLowHeating", "N0")</td>
+        </tr>
+        <tr>
+            <td style="background-color:#85C1E9">Sound Level (dBA):</td>
+            <td style="background-color:#85C1E9">@specs.GetDecimal("SoundPressureHighCooling", "N0")</td>
+            <td style="background-color:#F5B7B1">Sound Level (dBA):</td>
+            <td style="background-color:#F5B7B1">@specs.GetDecimal("SoundPressureHighHeating", "N0")</td>
+        </tr>
+        <tr>
+            <td>Dimensions (HxWxD) (in):</td>
+            <td>@specs.GetString("DimensionsUnitHeight") x @specs.GetString("DimensionsUnitWidth") x @specs.GetString("DimensionsUnitDepth")</td>
+            <td>Net Weight (lb):</td>
+            <td>
+                @specs.GetString("WeightUnit")
+            </td>
+        </tr>
+
+    }
+}
+
+
+

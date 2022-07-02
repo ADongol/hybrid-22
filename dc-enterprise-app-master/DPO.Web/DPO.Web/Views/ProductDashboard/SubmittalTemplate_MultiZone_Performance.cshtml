@@ -1,0 +1,44 @@
+﻿@model ProductModel
+@{
+    var specs = Model.Specifications;
+}
+
+<tr>
+    <td colspan="2" align="center" style="background-color:#85C1E9">COOLING:</td>
+    <td colspan="2" align="center" style="background-color:#F5B7B1">HEATING:</td>
+</tr>
+<tr>
+    <td style="background-color:#85C1E9">Rated (Btu/hr):</td>
+    <td style="background-color:#85C1E9">@specs.GetDecimal("CoolingCapacityRated", "N0")</td>
+    <td style="background-color:#F5B7B1">Rated (Btu/hr):</td>
+    <td style="background-color:#F5B7B1">@specs.GetDecimal("HeatingCapacityRated", "N0")</td>
+</tr>
+<tr>
+    <td style="background-color:#85C1E9">Operating Range:</td>
+    <td style="background-color:#85C1E9">@specs.GetDecimal("CoolingOperationRangeStdMin", "N0")&deg;F - @specs.GetDecimal("CoolingOperationRangeStdMax", "N0")&deg;F</td>
+    <td style="background-color:#F5B7B1">Operating Range:</td>
+    <td style="background-color:#F5B7B1">@specs.GetDecimal("HeatingOperationRangeStdMin", "N0")&deg;F - @specs.GetDecimal("HeatingOperationRangeStdMax", "N0")&deg;F</td>
+</tr>
+
+<tr>
+    <td colspan="2" style="background-color:#85C1E9">Rated Cooling Conditions:</td>
+    <td colspan="2" style="background-color:#F5B7B1">Rated Heating Conditions:</td>
+</tr>
+
+<tr>
+    <td colspan="2" style="background-color:#85C1E9">
+        Indoor (&deg;F DB/DB): @specs.GetDecimal("RatedCoolingConditionRoomDB", "N0") / @specs.GetDecimal("RatedCoolingConditionRoomWB", "N0")
+        <br />
+        Ambient (&deg;F DB/WB): @specs.GetDecimal("RatedCoolingConditionAmbientDB", "N0") / @specs.GetDecimal("RatedCoolingConditionAmbientWB", "N0")
+    </td>
+    <td colspan="2" style="background-color:#F5B7B1">
+        Indoor (&deg;F DB/WB): @specs.GetDecimal("RatedHeatingConditionRoomDB", "N0") / @specs.GetDecimal("RatedHeatingConditionRoomWB", "N0")
+        <br />
+        Ambient (&deg;F DB/WB): @specs.GetDecimal("RatedHeatingConditionAmbientDB", "N0") / @specs.GetDecimal("RatedHeatingConditionAmbientWB", "N0")
+    </td>
+</tr>
+
+
+
+
+

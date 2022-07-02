@@ -1,0 +1,46 @@
+﻿@model ProductModel
+@{
+    var specs = Model.Specifications;
+}
+<tr>
+    <td colspan="2" align="center" style="background-color:#85C1E9">COOLING - Airfolw Rate (cfm):</td>
+    <td colspan="2" align="center" style="background-color:#F5B7B1">HEATING - Airfolw Rate (cfm):</td>
+</tr>
+<tr>
+    <td style="background-color:#85C1E9">High: </td>
+    <td style="background-color:#85C1E9">@specs.GetDecimal("AirFlowRateHighCooling", "N0")</td>
+    <td style="background-color:#F5B7B1">High: </td>
+    <td style="background-color:#F5B7B1">@specs.GetDecimal("AirFlowRateHighHeating", "N0")</td>
+</tr>
+<tr>
+    <td style="background-color:#85C1E9">SuperLow: </td>
+    <td style="background-color:#85C1E9">@specs.GetDecimal("AirFlowRateSuperLowCooling", "N0")</td>
+    <td style="background-color:#F5B7B1">SuperLow: </td>
+    <td style="background-color:#F5B7B1">@specs.GetDecimal("AirFlowRateSuperLowHeating", "N0")</td>
+</tr>
+<tr>
+    <td>Compressor Stage:</td>
+    <td>@specs.GetString("CompressorStages")</td>
+    <td>Refrigerant Type:</td>
+    <td>@specs.GetString("RefrigerantType")</td>
+</tr>
+<tr>
+    <td>Factory Charge (Lbs):</td>
+    <td>@specs.GetString("FactoryStdRefrigerantCharge")</td>
+    <td>Refrigerant Oil:</td>
+
+
+    <td>@specs.GetString("RefrigerantOil")</td>
+</tr>
+<tr>
+    <td>Sound Pressure Level (dBA):</td>
+    <td>@specs.GetString("SoundPressureHighCooling")</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>Dimensions (HxWxD) (in):</td>
+    <td>@specs.GetString("DimensionsUnitHeight") x @specs.GetString("DimensionsUnitWidth") x @specs.GetString("DimensionsUnitDepth")</td>
+    <td>Net Weight (lb):</td>
+    <td>@specs.GetString("WeightUnit")</td>
+</tr>

@@ -1,0 +1,129 @@
+﻿.modal {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.15);
+    z-index: 42;
+} 
+
+.modal.in {
+    opacity: 1;
+}
+
+.modal-header {
+    padding: 5px;
+    border-bottom: 1px solid #e5e5e5;
+    height: 30px;
+}
+
+.modal-header .close {
+    margin-top: -2px;
+    margin-right: 10px;
+}
+
+button.close {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    height: 20px;
+    font-weight: bolder;
+}
+
+.header-label { 
+    padding-left: 10px;
+}
+
+.modal-body {
+    position: relative;
+    padding: 15px;
+}
+
+.k-upload .k-dropzone {
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-width: 0;
+    background-color: transparent;
+    height: 80px;
+}
+
+.k-upload .k-dropzone .k-upload-status {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    top: 5%;
+    right: 35%;
+}
+
+.kendo-upload-button {
+    min-width: 7em;
+    margin: 8px;
+    width: 250px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/*.k-upload-button {
+    position: relative;
+    overflow: hidden;
+    direction: ltr;
+}*/
+.k-button {
+    /* border-radius: 2px; */
+    padding: 4px 8px;
+    /* box-sizing: border-box; */
+    /* border-width: 1px; */
+    /* border-style: solid; */
+    font-size: 14px;
+    line-height: 1.42857;
+    text-align: justify;
+    text-decoration: underline;
+    white-space: nowrap;
+    /* display: inline-flex; */
+    align-items: stretch;
+    justify-content: center;
+    vertical-align: text-top;
+    user-select: none;
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    position: relative;
+    color: blue;
+}
+
+.modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+    height: 25px;
+}
+
+button.close {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0; 
+    font-weight: bolder;
+}
+
+.k-button .k-upload-button {
+    min-width: 7em;
+    margin: 8px;
+    width: 250px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}

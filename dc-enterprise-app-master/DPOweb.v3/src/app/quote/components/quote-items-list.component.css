@@ -1,0 +1,10 @@
+﻿.drag-drop-bg {
+    height: 15px;
+    background-image: url("/v3/src/assets/images/drag_dots_blue.png");
+    background-size: 10px 15px;
+    background-repeat: no-repeat;
+}
+
+.k-grid tr.dragging {
+    background-color: #99ccff;
+}

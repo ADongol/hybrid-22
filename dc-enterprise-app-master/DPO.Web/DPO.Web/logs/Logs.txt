@@ -1,0 +1,808 @@
+INFO  2018-11-02 11:53:00,399 171674ms Repository             ItemsQueryBySearch - search.TotalRecords : 2
+INFO  2018-11-02 11:53:42,171 213446ms ProjectServices        SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.ProjectModel Entity: DPO.Data.Project Description: Project 'AD Test Nov 2nd 2018'
+DEBUG 2018-11-02 11:53:42,221 213496ms ProjectServices        SaveToDatabase     - Get the Entry
+DEBUG 2018-11-02 11:53:42,269 213544ms ProjectServices        SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-02 11:53:42,309 213584ms ProjectServices        SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-02 11:53:42,351 213626ms ProjectServices        SaveToDatabase     - Project 'AD Test Nov 2nd 2018' has been updated.
+DEBUG 2018-11-02 11:53:42,386 213661ms ProjectServices        SaveToDatabase     - try to save to database
+DEBUG 2018-11-02 11:53:42,598 213873ms ProjectServices        SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-02 11:53:42,632 213907ms ProjectServices        SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.ProjectModel
+INFO  2018-11-02 11:54:59,869 291144ms QuoteServices          GetEntity          - Enter GetEntity for quote: AD Test Nov 2nd 2018
+DEBUG 2018-11-02 11:55:05,760 297035ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 2
+DEBUG 2018-11-02 11:55:05,807 297082ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+DEBUG 2018-11-02 11:55:05,836 297111ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+INFO  2018-11-02 11:55:08,397 299672ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'AD Test Nov 2nd 2018'
+DEBUG 2018-11-02 11:55:08,428 299703ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-02 11:55:09,560 300835ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-02 11:55:09,585 300860ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-02 11:55:09,609 300884ms QuoteServices          SaveToDatabase     - Quote 'AD Test Nov 2nd 2018' has been updated.
+DEBUG 2018-11-02 11:55:09,635 300910ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-02 11:55:09,790 301065ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-02 11:55:09,815 301090ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+DEBUG 2018-11-02 11:55:47,213 338488ms BaseController         FormPdfForSendMail - root directory: C:\dttp-Projects\Staging\Daikin Project Office\DPO.Web\DPO.Web\
+DEBUG 2018-11-02 11:55:53,398 344673ms BaseController         ndEmailOrderSubmit - sendEmailModel.OtherAttachmentFiles: System.Collections.Generic.List`1[System.String]
+ERROR 2018-11-02 11:56:06,936 358211ms EmailServices          dCompletedCallback - Send Order submit email failed. Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+ERROR 2018-11-02 11:56:06,967 358242ms EmailServices          dCompletedCallback - Send Order submit email failed. Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+INFO  2018-11-02 11:56:08,131 359406ms Repository             ItemsQueryBySearch - search.TotalRecords : 2
+INFO  2018-11-02 11:57:45,636 456911ms Repository             ItemsQueryBySearch - search.TotalRecords : 2
+INFO  2018-11-02 11:58:45,294 516569ms Repository             ItemsQueryBySearch - search.TotalRecords : 2
+INFO  2018-11-02 15:29:54,302 105969ms QuoteServices          GetEntity          - Enter GetEntity for quote: Test Nov 2nd 2018
+DEBUG 2018-11-02 15:30:00,833 112500ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-02 15:30:03,387 115054ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'Test Nov 2nd 2018'
+DEBUG 2018-11-02 15:30:03,424 115091ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-02 15:30:04,972 116639ms QuoteServices          SaveToDatabase     - NewRecordAdded: True
+DEBUG 2018-11-02 15:30:05,008 116675ms QuoteServices          SaveToDatabase     - Entry.State == 'Added'
+INFO  2018-11-02 15:30:05,050 116717ms QuoteServices          SaveToDatabase     - Quote 'Test Nov 2nd 2018' has been added.
+DEBUG 2018-11-02 15:30:05,086 116753ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-02 15:30:05,385 117052ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-02 15:30:05,420 117087ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-02 15:30:29,141 140808ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-02 15:30:35,330 146997ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 1
+DEBUG 2018-11-02 15:30:35,367 147034ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+INFO  2018-11-02 15:30:37,926 149593ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'Test Nov 2nd 2018'
+DEBUG 2018-11-02 15:30:37,963 149630ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-02 15:30:39,343 151010ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-02 15:30:39,387 151054ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-02 15:30:39,429 151096ms QuoteServices          SaveToDatabase     - Quote 'Test Nov 2nd 2018' has been updated.
+DEBUG 2018-11-02 15:30:39,466 151133ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-02 15:30:39,702 151369ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-02 15:30:39,739 151406ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-02 15:30:51,614 163281ms Repository             ItemsQueryBySearch - search.TotalRecords : 1
+INFO  2018-11-02 15:35:07,334 419001ms QuoteServices          GetEntity          - Enter GetEntity for quote: Test
+DEBUG 2018-11-02 15:35:12,992 424659ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-02 15:35:15,452 427119ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'Test'
+DEBUG 2018-11-02 15:35:15,486 427153ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-02 15:35:16,849 428516ms QuoteServices          SaveToDatabase     - NewRecordAdded: True
+DEBUG 2018-11-02 15:35:16,886 428553ms QuoteServices          SaveToDatabase     - Entry.State == 'Added'
+INFO  2018-11-02 15:35:16,920 428587ms QuoteServices          SaveToDatabase     - Quote 'Test' has been added.
+DEBUG 2018-11-02 15:35:16,954 428621ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-02 15:35:17,121 428788ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-02 15:35:17,154 428821ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-02 15:35:38,908 450575ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-02 15:35:44,598 456265ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 1
+DEBUG 2018-11-02 15:35:44,637 456304ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+INFO  2018-11-02 15:35:47,133 458800ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'Test'
+DEBUG 2018-11-02 15:35:47,168 458835ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-02 15:35:48,572 460239ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-02 15:35:48,610 460277ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-02 15:35:48,650 460317ms QuoteServices          SaveToDatabase     - Quote 'Test' has been updated.
+DEBUG 2018-11-02 15:35:48,690 460357ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-02 15:35:48,907 460574ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-02 15:35:48,945 460612ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-02 15:36:02,458 474125ms Repository             ItemsQueryBySearch - search.TotalRecords : 1
+INFO  2018-11-02 15:36:06,411 478078ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-02 15:36:12,029 483696ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 1
+DEBUG 2018-11-02 15:36:12,068 483735ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+INFO  2018-11-02 15:36:14,788 486455ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'Test'
+DEBUG 2018-11-02 15:36:14,827 486494ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-02 15:36:16,179 487846ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-02 15:36:16,217 487884ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-02 15:36:16,253 487920ms QuoteServices          SaveToDatabase     - Quote 'Test' has been updated.
+DEBUG 2018-11-02 15:36:16,291 487958ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-02 15:36:16,561 488228ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-02 15:36:16,599 488266ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-02 15:36:23,270 494937ms Repository             ItemsQueryBySearch - search.TotalRecords : 1
+INFO  2018-11-02 15:44:28,117 979784ms QuoteServices          GetEntity          - Enter GetEntity for quote: Quote Test
+DEBUG 2018-11-02 15:44:33,053 984720ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-02 15:44:35,421 987088ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'Quote Test'
+DEBUG 2018-11-02 15:44:35,455 987122ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-02 15:44:36,812 988479ms QuoteServices          SaveToDatabase     - NewRecordAdded: True
+DEBUG 2018-11-02 15:44:36,845 988512ms QuoteServices          SaveToDatabase     - Entry.State == 'Added'
+INFO  2018-11-02 15:44:36,881 988548ms QuoteServices          SaveToDatabase     - Quote 'Quote Test' has been added.
+DEBUG 2018-11-02 15:44:36,914 988581ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-02 15:44:37,088 988755ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-02 15:44:37,121 988788ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-02 15:45:32,791 1044458ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-02 15:45:38,453 1050120ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 3
+DEBUG 2018-11-02 15:45:38,489 1050156ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+DEBUG 2018-11-02 15:45:38,524 1050191ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+DEBUG 2018-11-02 15:45:38,558 1050225ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+INFO  2018-11-02 15:45:41,164 1052831ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'Quote Test'
+DEBUG 2018-11-02 15:45:41,200 1052867ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-02 15:45:42,663 1054330ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-02 15:45:42,703 1054370ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-02 15:45:42,738 1054405ms QuoteServices          SaveToDatabase     - Quote 'Quote Test' has been updated.
+DEBUG 2018-11-02 15:45:42,774 1054441ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-02 15:45:43,075 1054742ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-02 15:45:43,112 1054779ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-02 15:45:53,082 1064749ms Repository             ItemsQueryBySearch - search.TotalRecords : 3
+INFO  2018-11-02 16:08:09,284 171329ms QuoteServices          GetEntity          - Enter GetEntity for quote: Test Qutoe
+DEBUG 2018-11-02 16:08:15,863 177908ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-02 16:08:18,408 180453ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'Test Qutoe'
+DEBUG 2018-11-02 16:08:18,444 180489ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-02 16:08:20,188 182233ms QuoteServices          SaveToDatabase     - NewRecordAdded: True
+DEBUG 2018-11-02 16:08:20,218 182263ms QuoteServices          SaveToDatabase     - Entry.State == 'Added'
+INFO  2018-11-02 16:08:20,252 182297ms QuoteServices          SaveToDatabase     - Quote 'Test Qutoe' has been added.
+DEBUG 2018-11-02 16:08:20,282 182327ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-02 16:08:20,544 182589ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-02 16:08:20,581 182626ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-02 16:11:48,243 390288ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-02 16:11:54,582 396627ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 2
+DEBUG 2018-11-02 16:11:54,623 396668ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+DEBUG 2018-11-02 16:11:54,660 396705ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+INFO  2018-11-02 16:11:57,301 399346ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'Test Qutoe'
+DEBUG 2018-11-02 16:11:57,338 399383ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-02 16:11:58,582 400627ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-02 16:11:58,615 400660ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-02 16:11:58,649 400694ms QuoteServices          SaveToDatabase     - Quote 'Test Qutoe' has been updated.
+DEBUG 2018-11-02 16:11:58,682 400727ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-02 16:11:58,955 401000ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-02 16:11:58,992 401037ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-02 16:12:30,389 432434ms Repository             ItemsQueryBySearch - search.TotalRecords : 2
+INFO  2018-11-02 16:12:42,637 444682ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-02 16:12:48,278 450323ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 2
+DEBUG 2018-11-02 16:12:48,313 450358ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+DEBUG 2018-11-02 16:12:48,348 450393ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+INFO  2018-11-02 16:12:51,129 453174ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'Test Qutoe'
+DEBUG 2018-11-02 16:12:51,165 453210ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-02 16:12:52,711 454756ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-02 16:12:52,748 454793ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-02 16:12:52,785 454830ms QuoteServices          SaveToDatabase     - Quote 'Test Qutoe' has been updated.
+DEBUG 2018-11-02 16:12:52,818 454863ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-02 16:12:53,070 455115ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-02 16:12:53,106 455151ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-02 16:12:59,404 461449ms Repository             ItemsQueryBySearch - search.TotalRecords : 2
+INFO  2018-11-02 16:21:31,563 973608ms QuoteServices          GetEntity          - Enter GetEntity for quote: Test Qutoe
+DEBUG 2018-11-02 16:21:36,998 979043ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 2
+DEBUG 2018-11-02 16:21:37,022 979067ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+DEBUG 2018-11-02 16:21:37,046 979091ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+INFO  2018-11-02 16:21:39,621 981666ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'Test Qutoe'
+DEBUG 2018-11-02 16:21:39,654 981699ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-02 16:21:40,719 982764ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-02 16:21:40,740 982785ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-02 16:21:40,762 982807ms QuoteServices          SaveToDatabase     - Quote 'Test Qutoe' has been updated.
+DEBUG 2018-11-02 16:21:40,784 982829ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-02 16:21:40,936 982981ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-02 16:21:40,958 983003ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+DEBUG 2018-11-02 16:22:51,770 1053815ms BaseController         FormPdfForSendMail - root directory: C:\dttp-Projects\Staging\Daikin Project Office\DPO.Web\DPO.Web\
+DEBUG 2018-11-02 16:37:25,051 1927096ms BaseController         ndEmailOrderSubmit - sendEmailModel.OtherAttachmentFiles: System.Collections.Generic.List`1[System.String]
+INFO  2018-11-02 16:37:37,038 1939083ms Repository             ItemsQueryBySearch - search.TotalRecords : 2
+ERROR 2018-11-02 16:37:40,517 1942562ms EmailServices          dCompletedCallback - Send Order submit email failed. Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+ERROR 2018-11-02 16:37:40,549 1942594ms EmailServices          dCompletedCallback - Send Order submit email failed. Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+INFO  2018-11-02 16:56:24,342 142027ms Repository             ItemsQueryBySearch - search.TotalRecords : 5
+INFO  2018-11-05 10:01:46,352 328629ms ProjectServices        SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.ProjectModel Entity: DPO.Data.Project Description: Project 'AD Test Nov 5th 2018'
+DEBUG 2018-11-05 10:01:46,511 328788ms ProjectServices        SaveToDatabase     - Get the Entry
+DEBUG 2018-11-05 10:01:46,537 328814ms ProjectServices        SaveToDatabase     - NewRecordAdded: True
+DEBUG 2018-11-05 10:01:46,562 328839ms ProjectServices        SaveToDatabase     - Entry.State == 'Added'
+INFO  2018-11-05 10:01:46,590 328867ms ProjectServices        SaveToDatabase     - Project 'AD Test Nov 5th 2018' has been added.
+DEBUG 2018-11-05 10:01:46,617 328894ms ProjectServices        SaveToDatabase     - try to save to database
+DEBUG 2018-11-05 10:01:47,166 329443ms ProjectServices        SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-05 10:01:47,206 329483ms ProjectServices        SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.ProjectModel
+INFO  2018-11-05 10:02:13,850 356127ms QuoteServices          GetEntity          - Enter GetEntity for quote: AD Nov 5th Test
+DEBUG 2018-11-05 10:02:19,726 362003ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-05 10:02:22,219 364496ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'AD Nov 5th Test'
+DEBUG 2018-11-05 10:02:22,261 364538ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-05 10:02:23,561 365838ms QuoteServices          SaveToDatabase     - NewRecordAdded: True
+DEBUG 2018-11-05 10:02:23,589 365866ms QuoteServices          SaveToDatabase     - Entry.State == 'Added'
+INFO  2018-11-05 10:02:23,613 365890ms QuoteServices          SaveToDatabase     - Quote 'AD Nov 5th Test' has been added.
+DEBUG 2018-11-05 10:02:23,638 365915ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-05 10:02:23,876 366153ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-05 10:02:23,903 366180ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-05 10:02:50,432 392709ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-05 10:02:56,404 398681ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 2
+DEBUG 2018-11-05 10:02:56,445 398722ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+DEBUG 2018-11-05 10:02:56,483 398760ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+INFO  2018-11-05 10:02:58,987 401264ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'AD Nov 5th Test'
+DEBUG 2018-11-05 10:02:59,040 401317ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-05 10:03:00,328 402605ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-05 10:03:00,362 402639ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-05 10:03:00,396 402673ms QuoteServices          SaveToDatabase     - Quote 'AD Nov 5th Test' has been updated.
+DEBUG 2018-11-05 10:03:00,442 402719ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-05 10:03:00,686 402963ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-05 10:03:00,720 402997ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-05 10:05:00,296 522573ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-05 10:05:05,713 527990ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 4
+DEBUG 2018-11-05 10:05:05,750 528027ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+DEBUG 2018-11-05 10:05:05,787 528064ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+DEBUG 2018-11-05 10:05:05,826 528103ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+DEBUG 2018-11-05 10:05:05,863 528140ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+INFO  2018-11-05 10:05:08,492 530769ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'AD Nov 5th Test'
+DEBUG 2018-11-05 10:05:08,531 530808ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-05 10:05:10,211 532488ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-05 10:05:10,237 532514ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-05 10:05:10,262 532539ms QuoteServices          SaveToDatabase     - Quote 'AD Nov 5th Test' has been updated.
+DEBUG 2018-11-05 10:05:10,289 532566ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-05 10:05:10,516 532793ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-05 10:05:10,553 532830ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-05 10:05:31,635 553912ms Repository             ItemsQueryBySearch - search.TotalRecords : 4
+INFO  2018-11-05 10:06:10,845 593122ms Repository             ItemsQueryBySearch - search.TotalRecords : 4
+INFO  2018-11-05 10:06:27,073 609350ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-05 10:06:32,324 614601ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 4
+DEBUG 2018-11-05 10:06:32,356 614633ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+DEBUG 2018-11-05 10:06:32,388 614665ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+DEBUG 2018-11-05 10:06:32,421 614698ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+DEBUG 2018-11-05 10:06:32,460 614737ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+INFO  2018-11-05 10:06:35,049 617326ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'AD Nov 5th Test'
+DEBUG 2018-11-05 10:06:35,083 617360ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-05 10:06:36,100 618377ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-05 10:06:36,133 618410ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-05 10:06:36,158 618435ms QuoteServices          SaveToDatabase     - Quote 'AD Nov 5th Test' has been updated.
+DEBUG 2018-11-05 10:06:36,183 618460ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-05 10:06:36,488 618765ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-05 10:06:36,512 618789ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-05 10:06:41,072 623349ms Repository             ItemsQueryBySearch - search.TotalRecords : 4
+INFO  2018-11-05 10:06:56,290 638567ms Repository             ItemsQueryBySearch - search.TotalRecords : 4
+INFO  2018-11-05 10:08:02,485 704762ms ProjectServices        SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.ProjectModel Entity: DPO.Data.Project Description: Project 'AD Test Nov 5th 2018'
+DEBUG 2018-11-05 10:08:02,522 704799ms ProjectServices        SaveToDatabase     - Get the Entry
+DEBUG 2018-11-05 10:08:02,563 704840ms ProjectServices        SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-05 10:08:02,600 704877ms ProjectServices        SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-05 10:08:02,642 704919ms ProjectServices        SaveToDatabase     - Project 'AD Test Nov 5th 2018' has been updated.
+DEBUG 2018-11-05 10:08:02,677 704954ms ProjectServices        SaveToDatabase     - try to save to database
+DEBUG 2018-11-05 10:08:02,869 705146ms ProjectServices        SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-05 10:08:02,908 705185ms ProjectServices        SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.ProjectModel
+INFO  2018-11-05 10:08:28,864 731141ms ProjectServices        SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.ProjectModel Entity: DPO.Data.Project Description: Project 'AD Test Nov 5th 2018'
+DEBUG 2018-11-05 10:08:28,901 731178ms ProjectServices        SaveToDatabase     - Get the Entry
+DEBUG 2018-11-05 10:08:28,939 731216ms ProjectServices        SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-05 10:08:28,977 731254ms ProjectServices        SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-05 10:08:29,013 731290ms ProjectServices        SaveToDatabase     - Project 'AD Test Nov 5th 2018' has been updated.
+DEBUG 2018-11-05 10:08:29,050 731327ms ProjectServices        SaveToDatabase     - try to save to database
+DEBUG 2018-11-05 10:08:29,246 731523ms ProjectServices        SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-05 10:08:29,277 731554ms ProjectServices        SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.ProjectModel
+INFO  2018-11-05 10:10:32,426 854703ms QuoteServices          GetEntity          - Enter GetEntity for quote: AD Nov 5th Test
+DEBUG 2018-11-05 10:10:37,600 859877ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 4
+DEBUG 2018-11-05 10:10:37,630 859907ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+DEBUG 2018-11-05 10:10:37,667 859944ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+DEBUG 2018-11-05 10:10:37,699 859976ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+DEBUG 2018-11-05 10:10:37,731 860008ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+INFO  2018-11-05 10:10:40,322 862599ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'AD Nov 5th Test'
+DEBUG 2018-11-05 10:10:40,362 862639ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-05 10:10:41,513 863790ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-05 10:10:41,542 863819ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-05 10:10:41,571 863848ms QuoteServices          SaveToDatabase     - Quote 'AD Nov 5th Test' has been updated.
+DEBUG 2018-11-05 10:10:41,600 863877ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-05 10:10:41,751 864028ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-05 10:10:41,782 864059ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+DEBUG 2018-11-05 10:12:23,759 966036ms BaseController         ndEmailOrderSubmit - sendEmailModel.OtherAttachmentFiles: System.Collections.Generic.List`1[System.String]
+ERROR 2018-11-05 10:12:34,971 977248ms EmailServices          dCompletedCallback - Send Order submit email failed. Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+ERROR 2018-11-05 10:12:35,033 977310ms EmailServices          dCompletedCallback - Send Order submit email failed. Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+INFO  2018-11-05 10:12:38,016 980293ms Repository             ItemsQueryBySearch - search.TotalRecords : 4
+INFO  2018-11-05 14:22:13,971 165041ms Repository             ItemsQueryBySearch - search.TotalRecords : 1
+INFO  2018-11-05 14:23:35,841 246910ms ProjectServices        SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.ProjectModel Entity: DPO.Data.Project Description: Project 'Test Add To Quote'
+DEBUG 2018-11-05 14:23:35,894 246963ms ProjectServices        SaveToDatabase     - Get the Entry
+DEBUG 2018-11-05 14:23:35,934 247003ms ProjectServices        SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-05 14:23:35,969 247038ms ProjectServices        SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-05 14:23:36,008 247077ms ProjectServices        SaveToDatabase     - Project 'Test Add To Quote' has been updated.
+DEBUG 2018-11-05 14:23:36,044 247113ms ProjectServices        SaveToDatabase     - try to save to database
+DEBUG 2018-11-05 14:23:36,305 247374ms ProjectServices        SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-05 14:23:36,343 247412ms ProjectServices        SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.ProjectModel
+INFO  2018-11-05 14:31:45,492 111072ms Repository             ItemsQueryBySearch - search.TotalRecords : 1
+INFO  2018-11-05 15:50:45,472 224854ms Repository             ItemsQueryBySearch - search.TotalRecords : 1
+INFO  2018-11-06 12:28:56,344 1208267ms UserServices           SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.UserModel Entity: DPO.Data.User Description: User 'Test 40 Test 40'
+DEBUG 2018-11-06 12:28:56,455 1208378ms UserServices           SaveToDatabase     - Get the Entry
+DEBUG 2018-11-06 12:28:56,497 1208420ms UserServices           SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-06 12:28:56,536 1208459ms UserServices           SaveToDatabase     - try to save to database
+INFO  2018-11-06 12:28:56,573 1208496ms UserServices           SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.UserModel
+DEBUG 2018-11-06 12:29:15,684 1227607ms EmailServices          dCompletedCallback - Send Order submit email completed successfully
+INFO  2018-11-06 12:36:48,225 1680148ms UserServices           SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.UserModel Entity: DPO.Data.User Description: User 'test 41 Smith JuJu'
+DEBUG 2018-11-06 12:36:48,251 1680174ms UserServices           SaveToDatabase     - Get the Entry
+DEBUG 2018-11-06 12:36:48,275 1680198ms UserServices           SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-06 12:36:48,296 1680219ms UserServices           SaveToDatabase     - try to save to database
+INFO  2018-11-06 12:36:48,319 1680242ms UserServices           SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.UserModel
+DEBUG 2018-11-06 12:37:02,584 1694507ms EmailServices          dCompletedCallback - Send Order submit email completed successfully
+INFO  2018-11-06 12:42:08,769 2000692ms UserServices           SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.UserModel Entity: DPO.Data.User Description: User 'test 42 test 42'
+DEBUG 2018-11-06 12:42:08,805 2000728ms UserServices           SaveToDatabase     - Get the Entry
+DEBUG 2018-11-06 12:42:08,843 2000766ms UserServices           SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-06 12:42:08,881 2000804ms UserServices           SaveToDatabase     - try to save to database
+INFO  2018-11-06 12:42:08,918 2000841ms UserServices           SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.UserModel
+DEBUG 2018-11-06 12:42:18,280 2010203ms EmailServices          dCompletedCallback - Send Order submit email completed successfully
+INFO  2018-11-06 14:12:23,479 470159ms UserServices           SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.UserModel Entity: DPO.Data.User Description: User 'user 43 Forty Three'
+DEBUG 2018-11-06 14:12:23,593 470273ms UserServices           SaveToDatabase     - Get the Entry
+DEBUG 2018-11-06 14:12:23,637 470317ms UserServices           SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-06 14:12:23,673 470353ms UserServices           SaveToDatabase     - try to save to database
+INFO  2018-11-06 14:12:23,710 470390ms UserServices           SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.UserModel
+DEBUG 2018-11-06 14:24:43,100 1209779ms EmailServices          dCompletedCallback - Send Order submit email completed successfully
+INFO  2018-11-06 14:37:28,443 1975122ms UserServices           SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.UserModel Entity: DPO.Data.User Description: User 'Test 40 Test 40'
+DEBUG 2018-11-06 14:37:28,484 1975163ms UserServices           SaveToDatabase     - Get the Entry
+DEBUG 2018-11-06 14:37:28,523 1975202ms UserServices           SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-06 14:37:28,565 1975244ms UserServices           SaveToDatabase     - try to save to database
+INFO  2018-11-06 14:37:28,605 1975284ms UserServices           SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.UserModel
+ERROR 2018-11-06 14:37:40,597 1987276ms EmailServices          dCompletedCallback - Send Order submit email failed. Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+INFO  2018-11-06 14:37:42,457 1989136ms UserServices           SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.UserModel Entity: DPO.Data.User Description: User 'Test 40 Test 40'
+DEBUG 2018-11-06 14:37:42,512 1989191ms UserServices           SaveToDatabase     - Get the Entry
+DEBUG 2018-11-06 14:37:42,552 1989231ms UserServices           SaveToDatabase     - NewRecordAdded: False
+ERROR 2018-11-06 14:37:42,472 1989151ms EmailServices          dCompletedCallback - Send Order submit email failed. Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+DEBUG 2018-11-06 14:37:42,593 1989272ms UserServices           SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-06 14:37:42,740 1989419ms UserServices           SaveToDatabase     - User 'Test 40 Test 40' has been updated.
+DEBUG 2018-11-06 14:37:42,779 1989458ms UserServices           SaveToDatabase     - try to save to database
+DEBUG 2018-11-06 14:37:42,943 1989622ms UserServices           SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-06 14:37:42,984 1989663ms UserServices           SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.UserModel
+INFO  2018-11-06 14:37:49,276 1995955ms UserServices           SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.UserModel Entity: DPO.Data.User Description: User 'Test 40 Test 40'
+DEBUG 2018-11-06 14:37:49,316 1995995ms UserServices           SaveToDatabase     - Get the Entry
+DEBUG 2018-11-06 14:37:49,357 1996036ms UserServices           SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-06 14:37:49,395 1996074ms UserServices           SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-06 14:37:49,482 1996161ms UserServices           SaveToDatabase     - User 'Test 40 Test 40' has been updated.
+DEBUG 2018-11-06 14:37:49,522 1996201ms UserServices           SaveToDatabase     - try to save to database
+FATAL 2018-11-06 14:37:49,826 1996505ms UserServices           SaveToDatabase     - Exception Source for DPO.Common.UserModel: EntityFramework
+FATAL 2018-11-06 14:37:49,865 1996544ms UserServices           SaveToDatabase     - Exception for DPO.Common.UserModel: Store update, insert, or delete statement affected an unexpected number of rows (0). Entities may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=472540 for information on understanding and handling optimistic concurrency exceptions.
+FATAL 2018-11-06 14:37:49,904 1996583ms UserServices           SaveToDatabase     - Inner Exception for DPO.Common.UserModel: Store update, insert, or delete statement affected an unexpected number of rows (0). Entities may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=472540 for information on understanding and handling optimistic concurrency exceptions.
+INFO  2018-11-06 14:37:49,943 1996622ms UserServices           SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.UserModel
+INFO  2018-11-06 16:35:05,450 123089ms Repository             ItemsQueryBySearch - search.TotalRecords : 2
+INFO  2018-11-06 16:38:10,522 308161ms QuoteServices          GetEntity          - Enter GetEntity for quote: AD Test 11/06/2018
+DEBUG 2018-11-06 16:38:17,111 314750ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 2
+DEBUG 2018-11-06 16:38:17,148 314787ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+DEBUG 2018-11-06 16:38:17,180 314819ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+INFO  2018-11-06 16:38:19,928 317567ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'AD Test 11/06/2018'
+DEBUG 2018-11-06 16:38:19,967 317606ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-06 16:38:21,178 318817ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-06 16:38:21,212 318851ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-06 16:38:21,245 318884ms QuoteServices          SaveToDatabase     - Quote 'AD Test 11/06/2018' has been updated.
+DEBUG 2018-11-06 16:38:21,274 318913ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-06 16:38:21,435 319074ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-06 16:38:21,467 319106ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+DEBUG 2018-11-06 16:40:19,873 437512ms BaseController         ndEmailOrderSubmit - sendEmailModel.OtherAttachmentFiles: System.Collections.Generic.List`1[System.String]
+ERROR 2018-11-06 16:40:54,507 472146ms EmailServices          dCompletedCallback - Send Order submit email failed. Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+ERROR 2018-11-06 16:40:54,528 472167ms EmailServices          dCompletedCallback - Send Order submit email failed. Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+INFO  2018-11-06 16:40:59,261 476900ms Repository             ItemsQueryBySearch - search.TotalRecords : 2
+INFO  2018-11-06 16:59:47,464 1605103ms QuoteServices          GetEntity          - Enter GetEntity for quote: Quote Test Add
+DEBUG 2018-11-06 16:59:52,718 1610357ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-06 16:59:55,274 1612913ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'Quote Test Add'
+DEBUG 2018-11-06 16:59:55,309 1612948ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-06 16:59:56,529 1614168ms QuoteServices          SaveToDatabase     - NewRecordAdded: True
+DEBUG 2018-11-06 16:59:56,564 1614203ms QuoteServices          SaveToDatabase     - Entry.State == 'Added'
+INFO  2018-11-06 16:59:56,599 1614238ms QuoteServices          SaveToDatabase     - Quote 'Quote Test Add' has been added.
+DEBUG 2018-11-06 16:59:56,632 1614271ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-06 16:59:56,804 1614443ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-06 16:59:56,837 1614476ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-06 17:00:19,821 1637460ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-06 17:00:25,258 1642897ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-06 17:00:27,949 1645588ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'Quote Test Add'
+DEBUG 2018-11-06 17:00:27,983 1645622ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-06 17:00:29,170 1646809ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-06 17:00:29,205 1646844ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-06 17:00:29,235 1646874ms QuoteServices          SaveToDatabase     - Quote 'Quote Test Add' has been updated.
+DEBUG 2018-11-06 17:00:29,266 1646905ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-06 17:00:29,526 1647165ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-06 17:00:29,562 1647201ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-06 17:01:10,000 1687639ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-06 17:01:15,946 1693585ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 3
+DEBUG 2018-11-06 17:01:15,984 1693623ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+DEBUG 2018-11-06 17:01:16,021 1693660ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+DEBUG 2018-11-06 17:01:16,056 1693695ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+INFO  2018-11-06 17:01:18,753 1696392ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'Quote Test Add'
+DEBUG 2018-11-06 17:01:18,789 1696428ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-06 17:01:20,050 1697689ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-06 17:01:20,089 1697728ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-06 17:01:20,126 1697765ms QuoteServices          SaveToDatabase     - Quote 'Quote Test Add' has been updated.
+DEBUG 2018-11-06 17:01:20,164 1697803ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-06 17:01:20,719 1698358ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-06 17:01:20,762 1698401ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-06 17:16:00,825 2578464ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-06 17:16:07,106 2584745ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 3
+DEBUG 2018-11-06 17:16:07,145 2584784ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+DEBUG 2018-11-06 17:16:07,182 2584821ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+DEBUG 2018-11-06 17:16:07,219 2584858ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+INFO  2018-11-06 17:16:28,854 2606493ms Repository             ItemsQueryBySearch - search.TotalRecords : 3
+INFO  2018-11-06 17:17:17,027 2654666ms QuoteServices          GetEntity          - Enter GetEntity for quote: Quote Test 1118
+DEBUG 2018-11-06 17:17:22,404 2660043ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-06 17:17:24,946 2662585ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'Quote Test 1118'
+DEBUG 2018-11-06 17:17:24,988 2662627ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-06 17:17:26,106 2663745ms QuoteServices          SaveToDatabase     - NewRecordAdded: True
+DEBUG 2018-11-06 17:17:26,134 2663773ms QuoteServices          SaveToDatabase     - Entry.State == 'Added'
+INFO  2018-11-06 17:17:26,163 2663802ms QuoteServices          SaveToDatabase     - Quote 'Quote Test 1118' has been added.
+DEBUG 2018-11-06 17:17:26,188 2663827ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-06 17:17:26,350 2663989ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-06 17:17:26,377 2664016ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-06 17:18:28,308 2725947ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-06 17:18:33,729 2731368ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 3
+DEBUG 2018-11-06 17:18:33,766 2731405ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+DEBUG 2018-11-06 17:18:33,802 2731441ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+DEBUG 2018-11-06 17:18:33,837 2731476ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+INFO  2018-11-06 17:18:36,615 2734254ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'Quote Test 1118'
+DEBUG 2018-11-06 17:18:36,668 2734307ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-06 17:18:38,135 2735774ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-06 17:18:38,169 2735808ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-06 17:18:38,200 2735839ms QuoteServices          SaveToDatabase     - Quote 'Quote Test 1118' has been updated.
+DEBUG 2018-11-06 17:18:38,245 2735884ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-06 17:18:38,546 2736185ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-06 17:18:38,579 2736218ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-06 17:18:50,246 2747885ms Repository             ItemsQueryBySearch - search.TotalRecords : 3
+INFO  2018-11-06 17:18:55,681 2753320ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-06 17:19:01,536 2759175ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 3
+DEBUG 2018-11-06 17:19:01,574 2759213ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+DEBUG 2018-11-06 17:19:01,609 2759248ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+DEBUG 2018-11-06 17:19:01,645 2759284ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+INFO  2018-11-06 17:19:04,629 2762268ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'Quote Test 1118'
+DEBUG 2018-11-06 17:19:04,665 2762304ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-06 17:19:05,931 2763570ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-06 17:19:05,968 2763607ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-06 17:19:06,004 2763643ms QuoteServices          SaveToDatabase     - Quote 'Quote Test 1118' has been updated.
+DEBUG 2018-11-06 17:19:06,038 2763677ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-06 17:19:06,311 2763950ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-06 17:19:06,348 2763987ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-06 17:19:10,803 2768442ms Repository             ItemsQueryBySearch - search.TotalRecords : 3
+INFO  2018-11-06 17:20:03,527 2821166ms ProjectServices        SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.ProjectModel Entity: DPO.Data.Project Description: Project 'Test DAR email 5/24'
+DEBUG 2018-11-06 17:20:03,565 2821204ms ProjectServices        SaveToDatabase     - Get the Entry
+DEBUG 2018-11-06 17:20:03,601 2821240ms ProjectServices        SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-06 17:20:03,637 2821276ms ProjectServices        SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-06 17:20:03,672 2821311ms ProjectServices        SaveToDatabase     - Project 'Test DAR email 5/24' has been updated.
+DEBUG 2018-11-06 17:20:03,710 2821349ms ProjectServices        SaveToDatabase     - try to save to database
+DEBUG 2018-11-06 17:20:03,923 2821562ms ProjectServices        SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-06 17:20:03,960 2821599ms ProjectServices        SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.ProjectModel
+INFO  2018-11-06 17:20:26,111 2843750ms ProjectServices        SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.ProjectModel Entity: DPO.Data.Project Description: Project 'Test DAR email 5/24'
+DEBUG 2018-11-06 17:20:26,150 2843789ms ProjectServices        SaveToDatabase     - Get the Entry
+DEBUG 2018-11-06 17:20:26,187 2843826ms ProjectServices        SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-06 17:20:26,222 2843861ms ProjectServices        SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-06 17:20:26,260 2843899ms ProjectServices        SaveToDatabase     - Project 'Test DAR email 5/24' has been updated.
+DEBUG 2018-11-06 17:20:26,296 2843935ms ProjectServices        SaveToDatabase     - try to save to database
+DEBUG 2018-11-06 17:20:26,504 2844143ms ProjectServices        SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-06 17:20:26,539 2844178ms ProjectServices        SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.ProjectModel
+INFO  2018-11-06 17:20:52,953 2870592ms QuoteServices          GetEntity          - Enter GetEntity for quote: Quote Test 1118
+DEBUG 2018-11-06 17:20:58,135 2875774ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 3
+DEBUG 2018-11-06 17:20:58,166 2875805ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+DEBUG 2018-11-06 17:20:58,194 2875833ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+DEBUG 2018-11-06 17:20:58,222 2875861ms QuoteServices          alculateUnitCounts - DPO.Data.QuoteItem
+INFO  2018-11-06 17:21:00,975 2878614ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'Quote Test 1118'
+DEBUG 2018-11-06 17:21:01,004 2878643ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-06 17:21:02,017 2879656ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-06 17:21:02,042 2879681ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-06 17:21:02,069 2879708ms QuoteServices          SaveToDatabase     - Quote 'Quote Test 1118' has been updated.
+DEBUG 2018-11-06 17:21:02,093 2879732ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-06 17:21:02,251 2879890ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-06 17:21:02,277 2879916ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+DEBUG 2018-11-06 17:21:33,909 2911548ms BaseController         ndEmailOrderSubmit - sendEmailModel.OtherAttachmentFiles: System.Collections.Generic.List`1[System.String]
+ERROR 2018-11-06 17:21:43,999 2921638ms EmailServices          dCompletedCallback - Send Order submit email failed. Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+ERROR 2018-11-06 17:21:44,085 2921724ms EmailServices          dCompletedCallback - Send Order submit email failed. Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+INFO  2018-11-06 17:21:45,903 2923542ms Repository             ItemsQueryBySearch - search.TotalRecords : 3
+INFO  2018-11-07 13:13:17,109 706300ms UserServices           SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.UserModel Entity: DPO.Data.User Description: User 'User 44 Smith Shcuster'
+DEBUG 2018-11-07 13:13:17,239 706430ms UserServices           SaveToDatabase     - Get the Entry
+DEBUG 2018-11-07 13:13:17,295 706486ms UserServices           SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-07 13:13:17,332 706523ms UserServices           SaveToDatabase     - try to save to database
+INFO  2018-11-07 13:13:17,363 706554ms UserServices           SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.UserModel
+ERROR 2018-11-07 13:13:42,618 731809ms EmailServices          dCompletedCallback - Send Order submit email failed. Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+ERROR 2018-11-07 13:13:50,016 739207ms EmailServices          dCompletedCallback - Send Order submit email failed. Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+INFO  2018-11-07 13:13:54,597 743788ms UserServices           SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.UserModel Entity: DPO.Data.User Description: User 'User 44 Smith Shcuster'
+DEBUG 2018-11-07 13:13:54,614 743805ms UserServices           SaveToDatabase     - Get the Entry
+DEBUG 2018-11-07 13:13:54,631 743822ms UserServices           SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-07 13:13:54,649 743840ms UserServices           SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-07 13:13:54,700 743891ms UserServices           SaveToDatabase     - User 'User 44 Smith Shcuster' has been updated.
+DEBUG 2018-11-07 13:13:54,717 743908ms UserServices           SaveToDatabase     - try to save to database
+DEBUG 2018-11-07 13:13:54,853 744044ms UserServices           SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-07 13:13:54,870 744061ms UserServices           SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.UserModel
+INFO  2018-11-07 13:15:03,728 812919ms UserServices           SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.UserModel Entity: DPO.Data.User Description: User 'User 44 Smith Shcuster'
+DEBUG 2018-11-07 13:15:03,767 812958ms UserServices           SaveToDatabase     - Get the Entry
+DEBUG 2018-11-07 13:15:03,806 812997ms UserServices           SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-07 13:15:03,845 813036ms UserServices           SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-07 13:15:03,943 813134ms UserServices           SaveToDatabase     - User 'User 44 Smith Shcuster' has been updated.
+DEBUG 2018-11-07 13:15:03,983 813174ms UserServices           SaveToDatabase     - try to save to database
+FATAL 2018-11-07 13:15:04,241 813432ms UserServices           SaveToDatabase     - Exception Source for DPO.Common.UserModel: EntityFramework
+FATAL 2018-11-07 13:15:04,279 813470ms UserServices           SaveToDatabase     - Exception for DPO.Common.UserModel: Store update, insert, or delete statement affected an unexpected number of rows (0). Entities may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=472540 for information on understanding and handling optimistic concurrency exceptions.
+FATAL 2018-11-07 13:15:04,319 813510ms UserServices           SaveToDatabase     - Inner Exception for DPO.Common.UserModel: Store update, insert, or delete statement affected an unexpected number of rows (0). Entities may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=472540 for information on understanding and handling optimistic concurrency exceptions.
+INFO  2018-11-07 13:15:04,360 813551ms UserServices           SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.UserModel
+INFO  2018-11-07 13:18:34,306 1023497ms UserServices           SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.UserModel Entity: DPO.Data.User Description: User 'User 44 Smith Shcuster'
+DEBUG 2018-11-07 13:18:34,345 1023536ms UserServices           SaveToDatabase     - Get the Entry
+DEBUG 2018-11-07 13:18:34,381 1023572ms UserServices           SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-07 13:18:34,415 1023606ms UserServices           SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-07 13:18:34,500 1023691ms UserServices           SaveToDatabase     - User 'User 44 Smith Shcuster' has been updated.
+DEBUG 2018-11-07 13:18:34,534 1023725ms UserServices           SaveToDatabase     - try to save to database
+DEBUG 2018-11-07 13:18:34,967 1024158ms UserServices           SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-07 13:18:35,006 1024197ms UserServices           SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.UserModel
+INFO  2018-11-07 13:22:15,825 1245016ms UserServices           SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.UserModel Entity: DPO.Data.User Description: User 'User 44 Smith Shcuster'
+DEBUG 2018-11-07 13:22:15,866 1245057ms UserServices           SaveToDatabase     - Get the Entry
+DEBUG 2018-11-07 13:22:15,904 1245095ms UserServices           SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-07 13:22:15,942 1245133ms UserServices           SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-07 13:22:16,096 1245287ms UserServices           SaveToDatabase     - User 'User 44 Smith Shcuster' has been updated.
+DEBUG 2018-11-07 13:22:16,133 1245324ms UserServices           SaveToDatabase     - try to save to database
+DEBUG 2018-11-07 13:22:16,290 1245481ms UserServices           SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-07 13:22:16,325 1245516ms UserServices           SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.UserModel
+INFO  2018-11-07 13:22:19,728 1248919ms UserServices           SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.UserModel Entity: DPO.Data.User Description: User 'User 44 Smith Shcuster'
+DEBUG 2018-11-07 13:22:19,763 1248954ms UserServices           SaveToDatabase     - Get the Entry
+DEBUG 2018-11-07 13:22:19,800 1248991ms UserServices           SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-07 13:22:19,835 1249026ms UserServices           SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-07 13:22:19,916 1249107ms UserServices           SaveToDatabase     - User 'User 44 Smith Shcuster' has been updated.
+DEBUG 2018-11-07 13:22:19,951 1249142ms UserServices           SaveToDatabase     - try to save to database
+FATAL 2018-11-07 13:22:20,160 1249351ms UserServices           SaveToDatabase     - Exception Source for DPO.Common.UserModel: EntityFramework
+FATAL 2018-11-07 13:22:20,194 1249385ms UserServices           SaveToDatabase     - Exception for DPO.Common.UserModel: Store update, insert, or delete statement affected an unexpected number of rows (0). Entities may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=472540 for information on understanding and handling optimistic concurrency exceptions.
+FATAL 2018-11-07 13:22:20,229 1249420ms UserServices           SaveToDatabase     - Inner Exception for DPO.Common.UserModel: Store update, insert, or delete statement affected an unexpected number of rows (0). Entities may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=472540 for information on understanding and handling optimistic concurrency exceptions.
+INFO  2018-11-07 13:22:20,264 1249455ms UserServices           SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.UserModel
+ERROR 2018-11-07 13:22:28,959 1258150ms EmailServices          dCompletedCallback - Send Order submit email failed. Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+ERROR 2018-11-07 13:22:31,523 1260714ms EmailServices          dCompletedCallback - Send Order submit email failed. Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+INFO  2018-11-07 13:22:32,527 1261718ms UserServices           SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.UserModel Entity: DPO.Data.User Description: User 'User 44 Smith Shcuster'
+DEBUG 2018-11-07 13:22:32,567 1261758ms UserServices           SaveToDatabase     - Get the Entry
+DEBUG 2018-11-07 13:22:32,606 1261797ms UserServices           SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-07 13:22:32,642 1261833ms UserServices           SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-07 13:22:32,726 1261917ms UserServices           SaveToDatabase     - User 'User 44 Smith Shcuster' has been updated.
+DEBUG 2018-11-07 13:22:32,761 1261952ms UserServices           SaveToDatabase     - try to save to database
+FATAL 2018-11-07 13:22:32,984 1262175ms UserServices           SaveToDatabase     - Exception Source for DPO.Common.UserModel: EntityFramework
+FATAL 2018-11-07 13:22:33,018 1262209ms UserServices           SaveToDatabase     - Exception for DPO.Common.UserModel: Store update, insert, or delete statement affected an unexpected number of rows (0). Entities may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=472540 for information on understanding and handling optimistic concurrency exceptions.
+FATAL 2018-11-07 13:22:33,053 1262244ms UserServices           SaveToDatabase     - Inner Exception for DPO.Common.UserModel: Store update, insert, or delete statement affected an unexpected number of rows (0). Entities may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=472540 for information on understanding and handling optimistic concurrency exceptions.
+INFO  2018-11-07 13:22:33,092 1262283ms UserServices           SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.UserModel
+INFO  2018-11-07 13:55:31,010 3240201ms QuoteServices          GetEntity          - Enter GetEntity for quote: Revision test quote
+DEBUG 2018-11-07 13:55:35,191 3244382ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-07 13:55:37,462 3246653ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'Revision test quote'
+DEBUG 2018-11-07 13:55:37,474 3246665ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-07 13:55:37,971 3247162ms QuoteServices          SaveToDatabase     - NewRecordAdded: True
+DEBUG 2018-11-07 13:55:37,983 3247174ms QuoteServices          SaveToDatabase     - Entry.State == 'Added'
+INFO  2018-11-07 13:55:37,995 3247186ms QuoteServices          SaveToDatabase     - Quote 'Revision test quote' has been added.
+DEBUG 2018-11-07 13:55:38,005 3247196ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-07 13:55:38,205 3247396ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-07 13:55:38,220 3247411ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-07 13:56:27,080 3296271ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-07 13:56:31,221 3300412ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-07 13:56:33,457 3302648ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'Revision test quote'
+DEBUG 2018-11-07 13:56:33,493 3302684ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-07 13:56:34,910 3304101ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-07 13:56:34,944 3304135ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-07 13:56:34,982 3304173ms QuoteServices          SaveToDatabase     - Quote 'Revision test quote' has been updated.
+DEBUG 2018-11-07 13:56:35,032 3304223ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-07 13:56:35,362 3304553ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-07 13:56:35,611 3304802ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-07 13:57:22,881 3352072ms Repository             ItemsQueryBySearch - search.TotalRecords : 4
+INFO  2018-11-07 13:58:27,039 3416230ms ProjectServices        SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.ProjectModel Entity: DPO.Data.Project Description: Project 'Test999'
+DEBUG 2018-11-07 13:58:27,081 3416272ms ProjectServices        SaveToDatabase     - Get the Entry
+DEBUG 2018-11-07 13:58:27,116 3416307ms ProjectServices        SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-07 13:58:27,152 3416343ms ProjectServices        SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-07 13:58:27,184 3416375ms ProjectServices        SaveToDatabase     - Project 'Test999' has been updated.
+DEBUG 2018-11-07 13:58:27,225 3416416ms ProjectServices        SaveToDatabase     - try to save to database
+DEBUG 2018-11-07 13:58:27,417 3416608ms ProjectServices        SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-07 13:58:27,449 3416640ms ProjectServices        SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.ProjectModel
+INFO  2018-11-07 13:59:08,359 3457550ms ProjectServices        SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.ProjectModel Entity: DPO.Data.Project Description: Project 'Test999'
+DEBUG 2018-11-07 13:59:08,398 3457589ms ProjectServices        SaveToDatabase     - Get the Entry
+DEBUG 2018-11-07 13:59:08,438 3457629ms ProjectServices        SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-07 13:59:08,473 3457664ms ProjectServices        SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-07 13:59:08,511 3457702ms ProjectServices        SaveToDatabase     - Project 'Test999' has been updated.
+DEBUG 2018-11-07 13:59:08,547 3457738ms ProjectServices        SaveToDatabase     - try to save to database
+DEBUG 2018-11-07 13:59:08,748 3457939ms ProjectServices        SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-07 13:59:08,793 3457984ms ProjectServices        SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.ProjectModel
+INFO  2018-11-07 14:09:13,898 52478ms Repository             ItemsQueryBySearch - search.TotalRecords : 4
+INFO  2018-11-07 14:12:55,131 78271ms Repository             ItemsQueryBySearch - search.TotalRecords : 4
+INFO  2018-11-07 14:19:40,162 483301ms QuoteServices          GetEntity          - Enter GetEntity for quote: Revision test quote
+DEBUG 2018-11-07 14:19:45,319 488459ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-07 14:19:48,556 491696ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'Revision test quote'
+DEBUG 2018-11-07 14:19:48,591 491731ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-07 14:19:49,786 492925ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-07 14:19:49,817 492956ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-07 14:19:49,855 492994ms QuoteServices          SaveToDatabase     - Quote 'Revision test quote' has been updated.
+DEBUG 2018-11-07 14:19:49,887 493026ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-07 14:19:50,051 493190ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-07 14:19:50,081 493220ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-07 14:23:18,726 701865ms QuoteServices          GetEntity          - Enter GetEntity for quote: Revision test quote
+DEBUG 2018-11-07 14:23:24,426 707566ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-07 14:23:26,939 710078ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'Revision test quote'
+DEBUG 2018-11-07 14:23:26,968 710107ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-07 14:23:28,097 711236ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-07 14:23:28,124 711263ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-07 14:23:28,153 711292ms QuoteServices          SaveToDatabase     - Quote 'Revision test quote' has been updated.
+DEBUG 2018-11-07 14:23:28,181 711320ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-07 14:23:28,334 711473ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-07 14:23:28,357 711496ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-07 14:27:37,472 75606ms Repository             ItemsQueryBySearch - search.TotalRecords : 4
+INFO  2018-11-07 14:31:36,913 315047ms QuoteServices          GetEntity          - Enter GetEntity for quote: Revision test quote
+DEBUG 2018-11-07 14:31:46,959 325093ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-07 14:31:51,380 329514ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'Revision test quote'
+DEBUG 2018-11-07 14:31:51,412 329546ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-07 14:31:52,676 330811ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-07 14:31:52,707 330842ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-07 14:31:52,741 330876ms QuoteServices          SaveToDatabase     - Quote 'Revision test quote' has been updated.
+DEBUG 2018-11-07 14:31:52,771 330906ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-07 14:31:53,001 331136ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-07 14:31:53,031 331166ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+DEBUG 2018-11-07 14:33:00,496 398630ms BaseController         ndEmailOrderSubmit - sendEmailModel.OtherAttachmentFiles: System.Collections.Generic.List`1[System.String]
+ERROR 2018-11-07 14:33:12,489 410624ms EmailServices          dCompletedCallback - Send Order submit email failed. Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+ERROR 2018-11-07 14:33:12,500 410635ms EmailServices          dCompletedCallback - Send Order submit email failed. Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+INFO  2018-11-07 14:33:12,672 410807ms Repository             ItemsQueryBySearch - search.TotalRecords : 4
+INFO  2018-11-07 14:48:35,077 46019ms Repository             ItemsQueryBySearch - search.TotalRecords : 4
+INFO  2018-11-07 14:49:20,009 90951ms ProjectServices        SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.ProjectModel Entity: DPO.Data.Project Description: Project 'RBTestData'
+DEBUG 2018-11-07 14:49:20,062 91004ms ProjectServices        SaveToDatabase     - Get the Entry
+DEBUG 2018-11-07 14:49:20,104 91046ms ProjectServices        SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-07 14:49:20,141 91083ms ProjectServices        SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-07 14:49:20,177 91119ms ProjectServices        SaveToDatabase     - Project 'RBTestData' has been updated.
+DEBUG 2018-11-07 14:49:20,212 91154ms ProjectServices        SaveToDatabase     - try to save to database
+DEBUG 2018-11-07 14:49:20,436 91378ms ProjectServices        SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-07 14:49:20,469 91411ms ProjectServices        SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.ProjectModel
+INFO  2018-11-07 14:49:55,740 126682ms ProjectServices        SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.ProjectModel Entity: DPO.Data.Project Description: Project 'RBTestData'
+DEBUG 2018-11-07 14:49:55,779 126721ms ProjectServices        SaveToDatabase     - Get the Entry
+DEBUG 2018-11-07 14:49:55,819 126761ms ProjectServices        SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-07 14:49:55,857 126799ms ProjectServices        SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-07 14:49:55,896 126838ms ProjectServices        SaveToDatabase     - Project 'RBTestData' has been updated.
+DEBUG 2018-11-07 14:49:55,934 126876ms ProjectServices        SaveToDatabase     - try to save to database
+DEBUG 2018-11-07 14:49:56,184 127126ms ProjectServices        SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-07 14:49:56,222 127164ms ProjectServices        SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.ProjectModel
+INFO  2018-11-07 14:51:11,410 202351ms QuoteServices          GetEntity          - Enter GetEntity for quote: RBTest
+DEBUG 2018-11-07 14:51:17,474 208416ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-07 14:51:20,910 211851ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'RBTest'
+DEBUG 2018-11-07 14:51:20,921 211862ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-07 14:51:21,336 212277ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-07 14:51:21,347 212288ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-07 14:51:21,359 212300ms QuoteServices          SaveToDatabase     - Quote 'RBTest' has been updated.
+DEBUG 2018-11-07 14:51:21,369 212310ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-07 14:51:21,538 212479ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-07 14:51:21,548 212489ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-07 14:52:07,646 258588ms Repository             ItemsQueryBySearch - search.TotalRecords : 4
+INFO  2018-11-07 14:52:22,685 273626ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-07 14:52:29,772 280713ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-07 14:52:33,242 284183ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Data.QuoteItem Entity: DPO.Data.Quote Description: Quote 'RBTest'
+DEBUG 2018-11-07 14:52:33,275 284216ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-07 14:52:34,315 285256ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-07 14:52:34,345 285286ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-07 14:52:34,379 285320ms QuoteServices          SaveToDatabase     - Quote 'RBTest' has been updated.
+DEBUG 2018-11-07 14:52:34,405 285346ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-07 14:52:34,779 285720ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-07 14:52:34,820 285761ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Data.QuoteItem
+INFO  2018-11-07 14:52:35,157 286098ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-07 14:52:40,118 291059ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-07 14:52:43,683 294624ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-07 14:52:55,678 306619ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-07 14:52:59,278 310219ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Data.QuoteItem Entity: DPO.Data.Quote Description: Quote 'RBTest'
+DEBUG 2018-11-07 14:52:59,333 310274ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-07 14:53:00,203 311144ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-07 14:53:00,245 311186ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-07 14:53:00,275 311216ms QuoteServices          SaveToDatabase     - Quote 'RBTest' has been updated.
+DEBUG 2018-11-07 14:53:00,307 311248ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-07 14:53:00,637 311578ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-07 14:53:00,663 311604ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Data.QuoteItem
+INFO  2018-11-07 14:53:00,688 311629ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-07 14:53:05,715 316656ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-07 14:53:09,522 320463ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-07 14:53:18,857 329798ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-07 14:53:22,057 332998ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Data.QuoteItem Entity: DPO.Data.Quote Description: Quote 'RBTest'
+DEBUG 2018-11-07 14:53:22,095 333036ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-07 14:53:22,915 333856ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-07 14:53:22,950 333891ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-07 14:53:22,985 333926ms QuoteServices          SaveToDatabase     - Quote 'RBTest' has been updated.
+DEBUG 2018-11-07 14:53:23,018 333959ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-07 14:53:23,232 334173ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-07 14:53:23,266 334207ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Data.QuoteItem
+INFO  2018-11-07 14:53:23,300 334241ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-07 14:53:29,071 340012ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-07 14:53:32,473 343414ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-07 14:53:43,064 354005ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-07 14:53:46,409 357351ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Data.QuoteItem Entity: DPO.Data.Quote Description: Quote 'RBTest'
+DEBUG 2018-11-07 14:53:46,443 357385ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-07 14:53:47,255 358197ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-07 14:53:47,291 358233ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-07 14:53:47,325 358267ms QuoteServices          SaveToDatabase     - Quote 'RBTest' has been updated.
+DEBUG 2018-11-07 14:53:47,359 358301ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-07 14:53:47,621 358563ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-07 14:53:47,654 358596ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Data.QuoteItem
+INFO  2018-11-07 14:53:47,687 358629ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-07 14:53:53,212 364153ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-07 14:53:56,325 367267ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-07 14:54:04,763 375704ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-07 14:54:08,269 379211ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'RBTest'
+DEBUG 2018-11-07 14:54:08,295 379237ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-07 14:54:08,891 379832ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-07 14:54:08,917 379858ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-07 14:54:08,943 379884ms QuoteServices          SaveToDatabase     - Quote 'RBTest' has been updated.
+DEBUG 2018-11-07 14:54:08,967 379908ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-07 14:54:09,125 380066ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-07 14:54:09,150 380091ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-07 14:54:45,486 416427ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-07 14:54:51,844 422785ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-07 14:54:54,978 425919ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'RBTest'
+DEBUG 2018-11-07 14:54:55,015 425956ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-07 14:54:56,282 427224ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-07 14:54:56,317 427259ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-07 14:54:56,351 427293ms QuoteServices          SaveToDatabase     - Quote 'RBTest' has been updated.
+DEBUG 2018-11-07 14:54:56,383 427325ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-07 14:54:56,728 427670ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-07 14:54:56,763 427705ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-07 14:55:15,346 446287ms Repository             ItemsQueryBySearch - search.TotalRecords : 3
+INFO  2018-11-07 14:57:42,517 593459ms QuoteServices          GetEntity          - Enter GetEntity for quote: RBTest
+DEBUG 2018-11-07 14:57:48,386 599328ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-07 14:57:51,228 602170ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'RBTest'
+DEBUG 2018-11-07 14:57:51,257 602199ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-07 14:57:52,251 603193ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-07 14:57:52,280 603222ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-07 14:57:52,309 603251ms QuoteServices          SaveToDatabase     - Quote 'RBTest' has been updated.
+DEBUG 2018-11-07 14:57:52,337 603279ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-07 14:57:52,498 603440ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-07 14:57:52,527 603469ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+DEBUG 2018-11-07 14:58:25,776 636718ms BaseController         ndEmailOrderSubmit - sendEmailModel.OtherAttachmentFiles: System.Collections.Generic.List`1[System.String]
+ERROR 2018-11-07 14:59:03,158 674100ms EmailServices          dCompletedCallback - Send Order submit email failed. Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+ERROR 2018-11-07 14:59:03,177 674119ms EmailServices          dCompletedCallback - Send Order submit email failed. Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+INFO  2018-11-07 14:59:05,284 676226ms Repository             ItemsQueryBySearch - search.TotalRecords : 3
+INFO  2018-11-09 14:26:19,505 371995ms Repository             ItemsQueryBySearch - search.TotalRecords : 1
+INFO  2018-11-09 14:31:37,049 689539ms ProjectServices        SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.ProjectModel Entity: DPO.Data.Project Description: Project 'Projecttest'
+DEBUG 2018-11-09 14:31:37,096 689586ms ProjectServices        SaveToDatabase     - Get the Entry
+DEBUG 2018-11-09 14:31:37,131 689621ms ProjectServices        SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-09 14:31:37,165 689655ms ProjectServices        SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-09 14:31:37,204 689694ms ProjectServices        SaveToDatabase     - Project 'Projecttest' has been updated.
+DEBUG 2018-11-09 14:31:37,237 689727ms ProjectServices        SaveToDatabase     - try to save to database
+DEBUG 2018-11-09 14:31:37,587 690077ms ProjectServices        SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-09 14:31:37,622 690112ms ProjectServices        SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.ProjectModel
+INFO  2018-11-09 14:32:04,046 716536ms ProjectServices        SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.ProjectModel Entity: DPO.Data.Project Description: Project 'Projecttest'
+DEBUG 2018-11-09 14:32:04,081 716571ms ProjectServices        SaveToDatabase     - Get the Entry
+DEBUG 2018-11-09 14:32:04,118 716608ms ProjectServices        SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-09 14:32:04,154 716644ms ProjectServices        SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-09 14:32:04,193 716683ms ProjectServices        SaveToDatabase     - Project 'Projecttest' has been updated.
+DEBUG 2018-11-09 14:32:04,231 716721ms ProjectServices        SaveToDatabase     - try to save to database
+DEBUG 2018-11-09 14:32:04,518 717008ms ProjectServices        SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-09 14:32:04,563 717053ms ProjectServices        SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.ProjectModel
+INFO  2018-11-09 14:37:53,367 82061ms Repository             ItemsQueryBySearch - search.TotalRecords : 1
+INFO  2018-11-09 14:40:22,733 231427ms QuoteServices          GetEntity          - Enter GetEntity for quote: projecttest
+DEBUG 2018-11-09 14:40:33,872 242566ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-09 14:40:40,517 249211ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'projecttest'
+DEBUG 2018-11-09 14:40:40,551 249245ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-09 14:40:41,931 250625ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-09 14:40:41,962 250656ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-09 14:40:41,997 250691ms QuoteServices          SaveToDatabase     - Quote 'projecttest' has been updated.
+DEBUG 2018-11-09 14:40:42,028 250722ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-09 14:40:42,257 250951ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-09 14:40:42,289 250983ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-09 14:46:18,131 137177ms Repository             ItemsQueryBySearch - search.TotalRecords : 1
+INFO  2018-11-09 14:47:03,625 182671ms QuoteServices          GetEntity          - Enter GetEntity for quote: projecttest
+DEBUG 2018-11-09 14:47:12,936 191982ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-09 14:47:16,946 195992ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'projecttest'
+DEBUG 2018-11-09 14:47:17,020 196066ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-09 14:47:18,132 197178ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-09 14:47:18,155 197201ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-09 14:47:18,186 197232ms QuoteServices          SaveToDatabase     - Quote 'projecttest' has been updated.
+DEBUG 2018-11-09 14:47:18,208 197254ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-09 14:47:18,424 197470ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-09 14:47:18,450 197496ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-09 14:48:19,190 258236ms QuoteServices          GetEntity          - Enter GetEntity for quote: projecttest
+DEBUG 2018-11-09 14:48:26,784 265830ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-09 14:48:30,666 269712ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'projecttest'
+DEBUG 2018-11-09 14:48:30,703 269749ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-09 14:48:31,833 270879ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-09 14:48:31,875 270921ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-09 14:48:31,905 270951ms QuoteServices          SaveToDatabase     - Quote 'projecttest' has been updated.
+DEBUG 2018-11-09 14:48:31,936 270982ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-09 14:48:32,155 271201ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-09 14:48:32,184 271230ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-09 14:49:16,058 315104ms Repository             ItemsQueryBySearch - search.TotalRecords : 1
+INFO  2018-11-09 14:49:22,613 321659ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-09 14:49:29,628 328674ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-09 14:49:33,480 332526ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Data.QuoteItem Entity: DPO.Data.Quote Description: Quote 'projecttest'
+DEBUG 2018-11-09 14:49:33,514 332560ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-09 14:49:35,007 334053ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-09 14:49:35,039 334085ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-09 14:49:35,071 334117ms QuoteServices          SaveToDatabase     - Quote 'projecttest' has been updated.
+DEBUG 2018-11-09 14:49:35,102 334148ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-09 14:49:35,579 334625ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-09 14:49:35,616 334662ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Data.QuoteItem
+INFO  2018-11-09 14:49:35,661 334707ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-09 14:49:41,806 340852ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-09 14:49:45,634 344680ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-09 14:49:54,898 353944ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-09 14:49:58,948 357994ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'projecttest'
+DEBUG 2018-11-09 14:49:58,985 358031ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-09 14:49:59,875 358921ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-09 14:49:59,916 358962ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-09 14:49:59,969 359015ms QuoteServices          SaveToDatabase     - Quote 'projecttest' has been updated.
+DEBUG 2018-11-09 14:50:00,014 359060ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-09 14:50:00,261 359307ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-09 14:50:00,298 359344ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-09 14:50:40,030 399076ms QuoteServices          GetEntity          - Enter GetEntity for quote: 
+DEBUG 2018-11-09 14:50:48,038 407084ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-09 14:50:51,943 410989ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'projecttest'
+DEBUG 2018-11-09 14:50:51,982 411028ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-09 14:50:53,223 412269ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-09 14:50:53,258 412304ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-09 14:50:53,295 412341ms QuoteServices          SaveToDatabase     - Quote 'projecttest' has been updated.
+DEBUG 2018-11-09 14:50:53,333 412379ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-09 14:50:53,859 412905ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-09 14:50:53,896 412942ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-09 14:51:07,670 426716ms Repository             ItemsQueryBySearch - search.TotalRecords : 4
+INFO  2018-11-09 14:53:36,620 575666ms QuoteServices          GetEntity          - Enter GetEntity for quote: projecttest
+DEBUG 2018-11-09 14:53:44,277 583323ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+INFO  2018-11-09 14:53:48,351 587397ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'projecttest'
+DEBUG 2018-11-09 14:53:48,635 587681ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-11-09 14:53:49,689 588735ms QuoteServices          SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-11-09 14:53:49,720 588766ms QuoteServices          SaveToDatabase     - Entry.State = 'modified'
+INFO  2018-11-09 14:53:49,750 588796ms QuoteServices          SaveToDatabase     - Quote 'projecttest' has been updated.
+DEBUG 2018-11-09 14:53:49,784 588830ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-11-09 14:53:50,015 589061ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-11-09 14:53:50,045 589091ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+INFO  2018-11-09 14:56:42,329 761375ms Repository             ItemsQueryBySearch - search.TotalRecords : 4
+DEBUG 2018-11-09 14:56:51,986 771032ms BaseController         ndEmailOrderSubmit - sendEmailModel.OtherAttachmentFiles: System.Collections.Generic.List`1[System.String]
+ERROR 2018-11-09 14:57:52,107 831153ms EmailServices          dCompletedCallback - Send Order submit email failed. Failure sending mail.
+ERROR 2018-11-09 14:57:52,133 831179ms EmailServices          dCompletedCallback - Send Order submit email failed. Unable to connect to the remote server
+INFO  2018-12-04 16:47:11,156 150490ms UserServices           SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.UserModel Entity: DPO.Data.User Description: User 'user 65 Test'
+DEBUG 2018-12-04 16:47:11,245 150579ms UserServices           SaveToDatabase     - Get the Entry
+DEBUG 2018-12-04 16:47:11,280 150614ms UserServices           SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-12-04 16:47:11,309 150643ms UserServices           SaveToDatabase     - try to save to database
+INFO  2018-12-04 16:47:11,345 150679ms UserServices           SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.UserModel
+DEBUG 2018-12-04 16:48:28,968 228302ms EmailServices          dCompletedCallback - Send Order submit email completed successfully
+INFO  2018-12-04 16:52:33,746 473080ms UserServices           SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.UserModel Entity: DPO.Data.User Description: User 'user 68 Test'
+DEBUG 2018-12-04 16:52:33,785 473119ms UserServices           SaveToDatabase     - Get the Entry
+DEBUG 2018-12-04 16:52:33,827 473161ms UserServices           SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-12-04 16:52:33,868 473202ms UserServices           SaveToDatabase     - try to save to database
+INFO  2018-12-04 16:52:33,915 473249ms UserServices           SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.UserModel
+DEBUG 2018-12-04 16:52:46,668 486002ms EmailServices          dCompletedCallback - Send Order submit email completed successfully
+INFO  2018-12-04 17:02:53,643 1092977ms UserServices           SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.UserModel Entity: DPO.Data.User Description: User 'user 70 Test'
+DEBUG 2018-12-04 17:02:53,709 1093043ms UserServices           SaveToDatabase     - Get the Entry
+DEBUG 2018-12-04 17:02:53,756 1093090ms UserServices           SaveToDatabase     - NewRecordAdded: False
+DEBUG 2018-12-04 17:02:53,797 1093131ms UserServices           SaveToDatabase     - try to save to database
+INFO  2018-12-04 17:02:53,847 1093181ms UserServices           SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.UserModel
+DEBUG 2018-12-04 17:04:06,424 1165758ms EmailServices          dCompletedCallback - Send Order submit email completed successfully

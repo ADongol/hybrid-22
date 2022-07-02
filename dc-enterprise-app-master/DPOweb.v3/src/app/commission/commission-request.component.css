@@ -1,0 +1,73 @@
+﻿.commissionRequestForm {
+    background-color: #E5F2FA;
+}
+
+/*Desktop*/
+@media (min-width: 1200px) {
+    .commissionRequestForm {
+        padding: 20px 100px;
+    }
+}
+
+hr {
+    border-top-color:#a6d7ef;
+}
+
+
+legend {
+    border-bottom-color: #a0a0a0;
+    color: #00a1e4;
+    font-weight: bold;
+}
+
+h5 {
+    color: #00A1E4;
+    text-transform: uppercase;
+    font-family: "museo-sans", sans-serif;
+    font-weight: 600;
+}
+
+.dactbl-heading {
+    background-color: #E6EEF1;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.bluecell {
+    background-color: #DFF6FE;
+    color: #00A1E4;
+}
+
+.lightgreycell {
+    background-color:#E6EEF1;
+    color:black;
+}
+
+
+.no-margin {
+    margin:0px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #a6d7ef;
+}
+
+.padding-15 {
+    padding: 15px;
+}
+
+.totalcell {
+    font-size:24px;
+}
+
+/*Mobile*/
+/*@media (max-width: 576px) {
+    
+    .addressEdit {
+        float:right;
+    }
+}*/
+

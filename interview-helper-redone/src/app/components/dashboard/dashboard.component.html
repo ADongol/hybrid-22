@@ -1,0 +1,23 @@
+
+<div class="wrapper">
+    <ui-carousel #uiCarousel [infinite]="true" [fade]="true" [speed]="400" height="500px" width="100%" [dots]="true">
+        <ui-carousel-item>
+            <img src="assets/img/image1.jpg" alt="" draggable="false">
+        </ui-carousel-item>
+        <ui-carousel-item>
+            <img src="assets/img/image2.jpg" alt="" draggable="false">
+        </ui-carousel-item>
+        <ui-carousel-item>
+            <img src="assets/img/image3.jpg" alt="" draggable="false">
+        </ui-carousel-item>
+        <ui-carousel-item>
+            <img src="assets/img/image4.jpg" alt="" draggable="false">
+        </ui-carousel-item>
+
+        <div class="dots">
+            <div class="dot" (click)="uiCarousel.goTo(0)"></div>
+            <div class="dot" (click)="uiCarousel.goTo(1)"></div>
+            <div class="dot" (click)="uiCarousel.goTo(2)"></div>
+        </div>
+    </ui-carousel>   
+</div>

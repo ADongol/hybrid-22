@@ -1,0 +1,68 @@
+<library-header [homePage]="true" [userInfo]='userDetails'>
+	<library-search-section [advanceCheckboxes]="true" (quickSearchTerms)=quickSearchTerms($event) (userSelection)="userSelection($event)"
+	 [currentUserInfo]="userDetails" (advancedSearch)="advancedSearch($event)"></library-search-section>
+</library-header>
+<div class="mylibrary-fixed-wrap">
+	<button type="button" class="btn btn-mylibrary" (click)="goToMyLibrary()" *ngIf="userDetails?.Email">My Library ({{myLibrary.length}})</button>
+	<button type="button" class="btn btn-queue" (click)="goToDownloadQueue()">Download Queue ({{downloadQueue.length}})</button>
+</div>
+
+<!-- NEW library code Starts -->
+<div class="white-bg quick-search-section light-blue-bg ">
+	<div class="container container-1175">
+		<h2 class="quick-search-title">Select From Suggested Search Terms Below.</h2>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12">
+
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs tab-header" role="tablist">
+					<li role="presentation" [ngClass]="{'active': currentTab == 'productCategory'}" (click)="saveTab('productCategory')"><a href="#productCategory" aria-controls="productCategory" role="tab" data-toggle="tab">Product Category</a></li>
+					<li role="presentation" [ngClass]="{'active': currentTab == 'documentType'}" (click)="saveTab('documentType')"><a href="#documentType" aria-controls="documentType" role="tab" data-toggle="tab">Document Type</a></li>
+					<li role="presentation" [ngClass]="{'active': currentTab == 'general'}" *ngIf="userDetails?.Email" (click)="saveTab('general')"><a href="#general" aria-controls="general" role="tab" data-toggle="tab">General</a></li>
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content white-bg">
+					<div role="tabpanel" class="tab-pane" [ngClass]="{'active': currentTab == 'productCategory'}" id="productCategory">
+						<div class="row">
+							<div>
+								<ul>
+									<li class="col-xs-6 col-sm-6 col-md-3" *ngFor="let item of productCategory"><a (click)="productSelected(item);">{{item}}</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" [ngClass]="{'active': currentTab == 'documentType'}" id="documentType">
+						<div class="row">
+							<div>
+								<ul>
+									<li class="col-xs-6 col-sm-6 col-md-3" *ngFor="let item of documentTypes"><a (click)="documentTypeSelected(item);">{{item}}</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" [ngClass]="{'active': currentTab == 'general'}" id="general" *ngIf="userDetails?.Email">
+						<div class="row">
+							<div>
+								<ul>
+									<li class="col-xs-6 col-sm-6 col-md-3" *ngFor="let item of userDetails.DocumentType|sortByAlphabet:'DocTypeTitle';">
+										<a (click)="generalSelected(item.DocTypeTitle)">
+											{{item.DocTypeTitle}}
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+<recentDocuement-grid [currentUserInfo]="userDetails" (recentToLibrary)="recentToLibrary($event)" (emitLibraryPopupItems)="emitLibraryPopupItems($event)"
+ [resetRecentDocs]="resetRecentDocs"></recentDocuement-grid>
+
+<my-library #slider [DataInPopup]=DataInPopup (myLibraryToLibrary)="myLibraryToLibrary($event)" [libraryToMyLibary]='reGetAllData'
+ (emitLibrary)="emitLibrary($event)" (libraryPopupClose)="libraryPopupClose($event)" [currentUserInfo]="userDetails"></my-library>
+<loader *ngIf="showLoader"></loader>

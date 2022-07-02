@@ -1,0 +1,117 @@
+﻿@model ProductModel
+@{
+    Layout = null;
+    @Styles.Render("~/Content/css/pdf-base");
+
+    var accessoriesCount = Model.Accessories.Count();
+    int accessoryPageCount = (accessoriesCount / 25) + 1;   // 25 = number of rows per page for accessories
+    Model.PageTotal = (3 + accessoryPageCount);             // 3= # of pages up to accessories
+}
+<div class="pdf">
+    <div class="static-page">
+        @Html.Partial("SubmittalTemplate_Print_Header")
+        <div class="row">
+            @Html.Partial("ProductFeaturesAndBenefits")
+            @Html.Partial("SubmittalTemplate_ProductImageAndLogos")
+            <div class="row-end">&nbsp;</div>
+        </div>
+
+        @Html.Partial("ProductNotes")
+        @Html.Partial("SubmittalTemplate_Print_Footer")
+    </div>
+
+    <div class="new static-page">
+        @Html.Partial("SubmittalTemplate_Print_Header")
+        <div class="col-half">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="5"><b>Efficieny</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @Html.Partial("SubmittalTemplate_MultiZone_Efficiency")
+                </tbody>
+            </table>
+        </div>
+        <div class="col-half">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="4"><b>Performance</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @Html.Partial("SubmittalTemplate_MultiZone_Performance")
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-half pad-btm">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="3"><b>Electrical</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @Html.Partial("SubmittalTemplate_MultiZone_Electrical")
+                </tbody>
+            </table>
+        </div>
+
+       <div class="col-half pad-btm">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="5"><b>Piping</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @Html.Partial("SubmittalTemplate_MultiZone_Piping")
+                </tbody>
+            </table>
+        </div>
+        <div class="pad-btm">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="4"><b>Specifications</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @Html.Partial("SubmittalTemplate_MultiZone_Specifications")
+                </tbody>
+            </table>
+        </div>
+        @Html.Partial("SubmittalTemplate_Print_Footer")
+    </div>
+
+    <div class="new static-page">
+        @Html.Partial("SubmittalTemplate_Print_Header")
+        @Html.Partial("ProductDimensionalDrawing")
+        @Html.Partial("SubmittalTemplate_Print_Footer")
+    </div>
+
+    @if (accessoryPageCount > 0 && accessoriesCount >= 0)  //change to accessoriesCount >0 to NOT display the one default accy pg.
+    {
+        var accessoryRowsPerPage = 1;
+        for (int i = 0; i < accessoryPageCount; i += 1)
+        {
+            <div class="new static-page">
+                @Html.Partial("SubmittalTemplate_Print_Header")
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="4">Optional Accessories</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @Html.Partial("SubmittalTemplate_Accessories", new ViewDataDictionary(this.ViewData) { { "StartAccessoriesCount", @accessoryRowsPerPage } })
+                    </tbody>
+                </table>
+                @Html.Partial("SubmittalTemplate_Print_Footer")
+            </div>
+            accessoryRowsPerPage += 26;  //increment the Accessories Pages for 26 Rows/Records
+        }
+    }

@@ -1,0 +1,15 @@
+INFO  2018-06-25 15:09:30,630 34770ms DaikinServices         ImportGroupData    - Start import GroupData from Date: 09/30/2015 00:00:00
+DEBUG 2018-06-25 15:09:33,840 37980ms DaikinServices         ImportGroupData    - Start Update Group Information
+INFO  2018-06-25 15:09:33,849 37989ms Repository             teGroupInformation - Enter UpdateGroupInformation()
+INFO  2018-06-25 15:09:33,868 38008ms Repository             teGroupInformation - Start UpdateGroupRelationship
+INFO  2018-06-25 15:09:33,877 38017ms Repository             upSetRelationships - Enter UpdateGroupSetRelationships()
+INFO  2018-06-25 15:09:43,307 47447ms DaikinServices         ImportBusinessData - Start ImportBusinessData from Date: 09/30/2015 00:00:00
+DEBUG 2018-06-25 15:14:49,530 353670ms CRMAccountImport       LogAndNotifyError  - DPO.Common.Messages
+DEBUG 2018-06-25 15:16:03,877 428017ms CRMAccountImport       LogAndNotifyError  - DPO.Common.Messages
+DEBUG 2018-06-25 16:14:54,862 3959002ms CRMAccountImport       LogAndNotifyError  - DPO.Common.Messages
+DEBUG 2018-06-25 16:15:02,417 3966557ms CRMAccountImport       LogAndNotifyError  - DPO.Common.Messages
+DEBUG 2018-06-25 16:33:29,505 5073645ms CRMAccountImport       LogAndNotifyError  - DPO.Common.Messages
+DEBUG 2018-06-25 16:33:31,266 5075406ms CRMAccountImport       LogAndNotifyError  - DPO.Common.Messages
+DEBUG 2018-06-25 17:05:10,157 6974297ms CRMAccountImport       LogAndNotifyError  - DPO.Common.Messages
+DEBUG 2018-06-25 17:10:07,900 7272040ms CRMAccountImport       LogAndNotifyError  - DPO.Common.Messages
+DEBUG 2018-06-25 17:14:07,880 7512020ms CRMAccountImport       LogAndNotifyError  - DPO.Common.Messages

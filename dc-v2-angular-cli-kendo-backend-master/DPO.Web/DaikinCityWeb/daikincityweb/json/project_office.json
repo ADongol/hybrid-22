@@ -1,0 +1,32 @@
+﻿{
+  "building": {
+    "id": "10",
+    "type": "application",
+    "name": "Project Office",
+    "videoIn": "daikincityweb/video/ProjectOffice.mp4",
+    "videoInPoster": "daikincityweb/images/city.jpg",
+    "hotspotX": "30%",
+    "hotspotY": "35%",
+    "floors": {
+      "floor": [
+        {
+          "id": "1",
+          "type": "web",
+          "name": "Project Office",
+          "backgroundImage": "daikincityweb/images/buildings/projectoffice/bg.jpg",
+          "icon": "daikincityweb/images/buildings/projectoffice/projectoffice-icon.png",
+          "links": {
+            "link": [
+              {
+                "id": "1",
+                "title": "Project Office",
+                "description": "",
+                "url": "/ProjectDashboard/Overview"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

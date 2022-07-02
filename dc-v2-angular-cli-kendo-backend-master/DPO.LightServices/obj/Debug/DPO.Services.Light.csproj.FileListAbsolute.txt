@@ -1,0 +1,260 @@
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\DPO.LightServices.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\DPO.LightServices.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\DPO.LightServices.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\AutoMapper.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\DPO.Common.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\DPO.Data.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\DPO.Domain.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\DPO.Model.Light.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\DPO.Resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\MiniProfiler.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\log4net.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\Newtonsoft.Json.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\System.Web.Mvc.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\EO.Pdf.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\Elmah.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\FlakeGen.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\EntityFramework.Extended.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\Ghostscript.NET.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\NPOI.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\Renci.SshNet.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\CsvHelper.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\System.Web.Helpers.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\System.Net.Http.Formatting.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\System.Web.Razor.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\System.Web.WebPages.Razor.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\System.Web.WebPages.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\DPO.Common.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\DPO.Common.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\DPO.Resources.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\DPO.Resources.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\DPO.Data.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\DPO.Data.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\DPO.Domain.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\DPO.Domain.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\DPO.Model.Light.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\DPO.Model.Light.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\AutoMapper.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\MiniProfiler.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\MiniProfiler.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\log4net.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\Newtonsoft.Json.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\System.Web.Mvc.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\FlakeGen.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\FlakeGen.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\EntityFramework.Extended.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\Ghostscript.NET.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\NPOI.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\Renci.SshNet.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\CsvHelper.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\CsvHelper.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\System.Web.Helpers.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\System.Net.Http.Formatting.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\System.Web.Razor.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\System.Web.WebPages.Razor.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\System.Web.WebPages.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\en-CA\DPO.Resources.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\bin\Debug\en-GB\DPO.Resources.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\obj\Debug\DPO.Services.Light.csprojResolveAssemblyReference.cache
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\obj\Debug\DPO.Services.Light.csproj.CoreCompileInputs.cache
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\obj\Debug\DPO.LightServices.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.LightServices\obj\Debug\DPO.LightServices.pdb
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\DPO.LightServices.dll.config
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\DPO.LightServices.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\DPO.LightServices.pdb
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\AutoMapper.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\DPO.Common.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\DPO.Data.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\DPO.Domain.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\DPO.Model.Light.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\DPO.Resources.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\MiniProfiler.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\log4net.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\Newtonsoft.Json.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\System.Web.Mvc.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\EO.Pdf.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\Elmah.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\FlakeGen.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\EntityFramework.Extended.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\Ghostscript.NET.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\NPOI.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\Renci.SshNet.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\CsvHelper.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\System.Web.Helpers.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\System.Net.Http.Formatting.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\System.Web.Razor.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\System.Web.WebPages.Razor.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\System.Web.WebPages.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\DPO.Common.pdb
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\DPO.Common.dll.config
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\DPO.Resources.pdb
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\DPO.Resources.dll.config
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\DPO.Data.pdb
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\DPO.Data.dll.config
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\DPO.Domain.pdb
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\DPO.Domain.dll.config
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\DPO.Model.Light.pdb
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\DPO.Model.Light.dll.config
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\AutoMapper.xml
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\MiniProfiler.pdb
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\MiniProfiler.xml
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\log4net.xml
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\Newtonsoft.Json.xml
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\System.Web.Mvc.xml
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\FlakeGen.pdb
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\FlakeGen.dll.config
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\EntityFramework.Extended.xml
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\Ghostscript.NET.xml
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\NPOI.xml
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\Renci.SshNet.xml
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\CsvHelper.pdb
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\CsvHelper.xml
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\System.Web.Helpers.xml
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\System.Net.Http.Formatting.xml
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\System.Web.Razor.xml
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\System.Web.WebPages.Razor.xml
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\System.Web.WebPages.xml
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\en-CA\DPO.Resources.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\bin\Debug\en-GB\DPO.Resources.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\obj\Debug\DPO.Services.Light.csprojResolveAssemblyReference.cache
+C:\dttp-Projects\AngularCLI\DPO.LightServices\obj\Debug\DPO.Services.Light.csproj.CoreCompileInputs.cache
+C:\dttp-Projects\AngularCLI\DPO.LightServices\obj\Debug\DPO.LightServices.dll
+C:\dttp-Projects\AngularCLI\DPO.LightServices\obj\Debug\DPO.LightServices.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\DPO.LightServices.dll.config
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\DPO.LightServices.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\DPO.LightServices.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\AutoMapper.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\DPO.Common.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\DPO.Data.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\DPO.Domain.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\DPO.Model.Light.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\DPO.Resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\MiniProfiler.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\log4net.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\Newtonsoft.Json.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\System.Web.Mvc.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\EO.Pdf.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\Elmah.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\FlakeGen.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\EntityFramework.Extended.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\Ghostscript.NET.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\NPOI.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\Renci.SshNet.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\CsvHelper.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\System.Web.Helpers.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\System.Net.Http.Formatting.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\System.Web.Razor.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\System.Web.WebPages.Razor.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\System.Web.WebPages.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\DPO.Common.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\DPO.Common.dll.config
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\DPO.Resources.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\DPO.Resources.dll.config
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\DPO.Data.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\DPO.Data.dll.config
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\DPO.Domain.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\DPO.Domain.dll.config
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\DPO.Model.Light.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\DPO.Model.Light.dll.config
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\AutoMapper.xml
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\MiniProfiler.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\MiniProfiler.xml
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\log4net.xml
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\Newtonsoft.Json.xml
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\System.Web.Mvc.xml
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\FlakeGen.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\FlakeGen.dll.config
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\EntityFramework.Extended.xml
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\Ghostscript.NET.xml
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\NPOI.xml
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\Renci.SshNet.xml
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\CsvHelper.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\CsvHelper.xml
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\System.Web.Helpers.xml
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\System.Net.Http.Formatting.xml
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\System.Web.Razor.xml
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\System.Web.WebPages.Razor.xml
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\System.Web.WebPages.xml
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\en-CA\DPO.Resources.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\bin\Debug\en-GB\DPO.Resources.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\obj\Debug\DPO.Services.Light.csprojResolveAssemblyReference.cache
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\obj\Debug\DPO.Services.Light.csproj.CoreCompileInputs.cache
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\obj\Debug\DPO.LightServices.dll
+C:\dttp-Projects\AngularCLI-4\DPO.LightServices\obj\Debug\DPO.LightServices.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\DPO.LightServices.dll.config
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\DPO.LightServices.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\DPO.LightServices.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\AutoMapper.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\DPO.Common.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\DPO.Data.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\DPO.Domain.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\DPO.Model.Light.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\DPO.Resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\MiniProfiler.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\log4net.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\Newtonsoft.Json.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\System.Web.Mvc.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\EO.Pdf.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\Elmah.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\FlakeGen.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\EntityFramework.Extended.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\Ghostscript.NET.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\NPOI.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\Renci.SshNet.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\CsvHelper.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\System.Web.Helpers.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\System.Net.Http.Formatting.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\System.Web.Razor.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\System.Web.WebPages.Razor.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\System.Web.WebPages.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\DPO.Common.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\DPO.Common.dll.config
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\DPO.Resources.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\DPO.Resources.dll.config
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\DPO.Data.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\DPO.Data.dll.config
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\DPO.Domain.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\DPO.Domain.dll.config
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\DPO.Model.Light.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\DPO.Model.Light.dll.config
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\AutoMapper.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\MiniProfiler.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\MiniProfiler.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\log4net.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\Newtonsoft.Json.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\System.Web.Mvc.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\FlakeGen.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\FlakeGen.dll.config
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\EntityFramework.Extended.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\Ghostscript.NET.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\NPOI.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\Renci.SshNet.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\CsvHelper.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\CsvHelper.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\System.Web.Helpers.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\System.Net.Http.Formatting.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\System.Web.Razor.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\System.Web.WebPages.Razor.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\System.Web.WebPages.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\en-CA\DPO.Resources.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\bin\Debug\en-GB\DPO.Resources.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\obj\Debug\DPO.Services.Light.csprojResolveAssemblyReference.cache
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\obj\Debug\DPO.Services.Light.csproj.CoreCompileInputs.cache
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\obj\Debug\DPO.LightServices.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.LightServices\obj\Debug\DPO.LightServices.pdb

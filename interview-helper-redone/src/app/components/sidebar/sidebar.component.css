@@ -1,0 +1,26 @@
+.sidebar-menu-text {
+    display: inline;
+    vertical-align: bottom;
+    font-size: medium;
+}
+
+.material-icons {
+    font-size:15px;
+    padding: 10px 0px 5px 25px;    
+}
+
+.mat-tab-link {
+    opacity: 1;
+}
+
+.mat-tab-link:focus {
+    color: #800080;
+    /* obvious color for demo */
+}
+
+.list-item-active {
+    font-weight: bold;
+    color: mat-color(accent, darker) !important;
+    /* kbackground: rgba(0, 0, 0, 0.04); */
+    /* text-decoration: underline; */
+}

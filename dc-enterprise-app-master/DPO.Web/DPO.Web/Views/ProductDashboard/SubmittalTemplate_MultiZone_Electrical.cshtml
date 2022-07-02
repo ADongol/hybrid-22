@@ -1,0 +1,67 @@
+﻿@model ProductModel
+@{
+    var specs = Model.Specifications;
+}
+<tr>
+    @{
+        var PowerVoltages = specs.GetString("PowerVoltage");
+        if (PowerVoltages != null && PowerVoltages.Equals("208/230") || PowerVoltages != null && PowerVoltages.Equals("208/240"))
+        {
+            PowerVoltages = PowerVoltages.Replace('/','-');
+        }
+    }
+    @{
+        if (PowerVoltages.Contains("-"))
+        {
+            <td colspan="2">Power Supply (V/Hz/Ph): <br /> *See Engineering Manuals for other voltages.</td>
+            <td>*@PowerVoltages / @specs.GetString("PowerFrequency") / @specs.GetString("PowerPhase")</td>
+        }
+        else
+        {
+            <td colspan="2">Power Supply (V/Hz/Ph): </td>
+            <td>@PowerVoltages / @specs.GetString("PowerFrequency") / @specs.GetString("PowerPhase")</td>
+        }
+    }
+
+</tr>
+@{ 
+    if (specs.GetString("UnitType") == "Indoor")
+    {
+        <tr>
+            <td colspan="2">Running Current (A): <br />(Rated amps)</td>
+            <td>@specs.GetDecimal("MinCircuitAmps", "N1")</td>
+        </tr>
+        <tr>
+            <td colspan="2">Power Consumption (W): <br />(Rated watts)</td>
+            <td>@specs.GetDecimal("FanMotorOutput", "N1")FanMotorOutput?</td>
+        </tr>
+    }
+    else
+    {
+    <tr>
+        <td colspan="2">System MCA: <br />(Min.circuit amps)</td>
+        <td>@specs.GetDecimal("MinCircuitAmps", "N1")</td>
+    </tr>
+
+    <tr>
+        <td colspan="2">System MFA: <br />(Max.fuse amps)</td>
+        <td>@specs.GetDecimal("MaxOvercurrentProtection", "N1")</td>
+    </tr>
+
+    <tr>
+        <td colspan="2">Compressor RLA: <br />(Rated load amps)</td>
+        <td>@specs.GetDecimal("MaxStartingCurrent", "N1")</td>
+        @*or CompressorRLA*@
+   </tr>
+
+    <tr>
+        <td colspan="2">Outdoor fan motor FLA: <br />(Full load amps)</td>
+        <td>@specs.GetDecimal("OutdoorFLA", "N1")</td>
+    </tr>
+
+    <tr>
+        <td colspan="2">Outdoor fan motor W: <br />(Rated output watts)</td>
+        <td>@specs.GetDecimal("FanMotorOutput", "N1")FanMotorOutput?</td>
+    </tr>
+        }
+    }

@@ -1,0 +1,37 @@
+﻿
+<div id="content">
+    <block-ui></block-ui>
+
+    <div class="header" id="daikin-header">
+
+        <header-buttons [isAuthenticated]="userSvc.userIsAuthenticated"></header-buttons>
+    </div>
+
+
+    <div id="hiddenUserBasket"></div>
+
+    <!--Website maintenance popup message-->
+    <div id="testModeModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Website under maintenance</h4>
+                </div>
+                <div class="modal-body">
+                    <p *ngIf="webconfig">{{webconfig.testMode.testModeMessage}}</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Proceed anyway</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <router-outlet> </router-outlet>
+
+    
+
+</div>
+

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configurationSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:schemas-microsoft-com:xml-wcfconfigurationsnapshot">
+  <behaviors />
+  <bindings>
+    <binding digest="System.ServiceModel.Configuration.CustomBindingElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;CFG001RServicesPortBinding&quot;&gt;&lt;httpTransport /&gt;&lt;textMessageEncoding messageVersion=&quot;Soap12&quot; /&gt;&lt;/Data&gt;" bindingType="customBinding" name="CFG001RServicesPortBinding" />
+  </bindings>
+  <endpoints>
+    <endpoint normalizedDigest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://testdev.goodmanmfg.com:10172/web/services/CFG001RService/CFG001R&quot; binding=&quot;customBinding&quot; bindingConfiguration=&quot;CFG001RServicesPortBinding&quot; contract=&quot;MapicsOrderService.CFG001RServices&quot; name=&quot;CFG001RServicesPort&quot; /&gt;" digest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://testdev.goodmanmfg.com:10172/web/services/CFG001RService/CFG001R&quot; binding=&quot;customBinding&quot; bindingConfiguration=&quot;CFG001RServicesPortBinding&quot; contract=&quot;MapicsOrderService.CFG001RServices&quot; name=&quot;CFG001RServicesPort&quot; /&gt;" contractName="MapicsOrderService.CFG001RServices" name="CFG001RServicesPort" />
+  </endpoints>
+</configurationSnapshot>

@@ -1,0 +1,555 @@
+<loader *ngIf="showLoader"></loader>
+<library-header [homePage]="false" [userInfo]='userDetails'>
+  <library-search-section #searchSection [advanceCheckboxes]="true" (userSelection)="userSelection($event)" [currentUserInfo]="userDetails"></library-search-section>
+</library-header>
+<div class="container container-1175">
+  <div *ngIf="resultsFetched">
+    <div *ngIf="resultData?.length !==0">
+      <h3 class="heading custom-breadcrumb">
+        <a>
+        <span (click)="goToHome()" class="underlineText" *ngIf="currentChoice?.SearchField && currentChoice?.General !=='true'">{{currentChoice?.SearchField}}</span>
+        <span *ngIf="currentChoice?.SearchField && currentChoice?.General !=='true'"> ></span>
+        <span (click)="goToHome()"  class="underlineText" *ngIf="currentChoice?.SearchField && (currentChoice?.General=='true')">General </span>
+        <span  *ngIf="currentChoice?.SearchField && (currentChoice?.General=='true')">></span>
+        </a> {{SearchTerm}} ({{!resultData?0:resultFlatData.length}})
+      </h3>
+    </div>
+  </div>
+  <div *ngIf="resultsFetched">
+    <h3 *ngIf="resultData?.length ==0" class="heading">No Results Found</h3>
+  </div>
+  <div class="mylibrary-fixed-wrap">
+    <button type="button" class="btn btn-mylibrary" *ngIf="userDetails?.Email" (click)="goToMyLibrary()">My Library ({{!myLibrary?0:myLibrary.length}})</button>
+
+    <button type="button" class="btn btn-queue" (click)="goToDownloadQueue()">Download Queue ({{!downloadQueue?0:downloadQueue.length}})</button>
+  </div>
+  <!-- *ngIf="resultData.length !=0" -->
+  <div *ngIf="resultData?.length !=0" class="result-div">
+    <div class="row view-sort-section">
+      <div class="col-xs-12 col-sm-12 col-md-12 no-padding">
+        <div class="col-xs-6 col-sm-5 col-md-5 view-btn-wrap">
+          <div class="btn-group viewChangeButtonGroup">
+            <button type="button" (click)="changeView('tree')" [ngClass]="currentView === 'tree' ? 'btn btn-default view-selected' : 'btn btn-default view-buttons'"><span class="tree"></span> Tree</button>
+            <button type="button" (click)="changeView('grid')" [ngClass]="currentView === 'grid' ? 'btn btn-default view-selected' : 'btn btn-default view-buttons'"><span class="grid"></span> Grid</button>
+            <button type="button" (click)="changeView('list')" [ngClass]="currentView === 'list' ? 'btn btn-default view-selected' : 'btn btn-default view-buttons'"><span class="list"></span> List</button>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-7 col-md-7 sort-dropdown-wrap">
+          <div class="col-xs-6 col-sm-7 sort-result">
+            <h4>Sort Results By</h4>
+          </div>
+          <div class="col-xs-6 col-sm-5 select-btn">
+            <ng-select [items]="filterItems" (data)="setFilterSelection($event)" [(ngModel)]="selectedSorting" name="filter" (ngModelChange)="sortOnChange($event)"
+              placeholder="Date"></ng-select>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- |sortBy:sortTerm -->
+    <div *ngIf="currentView == 'tree'" class="row tree-row">
+      <div class="col-xs-12 col-sm-12 col-md-12">
+        <div class="panel-group tree-view" id="accordion">
+          <div *ngFor="let data of resultData|sortByAlphabet:'ProductCategory'; let i = index" class="border-fix">
+            <div class="panel panel-default">
+              <div class="panel-heading panel-light-blue tree-view-level-1">
+                <h4 class="panel-title"> <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#cat{{i}}">{{data.ProductCategory}} <span class="panel-count"><span>{{data.TotalCount}} &nbsp;</span><span>Items</span> </span></a></h4>
+              </div>
+              <div class="panel-body" id="cat{{i}}" class="panel-collapse collapse ">
+                <div *ngFor="let cat of data['DocumentType']|sortByAlphabet:'DocTypeTitle'; let j = index " class="panel-heading tree-view-level-2">
+                  <h4 class="panel-title"><a class="accordion-toggle collapsed" data-toggle="collapse" href="#cat{{i}}type{{j}}">{{cat.DocTypeTitle}}  <span class="panel-count"><span>{{cat.DocumentCount}} &nbsp;</span><span>Items</span> </span></a></h4>
+                  <div class="panel-body" id="cat{{i}}type{{j}}" class="accordion-body collapse tree-view-level-3">
+                    <ul class="list-group">
+                      <li *ngFor="let desc of cat['DocumentInfo']|sortBy:sortTerm; let x = index " class="list-group-item">
+                        <div class="border-grey">
+                          <div class="checkbox-wrap custom-checkbox">
+                            <div class="checkbox-grid">
+                              <label class="checkbox checkbox--material">
+                                <input type="checkbox"  [(ngModel)]="desc.state"  class="checkbox__input checkbox--material__input" (change)="addToQueue(desc,$event.target.checked,i,j,x)"  name="DocContent" value="">
+                                <div class="checkbox__checkmark checkbox--material__checkmark"></div></label>
+                            </div>
+                          </div>
+                          <div class=" model-series-wrap">
+                            <div class="model-series-number" (click)="showPreview(desc)">{{desc.DocTitle}}</div>
+                            <div class="model-series-title"> {{desc.ProductSeries}}</div>
+                          </div>
+                        </div>
+                        <div class="document-action-wrap text-right">
+                          <div class="document-actions">
+                            <span class="document-action-btns">
+                                <span *ngIf="!desc.isInMylibrary" popover="Add to Library" placement="bottom" triggers="mouseenter:mouseleave" (click)="addOrRemoveToLibrary(desc,'add',i,j,x)" class="bookmark-icon"> 
+                                  <img src="./assets/images/bookmark.png" /> 
+                                </span>
+                            <span *ngIf="desc.isInMylibrary" popover="Remove from my Library" placement="bottom" triggers="mouseenter:mouseleave" (click)="addOrRemoveToLibrary(desc,'remove',i,j,x)"
+                              class="bookmark-active-icon"> 
+                                <img src="./assets/images/bookmark_active.png" /> 
+                              </span>
+                            <span [ngClass]="{'no-popover': desc?.WebLink}" class="download-icon" popover="Download Now" placement="bottom" triggers="mouseenter:mouseleave"> 
+                              <a [ngClass]="{'disabled': desc?.WebLink}" (click)="desc.WebLink?'':downloadFile(desc)">
+                                <img src="./assets/images/download.png" /> 
+                              </a>
+                              </span>
+                            <span (click)="copyToClipBoard(desc.DocURL)" popover="Copy Link" placement="bottom" triggers="mouseenter:mouseleave" class="arrow-icon"> 
+                              <img src="./assets/images/arrow.png" /> 
+                            </span>
+                            </span>
+                            <input [disabled]="desc?.WebLink" *ngIf="!desc.inDownloadQueue" type="button" (click)="addToDownloadQueue(desc,true,i,j,x)"
+                              class="btn-primary black-button add-doc-btn" value="Add to Download Queue">
+                            <input [disabled]="desc?.WebLink" *ngIf="desc.inDownloadQueue" type="button" (click)="addToDownloadQueue(desc,false,i,j,x)"
+                              class="btn-primary remove-doc-btn" value="Remove From Download Queue">
+                          </div>
+                          <div class="published-date">
+                            <span class="date-size-wrap">
+                            <span class="date-size-wrap-inner">
+                             <span class="pub-date">Published: {{desc.PublishedDate| date: 'MM/dd/yyyy'}}</span>
+                            <span [ngClass]="{'no-docSize': !desc.DocSize}" class="doc-size">File Size: {{desc.DocSize |convertFileSize}}</span>
+                            </span>
+                            <span class="document-type-img">
+                               <img *ngIf="desc?.DocExtension.toUpperCase() == 'pdf'.toUpperCase()" src="./assets/images/pdf-type-icon.png" class="doc-type-icon">
+                                <img *ngIf="desc?.DocExtension.toUpperCase() == 'ppt'.toUpperCase()" src="./assets/images/ppt.png" class="doc-type-icon">
+                                <img *ngIf="desc?.DocExtension.toUpperCase() == 'pptx'.toUpperCase()" src="./assets/images/ppt.png" class="doc-type-icon">
+                                <img *ngIf="desc?.DocExtension.toUpperCase() == 'xls'.toUpperCase()" src="./assets/images/xls.png" class="doc-type-icon">
+                                <img *ngIf="desc?.DocExtension.toUpperCase() == 'xlsx'.toUpperCase()" src="./assets/images/xls.png" class="doc-type-icon">
+                                <img *ngIf="desc?.DocExtension.toUpperCase() == 'doc'.toUpperCase()" src="./assets/images/doc.png" class="doc-type-icon">
+                                <img *ngIf="desc?.DocExtension.toUpperCase() == 'docx'.toUpperCase()" src="./assets/images/doc.png" class="doc-type-icon">
+                                <img *ngIf="desc?.DocExtension.toUpperCase() == 'jpg'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+                                <img *ngIf="desc?.DocExtension.toUpperCase() == 'jpeg'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+                                <img *ngIf="desc?.DocExtension.toUpperCase() == 'png'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+                                <img *ngIf="desc?.DocExtension.toUpperCase() == 'bmp'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+                                <img *ngIf="desc?.DocExtension.toUpperCase() == 'gif'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+                                <img *ngIf="desc?.DocExtension.toUpperCase() == 'tiff'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+                                <img *ngIf="desc?.DocExtension.toUpperCase() == 'eps'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+                                <img *ngIf="desc?.DocExtension.toUpperCase() == 'dwg'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+                                <img *ngIf="desc?.DocExtension.toUpperCase() == 'cad'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+                                <img *ngIf="desc?.DocExtension.toUpperCase() == 'mp4'.toUpperCase()" src="./assets/images/play.png" class="doc-type-icon">
+                                <img *ngIf="desc?.DocExtension.toUpperCase() == 'ogv'.toUpperCase()" src="./assets/images/play.png" class="doc-type-icon">
+                                <img *ngIf="desc?.DocExtension.toUpperCase() == 'webm'.toUpperCase()" src="./assets/images/play.png" class="doc-type-icon">
+                                <img *ngIf="desc?.DocExtension.toUpperCase() == 'zip'.toUpperCase()" src="./assets/images/zip.png" class="doc-type-icon">
+                                <img *ngIf="desc?.WebLink" src="./assets/images/weblink.png" class="doc-type-icon">
+                          </span>
+                            </span>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="panel-group tree-view" id="accordion">
+          <div *ngFor="let data of resultData|sortByAlphabet:'ProductCategory'; let i = index" class="panel panel-default">
+            <div class="panel-heading panel-light-blue tree-view-level-1">
+              <h4 class="panel-title">
+                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne{{i}}">{{data.ProductCategory}} </a>
+              </h4>
+            </div>
+            <div id="collapseOne{{i}}" class="panel-collapse collapse">
+              <div class="panel-body">
+                <div *ngFor="let cat of data['DocumentType']|sortByAlphabet:'DocTypeTitle'; let j = index " class="panel-group" id="nested">
+                  <div class="panel panel-default tree-view-level-2">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#nested" href="#nestedCollapseOne{{i}}{{j}}">{{cat.DocTypeTitle}}</a>
+                      </h4>
+                    </div>
+                    <div id="nestedCollapseOne{{i}}{{j}}" class="panel-collapse collapse">
+                      <div class="panel-body accordion-body tree-view-level-3">
+                        <ul class="list-group">
+                          <li *ngFor="let desc of cat['DocumentInfo']|sortBy:sortTerm; let x = index" class="list-group-item">
+                            <div class="border-grey">
+                              <div class="checkbox-wrap custom-checkbox">
+                                <div class="checkbox-grid">
+                                  <label class="checkbox checkbox--material">
+                                <input type="checkbox" class="checkbox__input checkbox--material__input"  name="DocContent" value="">
+                                <div class="checkbox__checkmark checkbox--material__checkmark"></div></label>
+                                </div>
+                              </div>
+                              <div class="model-series-wrap">
+                                <div class="model-series-number">test</div>
+                                <div class="model-series-title"> test</div>
+                              </div>
+                            </div>
+                            <div class="document-action-wrap text-right">
+                              <div class="document-actions">
+                                <span class="document-action-btns">
+                                <span popover="Add to Library" placement="mouse" triggers="mouseenter:mouseleave" class="bookmark-icon"> 
+                                  <img src="./assets/images/bookmark.png" /> 
+                                </span>
+                                <span popover="Remove from my Library" placement="mouse" triggers="mouseenter:mouseleave" class="bookmark-active-icon"> 
+                                <img src="./assets/images/bookmark_active.png" /> 
+                              </span>
+                                <a> <span class="download-icon" popover="Download Now" placement="mouse" triggers="mouseenter:mouseleave"> 
+                                <img src="./assets/images/download.png" /> 
+                              </span></a>
+                                <span popover="Copy Link" placement="mouse" triggers="mouseenter:mouseleave" class="arrow-icon"> 
+                              <img src="./assets/images/arrow.png" /> 
+                            </span>
+                                </span>
+                                <input type="button" class="btn-primary black-button add-doc-btn" value="Add to Download Queue">
+                                <input type="button" class="btn-primary remove-doc-btn" value="Remove From Download Queue">
+                              </div>
+                              <div class="published-date">
+                                <span class="date-size-wrap">
+                            <span class="date-size-wrap-inner">
+                             <span class="pub-date">Published: 10/7/2017</span>
+                                <span class="doc-size">File Size: 210kb</span>
+                                </span>
+                                <span class="document-type-img">
+                            <img src="./assets/images/pdf-type-icon.png" class="doc-type-icon">
+                          
+                          </span>
+                                </span>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 views-document-buttons">
+        <a [ngClass]="{'disabled':queue?.length==0}" class="btn-grey" (click)="addAllToLibrary()">Add to Library ({{!queue?0:queue.length}})</a>
+        <a [ngClass]="{'disabled': weblinkInQueue||queue?.length==0}" class="black-button" (click)="addAllToDownloadQueue()">Add to Download Queue ({{!queue?0:queue.length}})</a>
+      </div>
+    </div>
+    <div *ngIf="currentView == 'grid'" class="row grid-row">
+      <div *ngFor="let data of resultData|sortByAlphabet:'ProductCategory'; let i = index">
+        <div *ngIf="!catSelected" class="col-xs-6 col-sm-6 col-md-4 col-lg-3 grid-view" (click)="gridMainCatSelected(i,data)">
+          <a><img class="grid-Image" src="./assets/images/grid-view-bg.jpg" alt="" /></a>
+          <h3 class="gridText">{{data.ProductCategory}} </h3>
+          <p class="grid-item-count">{{data.TotalCount}} Items</p>
+        </div>
+        <div *ngIf="i==gridSelectedIndex && catSelected">
+          <div *ngIf="!subCatSelected" class="col-xs-6 col-sm-6 col-md-4 col-lg-3 blank-grid cat" (click)="backToMainCat()">
+            <div class="backtomain match-height">
+              <a><img class="grid-Image" src="./assets/images/grey-bg.jpg" alt="" /></a>
+              <h3 class="blankGridText"><img src="./assets/images/arw-back.png"><span>Back to <br />{{clickedProductCategory|truncate:14}}</span></h3>
+            </div>
+          </div>
+          <div *ngFor="let cat of data['DocumentType']|sortByAlphabet:'DocTypeTitle'; let j = index ">
+            <div *ngIf="!subCatSelected" class="col-xs-6 col-sm-6 col-md-4 col-lg-3 grid-view" (click)="gridMainSubCatSelected(j,cat);">
+              <div class="match-height cat-item">
+                <a><img class="grid-Image" src="./assets/images/grid-view-bg.jpg" alt="" /></a>
+                <h3 class="gridText">{{cat.DocTypeTitle|truncate:14}} </h3>
+                <p class="grid-item-count">{{cat.DocumentCount|truncate:14}} Items</p>
+              </div>
+            </div>
+            <div *ngIf="j==gridSelectedCatIndex && subCatSelected">
+              <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 blank-grid sub-cat" (click)="backToSubCat()">
+                <a><img class="grid-Image" src="./assets/images/sub-cat.jpg" alt="" /></a>
+                <h3 class="blankGridText"><img src="./assets/images/arw-back.png"><span>Back to <br />{{clickedDocumentType|truncate:14}}</span></h3>
+              </div>
+              <div *ngFor="let desc of cat['DocumentInfo']|sortBy:sortTerm; let x = index ">
+                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-recently-viewed">
+                  <div class="col-xs-12 col-sm-12 col-md-12 border-col no-padding">
+                    <div [ngClass]="{'pdfBg':(desc?.DocExtension == 'pdf')}" class="col-md-12 col-recently-viewed-img text-center">
+                      <div class="custom-checkbox">
+                        <label class="checkbox checkbox--material">
+                      <input type="checkbox" [(ngModel)]="desc.state" class="checkbox__input checkbox--material__input" (change)="addToQueue(desc,$event.target.checked,i,j,x)"  name="DocContent" value="">
+                      <div class="checkbox__checkmark checkbox--material__checkmark"></div>
+                    </label>
+                      </div>
+                      <div (click)="showPreview(desc)">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'pdf'.toUpperCase()" src="{{desc.ThumbnailUrl}}" class="doc-type-img">
+                        <img *ngIf="desc?.DocExtension.toUpperCase()  == 'ppt'.toUpperCase()" src="./assets/images/ppt-lg.png" class="doc-type-img">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'pptx'.toUpperCase()" src="./assets/images/ppt-lg.png" class="doc-type-img">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'xls'.toUpperCase()" src="./assets/images/xls-lg.png" class="doc-type-img">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'xlsx'.toUpperCase()" src="./assets/images/xls-lg.png" class="doc-type-img">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'doc'.toUpperCase()" src="./assets/images/doc-lg.png" class="doc-type-img">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'docx'.toUpperCase()" src="./assets/images/doc-lg.png" class="doc-type-img">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'jpg'.toUpperCase()" src="{{desc.DocURL}}?download=true" class="doc-type-img">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'jpeg'.toUpperCase()" src="{{desc.DocURL}}?download=true" class="doc-type-img">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'png'.toUpperCase()" src="{{desc.DocURL}}?download=true" class="doc-type-img">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'bmp'.toUpperCase()" src="./assets/images/cam-lg.png" class="doc-type-img">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'gif'.toUpperCase()" src="./assets/images/cam-lg.png" class="doc-type-img">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'tiff'.toUpperCase()" src="./assets/images/cam-lg.png" class="doc-type-img">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'eps'.toUpperCase()" src="./assets/images/cam-lg.png" class="doc-type-img">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'dwg'.toUpperCase()" src="./assets/images/cam-lg.png" class="doc-type-img">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'cad'.toUpperCase()" src="./assets/images/cam-lg.png" class="doc-type-img">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'mp4'.toUpperCase()" src="./assets/images/play-lg.png" class="doc-type-img">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'ogv'.toUpperCase()" src="./assets/images/play-lg.png" class="doc-type-img">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'webm'.toUpperCase()" src="./assets/images/play-lg.png" class="doc-type-img">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'zip'.toUpperCase()" src="./assets/images/zip-lg.png" class="doc-type-img">
+                        <img *ngIf="desc?.WebLink" src="./assets/images/weblink-lg.png" class="doc-type-img">
+
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 list-inline-icons-wrap no-padding">
+                      <div class="action-item-bar text-center">
+                        <a class="add-library-btn" *ngIf="!desc.isInMylibrary" (click)="addOrRemoveToLibrary(desc,'add',i,j,x)" popover="Add to Library"
+                          placement="bottom" triggers="mouseenter:mouseleave">
+                      <img src="./assets/images/bookmark.png" class="img-responsive">
+                    </a>
+                        <a class="remove-btn" *ngIf="desc.isInMylibrary" (click)="addOrRemoveToLibrary(desc,'remove',i,j,x)" popover="Remove from my Library"
+                          placement="bottom" triggers="mouseenter:mouseleave">
+                      <img src="./assets/images/bookmark_active.png" class="img-responsive">
+                    </a>
+                        <a [ngClass]="{'disabled': desc?.WebLink,'no-popover':desc?.WebLink}" class="download-btn" popover="Download Now" placement="bottom"
+                          triggers="mouseenter:mouseleave" (click)="desc.WebLink?'':downloadFile(desc)">
+                      <img src="./assets/images/download.png" class="img-responsive">
+                    </a>
+                        <a class="copy-btn" (click)="copyToClipBoard(desc.DocURL)" popover="Copy Link" placement="bottom" triggers="mouseenter:mouseleave">
+                      <img src="./assets/images/arrow.png" class="img-responsive">
+                    </a>
+                      </div>
+
+                      <!-- <ul class="list-inline list-inline-icons-1">
+                    <li *ngIf="!desc.isInMylibrary" (click)="addOrRemoveToLibrary(desc,'add',i,j,x)" popover="Add to Library" placement="bottom"
+                    triggers="mouseenter:mouseleave"><img src="./assets/images/bookmark.png" class="img-responsive"></li>
+                    <li *ngIf="desc.isInMylibrary" (click)="addOrRemoveToLibrary(desc,'remove',i,j,x)" popover="Remove from my Library" placement="bottom"
+                    triggers="mouseenter:mouseleave"><img src="./assets/images/bookmark_active.png" class="img-responsive"></li>
+                    <li popover="Download Now" placement="bottom" triggers="mouseenter:mouseleave"> <a href={{desc.DocURL}}&download=true > <img src="./assets/images/download.png" class="img-responsive"></a></li>
+                    <li (click)="copyToClipBoard(desc.DocURL)" popover="Copy Link" placement="bottom" triggers="mouseenter:mouseleave" class="no-border-right"><img src="./assets/images/arrow.png" class="img-responsive"></li>
+                  </ul> -->
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                      <p class="p-alth" (click)="showPreview(desc)">{{desc.DocTitle|truncate:14}}&nbsp;</p>
+                      <p class="product-series">{{desc.ProductSeries|truncate:14}}&nbsp;</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 margin-bottom-22 doc-details">
+                      <div class="col-md-8 no-padding">
+                        <p class="p-alth2">{{clickedProductCategory|truncate:14}}&nbsp;</p>
+                        <p class="p-install">{{clickedDocumentType|truncate:14}}&nbsp;</p>
+                        <p class="p-published">Published: {{desc.PublishedDate| date: 'MM/dd/yyyy'}}</p>
+                        <p [ngClass]="{'no-docSize': !desc.DocSize}" class="p-filesize">File Size: {{desc.DocSize|convertFileSize}}&nbsp;</p>
+                      </div>
+                      <div class="col-xs-4 col-sm-4 col-md-4 col-pdf">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'pdf'.toUpperCase()" src="./assets/images/pdf-type-icon.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'ppt'.toUpperCase()" src="./assets/images/ppt.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'pptx'.toUpperCase()" src="./assets/images/ppt.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'xls'.toUpperCase()" src="./assets/images/xls.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'xlsx'.toUpperCase()" src="./assets/images/xls.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'doc'.toUpperCase()" src="./assets/images/doc.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'docx'.toUpperCase()" src="./assets/images/doc.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'jpg'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'jpeg'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'png'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'bmp'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'gif'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'tiff'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'eps'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'dwg'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'cad'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'mp4'.toUpperCase()" src="./assets/images/play.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'ogv'.toUpperCase()" src="./assets/images/play.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'webm'.toUpperCase()" src="./assets/images/play.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'zip'.toUpperCase()" src="./assets/images/zip.png" class="doc-type-icon">
+                        <img *ngIf="desc?.WebLink" src="./assets/images/weblink.png" class="doc-type-icon">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 no-padding col-download-a">
+                    <a [ngClass]="{'disabled': desc?.WebLink}" *ngIf="!desc.inDownloadQueue" (click)="addToDownloadQueue(desc,true,i,j,x)" class="btn btn-primary btn-block">Add to Download Queue</a>
+                    <a [ngClass]="{'disabled': desc?.WebLink}" *ngIf="desc.inDownloadQueue" (click)="addToDownloadQueue(desc,false,i,j,x)" class="btn btn-primary btn-remove">Remove From Download Queue</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-12 views-document-buttons">
+                <a [ngClass]="{'disabled':queue?.length==0}" class="btn-grey" (click)="addAllToLibrary()">Add to Library ({{!queue?0:queue.length}})</a>
+                <a [ngClass]="{'disabled': weblinkInQueue||queue?.length==0}" class="black-button" (click)="addAllToDownloadQueue()">Add to Download Queue ({{!queue?0:queue.length}})</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="currentView == 'list'" class="row list-row">
+      <div>
+        <div class="list-view">
+          <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="tree-view-level-2">
+              <ul class="list-group">
+                <li *ngFor="let desc of resultFlatData|sortBy:sortTerm|slice:(page-1)*limit:page*limit; let x = index " class="list-group-item">
+                  <div class="border-grey">
+                    <div class="checkbox-wrap custom-checkbox">
+                      <div class="checkbox-grid">
+                        <label class="checkbox checkbox--material">
+                      <input type="checkbox" [(ngModel)]="desc.state" class="checkbox__input checkbox--material__input" (change)="addToQueue(desc,$event.target.checked,i,j,x)"  name="DocContent" value="">
+                      <div class="checkbox__checkmark checkbox--material__checkmark"></div>
+                    </label>
+                      </div>
+                    </div>
+                    <div class="model-series-wrap">
+                      <div class="model-series-number" (click)="showPreview(desc)">{{desc.DocTitle}}</div>
+                      <div class="model-series-title"> {{desc.ProductSeries}}</div>
+                      <div class="model-series-breadcrumb">{{desc.ProductCategory}} > {{desc.DocTypeTitle}}</div>
+                    </div>
+                  </div>
+                  <div class="document-action-wrap text-right">
+                    <div class="document-actions">
+                      <span class="document-action-btns">
+                    <span *ngIf="!desc.isInMylibrary"  popover="Add to Library" placement="bottom" triggers="mouseenter:mouseleave" (click)="addOrRemoveToLibrary(desc,'add',i,j,x)" class="bookmark-icon"> 
+                      <img src="./assets/images/bookmark.png" /> 
+                    </span>
+                      <span *ngIf="desc.isInMylibrary" popover="Remove from my Library" placement="bottom" triggers="mouseenter:mouseleave" (click)="addOrRemoveToLibrary(desc,'remove',i,j,x)"
+                        class="bookmark-active-icon"> 
+                    <img src="./assets/images/bookmark_active.png" /> 
+                  </span>
+                      <span [ngClass]="{'no-popover': desc?.WebLink}" class="download-icon" popover="Download now" placement="bottom" triggers="mouseenter:mouseleave"
+                        placement="bottom"> 
+                        <a [ngClass]="{'disabled': desc?.WebLink}" (click)="desc.WebLink?'':downloadFile(desc)">
+                    <img src="./assets/images/download.png" /> 
+                  </a>
+                  </span>
+                      <span (click)="copyToClipBoard(desc.DocURL)" class="arrow-icon" popover="Copy Link" placement="bottom" triggers="mouseenter:mouseleave"> 
+                    <img src="./assets/images/arrow.png" /> 
+                  </span>
+                      </span>
+                      <input [disabled]="desc?.WebLink" *ngIf="!desc.inDownloadQueue" type="button" (click)="addToDownloadQueue(desc,true,i,j,x)"
+                        class="btn-primary black-button add-doc-btn" value="Add to Download Queue">
+                      <input [disabled]="desc?.WebLink" *ngIf="desc.inDownloadQueue" type="button" (click)="addToDownloadQueue(desc,false,i,j,x)"
+                        class="btn-primary remove-doc-btn" value="Remove From Download Queue">
+                    </div>
+                    <div class="published-date">
+                      <span class="date-size-wrap">
+                  <span class="date-size-wrap-inner">
+                   <span class="pub-date">Published: {{desc.PublishedDate| date: 'MM/dd/yyyy'}}</span>
+                      <span [ngClass]="{'no-docSize': !desc.DocSize}" class="doc-size">File Size: {{desc.DocSize|convertFileSize}}</span>
+                      </span>
+
+                      <span class="document-type-img">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'pdf'.toUpperCase()" src="./assets/images/pdf-type-icon.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'ppt'.toUpperCase()" src="./assets/images/ppt.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'pptx'.toUpperCase()" src="./assets/images/ppt.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'xls'.toUpperCase()" src="./assets/images/xls.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'xlsx'.toUpperCase()" src="./assets/images/xls.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'doc'.toUpperCase()" src="./assets/images/doc.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'docx'.toUpperCase()" src="./assets/images/doc.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'jpg'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'jpeg'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'png'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+                        <img *ngIf="item?.DocExtension.toUpperCase() == 'bmp'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+                        <img *ngIf="item?.DocExtension.toUpperCase() == 'gif'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+                        <img *ngIf="item?.DocExtension.toUpperCase() == 'tiff'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+                        <img *ngIf="item?.DocExtension.toUpperCase() == 'eps'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+                        <img *ngIf="item?.DocExtension.toUpperCase() == 'dwg'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+                        <img *ngIf="item?.DocExtension.toUpperCase() == 'cad'.toUpperCase()" src="./assets/images/cam.png" class="doc-type-icon">
+                        <img *ngIf="desc?.DocExtension.toUpperCase() == 'zip'.toUpperCase()" src="./assets/images/zip.png" class="doc-type-icon">
+                        <img *ngIf="desc?.WebLink" src="./assets/images/weblink.png" class="doc-type-icon">
+                      </span>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 views-document-buttons">
+        <a [ngClass]="{'disabled':queue?.length==0}" class="btn-grey" (click)="addAllToLibrary()">Add to Library ({{!queue?0:queue.length}})</a>
+        <a [ngClass]="{'disabled': weblinkInQueue||queue?.length==0}" class="black-button" (click)="addAllToDownloadQueue()">Add to Download Queue ({{!queue?0:queue.length}})</a>
+      </div>
+      <!-- This Pagination is Custom Pagination -->
+      <div *ngIf="resultFlatData?.length !==0" class="col-xs-12 col-sm-12 col-md-12">
+        <ul class="pagination">
+          <li><a aria-label="Previous" (click)="previous();" class="previous" [ngClass]="{'disabled':(page==1)}"> <span aria-hidden="true" class="ad-left"></span> </a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> Page {{page}} of {{ totalPage}} <span class="ads-arw-down"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li *ngFor="let item of noOfItemArray" (click)="goToPageNo(item)">Page {{item.totalNoOfPages}}</li>
+            </ul>
+          </li>
+          <li><a aria-label="Next" class="next" [ngClass]="{'disabled':(page==totalPage)}" (click)="next();"> <span aria-hidden="true" class="ad-right"></span> </a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  <!-- This Part later will come in Popup -->
+  <my-library #slider [libraryToMyLibary]='reGetAllData' (myLibraryToLibrary)="myLibraryToLibrary($event)" [DataInPopup]=DataInPopup
+    [currentUserInfo]="userDetails" (libraryPopupClose)="libraryPopupClose($event)"></my-library>
+  <!-- <button type="button" class="btn btn-primary" >Static modal</button> -->
+  <div class="modal fade iframe-popup" bsModal #staticModal="bs-modal" [config]="{backdrop: 'static'}" tabindex="-1" role="dialog"
+    aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="container-fluid preview">
+            <div class="row">
+              <div class="col-md-10 col-sm-9">
+                <div class="border-grey">
+                  <div class="model-series-wrap">
+                    <div class="model-series-number">{{previewData.DocTitle}}</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-3">
+                <div class="close-wrap">
+                  <button type="button" class="close" aria-label="Close" (click)="staticModal.hide()">
+                <span aria-hidden="true" (click)="closePreview();">
+                  <img src="./assets/images/close.png"> Close</span>
+                </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-body file-download">
+          <div *ngIf="previewData.noPreview" class="text-center">
+            <h4 class="no-preview-text">The preview for the following document is currently not available. Please use the Download option below.
+            </h4>
+            <a (click)="previewData.WebLink?'':downloadFile(previewData)"> <span class="download-icon" popover="Download now" placement="top" triggers="mouseenter:mouseleave" placement="bottom"> 
+              <img src="./assets/images/download.png" /></span></a>
+          </div>
+          <div *ngIf="previewData.showImg" class="preview-img-wrap">
+            <img src="{{previewSrc}}">
+          </div>
+          <div>
+            <videojs *ngFor="let video of videos; let idx = index" [idx]="idx" [url]="video"></videojs>
+          </div>
+          <div *ngIf="previewData.showIframe">
+            <iframe width="100%" height="600" [src]="previewSrc | safe"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- download Popup -->
+  <div class="modal fade downloadPopup" bsModal #downloadPopup="bs-modal" [config]="{backdrop: 'static'}" tabindex="-1" role="dialog"
+    aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close pull-right" aria-label="Close" (click)="downloadPopup.hide()">
+ <span aria-hidden="true" (click)="closeDownloadPopup()">
+ <img src="./assets/images/close.png"> Close</span>
+ </button>
+        </div>
+        <div class="modal-body">
+          <h3 class="download-hd">Image Download Size</h3>
+          <p class="dwnload-text">The files you have selected to download contain images. Select image download size.</p>
+          <div class="select-wrap form-inline">
+            <div class="form-group">
+              <label>Image Size</label>
+              <div class="select-btn">
+                <select class="sortDropDown form-control" (change)="updateFileSize()" [(ngModel)]="ImageSize">
+   <option *ngFor="let n of imageSizeOptions" [attr.value]="n">{{n}}</option>
+   </select>
+              </div>
+            </div>
+          </div>
+          <div class="btn-foot-wrap">
+            <div class="row">
+              <div class="col-md-offset-3 col-md-9 col-sm-offset-3 col-sm-9">
+                <div class="pull-right">
+                  <span class="file-size">File Size: {{downloadFileSize|convertFileSize}}</span>
+                  <button type="button" class="btn black-button" (click)="downloadImageFile()">
+   Download 
+   </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="snackbar">{{alertMessage}}</div>

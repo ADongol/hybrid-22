@@ -1,0 +1,18 @@
+﻿<div class="row" style="margin-bottom:10px">
+    <div id="dk-products" class="row">
+        <kendo-grid [data]="products">
+            <kendo-grid-column field="name">
+                <ng-template kendoHeaderTemplate let-column let-columnIndex="columnIndex">
+                    {{column.field}}({{columnIndex}})
+                </ng-template>
+            </kendo-grid-column>
+            <kendo-grid-column field="price">
+                <ng-template kendoHeaderTemplate let-column let-columnIndex="columnIndex">
+                    {{column.field}}({{columnIndex}})
+                </ng-template>
+            </kendo-grid-column>
+        </kendo-grid>
+    </div>
+</div>
+ 
+

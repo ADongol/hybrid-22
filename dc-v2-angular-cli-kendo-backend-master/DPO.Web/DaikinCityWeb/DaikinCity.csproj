@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{5C81E5A8-D472-463B-8609-49786A41867D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <UseGlobalApplicationHostFile />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="daikincityweb\contact.html" />
+    <Content Include="daikincityweb\css\daikincity.css" />
+    <Content Include="daikincityweb\images\back-btn.png" />
+    <Content Include="daikincityweb\images\billboard-next.png" />
+    <Content Include="daikincityweb\images\billboard-previous.png" />
+    <Content Include="daikincityweb\images\billboard_01.jpg" />
+    <Content Include="daikincityweb\images\billboard_02.jpg" />
+    <Content Include="daikincityweb\images\billboard_03.jpg" />
+    <Content Include="daikincityweb\images\building-hotspot-application.png" />
+    <Content Include="daikincityweb\images\building-hotspot-functional.png" />
+    <Content Include="daikincityweb\images\buildings\bank\bank.png" />
+    <Content Include="daikincityweb\images\buildings\communications-center\communications-contact.png" />
+    <Content Include="daikincityweb\images\buildings\communications-center\communications-youtube.png" />
+    <Content Include="daikincityweb\images\buildings\communications-center\communications.jpg" />
+    <Content Include="daikincityweb\images\buildings\communications-center\itm-overview.jpg" />
+    <Content Include="daikincityweb\images\buildings\communications-center\round-flow-sensing-cassette.jpg" />
+    <Content Include="daikincityweb\images\buildings\communications-center\vrt.jpg" />
+    <Content Include="daikincityweb\images\buildings\communications-center\vrv-configurator.jpg" />
+    <Content Include="daikincityweb\images\buildings\convenience\convenience_store.png" />
+    <Content Include="daikincityweb\images\buildings\headquarters\dchq.jpg" />
+    <Content Include="daikincityweb\images\buildings\headquarters\headquarters-icon.png" />
+    <Content Include="daikincityweb\images\buildings\hotel\animation-bg.png" />
+    <Content Include="daikincityweb\images\buildings\hotel\controller-anim.png" />
+    <Content Include="daikincityweb\images\buildings\hotel\controller-highlight.png" />
+    <Content Include="daikincityweb\images\buildings\hotel\controller.png" />
+    <Content Include="daikincityweb\images\buildings\hotel\floor-menu-bg.gif" />
+    <Content Include="daikincityweb\images\buildings\hotel\hotel-first-floor.png" />
+    <Content Include="daikincityweb\images\buildings\hotel\hotel-ground-floor.png" />
+    <Content Include="daikincityweb\images\buildings\hotel\hotel-room-day.png" />
+    <Content Include="daikincityweb\images\buildings\hotel\hotel-room-night-lamp.png" />
+    <Content Include="daikincityweb\images\buildings\hotel\hotel-room-night.png" />
+    <Content Include="daikincityweb\images\buildings\hotel\Hotel.png" />
+    <Content Include="daikincityweb\images\buildings\hotel\keycard-down.gif" />
+    <Content Include="daikincityweb\images\buildings\hotel\keycard-up.gif" />
+    <Content Include="daikincityweb\images\buildings\hotel\occupant-bathroom.png" />
+    <Content Include="daikincityweb\images\buildings\hotel\occupant-controller.png" />
+    <Content Include="daikincityweb\images\buildings\hotel\occupant-keycard.png" />
+    <Content Include="daikincityweb\images\buildings\hotel\occupant-sitting.png" />
+    <Content Include="daikincityweb\images\buildings\hotel\occupant-sleeping.png" />
+    <Content Include="daikincityweb\images\buildings\hotel\occupant-standing.png" />
+    <Content Include="daikincityweb\images\buildings\hotel\occupant-window.png" />
+    <Content Include="daikincityweb\images\buildings\hotel\pir-sensor.gif" />
+    <Content Include="daikincityweb\images\buildings\hotel\pir-sensor.png" />
+    <Content Include="daikincityweb\images\buildings\hotel\window-closed.png" />
+    <Content Include="daikincityweb\images\buildings\hotel\window-open.png" />
+    <Content Include="daikincityweb\images\buildings\library\default-book-thumb.jpg" />
+    <Content Include="daikincityweb\images\buildings\library\download-icon.png" />
+    <Content Include="daikincityweb\images\buildings\library\library-directory.png" />
+    <Content Include="daikincityweb\images\buildings\library\library-download.png" />
+    <Content Include="daikincityweb\images\buildings\library\library-excel-thumb.png" />
+    <Content Include="daikincityweb\images\buildings\library\library-image-thumb.png" />
+    <Content Include="daikincityweb\images\buildings\library\library-overview.jpg" />
+    <Content Include="daikincityweb\images\buildings\library\library-powerpoint-thumb.png" />
+    <Content Include="daikincityweb\images\buildings\library\library-shelf.jpg" />
+    <Content Include="daikincityweb\images\buildings\library\library-url-thumb.png" />
+    <Content Include="daikincityweb\images\buildings\library\library-word-document-thumb.png" />
+    <Content Include="daikincityweb\images\buildings\library\library-zip-thumb.png" />
+    <Content Include="daikincityweb\images\buildings\library\magnifying-glass.png" />
+    <Content Include="daikincityweb\images\buildings\office\Office.png" />
+    <Content Include="daikincityweb\images\buildings\projectoffice\bg.jpg" />
+    <Content Include="daikincityweb\images\buildings\projectoffice\projectoffice-icon.png" />
+    <Content Include="daikincityweb\images\buildings\residence\residence.png" />
+    <Content Include="daikincityweb\images\buildings\restaurant\restaurant.png" />
+    <Content Include="daikincityweb\images\buildings\retail\retail.png" />
+    <Content Include="daikincityweb\images\buildings\school\school-classroom.png" />
+    <Content Include="daikincityweb\images\buildings\school\school-gym.png" />
+    <Content Include="daikincityweb\images\buildings\school\school.png" />
+    <Content Include="daikincityweb\images\buildings\supermarket\supermarket.png" />
+    <Content Include="daikincityweb\images\buildings\trainingcenter\trainingcenter-icon.png" />
+    <Content Include="daikincityweb\images\buildings\trainingcenter\trainingcenter.jpg" />
+    <Content Include="daikincityweb\images\buildings\warehouse\warehouse-icon.png" />
+    <Content Include="daikincityweb\images\buildings\warehouse\warehouse.jpg" />
+    <Content Include="daikincityweb\images\bullet-circle.png" />
+    <Content Include="daikincityweb\images\bullet-star.png" />
+    <Content Include="daikincityweb\images\bullet.png" />
+    <Content Include="daikincityweb\images\city-icon.png" />
+    <Content Include="daikincityweb\images\city.jpg" />
+    <Content Include="daikincityweb\images\configuration-button-switch.png" />
+    <Content Include="daikincityweb\images\configuration-selected-arrow.gif" />
+    <Content Include="daikincityweb\images\daikin-logo-small.gif" />
+    <Content Include="daikincityweb\images\daikin-logo.png" />
+    <Content Include="daikincityweb\images\electricity-icon.png" />
+    <Content Include="daikincityweb\images\floor-menu-btn.png" />
+    <Content Include="daikincityweb\images\flydown_poster.jpg" />
+    <Content Include="daikincityweb\images\gas-icon.png" />
+    <Content Include="daikincityweb\images\handle.png" />
+    <Content Include="daikincityweb\images\icons\ducted_indoor.gif" />
+    <Content Include="daikincityweb\images\icons\heat_pump_hot_water.gif" />
+    <Content Include="daikincityweb\images\icons\heat_pump_indoor.gif" />
+    <Content Include="daikincityweb\images\icons\heat_recovery.gif" />
+    <Content Include="daikincityweb\images\icons\heat_recovery_ventilation.gif" />
+    <Content Include="daikincityweb\images\icons\Icons_v2_Sliced_15.gif" />
+    <Content Include="daikincityweb\images\icons\inncom_thermostat.gif" />
+    <Content Include="daikincityweb\images\icons\presence_sensor.gif" />
+    <Content Include="daikincityweb\images\icons\refrigeration_recovery.gif" />
+    <Content Include="daikincityweb\images\icons\round_flow_cassette.gif" />
+    <Content Include="daikincityweb\images\icons\rtd20_energy.gif" />
+    <Content Include="daikincityweb\images\icons\self_cleaning_filter.gif" />
+    <Content Include="daikincityweb\images\icons\slim_ducted_indoor.gif" />
+    <Content Include="daikincityweb\images\icons\standard_system.gif" />
+    <Content Include="daikincityweb\images\icons\temp_set_back.gif" />
+    <Content Include="daikincityweb\images\indoor-units-btn.png" />
+    <Content Include="daikincityweb\images\launch-btn.png" />
+    <Content Include="daikincityweb\images\list-style-unchecked.png" />
+    <Content Include="daikincityweb\images\loading.gif" />
+    <Content Include="daikincityweb\images\menu-icon.png" />
+    <Content Include="daikincityweb\images\next-btn.png" />
+    <Content Include="daikincityweb\images\oil-icon.png" />
+    <Content Include="daikincityweb\images\overview-btn.png" />
+    <Content Include="daikincityweb\images\project-office-icon.png" />
+    <Content Include="daikincityweb\images\refresh-btn.png" />
+    <Content Include="daikincityweb\images\residence-savings-menu-bullet.png" />
+    <Content Include="daikincityweb\images\residence.jpg" />
+    <Content Include="daikincityweb\images\savings-widget-key.png" />
+    <Content Include="daikincityweb\images\scenario-next-btn.png" />
+    <Content Include="daikincityweb\images\scenario-play-btn.png" />
+    <Content Include="daikincityweb\images\scenario-previous-btn.png" />
+    <Content Include="daikincityweb\images\systems\baseline_system.png" />
+    <Content Include="daikincityweb\images\systems\dc_ducted_indoor_unit.png" />
+    <Content Include="daikincityweb\images\systems\heat_pump.png" />
+    <Content Include="daikincityweb\images\systems\heat_recovery.png" />
+    <Content Include="daikincityweb\images\systems\inncom_thermostat.png" />
+    <Content Include="daikincityweb\images\systems\presence_sensor.png" />
+    <Content Include="daikincityweb\images\systems\round_flow_cassette.png" />
+    <Content Include="daikincityweb\images\systems\self_cleaning_filter.png" />
+    <Content Include="daikincityweb\images\systems\slim_ducted_indoor_unit.png" />
+    <Content Include="daikincityweb\images\systems\variable_refrigerant_temperature.png" />
+    <Content Include="daikincityweb\images\tile_bg.png" />
+    <Content Include="daikincityweb\images\timeline-handle.png" />
+    <Content Include="daikincityweb\images\timeline-slider-preview.gif" />
+    <Content Include="daikincityweb\images\timeline.gif" />
+    <Content Include="daikincityweb\images\user-icon.png" />
+    <Content Include="daikincityweb\images\youtube-close-btn.gif" />
+    <Content Include="daikincityweb\images\zoom-blue.png" />
+    <Content Include="daikincityweb\images\zoom.png" />
+    <Content Include="daikincityweb\images\zoom_out.png" />
+    <Content Include="index.html" />
+    <Content Include="web.config" />
+    <Content Include="daikincityweb\js\jquery.animate-colors-min.js" />
+    <Content Include="daikincityweb\js\sc-accordion.js" />
+    <Content Include="daikincityweb\js\animation-frame.js" />
+    <Content Include="daikincityweb\js\daikincity.js" />
+    <Content Include="daikincityweb\js\daikincity.min.js" />
+    <Content Include="daikincityweb\js\jquery-1.11.0.min.js" />
+    <Content Include="daikincityweb\js\sc-lightbox.js" />
+    <Content Include="daikincityweb\js\sc-slider.js" />
+    <Content Include="daikincityweb\TermsAndConditions.html" />
+    <Content Include="daikincityweb\video\Bank.mp4" />
+    <Content Include="daikincityweb\video\Broadcast.mp4" />
+    <Content Include="daikincityweb\video\City_Loop.mp4" />
+    <Content Include="daikincityweb\video\ConvenienceStore.mp4" />
+    <Content Include="daikincityweb\video\Flydown.mp4" />
+    <Content Include="daikincityweb\video\Residence.mp4" />
+    <Content Include="daikincityweb\video\Restaurant.mp4" />
+    <Content Include="daikincityweb\video\Hotel.mp4" />
+    <Content Include="daikincityweb\video\Library.mp4" />
+    <Content Include="daikincityweb\video\Office.mp4" />
+    <Content Include="daikincityweb\video\Retail.mp4" />
+    <Content Include="daikincityweb\video\School.mp4" />
+    <Content Include="daikincityweb\video\TrainingCenter.mp4" />
+    <Content Include="daikincityweb\video\Warehouse.mp4" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="daikincityweb\json\training_center.json" />
+    <Content Include="daikincityweb\json\logistics_center.json" />
+    <Content Include="daikincityweb\json\residence.json" />
+    <Content Include="daikincityweb\json\hotel_room.json" />
+    <TypeScriptCompile Include="app.ts" />
+    <TypeScriptCompile Include="away\events\Event.ts" />
+    <TypeScriptCompile Include="away\events\EventDispatcher.ts" />
+    <TypeScriptCompile Include="away\events\IEventDispatcher.ts" />
+    <TypeScriptCompile Include="away\geom\Rectangle.ts" />
+    <TypeScriptCompile Include="away\geom\Vector3D.ts" />
+    <TypeScriptCompile Include="com\wearesmartcookie\widgets\circular\SCCircularWidgetLayer.ts" />
+    <TypeScriptCompile Include="daikincity\billboard\DCBillboardPoster.ts" />
+    <TypeScriptCompile Include="daikincity\building\communications\DCCommunicationsVideo.ts" />
+    <TypeScriptCompile Include="daikincity\building\DCApplicationFloor.ts" />
+    <TypeScriptCompile Include="daikincity\building\DCBuilding.ts" />
+    <TypeScriptCompile Include="daikincity\building\functional\DCConfigurationNode.ts" />
+    <TypeScriptCompile Include="daikincity\building\DCFloor.ts" />
+    <TypeScriptCompile Include="daikincity\building\functional\DCFunctionalFloor.ts" />
+    <TypeScriptCompile Include="daikincity\building\DCWebFloor.ts" />
+    <TypeScriptCompile Include="daikincity\building\DCWebLink.ts" />
+    <TypeScriptCompile Include="daikincity\building\functional\DCFunctionalConfigurationLayout.ts" />
+    <TypeScriptCompile Include="daikincity\building\functional\DCFunctionalConfiguration.ts" />
+    <TypeScriptCompile Include="daikincity\building\library\DCLibraryDirectory.ts" />
+    <TypeScriptCompile Include="daikincity\building\library\DCLibraryDocument.ts" />
+    <TypeScriptCompile Include="daikincity\building\library\DCLibraryDocumentType.ts" />
+    <TypeScriptCompile Include="daikincity\building\library\DCLibraryCategory.ts" />
+    <TypeScriptCompile Include="daikincity\building\library\DCLibraryCore.ts" />
+    <TypeScriptCompile Include="daikincity\DCCore.ts" />
+    <TypeScriptCompile Include="daikincity\DCExperience.ts" />
+    <TypeScriptCompile Include="daikincity\events\DCFloorSelectedEvent.ts" />
+    <TypeScriptCompile Include="daikincity\events\DCErrorEvent.ts" />
+    <TypeScriptCompile Include="daikincity\events\DCEvent.ts" />
+    <TypeScriptCompile Include="daikincity\events\DCBuildingChangeEvent.ts" />
+    <TypeScriptCompile Include="daikincity\events\DCScenarioSelectEvent.ts" />
+    <TypeScriptCompile Include="daikincity\events\DCTimelineChangedEvent.ts" />
+    <TypeScriptCompile Include="daikincity\systems\DCSystem.ts" />
+    <TypeScriptCompile Include="daikincity\ui\application\communications\DCDCCommunicationsCenterApplicationApplication.ts" />
+    <TypeScriptCompile Include="daikincity\ui\application\hotel\DCHotelRoomScenario.ts" />
+    <TypeScriptCompile Include="daikincity\ui\application\hotel\DCHotelRoomTimeline.ts" />
+    <TypeScriptCompile Include="daikincity\ui\application\hotel\DCHotelRoomView.ts" />
+    <TypeScriptCompile Include="daikincity\ui\application\hotel\DCHotelScenarioDetails.ts" />
+    <TypeScriptCompile Include="daikincity\ui\application\hotel\DCHotelScenarioInformation.ts" />
+    <TypeScriptCompile Include="daikincity\ui\application\hotel\DCHotelScenarioMenu.ts" />
+    <TypeScriptCompile Include="daikincity\ui\application\hotel\DCHotelScenarioTutorial.ts" />
+    <TypeScriptCompile Include="daikincity\ui\application\library\DCLibraryBookDocument.ts" />
+    <TypeScriptCompile Include="daikincity\ui\application\library\DCLibraryBookDirectory.ts" />
+    <TypeScriptCompile Include="daikincity\ui\application\library\IDCLibraryBook.ts" />
+    <TypeScriptCompile Include="daikincity\ui\application\library\DCLibraryApplication.ts" />
+    <TypeScriptCompile Include="daikincity\ui\application\hotel\DCHotelRoomApplication.ts" />
+    <TypeScriptCompile Include="daikincity\ui\application\library\DCLibraryDocumentsMenu.ts" />
+    <TypeScriptCompile Include="daikincity\ui\application\library\DCLibraryMenu.ts" />
+    <TypeScriptCompile Include="daikincity\ui\application\library\DCLibraryHotspot.ts" />
+    <TypeScriptCompile Include="daikincity\ui\application\residence\DCResidenceHomeScreen.ts" />
+    <TypeScriptCompile Include="daikincity\ui\application\residence\IDCResidenceScreen.ts" />
+    <TypeScriptCompile Include="daikincity\ui\application\residence\DCResidenceSystemScreen.ts" />
+    <TypeScriptCompile Include="daikincity\ui\application\residence\DCResidenceRatesScreen.ts" />
+    <TypeScriptCompile Include="daikincity\ui\application\residence\DCResidenceSavingsScreen.ts" />
+    <TypeScriptCompile Include="daikincity\ui\application\residence\DCResidenceApplication.ts" />
+    <TypeScriptCompile Include="daikincity\ui\DCApplicationFloorScreen.ts" />
+    <TypeScriptCompile Include="daikincity\ui\DCBillboard.ts" />
+    <TypeScriptCompile Include="daikincity\ui\DCBuildingMenuScreen.ts" />
+    <TypeScriptCompile Include="daikincity\ui\DCBuildingScreen.ts" />
+    <TypeScriptCompile Include="daikincity\ui\DCSystemButton.ts" />
+    <TypeScriptCompile Include="daikincity\ui\DCSystemIcon.ts" />
+    <TypeScriptCompile Include="daikincity\ui\DCFloorButton.ts" />
+    <TypeScriptCompile Include="daikincity\ui\DCFloorMenu.ts" />
+    <TypeScriptCompile Include="daikincity\ui\DCFunctionalFloorScreen.ts" />
+    <TypeScriptCompile Include="daikincity\ui\DCMenuScreen.ts" />
+    <TypeScriptCompile Include="daikincity\ui\DCScreen.ts" />
+    <TypeScriptCompile Include="daikincity\ui\DCWebFloorScreen.ts" />
+    <TypeScriptCompile Include="com\wearesmartcookie\widgets\circular\SCCircularWidget.ts" />
+    <TypeScriptCompile Include="definitions\definitions.d.ts" />
+    <TypeScriptCompile Include="definitions\ga.d.ts" />
+    <TypeScriptCompile Include="definitions\google.visualization.d.ts" />
+    <TypeScriptCompile Include="definitions\jquery.d.ts" />
+    <TypeScriptCompile Include="com\wearesmartcookie\video\SCVideoPlayer.ts" />
+    <TypeScriptCompile Include="com\wearesmartcookie\video\SCVideoPlayerEvent.ts" />
+    <Content Include="daikincityweb\json\bank.json" />
+    <Content Include="daikincityweb\json\school.json" />
+    <Content Include="daikincityweb\json\retail_store.json" />
+    <Content Include="daikincityweb\json\restaurant.json" />
+    <Content Include="daikincityweb\json\project_office.json" />
+    <Content Include="daikincityweb\json\office.json" />
+    <Content Include="daikincityweb\json\library.json" />
+    <Content Include="daikincityweb\json\comms_center.json" />
+    <Content Include="daikincityweb\json\documents.json" />
+    <Content Include="build.bat" />
+    <None Include="daikincityweb\json\hotel.json" />
+    <None Include="daikincityweb\json\convenience_store.json" />
+    <TypeScriptCompile Include="definitions\sc-accordion.d.ts" />
+    <TypeScriptCompile Include="definitions\sc-lightbox.d.ts" />
+    <TypeScriptCompile Include="definitions\sc-slider.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <Content Include="daikincityweb\js\daikincity.min.js.map">
+      <DependentUpon>daikincity.min.js</DependentUpon>
+    </Content>
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <Content Include="daikincityweb\js\daikincity.js.map" />
+    <Content Include="daikincityweb\json\config.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=5.1.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\AutoMapper.5.1.1\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MiniProfiler, Version=3.2.0.157, Culture=neutral, PublicKeyToken=b44f9351044011a3, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MiniProfiler.3.2.0.157\lib\net40\MiniProfiler.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MiniProfiler.EntityFramework6, Version=3.0.11.0, Culture=neutral, PublicKeyToken=b44f9351044011a3, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MiniProfiler.EF6.3.0.11\lib\net40\MiniProfiler.EntityFramework6.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>DaikinCity</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51812</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51812/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptRemoveComments>False</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>True</TypeScriptSourceMap>
+    <TypeScriptModuleKind>AMD</TypeScriptModuleKind>
+    <TypeScriptOutFile>daikincityweb/js/daikincity.js</TypeScriptOutFile>
+    <TypeScriptJSXEmit>None</TypeScriptJSXEmit>
+    <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
+    <TypeScriptOutDir />
+    <TypeScriptGeneratesDeclarations>False</TypeScriptGeneratesDeclarations>
+    <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
+    <TypeScriptMapRoot />
+    <TypeScriptSourceRoot />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+    <TypeScriptModuleKind>AMD</TypeScriptModuleKind>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(VSToolsPath)\TypeScript\Microsoft.TypeScript.targets')" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+</Project>

@@ -1,0 +1,21 @@
+﻿@model ProductModel
+@{
+    var specs = Model.Specifications;
+}
+<tr>
+    <td colspan="2" align="center" style="background-color:#85C1E9">COOLING:</td>
+    <td colspan="2" align="center" style="background-color:#F5B7B1">HEATING:</td>
+</tr>
+<tr>
+    <td style="background-color:#85C1E9">SEER</td>
+    <td style="background-color:#85C1E9">@specs.GetDecimal("SEERNonDucted", "N2")<br />&nbsp;</td>
+    <td style="background-color:#F5B7B1">HSPF</td>
+    <td style="background-color:#F5B7B1">@specs.GetDecimal("HSPFNonDucted", "N2")<br />&nbsp;</td>
+</tr>
+<tr>
+    <td style="background-color:#85C1E9">EER</td>
+    <td style="background-color:#85C1E9">@specs.GetDecimal("EERNonDucted", "N2")</td>
+    <td style="background-color:#F5B7B1">COP</td>
+    <td style="background-color:#F5B7B1">@specs.GetDecimal("COP47NonDucted", "N2")</td>
+</tr>
+

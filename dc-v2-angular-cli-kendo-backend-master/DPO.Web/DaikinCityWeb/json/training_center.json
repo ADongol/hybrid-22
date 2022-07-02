@@ -1,0 +1,32 @@
+﻿{
+  "building": {
+    "id": "11",
+    "type": "application",
+    "name": "Training Center",
+    "videoIn": "daikincityweb/video/TrainingCenter.mp4",
+    "videoInPoster": "daikincityweb/images/city.jpg",
+    "hotspotX": "10%",
+    "hotspotY": "37%",
+    "floors": {
+      "floor": [
+        {
+          "id": "1",
+          "type": "web",
+          "name": "Training Center",
+          "backgroundImage": "daikincityweb/images/buildings/trainingcenter/trainingcenter.jpg",
+          "icon": "daikincityweb/images/buildings/trainingcenter/trainingcenter-icon.png",
+          "links": {
+            "link": [
+              {
+                "id": "1",
+                "title": "Daikin University",
+                "description": " Daikin University offers both onsite training at distributors and dealer facilities and at Daikin Authorized training facilities. Our training facilities have a complete range of fully functional residential and commercial products for invaluable hands-on, practical experience..",
+                "url": "http://www.daikinuniversity.com/Kview/CustomCodeBehind/Base/Login/Login.aspx"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

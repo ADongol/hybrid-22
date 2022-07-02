@@ -1,0 +1,101 @@
+﻿import { Injectable, OnInit } from '@angular/core';
+import { Http, Headers, RequestOptions, Response } from '@angular/http';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs/Observable';
+import { Router, ActivatedRoute } from '@angular/router';
+import { ToastrService } from './toastr.service';
+
+@Injectable()
+export class UserService implements OnInit {
+
+    public currentUser: any;
+    public userIsAuthenticated: boolean;
+
+    public headers = new Headers({
+        'Content-Type': 'application/json',
+        'dataType': 'json',
+        'Accept': 'application/json'
+    });
+
+    constructor(private router: Router, private route: ActivatedRoute,
+        private toastrSvc: ToastrService, private http: Http) {
+    }
+
+    ngOnInit() { }
+
+    public isAuthenticated() {
+
+        return this.http.get("/api/User/IsAuthenticated",
+            { headers: this.headers }).toPromise()
+            .then(this.extractData).catch(this.handleError);
+    }
+
+    public getCurrentUser() {
+        var self = this;
+
+        return this.http.get("/api/User/GetCurrentUser",
+                { headers: this.headers }).toPromise()
+            .then(res => {
+                var resp = res.json();
+
+                // HACK:  Hard-coded
+                if (self.router.url.toLowerCase().includes("lms-catalog")) {
+                    return resp || {};
+                }
+
+                if (resp == null) {
+                    self.router.navigateByUrl("/account/login");
+                } else {
+                    return resp || {};
+                }
+            })
+            .catch(this.handleError);
+    }
+
+    public getWebsiteMaintenanceInfo() {
+        return this.http.get("/api/MaintenancePage/GetMaintenancePageInfo",
+            { headers: this.headers }).toPromise()
+            .then(this.extractData).catch(this.handleError);
+    }
+
+    public extractData(res: Response) {
+        let resp = res.json();
+        return resp || {};
+    }
+
+    public handleError(error: any) {
+        // In a real world app, we might use a remote logging infrastructure
+        // We'd also dig deeper into the error to get a better message
+
+        console.error(error); // log to console instead
+        this.toastrSvc.Error(error.statusText);
+        return Promise.reject(error.statusText);
+    }
+
+    public hasAccess(user: any, accessId: any) {
+
+        if (user != undefined || user != null) {
+            for (let item of user.systemAccesses) {
+                if (item == accessId) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
+    public checkUserStatus(user: any) {
+
+        if (user != undefined || user != null) {
+            if (this.userInPendingStatus(user))
+                return true;
+        }
+
+        return false;
+    }
+
+    public userInPendingStatus(user: any) {
+        return user.approved == false && user.rejected == false && user.enabled == true;
+    }
+}

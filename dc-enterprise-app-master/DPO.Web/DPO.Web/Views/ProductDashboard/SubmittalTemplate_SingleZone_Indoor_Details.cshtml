@@ -1,0 +1,63 @@
+﻿@model ProductModel
+@{
+    var specs = Model.Specifications;
+}
+<tr>
+    <td colspan="4" align="center" style="background-color:#85C1E9">COOLING - Airfolw Rate (cfm):</td>
+</tr>
+<tr>
+    <td colspan="2" style="background-color:#85C1E9">High: </td>
+    <td colspan="2" style="background-color:#85C1E9">@specs.GetDecimal("AirFlowRateHighCooling", "N0")</td>
+</tr>
+<tr>
+    <td colspan="2" style="background-color:#85C1E9">Med: </td>
+    <td colspan="2" style="background-color:#85C1E9">@specs.GetDecimal("AirFlowRateMediumCooling", "N0")</td>
+</tr>
+<tr>
+    <td colspan="2" style="background-color:#85C1E9">Low: </td>
+    <td colspan="2" style="background-color:#85C1E9">@specs.GetDecimal("AirFlowRateLowCooling", "N0")</td>
+</tr>
+<tr>
+    <td colspan="2" style="background-color:#85C1E9">SuperLow: </td>
+    <td colspan="2" style="background-color:#85C1E9">@specs.GetDecimal("AirFlowRateSuperLowCooling", "N0")</td>
+</tr>
+
+<tr>
+    @{
+        var soundPressureLabels = new List<string>
+        {
+            "H","M","L","SL"
+        };
+
+        var soundPressureRates = new List<string>{
+            specs.GetDecimal("SoundPressureHighCooling", "N0") != null? specs.GetDecimal("SoundPressureHighCooling", "N0"): specs.GetDecimal("SoundPressureHighHeating", "N0"),
+            specs.GetDecimal("SoundPressureMediumCooling", "N0") != null? specs.GetDecimal("SoundPressureMediumCooling", "N0"): specs.GetDecimal("SoundPressureMediumHeating", "N0"),
+            specs.GetDecimal("SoundPressureLowCooling", "N0") != null? specs.GetDecimal("SoundPressureLowCooling", "N0"): specs.GetDecimal("SoundPressureLowHeating", "N0"),
+            specs.GetDecimal("SoundPressureSuperLowCooling", "N0") != null? specs.GetDecimal("SoundPressureSuperLowCooling", "N0"): specs.GetDecimal("SoundPressureSuperLowHeating", "N0")
+        };
+
+        var soundPressureLabelsCombined = new List<string>();
+        var soundPressureRatesCombined = new List<string>();
+
+        for (var i = 0; i < soundPressureRates.Count; i++)
+        {
+            if (soundPressureRates[i] != null)
+            {
+                soundPressureRatesCombined.Add(soundPressureRates[i]);
+                soundPressureLabelsCombined.Add(soundPressureLabels[i]);
+            }
+        }
+    }
+
+    <td colspan="2">Sound Pressure (@string.Join("/", soundPressureLabelsCombined)) (dBA):</td>
+    <td colspan="2">@string.Join("/", soundPressureRatesCombined)</td>
+</tr>
+<tr>
+    <td colspan="2">Dimensions (HxWxD) (in):</td>
+    <td colspan="2">@specs.GetString("DimensionsUnitHeight") x @specs.GetString("DimensionsUnitWidth") x @specs.GetString("DimensionsUnitDepth")</td>
+</tr>
+<tr>
+    <td colspan="2">Net Weight (lb):</td>
+    <td colspan="2">@specs.GetString("WeightUnit")</td>
+</tr>
+

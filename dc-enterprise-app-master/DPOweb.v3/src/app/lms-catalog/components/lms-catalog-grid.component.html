@@ -1,0 +1,141 @@
+﻿<div id="main-container" class="container-fluid">
+    <div class="row">
+    </div>
+    <div class="main-content">
+        <div class="tab-header">
+            <header>
+                <h4>COURSE LISTINGS</h4>
+                <p>
+                    <span style="font-weight: 900">A Daikin City account is required to access Daikin University and register for training sessions.</span>
+                    <br />
+                    <span style="color: red">Session Registration is Required.  Please do not show up to a course unless you are registered.</span>
+                    <br />
+                    <span>If minimum registration is not achieved, courses may be cancelled.  Only registered attendees will be notified.</span>
+                    <br />
+                    <span style="font-weight: 900">Daikin is not responsible for travel, accommodation or other related costs associated with non-registered attendees.</span>
+                </p>
+            </header>
+
+            <div class="row">
+                <div class="course-params-row">
+                    <!--<div class="col-md-2">
+                        <label class="control-label">State/Province</label>
+                        <select class="form-control" [(ngModel)]="searchStateProvince" name="stateProvince">
+                            <option [value]="null" selected disabled>Select ...</option>
+                            <option *ngFor="let item of stateProvinces" [value]="item.value">
+                                {{item.text}}
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-2">
+                        <label class="control-label">City</label>
+                        <input type="text" class="form-control k-input k-textbox" style="width: 100%" id="courseCitySearchBox" name="courseCity" [(ngModel)]="searchCity"
+                            placeholder="Search Course City" />
+                    </div>-->
+                    <div class="col-md-4">
+                        <label class="control-label">Location</label>
+                        <input type="text" class="form-control k-input k-textbox" style="width: 100%" id="courseLocation" name="courseLocation" [(ngModel)]="searchLocation"
+                               placeholder="Search Course Location" />
+                    </div>
+
+                    <div class="col-md-2">
+                        <label class="control-label">From Date </label>
+                        <kendo-datepicker #fromDateNode class="kendo-datepicker" [format]="'MM/dd/yyyy'" [value]="searchStartDate"
+                                          (valueChange)="handleStartDateChange($event)">
+                        </kendo-datepicker>
+                    </div>
+
+                    <div class="col-md-2">
+                        <label for="toDate" class="control-label">To Date </label>
+                        <kendo-datepicker #toDateNode class="kendo-datepicker" [format]="'MM/dd/yyyy'" [value]="searchEndDate"
+                                          (valueChange)="handleEndDateChange($event)">
+                        </kendo-datepicker>
+                    </div>
+
+                    <div class="col-md-1">
+
+                    </div>
+
+                    <div class="col-md-3">
+                        <span class="btn-search-span">
+                            <button type="button" class="btn-refresh-all" (click)="onSearchClick()">SEARCH</button>
+                        </span>
+                        <span class="btn-reset-span">
+                            <button type="button" class="btn-refresh-all" (click)="onResetButtonClick()">RESET</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!--COURSE GRID-->
+            <kendo-grid #grid="kendoGrid" id="courseListGrid" [kendoGridBinding]="courseListGridData" [pageSize]="pageSize"
+                        [skip]="skip" [pageable]="{
+                              buttonCount: buttonCount,
+                              info: info,
+                              type: type,
+                              pageSizes: pageSizes,
+                              previousNext: previousNext
+                            }"
+                        (dataStateChange)="onDataStateChange()"
+                        [sort]="defaultSort" [columnMenu]="true" [filterable]="true" [sortable]="true"
+                        [resizable]="true" [rowClass]="rowCallback">
+
+
+                <!-- <kendo-grid-column field="courseCode" media="(min-width: 450px)" title="Course Code"
+                [headerStyle]="{ 'color': 'white' }">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        {{dataItem.code}}
+                    </ng-template>
+                </kendo-grid-column> -->
+
+                <kendo-grid-column field="courseTitle" media="(min-width: 450px)" title="Event Title" [headerStyle]="{ 'color': 'white' }">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        {{dataItem.courseTitle}}
+                    </ng-template>
+                </kendo-grid-column>
+
+                <kendo-grid-column field="sessionLocation" media="(min-width: 450px)" title="Location" [filterable]=false
+                                   [headerStyle]="{ 'color': 'white' }">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        {{dataItem.sessionLocation}}
+                    </ng-template>
+                </kendo-grid-column>
+
+                <kendo-grid-column field="startDateTime" media="(min-width: 450px)" title="Start Date" [filterable]="false"
+                                   [headerStyle]="{ 'color': 'white'}">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        {{dataItem.startDateTime | date: 'short'}}
+                    </ng-template>
+                </kendo-grid-column>
+
+                <kendo-grid-column field="endDateTime" media="(min-width: 450px)" title="End Date" [filterable]="false"
+                                   [headerStyle]="{ 'color': 'white'}">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        {{dataItem.endDateTime | date: 'short'}}
+                    </ng-template>
+                </kendo-grid-column>
+
+                <kendo-grid-column field="timezoneDescription" media="(min-width: 450px)" title="Time Zone" [filterable]="false"
+                                   [headerStyle]="{ 'color': 'white'}">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        {{dataItem.timezoneDescription}}
+                    </ng-template>
+                </kendo-grid-column>
+
+                <!--<kendo-grid-column field="availableSeats" media="(min-width: 450px)" title="Seats Available"
+                    [headerStyle]="{ 'color': 'white'}" filter="numeric">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        {{dataItem.availableSeats}}
+                    </ng-template>
+                </kendo-grid-column>-->
+
+                <kendo-grid-excel fileName="Course.xlsx"></kendo-grid-excel>
+
+            </kendo-grid>
+        </div>
+    </div>
+
+    <!--kendo dialog export to excel, need to come back for export-->
+
+</div>

@@ -1,0 +1,220 @@
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Data.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Data.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Data.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\AutoMapper.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Common.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Model.Light.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\Elmah.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\Elmah.Mvc.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\EntityFramework.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\EntityFramework.Extended.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\EntityFramework.SqlServer.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\FlakeGen.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\log4net.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.EntityFramework6.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\Newtonsoft.Json.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\System.Data.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.Mvc.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\EO.Pdf.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.Razor.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.WebPages.Razor.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.WebPages.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Common.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Common.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Resources.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Resources.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\FlakeGen.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\FlakeGen.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Model.Light.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Model.Light.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\AutoMapper.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\EntityFramework.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\EntityFramework.Extended.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\EntityFramework.SqlServer.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\log4net.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.EntityFramework6.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.EntityFramework6.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.EntityFramework6.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\Newtonsoft.Json.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.Mvc.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.Razor.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.WebPages.Razor.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.WebPages.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\en-CA\DPO.Resources.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\bin\Debug\en-GB\DPO.Resources.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\obj\Debug\DPO.Data.csprojResolveAssemblyReference.cache
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\obj\Debug\DPO.Data.csproj.CoreCompileInputs.cache
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\obj\Debug\DPO.Data.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Data\DPO.Data.Context\obj\Debug\DPO.Data.pdb
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Data.dll.config
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Data.dll
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Data.pdb
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\AutoMapper.dll
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Common.dll
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Model.Light.dll
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Resources.dll
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\Elmah.dll
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\Elmah.Mvc.dll
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\EntityFramework.dll
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\EntityFramework.Extended.dll
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\EntityFramework.SqlServer.dll
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\FlakeGen.dll
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\log4net.dll
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.dll
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.EntityFramework6.dll
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\Newtonsoft.Json.dll
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\System.Data.dll
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.Mvc.dll
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\EO.Pdf.dll
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.Razor.dll
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.WebPages.Razor.dll
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.WebPages.dll
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Common.pdb
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Common.dll.config
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Resources.pdb
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Resources.dll.config
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\FlakeGen.pdb
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\FlakeGen.dll.config
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Model.Light.pdb
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Model.Light.dll.config
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\AutoMapper.xml
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\EntityFramework.xml
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\EntityFramework.Extended.xml
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\EntityFramework.SqlServer.xml
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\log4net.xml
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.pdb
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.xml
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.EntityFramework6.pdb
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.EntityFramework6.xml
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.EntityFramework6.dll.config
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\Newtonsoft.Json.xml
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.Mvc.xml
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.Razor.xml
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.WebPages.Razor.xml
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.WebPages.xml
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\en-CA\DPO.Resources.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\bin\Debug\en-GB\DPO.Resources.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\obj\Debug\DPO.Data.csprojResolveAssemblyReference.cache
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\obj\Debug\DPO.Data.csproj.CoreCompileInputs.cache
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\obj\Debug\DPO.Data.dll
+C:\dttp-Projects\AngularCLI\DPO.Data\DPO.Data.Context\obj\Debug\DPO.Data.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Data.dll.config
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Data.dll
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Data.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\AutoMapper.dll
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Common.dll
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Model.Light.dll
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\Elmah.dll
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\Elmah.Mvc.dll
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\EntityFramework.dll
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\EntityFramework.Extended.dll
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\EntityFramework.SqlServer.dll
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\FlakeGen.dll
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\log4net.dll
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.dll
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.EntityFramework6.dll
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\Newtonsoft.Json.dll
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\System.Data.dll
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.Mvc.dll
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\EO.Pdf.dll
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.Razor.dll
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.WebPages.Razor.dll
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.WebPages.dll
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Common.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Common.dll.config
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Resources.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Resources.dll.config
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\FlakeGen.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\FlakeGen.dll.config
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Model.Light.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Model.Light.dll.config
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\AutoMapper.xml
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\EntityFramework.xml
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\EntityFramework.Extended.xml
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\EntityFramework.SqlServer.xml
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\log4net.xml
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.xml
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.EntityFramework6.pdb
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.EntityFramework6.xml
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.EntityFramework6.dll.config
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\Newtonsoft.Json.xml
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.Mvc.xml
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.Razor.xml
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.WebPages.Razor.xml
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.WebPages.xml
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\en-CA\DPO.Resources.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\bin\Debug\en-GB\DPO.Resources.resources.dll
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\obj\Debug\DPO.Data.csprojResolveAssemblyReference.cache
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\obj\Debug\DPO.Data.csproj.CoreCompileInputs.cache
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\obj\Debug\DPO.Data.dll
+C:\dttp-Projects\AngularCLI-4\DPO.Data\DPO.Data.Context\obj\Debug\DPO.Data.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Data.dll.config
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Data.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Data.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\AutoMapper.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Common.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Model.Light.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\Elmah.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\Elmah.Mvc.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\EntityFramework.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\EntityFramework.Extended.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\EntityFramework.SqlServer.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\FlakeGen.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\log4net.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.EntityFramework6.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\Newtonsoft.Json.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\System.Data.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.Mvc.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\EO.Pdf.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.Razor.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.WebPages.Razor.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.WebPages.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Common.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Common.dll.config
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Resources.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Resources.dll.config
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\FlakeGen.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\FlakeGen.dll.config
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Model.Light.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\DPO.Model.Light.dll.config
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\AutoMapper.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\EntityFramework.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\EntityFramework.Extended.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\EntityFramework.SqlServer.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\log4net.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.EntityFramework6.pdb
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.EntityFramework6.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\MiniProfiler.EntityFramework6.dll.config
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\Newtonsoft.Json.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.Mvc.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.Razor.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.WebPages.Razor.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.WebPages.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\en-CA\DPO.Resources.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\bin\Debug\en-GB\DPO.Resources.resources.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\obj\Debug\DPO.Data.csprojResolveAssemblyReference.cache
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\obj\Debug\DPO.Data.csproj.CoreCompileInputs.cache
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\obj\Debug\DPO.Data.dll
+C:\dttp-Projects\dc-lazyloading-angularcli\DPO.Data\DPO.Data.Context\obj\Debug\DPO.Data.pdb

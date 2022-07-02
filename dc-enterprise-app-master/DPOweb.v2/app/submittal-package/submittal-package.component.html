@@ -1,0 +1,26 @@
+﻿ 
+
+<project-tabs [user]="user"></project-tabs>
+<div id="main-container" class="container-fluid">
+    
+    <div class="main-content">
+        <ul class="breadcrumbs">
+            <li><a href="/v2/#/projects">Projects</a></li>
+            <li><a href="/v2/#/project/{{quote.projectId}}">{{quote.project.name}}</a></li>
+            <li><a href="/v2/#/quote/{{quote.quoteId}}/existingRecord">{{quote.title}}</a></li>
+            <li>Submittal package</li>
+        </ul>        
+        
+        <!--<div *ngIf="quoteItemsList.length > 0">-->
+            <quote-package-grid [userModel]="user"
+                                [possibleDocsList]="possibleDocsList"
+                                [quoteItemsList]="quoteItemsList"
+                                [quotePackageAttachedFiles]="quotePackageAttachedFiles"
+                                [quoteId]="quote.quoteId"
+                                [projectId]="quote.projectId"
+                                [hasAttachedFiles]="hasAttachedFiles">
+            </quote-package-grid>
+        <!--</div>-->
+        
+    </div>
+</div>

@@ -1,0 +1,432 @@
+﻿<link rel="stylesheet" href="/v2/app/content/tablestyles.css" />
+<link rel="stylesheet" href="/v2/app/content/dragula.min.css" />
+
+<div>
+    <form #submittalRequestForm="ngForm">
+
+        <div class="item-strap">
+            <div class="itemname">
+                <h1>SUBMITTAL PACKAGE</h1>
+            </div>
+            <div class="btn-bar">
+                <button type="submit"
+                        class="submit-btn"
+                        (click)="onSubmit(submittalRequestForm)">
+                    <img src="../../../images/create-package-btn-icon.png" />Create Package
+                </button>
+            </div>
+        </div>
+
+        <div class="section t-flush">
+            <div class="tbl-strap">
+                <img src="../../../images/assoc-products-icon.png" class="pull-left" />
+                <div class="pull-left">
+                    <h6>Associated Product Files</h6>
+                    <p>Customise the available documents you wish to be included in this package</p>
+                </div>
+            </div>
+
+            <div class="tbl-holder-custom scroll-x">
+                <table class="tbl" id="submittal-package-table" #tblSubmittalPackage>
+                    <thead>
+                        <tr>
+                            <th id="productReference" aria-sort="none" class="header-reference">
+                                Reference
+                            </th>
+                            <th id="productDescription" aria-sort="none" class="header-description">
+                                Description
+                            </th>
+                            <th *ngFor="let header of possibleDocsList" #chkBoxColumnHeader>
+
+                                <input type="checkbox"
+                                       id={{header.name}}
+                                       name={{header.inputname}}
+                                       class="pull-left"
+                                       [attr.colIndex]="header.colId"
+                                       [attr.rowIndex]="0"
+                                       (change)="checkAllRowCheckBoxes($event)" />
+                                {{header.label}}
+
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="container" [dragula]='"section-bag"'>
+                        <tr *ngFor="let item of quoteItemsList; let i= index;" #quoteItemRows>
+                            <td class="col-reference">
+                                <div *ngIf="item.lineItemTypeId!=2; else configuredItemReference">
+                                    <img src="/v2/app/images/drag_dots_blue.png" class="drag-dots"/>
+                                    <input type="checkbox"
+                                           id="{{item.productId}}"
+                                           class="header-checkbox"
+                                           name="chkBoxReferenceRow"
+                                           [attr.rowIndex]="i + 1"
+                                           value="{{item.productId}}"
+                                           (change)="checkAllColumnCheckBoxes($event, i+1)" />
+                                    <a class="product-number-link"
+                                       href="/v2/#/products/(productDetails:{{item.productId}})?activeTab=product-overview">
+                                        {{item.productNumber}}
+                                    </a>
+                                </div>
+                                <ng-template #configuredItemReference>
+                                    <img src="/v2/app/images/drag_dots_blue.png" class="drag-dots"/>
+                                    <input type="checkbox"
+                                           id="{{item.productId}}"
+                                           class="header-checkbox"
+                                           name="chkBoxReferenceRow"
+                                           [attr.rowIndex]="i + 1"
+                                           value="{{item.productId}}"
+                                           (change)="checkAllColumnCheckBoxes($event, i+1)" />
+                                    <a class="product-number-link"
+                                       href="/v2/#/products/(productDetails:{{item.productId}})?activeTab=product-overview">
+                                        {{item.codeString}}
+                                    </a>
+                                </ng-template>
+                            </td>
+
+                            <td class="col-description">
+                                <div *ngIf="item.lineItemTypeId!=2; else configuredItemDescription">
+                                    {{item.description}}
+                                </div>
+                                <ng-template #configuredItemDescription>
+                                    <p>Configured Item</p>
+                                </ng-template>
+                            </td>
+
+                            <td class="col-main-grid" #tdSubmittalSheets>
+                                <div *ngIf="item.hasSubmittalSheets">
+                                    <input class="chkBoxSubmittalSheets"
+                                           type="checkbox"
+                                           id="{{item.submittalSheetsDocId}}"
+                                           name="chkBoxSubmittalSheetsRow"
+                                           [attr.rowIndex]="i + 1"
+                                           value="{{item.submittalSheetsDocId}}"
+                                           (change)="uncheckBothRowAndColumnHeaderCheckBoxes(i+1, 'submittalSheets')" />
+                                    <a class="label-view-link" href="{{item.submittalSheetUrl}}" target="_blank">
+                                        View
+                                    </a>
+                                </div>
+                            </td>
+
+                            <td class="col-main-grid" #tdInstallationManual>
+                                <div *ngIf="item.hasInstallationManual">
+                                    <input type="checkbox"
+                                           id="{{item.installationManualDocId}}"
+                                           name="chkBoxInstallationManualRow"
+                                           [attr.rowIndex]="i + 1"
+                                           value="{{item.installationManualDocId}}"
+                                           (change)="uncheckBothRowAndColumnHeaderCheckBoxes(i+1, 'installationManual')" />
+                                    <a class="label-view-link" href="{{item.installationManualUrl}}" target="_blank">
+                                        View
+                                    </a>
+                                </div>
+                            </td>
+                            <td class="col-main-grid" #tdOperationManual>
+                                <div *ngIf="item.hasOperationManual">
+                                    <input type="checkbox"
+                                           id="{{item.operationManualDocId}}"
+                                           name="chkBoxOperationManualRow"
+                                           [attr.rowIndex]="i + 1"
+                                           value="{{item.operationManualDocId}}"
+                                           (change)="uncheckBothRowAndColumnHeaderCheckBoxes(i+1, 'operationManual')" />
+                                    <a class="label-view-link" href="{{item.operationalManualUrl}}" target="_blank">
+                                        View
+                                    </a>
+                                </div>
+                            </td>
+                            <td class="col-main-grid" #tdGuideSpecs>
+                                <div *ngIf="item.hasGuideSpecs">
+                                    <input type="checkbox"
+                                           id="{{item.guideSpecsDocId}}"
+                                           name="chkBoxGuideSpecsRow"
+                                           [attr.rowIndex]="i + 1"
+                                           value="{{item.guideSpecsDocId}}"
+                                           (change)="uncheckBothRowAndColumnHeaderCheckBoxes(i+1, 'guideSpecs')" />
+                                    <a class="label-view-link" href="{{item.guideSpecsUrl}}" target="_blank">
+                                        View
+                                    </a>
+                                </div>
+                            </td>
+                            <td class="col-main-grid" #tdProductBrochure>
+                                <div *ngIf="item.hasProductBrochure">
+                                    <input type="checkbox"
+                                           id="{{item.productBrochureDocId}}"
+                                           name="chkBoxProductBrochureRow"
+                                           [attr.rowIndex]="i + 1"
+                                           value="{{item.productBrochureDocId}}"
+                                           (change)="uncheckBothRowAndColumnHeaderCheckBoxes(i+1, 'productBrochure')" />
+                                    <a class="label-view-link" href="{{item.productBrochureUrl}}" target="_blank">
+                                        View
+                                    </a>
+                                </div>
+                            </td>
+                            <td class="col-main-grid" #tdRevitDrawing>
+                                <div *ngIf="item.hasRevitDrawing">
+                                    <input type="checkbox"
+                                           id="{{item.revitDrawingDocId}}"
+                                           name="chkBoxRevitDrawingRow"
+                                           [attr.rowIndex]="i + 1"
+                                           value="{{item.revitDrawingDocId}}"
+                                           (change)="uncheckBothRowAndColumnHeaderCheckBoxes(i+1, 'revitDrawing')" />
+                                    <a class="label-view-link" href="{{item.revitDrawingUrl}}" target="_blank">
+                                        View
+                                    </a>
+                                </div>
+                            </td>
+                            <td class="col-main-grid" #tdCadDrawing>
+                                <div *ngIf="item.hasCadDrawing">
+                                    <input type="checkbox"
+                                           id="{{item.cadDrawingDocId}}"
+                                           name="chkBoxCadDrawingRow"
+                                           [attr.rowIndex]="i + 1"
+                                           value="{{item.cadDrawingDocId}}"
+                                           (change)="uncheckBothRowAndColumnHeaderCheckBoxes(i+1, 'cadDrawing')" />
+                                    <a class="label-view-link" href="{{item.cadDrawingUrl}}" target="_blank">
+                                        View
+                                    </a>
+                                </div>
+                            </td>
+                            <td class="col-main-grid" #tdProductFlyer>
+                                <div *ngIf="item.hasProductFlyer">
+                                    <input type="checkbox"
+                                           id="{{item.productFlyerDocId}}"
+                                           name="chkBoxProductFlyer"
+                                           [attr.rowIndex]="i + 1"
+                                           value="{{item.productFlyerDocId}}"
+                                           (change)="uncheckBothRowAndColumnHeaderCheckBoxes(i+1, 'productFlyer')" />
+                                    <a class="label-view-link" href="{{item.productFlyerUrl}}" target="_blank">
+                                        View
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+            </div>
+        </div>
+        <br />
+
+        <div class="section">
+
+            <div class="tbl-strap">
+                <img src="../../../images/attached-files-icon.png" class="pull-left" />
+                <div class="pull-left">
+                    <h6>Other Uploaded Files</h6>
+                    <p>Please select the files to be attached when this package is created</p>
+                </div>
+                <div class="pull-right">
+                    <span class="selections-buttons">
+                        <button type="button" class="context-btn" id="attach_new_file_btn"
+                                (click)="OpenModal()">
+                            <img src="../../../images/context-btn-export-icon.png" />
+                            Upload New File
+                        </button>
+                    </span>
+                </div>
+            </div>
+
+            <attached-files [quotePackageAttachedFiles]="quotePackageAttachedFiles"
+                            [hasAttachedFiles]="hasAttachedFiles"
+                            [quoteId]="quoteId"
+                            (deleteFileClick)="refreshFileListHandler($event)">
+            </attached-files>
+        </div>
+
+        <div class="section action c-align">
+            <a class="btn-cancel" href="/v2/#/quote/{{quoteIdentifier}}/existingRecord">Cancel</a>
+            <button type="button"
+                    class="submit-btn"
+                    (click)="onSubmit(submittalRequestForm)">
+                <img src="../../../images/create-package-btn-icon.png" />Create Package
+            </button>
+        </div>
+
+        <div class="section-bottom">
+
+        </div>
+
+        <modal #componentInsideModal [title]="title"
+               [quoteIdentifier]="quoteIdentifier"
+               (notifyParent)="getNotificationHandler($event)">
+            <ng-template #modalHeader>
+            </ng-template>
+            <ng-template #modalBody>
+                <div>
+                    <p>
+                        Click 'Select' to browse <br />
+                        or  <br />
+                        Drag & drop your file in this section...
+                    </p>
+
+                    <kendo-upload required
+                                  [saveUrl]="submittalPackageUrl"
+                                  [multiple]="true"
+                                  [autoUpload]="true"
+                                  [(ngModel)]="submittalFileUpload"
+                                  name="submittalFileAttachment"
+                                  (upload)="uploadEventHandler($event)"
+                                  (success)="successEventHandler($event)"
+                                  (complete)="uploadCompleted()"
+                                  (error)="errorEventHandler($event)">
+
+                    </kendo-upload>
+                </div>
+            </ng-template>
+            <ng-template #modalFooter>
+                <!--<button (click)="saveFiles()">Upload</button>-->
+            </ng-template>
+        </modal>
+    </form>
+</div>
+
+<div class="modal fade" id="progressbarModal"
+     role="dialog"
+     tabindex="-1">
+
+   
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="processing-modal-header">
+                    Processing...
+                </h4>
+                <div class="modal-body">
+                    <div class="progress progress-striped active">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" [style.width]="width+'%'">
+                                 
+                            </div>
+                            <!--<ng-progress [positionUsing]="'translate3d'"
+                                         [minimum]="0.15"
+                                         [maximum]="1"
+                                         [speed]="200"
+                                         [showSpinner]="false"
+                                         [direction]="'leftToRightReduced'"
+                                         [color]="'red'"
+                                         [trickleSpeed]="250"
+                                         [thick]="true"
+                                         [ease]="'linear'">
+                            </ng-progress>-->
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--Configured products-->
+<!--<div *ngIf="hasConfiguredItem">
+    <div class="tbl-holder scroll-x">
+        <table class="tbl" id="configuredproducts_table">
+            <thead>
+                <tr>
+                    <th id="productreference" aria-sort="none" style="width:180px;">Reference</th>
+                    <th id="productdescription" aria-sort="none" style="width:180px;">Description</th>
+                    <th><input type="checkbox" name="chkAllSubmittalSheets" class="pull-left" />Submittal<br />Sheets</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of Items ; let i = index">-->
+<!--@foreach (var item in Model.Items)
+{
+if (item.LineItemTypeId == (byte)LineItemTypeEnum.Configured)
+{-->
+<!--<td class="as-lnk" style="padding-right: 10px;">
+    <span>{{item.CodeString}}</span>
+</td>
+<td style="padding-right: 10px; max-width: 40px; white-space:normal;">
+    Configured Item
+</td>-->
+<!--<td style="padding-right: 10px;">
+    @GenerateCheckBox(item.GetDocument(DocumentTypeEnum.SubmittalData))
+</td>-->
+<!--</tbody>
+        </table>
+    </div>
+</div>-->
+<!--
+
+
+<kendo-grid [data]="quoteItemsList" [scrollable]="'scrollable'">
+    <kendo-grid-column field="reference" title="Reference" class="header-reference">
+        <ng-template kendoGridHeaderTemplate let-column let-columnIndex="columnIndex">
+            {{column.title}}({{columnIndex}})
+        </ng-template>
+        <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex"
+                        *ngIf="{dataItem.lineItemTypeId}}!=2; else configuredItemReference">
+            <input type="checkbox"
+                    id="{{dataItem.productId}}"
+                    class="header-checkbox"
+                    name="chkBoxReferenceRow"
+                    [attr.rowIndex]="i + 1"
+                    value="{{dataItem.productId}}"
+                    (change)="checkAllColumnCheckBoxes($event, i+1)" />
+            <a class="product-number-link"
+                href="/v2/#/products/(productDetails:{{dataItem.productId}})?activeTab=product-overview">
+                {{dataItem.productNumber}}
+            </a>
+        </ng-template>
+        <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex" #configuredItemReference>
+            <input type="checkbox"
+                    id="{{dataItem.productId}}"
+                    class="header-checkbox"
+                    name="chkBoxReferenceRow"
+                    [attr.rowIndex]="i + 1"
+                    value="{{dataItem.productId}}"
+                    (change)="checkAllColumnCheckBoxes($event, i+1)" />
+            <a class="product-number-link"
+                href="/v2/#/products/(productDetails:{{dataItem.productId}})?activeTab=product-overview">
+                {{dataItem.codeString}}
+            </a>
+        </ng-template>
+    </kendo-grid-column>
+
+    <kendo-grid-column field="description" title="Description" class="header-description">
+        <ng-template kendoGridHeaderTemplate let-column let-columnIndex="columnIndex">
+            {{column.title}}({{columnIndex}})
+        </ng-template>
+        <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex"
+                        *ngIf="{{dataItem.lineItemTypeId}}!=2; else configuredItemDescription">
+            {{dataItem.description}}
+        </ng-template>
+        <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex" #configuredItemDescription>
+            <p>Configured Item</p>
+        </ng-template>
+    </kendo-grid-column>
+
+    <kendo-grid-column field="submittalSheets" title="Submittal Sheets" class="header-reference">
+        <ng-template kendoGridHeaderTemplate let-column let-columnIndex="columnIndex">
+
+            <input type="checkbox"
+                    id={{column.field}}
+                    name={{column.title}}
+                    class="pull-left"
+                    [attr.colIndex]="columnIndex"
+                    [attr.rowIndex]="0"
+                    (change)="checkAllRowCheckBoxes($event)" />
+            {{column.title}}({{columnIndex}})
+        </ng-template>
+        <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex"
+                        *ngIf="dataItem.hasSubmittalSheets">
+            <input type="checkbox"
+                    id="{{dataItem.submittalSheetsDocId}}"
+                    class="chkBoxSubmittalSheets"
+                    name="chkBoxSubmittalSheetsRow"
+                    [attr.rowIndex]="rowIndex"
+                    value="{{dataItem.submittalSheetsDocId}}"
+                    (change)="checkAllColumnCheckBoxes($event, rowIndex)" />
+            <a class="product-number-link" href="{{dataItem.submittalSheetUrl}}">
+                View
+            </a>
+        </ng-template>
+    </kendo-grid-column>
+
+</kendo-grid>
+-->

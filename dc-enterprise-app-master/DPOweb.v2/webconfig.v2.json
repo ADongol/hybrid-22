@@ -1,0 +1,17 @@
+﻿{
+  "routeConfig": {
+    "libraryLink": "/Library",
+    "unitaryMatchupToolURL": "https://testapi.goodmanmfg.com/EBizWebServices/requestEntry",
+    "commercialSplitMatchupToolURL": "https://testapi.goodmanmfg.com/EBizWebServices/requestEntry",
+    "lcstURL": "https://securenet.goodmanmfg.com/litconfig-DC/listDealers.html?sessionId=123",
+    "lcstURLTool": "https://securenet.goodmanmfg.com/litconfig-DCTool/listDealers.html?sessionId=123"
+  },
+  "testMode": {
+    "isTesting": "false",
+    "testModeMessage": "Sorry for the inconvenience. Daikin City is under testing mode, any changes maybe lost. Please come back later. Thank you for your patience!"
+  },
+  "lcst": {
+    "pilotRelease": "true",
+    "availableToBusinesses": [ "206680765352640513" ]
+  }
+}

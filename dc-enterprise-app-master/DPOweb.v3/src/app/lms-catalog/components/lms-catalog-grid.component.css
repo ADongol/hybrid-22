@@ -1,0 +1,200 @@
+﻿.row {
+    padding: 0px;
+}
+
+.col-md-6 .col-md-4 .col-md-3 {
+    padding: 0px;
+}
+
+.col-md-2 {
+    padding-right: 2%;
+}
+
+
+
+#courseTitleSearchBox {
+    display: inline-block;
+    width: 250px;
+}
+
+.export-to-excel-btn {
+    align-items: flex-start;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-image: linear-gradient(rgb(241, 241, 241), rgb(209, 209, 209));
+    background-origin: padding-box;
+    background-size: auto;
+    border-bottom-color: rgb(184, 184, 184);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(184, 184, 184);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(184, 184, 184);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(184, 184, 184);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: rgb(77, 84, 93);
+    cursor: pointer;
+    display: block;
+    filter: none;
+    float: right;
+    font-family: museo-sans, sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    height: 30px;
+    letter-spacing: normal;
+    line-height: 15px;
+    margin: 0px;
+    overflow-x: visible;
+    overflow-y: visible;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    text-align: center;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 194px;
+    word-spacing: 0px;
+    writing-mode: horizontal-tb;
+}
+
+.k-icon .k-i-excel {
+    width: 1em;
+    height: 1em;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    font-family: 'WebComponentsIcons';
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    speak: none;
+    text-transform: none;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.course-params-row {
+    background-color: #E5F2FA;
+    padding: 10px;
+    height: 60px;
+    margin: 15px;
+}
+
+.course-search-labels {
+    box-sizing: content-box;
+    color: rgb(51, 51, 51);
+    cursor: default;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    max-width: 100%;
+    text-size-adjust: 100%;
+}
+
+
+.kendo-datepicker {
+    width: 100%;
+}
+
+.btn-reset-span {
+    padding-left: 40px;
+}
+
+.btn-refresh-all {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #008CBA;
+    margin-top: 15px;
+    padding: 8px;
+}
+
+.blue .codeColumn {
+    background-color: #D3E7F2;
+}
+
+.purple .codeColumn {
+    background-color: #D7D1EB;
+}
+
+.yellow .codeColumn {
+    background-color: #F5F0BC;
+}
+
+.lightgreen .codeColumn {
+    background-color: #C1D4BE;
+}
+
+.green .codeColumn {
+    background-color: #BCF5D3;
+}
+
+.grey .codeColumn {
+    background-color: #C2C8CF;
+}
+
+.pink .codeColumn {
+    background-color: #EBD1D8;
+}
+
+
+
+#courseListGrid table, #courseListGrid th, #courseListGrid td {
+    border-bottom: 1px solid #cccccc;
+    border-collapse: collapse;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+#courseListGrid.k-grid .k-column-resizer {
+    cursor: w-resize;
+    height: 1000%;
+    position: absolute;
+    top: 0;
+    width: 1em;
+}
+
+.k-grid-header .k-grid-filter, .k-grid-header .k-header-column-menu {
+    right: 10px;
+}
+
+.k-grid-header .k-header > .k-link > .k-icon.k-i-sort-desc-sm, .k-grid-header .k-header > .k-link > .k-icon.k-i-sort-asc-sm {
+    margin-left: 2px;
+}
+
+.k-grid .k-grid-header .k-header .k-link {
+    height: auto;
+}
+
+.k-grid .k-grid-header .k-header {
+    white-space: normal;
+}

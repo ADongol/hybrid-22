@@ -1,0 +1,166 @@
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\DPO.Domain.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\DPO.Domain.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\DPO.Domain.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\AutoMapper.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\Common.Logging.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\CsvHelper.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\DPO.Common.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\DPO.Data.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\DPO.Model.Light.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\DPO.Resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\Elmah.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\Elmah.Mvc.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\EntityFramework.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\EntityFramework.Extended.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\EntityFramework.SqlServer.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\EO.Pdf.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\EO.Pdf.Mvc.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\EO.Pdf.Mvc5.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\Ghostscript.NET.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\log4net.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\MiniProfiler.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\MiniProfiler.EntityFramework6.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\Newtonsoft.Json.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\NPOI.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\NPOI.OOXML.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\NPOI.OpenXml4Net.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\NPOI.OpenXmlFormats.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\Renci.SshNet.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\System.Net.Http.Formatting.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\System.Web.Helpers.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\System.Web.Mvc.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\System.Web.Razor.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\System.Web.WebPages.Deployment.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\System.Web.WebPages.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\System.Web.WebPages.Razor.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\FlakeGen.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\DPO.Common.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\DPO.Common.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\DPO.Resources.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\DPO.Resources.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\DPO.Data.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\DPO.Data.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\DPO.Model.Light.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\DPO.Model.Light.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\AutoMapper.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\Common.Logging.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\Common.Logging.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\CsvHelper.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\CsvHelper.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\EntityFramework.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\EntityFramework.Extended.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\EntityFramework.SqlServer.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\Ghostscript.NET.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\log4net.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\MiniProfiler.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\MiniProfiler.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\MiniProfiler.EntityFramework6.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\MiniProfiler.EntityFramework6.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\MiniProfiler.EntityFramework6.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\Newtonsoft.Json.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\NPOI.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\NPOI.OOXML.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\NPOI.OpenXml4Net.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\Renci.SshNet.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\System.Net.Http.Formatting.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\System.Web.Helpers.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\System.Web.Mvc.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\System.Web.Razor.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\System.Web.WebPages.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\System.Web.WebPages.Deployment.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\System.Web.WebPages.Razor.xml
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\FlakeGen.pdb
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\FlakeGen.dll.config
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\en-CA\DPO.Resources.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\bin\Release\en-GB\DPO.Resources.resources.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\obj\Release\DPO.Domain.csprojResolveAssemblyReference.cache
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\obj\Release\DPO.Domain.Properties.Resources.resources
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\obj\Release\DPO.Domain.csproj.GenerateResource.Cache
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\obj\Release\DPO.Domain.csproj.CoreCompileInputs.cache
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\obj\Release\DPO.Domain.dll
+C:\dttp-Projects\Latest_Staging\Daikin Project Office\DPO.Domain\DPO.Domain\obj\Release\DPO.Domain.pdb
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\DPO.Domain.dll.config
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\DPO.Domain.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\DPO.Domain.pdb
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\AutoMapper.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\Common.Logging.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\CsvHelper.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\DPO.Common.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\DPO.Data.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\DPO.Model.Light.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\DPO.Resources.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\Elmah.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\Elmah.Mvc.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\EntityFramework.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\EntityFramework.Extended.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\EntityFramework.SqlServer.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\EO.Pdf.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\EO.Pdf.Mvc.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\EO.Pdf.Mvc5.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\Ghostscript.NET.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\log4net.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\MiniProfiler.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\MiniProfiler.EntityFramework6.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\Newtonsoft.Json.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\NPOI.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\NPOI.OOXML.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\NPOI.OpenXml4Net.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\NPOI.OpenXmlFormats.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\Renci.SshNet.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\System.Net.Http.Formatting.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\System.Web.Helpers.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\System.Web.Mvc.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\System.Web.Razor.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\System.Web.WebPages.Deployment.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\System.Web.WebPages.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\System.Web.WebPages.Razor.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\FlakeGen.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\DPO.Common.pdb
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\DPO.Common.dll.config
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\DPO.Resources.pdb
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\DPO.Resources.dll.config
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\DPO.Data.pdb
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\DPO.Data.dll.config
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\DPO.Model.Light.pdb
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\DPO.Model.Light.dll.config
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\AutoMapper.xml
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\Common.Logging.pdb
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\Common.Logging.xml
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\CsvHelper.pdb
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\CsvHelper.xml
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\EntityFramework.xml
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\EntityFramework.Extended.xml
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\EntityFramework.SqlServer.xml
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\Ghostscript.NET.xml
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\log4net.xml
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\MiniProfiler.pdb
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\MiniProfiler.xml
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\MiniProfiler.EntityFramework6.pdb
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\MiniProfiler.EntityFramework6.xml
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\MiniProfiler.EntityFramework6.dll.config
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\Newtonsoft.Json.xml
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\NPOI.xml
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\NPOI.OOXML.xml
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\NPOI.OpenXml4Net.xml
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\Renci.SshNet.xml
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\System.Net.Http.Formatting.xml
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\System.Web.Helpers.xml
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\System.Web.Mvc.xml
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\System.Web.Razor.xml
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\System.Web.WebPages.xml
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\System.Web.WebPages.Deployment.xml
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\System.Web.WebPages.Razor.xml
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\FlakeGen.pdb
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\FlakeGen.dll.config
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\en-CA\DPO.Resources.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\bin\Release\en-GB\DPO.Resources.resources.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\obj\Release\DPO.Domain.csprojResolveAssemblyReference.cache
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\obj\Release\DPO.Domain.Properties.Resources.resources
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\obj\Release\DPO.Domain.csproj.GenerateResource.Cache
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\obj\Release\DPO.Domain.csproj.CoreCompileInputs.cache
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\obj\Release\DPO.Domain.dll
+C:\dttp-Projects\AngularCLI\DPO.Domain\DPO.Domain\obj\Release\DPO.Domain.pdb

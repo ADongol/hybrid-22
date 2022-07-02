@@ -1,0 +1,43 @@
+﻿@model ProductModel
+@{
+    var specs = Model.Specifications;
+}
+<tr>
+    <td style="background-color:#85C1E9"></td>
+    <td style="background-color:#85C1E9">SEER</td>
+    <td style="background-color:#85C1E9">EER</td>
+    <td colspan="1" style="background-color:#85C1E9"></td>
+</tr>
+
+<tr>
+    <td style="background-color:#85C1E9">Non-Ducted:</td>
+    <td style="background-color:#85C1E9">@specs.GetDecimal("SEERNonDucted", "N2")</td>
+    <td style="background-color:#85C1E9">@specs.GetDecimal("EERNonDucted", "N2")</td>
+    <td colspan="1" style="background-color:#85C1E9"></td>
+</tr>
+@{
+    if (specs.GetDecimal("SEERDucted", "N2") != null)
+    {
+        <tr>
+            <td style="background-color:#85C1E9">Ducted:</td>
+            <td style="background-color:#85C1E9">@specs.GetDecimal("SEERDucted", "N2")</td>
+            <td style="background-color:#85C1E9">@specs.GetDecimal("EERDucted", "N2")</td>
+            <td colspan="1" style="background-color:#85C1E9"></td>
+        </tr>
+    }
+}
+
+<tr>
+    <td colspan="4" style="background-color:#85C1E9">&nbsp;</td>
+</tr>
+<tr>
+    <td colspan="4" style="background-color:#85C1E9">&nbsp;</td>
+</tr>
+<tr>
+    <td colspan="4" style="background-color:#85C1E9">&nbsp;</td>
+</tr>
+<tr>
+    <td colspan="4" style="background-color:#85C1E9"><br />&nbsp;<br /></td>
+</tr>
+
+

@@ -1,0 +1,70 @@
+﻿@model ProductModel
+@{
+    var specs = Model.Specifications;
+}
+
+@{
+    if (specs.GetString("UnitType") == "Indoor")
+    {
+        <tr>
+            <td  colspan="2">Gas Connection: <br />(inch)</td>
+            <td>@specs.GetString("PipeSizeGas")</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td  colspan="2">Liquid Connection: <br />(inch)</td>
+            <td>@specs.GetString("PipeSizeLiquid")</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td  colspan="2">Drain Connection: <br />(inch)</td>
+            <td>@specs.GetString("CondensateDrainOutlet")</td>
+            <td></td>
+            <td></td>
+        </tr>
+    }
+    else
+    {
+        <tr>
+            <td colspan="2">Max. System Piping Length:<br />(feet):</td>
+            <td>@specs.GetString("MaxPipeLengthTotal")</td>
+            <td>Gas Conn.(inch):</td>
+            <td align="center">@specs.GetString("PipeSizeGas")</td>
+        </tr>
+        <tr>
+            <td colspan="2">Max. Interunit Piping <br />Length: (feet):</td>
+            <td>New Attribute</td>
+            <td>Liquid Conn.(inch):</td>
+            <td align="center">@specs.GetString("PipeSizeLiquid")</td>
+        </tr>
+       @*<tr>
+            <td colspan="2">Max. Interunit Height <br />Difference: (feet):</td>
+            <td>@specs.GetString("MaxPipeLengthVertical")</td>
+            <td>Liquid Conn.(inch):</td>
+            <td align="center">@specs.GetString("PipeSizeLiquid")</td>
+        </tr>*@
+        <tr>
+            <td colspan="2">Max. Height Difference <br />IDU to ODU (feet):</td>
+            <td>@specs.GetString("MaxPipeLengthVertical")</td>
+            <td>Drain Conn.(inch):</td>
+            <td align="center">@specs.GetString("CondensateDrainOutlet")</td>
+        </tr>
+        <tr>
+            <td colspan="2">Max. Height Difference <br />IDU to IDU (feet):</td>
+            <td>@specs.GetString("MaxIndoorToIndoorPiping")</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2">Refrigerant Pre-Charged <br />Pipe Length (ft):</td>
+            <td>@specs.GetString("RefrigerantPreChargedLineLength")</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="5"><br />&nbsp;<br /></td>
+        </tr>    
+    }
+}

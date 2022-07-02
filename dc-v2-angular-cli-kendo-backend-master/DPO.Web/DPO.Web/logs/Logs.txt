@@ -1,0 +1,674 @@
+DEBUG 2018-07-27 16:52:24,898 5141155ms QuoteServices          GetQuoteItemsModel - loadDiscountRequest: True LoadCommissionRequest: False 
+DEBUG 2018-07-27 16:52:25,002 5141259ms QuoteServices          GetQuoteItemsModel - QuoteId is Not Null
+DEBUG 2018-07-27 16:52:25,849 5142106ms QuoteServices          GetQuoteItemsModel - Get QuoteItemsModel
+INFO  2018-07-27 16:52:27,326 5143583ms QuoteServices          QuoteItemListModel - Enter GetQuoteItemListModel
+DEBUG 2018-07-27 16:52:27,355 5143612ms QuoteServices          QuoteItemListModel - CurrentFilter:  IsDesc: False QuoteId: 755941532934176768 QuoteItemId:  Totals: True PreviousFilter:  
+INFO  2018-07-27 16:52:27,759 5144016ms QuoteServices          QuoteItemListModel - GetQuoteItemListModel finished.
+DEBUG 2018-07-27 16:52:27,778 5144035ms QuoteServices          GetQuoteItemsModel - loadDiscountRequests equal true
+INFO  2018-07-27 16:52:27,807 5144064ms iscountRequestServices ntRequestListModel - Enter GetDiscountRequestListModel for User: test@123.com
+DEBUG 2018-07-27 16:52:27,823 5144080ms iscountRequestServices ntRequestListModel - SearchDiscountRequests Filter : 
+DEBUG 2018-07-27 16:52:28,048 5144305ms iscountRequestServices ntRequestListModel - return list of DiscountRequestModels 
+INFO  2018-07-27 16:52:28,385 5144642ms iscountRequestServices ntRequestListModel - GetDiscountRequestListModel finished.
+DEBUG 2018-07-27 16:52:28,400 5144657ms QuoteServices          GetQuoteItemsModel - DiscountRequests count: 1
+DEBUG 2018-07-27 16:52:28,422 5144679ms QuoteServices          GetQuoteItemsModel - Page: 1 PageSize: 100 TotalRecords: 1
+INFO  2018-07-27 16:52:28,451 5144708ms QuoteServices          GetQuoteItemsModel - GetQuoteItemsModel finished
+INFO  2018-07-30 11:23:32,117 7433825ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+INFO  2018-07-30 11:28:27,520 242681ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+INFO  2018-07-30 11:37:29,442 784602ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+INFO  2018-07-30 11:41:04,615 999776ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+INFO  2018-07-30 11:41:34,751 1029912ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+INFO  2018-07-30 11:45:36,535 1271695ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+INFO  2018-07-30 11:47:32,609 1387769ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+INFO  2018-07-30 11:49:50,195 1525356ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+INFO  2018-07-30 11:53:17,199 1732359ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+INFO  2018-07-30 11:53:35,605 1750765ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+INFO  2018-07-30 11:59:07,512 2082672ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+INFO  2018-07-30 12:01:54,126 2249286ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+INFO  2018-07-30 12:07:43,250 2598410ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+INFO  2018-07-30 12:07:55,654 2610814ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+INFO  2018-07-30 12:09:09,777 2684937ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+INFO  2018-07-30 12:11:06,984 2802144ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+INFO  2018-07-30 12:20:09,374 3344534ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+INFO  2018-07-30 12:25:54,008 55768ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+INFO  2018-07-30 12:27:40,097 161857ms QuoteServices          GetQuoteListModel  - Enter GetQuoteListModel for user: test@123.com
+DEBUG 2018-07-30 12:27:40,145 161905ms QuoteServices          GetQuoteListModel  - SearcH filters: 
+DEBUG 2018-07-30 12:27:40,172 161932ms QuoteServices          GetQuoteListModel  - Start getting Quotes by search
+INFO  2018-07-30 12:27:40,614 162374ms QuoteServices          GetQuoteListModel  - GetQuoteListModel finished.
+INFO  2018-07-30 12:30:48,812 350572ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-07-30 12:30:48,857 350617ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-07-30 12:30:51,553 353313ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-07-30 12:30:51,741 353501ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-07-30 12:30:51,772 353532ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-07-30 12:30:53,172 354932ms QuoteServices          GetQuoteItemsModel - enter GetQuoteItemsModel
+DEBUG 2018-07-30 12:30:53,220 354980ms QuoteServices          GetQuoteItemsModel - QuoteItems count: 0 
+DEBUG 2018-07-30 12:30:53,266 355026ms QuoteServices          GetQuoteItemsModel - DiscountRequestId: 0 CommissionRequestId: 0
+DEBUG 2018-07-30 12:30:53,299 355059ms QuoteServices          GetQuoteItemsModel - Awaiting Commision: False Awaiting Discount: False 
+DEBUG 2018-07-30 12:30:53,331 355091ms QuoteServices          GetQuoteItemsModel - loadDiscountRequest: True LoadCommissionRequest: False 
+DEBUG 2018-07-30 12:30:53,362 355122ms QuoteServices          GetQuoteItemsModel - QuoteId is Not Null
+DEBUG 2018-07-30 12:30:54,379 356139ms QuoteServices          GetQuoteItemsModel - Get QuoteItemsModel
+INFO  2018-07-30 12:30:56,258 358018ms QuoteServices          QuoteItemListModel - Enter GetQuoteItemListModel
+DEBUG 2018-07-30 12:30:56,282 358042ms QuoteServices          QuoteItemListModel - CurrentFilter:  IsDesc: False QuoteId: 755941532934176768 QuoteItemId:  Totals: True PreviousFilter:  
+INFO  2018-07-30 12:30:57,019 358779ms QuoteServices          QuoteItemListModel - GetQuoteItemListModel finished.
+DEBUG 2018-07-30 12:30:57,041 358801ms QuoteServices          GetQuoteItemsModel - loadDiscountRequests equal true
+INFO  2018-07-30 12:30:57,078 358838ms iscountRequestServices ntRequestListModel - Enter GetDiscountRequestListModel for User: test@123.com
+DEBUG 2018-07-30 12:30:57,104 358864ms iscountRequestServices ntRequestListModel - SearchDiscountRequests Filter : 
+DEBUG 2018-07-30 12:30:57,429 359189ms iscountRequestServices ntRequestListModel - return list of DiscountRequestModels 
+INFO  2018-07-30 12:30:57,858 359618ms iscountRequestServices ntRequestListModel - GetDiscountRequestListModel finished.
+DEBUG 2018-07-30 12:30:57,894 359654ms QuoteServices          GetQuoteItemsModel - DiscountRequests count: 1
+DEBUG 2018-07-30 12:30:57,930 359690ms QuoteServices          GetQuoteItemsModel - Page: 1 PageSize: 100 TotalRecords: 1
+INFO  2018-07-30 12:30:57,967 359727ms QuoteServices          GetQuoteItemsModel - GetQuoteItemsModel finished
+INFO  2018-07-30 12:31:34,172 395932ms QuoteServices          GetQuoteItems      - Enter GetQuoteItems
+DEBUG 2018-07-30 12:31:34,200 395960ms QuoteServices          GetQuoteItems      - quoteId: 755941532934176768
+DEBUG 2018-07-30 12:31:34,221 395981ms QuoteServices          GetQuoteItems      - quoteId has value.execute query.
+DEBUG 2018-07-30 12:31:34,351 396111ms QuoteServices          GetQuoteItems      - GetQuoteItems finished
+DEBUG 2018-07-30 12:31:34,370 396130ms QuoteServices          GetQuoteItems      - {DPO.Common.QuoteItemModel}
+INFO  2018-07-30 12:31:36,266 398026ms QuoteServices          QuoteItemListModel - Enter GetQuoteItemListModel
+DEBUG 2018-07-30 12:31:36,290 398050ms QuoteServices          QuoteItemListModel - CurrentFilter:  IsDesc: False QuoteId: 755941532934176768 QuoteItemId:  Totals: False PreviousFilter:  
+INFO  2018-07-30 12:31:36,648 398408ms QuoteServices          QuoteItemListModel - GetQuoteItemListModel finished.
+INFO  2018-07-30 12:31:52,695 414455ms QuoteServices          GetQuoteItems      - Enter GetQuoteItems
+DEBUG 2018-07-30 12:31:52,724 414484ms QuoteServices          GetQuoteItems      - quoteId: 755941532934176768
+DEBUG 2018-07-30 12:31:52,768 414528ms QuoteServices          GetQuoteItems      - quoteId has value.execute query.
+DEBUG 2018-07-30 12:31:52,811 414571ms QuoteServices          GetQuoteItems      - GetQuoteItems finished
+DEBUG 2018-07-30 12:31:52,839 414599ms QuoteServices          GetQuoteItems      - {DPO.Common.QuoteItemModel}
+INFO  2018-07-30 12:31:54,136 415896ms QuoteServices          QuoteItemListModel - Enter GetQuoteItemListModel
+DEBUG 2018-07-30 12:31:54,158 415918ms QuoteServices          QuoteItemListModel - CurrentFilter:  IsDesc: False QuoteId: 755941532934176768 QuoteItemId:  Totals: False PreviousFilter:  
+INFO  2018-07-30 12:31:54,529 416289ms QuoteServices          QuoteItemListModel - GetQuoteItemListModel finished.
+INFO  2018-08-02 11:37:51,818 1180290ms QuoteServices          GetQuoteListModel  - Enter GetQuoteListModel for user: test@123.com
+DEBUG 2018-08-02 11:37:51,969 1180441ms QuoteServices          GetQuoteListModel  - SearcH filters: 
+DEBUG 2018-08-02 11:37:52,022 1180494ms QuoteServices          GetQuoteListModel  - Start getting Quotes by search
+INFO  2018-08-02 11:37:52,445 1180917ms QuoteServices          GetQuoteListModel  - GetQuoteListModel finished.
+INFO  2018-08-02 12:01:04,263 2572735ms QuoteServices          GetQuoteListModel  - Enter GetQuoteListModel for user: test@123.com
+DEBUG 2018-08-02 12:01:04,309 2572781ms QuoteServices          GetQuoteListModel  - SearcH filters: 
+DEBUG 2018-08-02 12:01:04,336 2572808ms QuoteServices          GetQuoteListModel  - Start getting Quotes by search
+INFO  2018-08-02 12:01:04,717 2573189ms QuoteServices          GetQuoteListModel  - GetQuoteListModel finished.
+INFO  2018-08-02 12:01:49,508 2617980ms QuoteServices          GetQuoteListModel  - Enter GetQuoteListModel for user: test@123.com
+DEBUG 2018-08-02 12:01:49,562 2618034ms QuoteServices          GetQuoteListModel  - SearcH filters: 
+DEBUG 2018-08-02 12:01:49,593 2618065ms QuoteServices          GetQuoteListModel  - Start getting Quotes by search
+INFO  2018-08-02 12:01:49,969 2618441ms QuoteServices          GetQuoteListModel  - GetQuoteListModel finished.
+INFO  2018-08-02 12:05:53,997 2862469ms QuoteServices          GetQuoteListModel  - Enter GetQuoteListModel for user: test@123.com
+DEBUG 2018-08-02 12:05:54,020 2862492ms QuoteServices          GetQuoteListModel  - SearcH filters: 
+DEBUG 2018-08-02 12:05:54,043 2862515ms QuoteServices          GetQuoteListModel  - Start getting Quotes by search
+INFO  2018-08-02 12:05:54,341 2862813ms QuoteServices          GetQuoteListModel  - GetQuoteListModel finished.
+INFO  2018-08-02 12:12:57,548 3286020ms QuoteServices          GetQuoteListModel  - Enter GetQuoteListModel for user: test@123.com
+DEBUG 2018-08-02 12:12:57,595 3286067ms QuoteServices          GetQuoteListModel  - SearcH filters: 
+DEBUG 2018-08-02 12:12:57,634 3286106ms QuoteServices          GetQuoteListModel  - Start getting Quotes by search
+INFO  2018-08-02 12:12:58,222 3286694ms QuoteServices          GetQuoteListModel  - GetQuoteListModel finished.
+INFO  2018-08-02 12:18:37,143 3625615ms QuoteServices          GetQuoteListModel  - Enter GetQuoteListModel for user: test@123.com
+DEBUG 2018-08-02 12:18:37,160 3625632ms QuoteServices          GetQuoteListModel  - SearcH filters: 
+DEBUG 2018-08-02 12:18:37,171 3625643ms QuoteServices          GetQuoteListModel  - Start getting Quotes by search
+INFO  2018-08-02 12:18:37,451 3625923ms QuoteServices          GetQuoteListModel  - GetQuoteListModel finished.
+INFO  2018-08-02 12:19:59,500 3707972ms QuoteServices          GetQuoteListModel  - Enter GetQuoteListModel for user: test@123.com
+DEBUG 2018-08-02 12:19:59,571 3708043ms QuoteServices          GetQuoteListModel  - SearcH filters: 
+DEBUG 2018-08-02 12:19:59,656 3708128ms QuoteServices          GetQuoteListModel  - Start getting Quotes by search
+INFO  2018-08-02 12:20:00,213 3708685ms QuoteServices          GetQuoteListModel  - GetQuoteListModel finished.
+INFO  2018-08-02 12:21:11,558 3780030ms QuoteServices          GetQuoteListModel  - Enter GetQuoteListModel for user: test@123.com
+DEBUG 2018-08-02 12:21:11,586 3780058ms QuoteServices          GetQuoteListModel  - SearcH filters: 
+DEBUG 2018-08-02 12:21:11,612 3780084ms QuoteServices          GetQuoteListModel  - Start getting Quotes by search
+INFO  2018-08-02 12:21:12,043 3780515ms QuoteServices          GetQuoteListModel  - GetQuoteListModel finished.
+INFO  2018-08-02 12:22:56,729 3885201ms QuoteServices          GetQuoteListModel  - Enter GetQuoteListModel for user: test@123.com
+DEBUG 2018-08-02 12:22:56,768 3885240ms QuoteServices          GetQuoteListModel  - SearcH filters: 
+DEBUG 2018-08-02 12:22:56,844 3885316ms QuoteServices          GetQuoteListModel  - Start getting Quotes by search
+INFO  2018-08-02 12:22:57,344 3885816ms QuoteServices          GetQuoteListModel  - GetQuoteListModel finished.
+INFO  2018-08-02 12:24:37,148 3985620ms QuoteServices          GetQuoteListModel  - Enter GetQuoteListModel for user: test@123.com
+DEBUG 2018-08-02 12:24:37,182 3985654ms QuoteServices          GetQuoteListModel  - SearcH filters: 
+DEBUG 2018-08-02 12:24:37,237 3985709ms QuoteServices          GetQuoteListModel  - Start getting Quotes by search
+INFO  2018-08-02 12:24:37,711 3986183ms QuoteServices          GetQuoteListModel  - GetQuoteListModel finished.
+INFO  2018-08-02 12:26:09,810 4078282ms QuoteServices          GetQuoteListModel  - Enter GetQuoteListModel for user: test@123.com
+DEBUG 2018-08-02 12:26:09,848 4078320ms QuoteServices          GetQuoteListModel  - SearcH filters: 
+DEBUG 2018-08-02 12:26:09,885 4078357ms QuoteServices          GetQuoteListModel  - Start getting Quotes by search
+INFO  2018-08-02 12:26:10,407 4078879ms QuoteServices          GetQuoteListModel  - GetQuoteListModel finished.
+INFO  2018-08-02 12:37:52,322 98864ms QuoteServices          GetQuoteListModel  - Enter GetQuoteListModel for user: test@123.com
+DEBUG 2018-08-02 12:37:52,413 98955ms QuoteServices          GetQuoteListModel  - SearcH filters: 
+DEBUG 2018-08-02 12:37:52,460 99002ms QuoteServices          GetQuoteListModel  - Start getting Quotes by search
+INFO  2018-08-02 12:37:52,885 99427ms QuoteServices          GetQuoteListModel  - GetQuoteListModel finished.
+INFO  2018-08-02 12:40:25,154 251696ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-02 12:40:25,184 251726ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-02 12:40:27,763 254305ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-02 12:40:27,881 254423ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-02 12:40:27,911 254453ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-02 12:40:39,352 265894ms QuoteServices          GetQuoteItemsModel - enter GetQuoteItemsModel
+DEBUG 2018-08-02 12:40:39,389 265931ms QuoteServices          GetQuoteItemsModel - QuoteItems count: 0 
+DEBUG 2018-08-02 12:40:39,421 265963ms QuoteServices          GetQuoteItemsModel - DiscountRequestId: 0 CommissionRequestId: 0
+DEBUG 2018-08-02 12:40:39,454 265996ms QuoteServices          GetQuoteItemsModel - Awaiting Commision: False Awaiting Discount: False 
+DEBUG 2018-08-02 12:40:39,485 266027ms QuoteServices          GetQuoteItemsModel - loadDiscountRequest: False LoadCommissionRequest: True 
+DEBUG 2018-08-02 12:40:39,516 266058ms QuoteServices          GetQuoteItemsModel - QuoteId is Not Null
+DEBUG 2018-08-02 12:40:40,573 267115ms QuoteServices          GetQuoteItemsModel - Get QuoteItemsModel
+INFO  2018-08-02 12:40:42,746 269288ms QuoteServices          QuoteItemListModel - Enter GetQuoteItemListModel
+DEBUG 2018-08-02 12:40:42,779 269321ms QuoteServices          QuoteItemListModel - CurrentFilter:  IsDesc: False QuoteId: 754919392403259392 QuoteItemId:  Totals: True PreviousFilter:  
+INFO  2018-08-02 12:40:43,383 269925ms QuoteServices          QuoteItemListModel - GetQuoteItemListModel finished.
+DEBUG 2018-08-02 12:40:43,418 269960ms QuoteServices          GetQuoteItemsModel - loadCommissionRequests equal true
+DEBUG 2018-08-02 12:40:44,354 270896ms QuoteServices          GetQuoteItemsModel - CommissionRequests count: 2
+DEBUG 2018-08-02 12:40:44,386 270928ms QuoteServices          GetQuoteItemsModel - Page: 1 PageSize: 100 TotalRecords: 55
+INFO  2018-08-02 12:40:44,417 270959ms QuoteServices          GetQuoteItemsModel - GetQuoteItemsModel finished
+INFO  2018-08-02 12:43:06,423 412965ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-02 12:43:06,658 413200ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-02 12:43:08,561 415103ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-02 12:43:08,626 415168ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-02 12:43:08,653 415195ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-02 12:44:20,178 486720ms QuoteServices          GetQuoteItemsModel - enter GetQuoteItemsModel
+DEBUG 2018-08-02 12:44:20,246 486788ms QuoteServices          GetQuoteItemsModel - QuoteItems count: 0 
+DEBUG 2018-08-02 12:44:20,279 486821ms QuoteServices          GetQuoteItemsModel - DiscountRequestId: 0 CommissionRequestId: 0
+DEBUG 2018-08-02 12:44:20,304 486846ms QuoteServices          GetQuoteItemsModel - Awaiting Commision: False Awaiting Discount: False 
+DEBUG 2018-08-02 12:44:20,333 486875ms QuoteServices          GetQuoteItemsModel - loadDiscountRequest: False LoadCommissionRequest: True 
+DEBUG 2018-08-02 12:44:20,354 486896ms QuoteServices          GetQuoteItemsModel - QuoteId is Not Null
+DEBUG 2018-08-02 12:44:21,261 487803ms QuoteServices          GetQuoteItemsModel - Get QuoteItemsModel
+INFO  2018-08-02 12:44:22,572 489114ms QuoteServices          QuoteItemListModel - Enter GetQuoteItemListModel
+DEBUG 2018-08-02 12:44:22,589 489131ms QuoteServices          QuoteItemListModel - CurrentFilter:  IsDesc: False QuoteId: 754919392403259392 QuoteItemId:  Totals: True PreviousFilter:  
+INFO  2018-08-02 12:44:22,976 489518ms QuoteServices          QuoteItemListModel - GetQuoteItemListModel finished.
+DEBUG 2018-08-02 12:44:22,993 489535ms QuoteServices          GetQuoteItemsModel - loadCommissionRequests equal true
+DEBUG 2018-08-02 12:44:23,644 490186ms QuoteServices          GetQuoteItemsModel - CommissionRequests count: 2
+DEBUG 2018-08-02 12:44:23,695 490237ms QuoteServices          GetQuoteItemsModel - Page: 1 PageSize: 100 TotalRecords: 55
+INFO  2018-08-02 12:44:23,800 490342ms QuoteServices          GetQuoteItemsModel - GetQuoteItemsModel finished
+INFO  2018-08-02 12:46:45,557 632099ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-02 12:46:45,651 632193ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-02 12:46:47,860 634402ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-02 12:46:47,927 634469ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-02 12:46:47,955 634497ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-02 14:04:54,522 4561772ms QuoteServices          GetQuoteListModel  - Enter GetQuoteListModel for user: test@123.com
+DEBUG 2018-08-02 14:04:54,644 4561894ms QuoteServices          GetQuoteListModel  - SearcH filters: 
+DEBUG 2018-08-02 14:04:54,672 4561922ms QuoteServices          GetQuoteListModel  - Start getting Quotes by search
+INFO  2018-08-02 14:04:55,055 4562306ms QuoteServices          GetQuoteListModel  - GetQuoteListModel finished.
+INFO  2018-08-02 14:05:12,011 4579261ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-02 14:05:12,043 4579293ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-02 14:05:14,506 4581756ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-02 14:05:14,618 4581868ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-02 14:05:14,644 4581894ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-02 14:05:23,080 4590330ms QuoteServices          GetQuoteItemsModel - enter GetQuoteItemsModel
+DEBUG 2018-08-02 14:05:23,110 4590360ms QuoteServices          GetQuoteItemsModel - QuoteItems count: 0 
+DEBUG 2018-08-02 14:05:23,135 4590386ms QuoteServices          GetQuoteItemsModel - DiscountRequestId: 0 CommissionRequestId: 0
+DEBUG 2018-08-02 14:05:23,166 4590417ms QuoteServices          GetQuoteItemsModel - Awaiting Commision: False Awaiting Discount: False 
+DEBUG 2018-08-02 14:05:23,192 4590443ms QuoteServices          GetQuoteItemsModel - loadDiscountRequest: False LoadCommissionRequest: True 
+DEBUG 2018-08-02 14:05:23,218 4590469ms QuoteServices          GetQuoteItemsModel - QuoteId is Not Null
+DEBUG 2018-08-02 14:05:24,106 4591357ms QuoteServices          GetQuoteItemsModel - Get QuoteItemsModel
+INFO  2018-08-02 14:05:26,179 4593429ms QuoteServices          QuoteItemListModel - Enter GetQuoteItemListModel
+DEBUG 2018-08-02 14:05:26,211 4593461ms QuoteServices          QuoteItemListModel - CurrentFilter:  IsDesc: False QuoteId: 754919392403259392 QuoteItemId:  Totals: True PreviousFilter:  
+INFO  2018-08-02 14:05:26,814 4594065ms QuoteServices          QuoteItemListModel - GetQuoteItemListModel finished.
+DEBUG 2018-08-02 14:05:26,842 4594093ms QuoteServices          GetQuoteItemsModel - loadCommissionRequests equal true
+DEBUG 2018-08-02 14:05:27,691 4594942ms QuoteServices          GetQuoteItemsModel - CommissionRequests count: 2
+DEBUG 2018-08-02 14:05:27,724 4594974ms QuoteServices          GetQuoteItemsModel - Page: 1 PageSize: 100 TotalRecords: 55
+INFO  2018-08-02 14:05:27,756 4595006ms QuoteServices          GetQuoteItemsModel - GetQuoteItemsModel finished
+INFO  2018-08-02 14:05:57,103 4624353ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-02 14:05:57,150 4624400ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-02 14:05:58,531 4625782ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-02 14:05:58,573 4625823ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-02 14:05:58,585 4625835ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-02 14:06:04,903 4632154ms QuoteServices          GetQuoteItemsModel - enter GetQuoteItemsModel
+DEBUG 2018-08-02 14:06:04,936 4632187ms QuoteServices          GetQuoteItemsModel - QuoteItems count: 0 
+DEBUG 2018-08-02 14:06:04,972 4632223ms QuoteServices          GetQuoteItemsModel - DiscountRequestId: 0 CommissionRequestId: 0
+DEBUG 2018-08-02 14:06:05,000 4632251ms QuoteServices          GetQuoteItemsModel - Awaiting Commision: False Awaiting Discount: False 
+DEBUG 2018-08-02 14:06:05,029 4632280ms QuoteServices          GetQuoteItemsModel - loadDiscountRequest: False LoadCommissionRequest: True 
+DEBUG 2018-08-02 14:06:05,058 4632309ms QuoteServices          GetQuoteItemsModel - QuoteId is Not Null
+DEBUG 2018-08-02 14:06:05,996 4633247ms QuoteServices          GetQuoteItemsModel - Get QuoteItemsModel
+INFO  2018-08-02 14:06:08,026 4635276ms QuoteServices          QuoteItemListModel - Enter GetQuoteItemListModel
+DEBUG 2018-08-02 14:06:08,059 4635309ms QuoteServices          QuoteItemListModel - CurrentFilter:  IsDesc: False QuoteId: 754919392403259392 QuoteItemId:  Totals: True PreviousFilter:  
+INFO  2018-08-02 14:06:08,594 4635844ms QuoteServices          QuoteItemListModel - GetQuoteItemListModel finished.
+DEBUG 2018-08-02 14:06:08,625 4635875ms QuoteServices          GetQuoteItemsModel - loadCommissionRequests equal true
+DEBUG 2018-08-02 14:06:09,545 4636795ms QuoteServices          GetQuoteItemsModel - CommissionRequests count: 2
+DEBUG 2018-08-02 14:06:09,598 4636848ms QuoteServices          GetQuoteItemsModel - Page: 1 PageSize: 100 TotalRecords: 55
+INFO  2018-08-02 14:06:09,644 4636894ms QuoteServices          GetQuoteItemsModel - GetQuoteItemsModel finished
+INFO  2018-08-02 14:08:02,047 4749297ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-02 14:08:02,066 4749316ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-02 14:08:03,672 4750923ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-02 14:08:03,726 4750977ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-02 14:08:03,748 4750999ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-02 14:08:09,559 4756809ms QuoteServices          GetQuoteItemsModel - enter GetQuoteItemsModel
+DEBUG 2018-08-02 14:08:09,602 4756852ms QuoteServices          GetQuoteItemsModel - QuoteItems count: 0 
+DEBUG 2018-08-02 14:08:09,624 4756874ms QuoteServices          GetQuoteItemsModel - DiscountRequestId: 0 CommissionRequestId: 0
+DEBUG 2018-08-02 14:08:09,646 4756896ms QuoteServices          GetQuoteItemsModel - Awaiting Commision: False Awaiting Discount: False 
+DEBUG 2018-08-02 14:08:09,668 4756918ms QuoteServices          GetQuoteItemsModel - loadDiscountRequest: False LoadCommissionRequest: True 
+DEBUG 2018-08-02 14:08:09,690 4756940ms QuoteServices          GetQuoteItemsModel - QuoteId is Not Null
+DEBUG 2018-08-02 14:08:10,481 4757731ms QuoteServices          GetQuoteItemsModel - Get QuoteItemsModel
+INFO  2018-08-02 14:08:12,037 4759287ms QuoteServices          QuoteItemListModel - Enter GetQuoteItemListModel
+DEBUG 2018-08-02 14:08:12,063 4759313ms QuoteServices          QuoteItemListModel - CurrentFilter:  IsDesc: False QuoteId: 754919392403259392 QuoteItemId:  Totals: True PreviousFilter:  
+INFO  2018-08-02 14:08:12,629 4759879ms QuoteServices          QuoteItemListModel - GetQuoteItemListModel finished.
+DEBUG 2018-08-02 14:08:12,661 4759911ms QuoteServices          GetQuoteItemsModel - loadCommissionRequests equal true
+DEBUG 2018-08-02 14:08:13,450 4760701ms QuoteServices          GetQuoteItemsModel - CommissionRequests count: 2
+DEBUG 2018-08-02 14:08:13,483 4760734ms QuoteServices          GetQuoteItemsModel - Page: 1 PageSize: 100 TotalRecords: 55
+INFO  2018-08-02 14:08:13,516 4760767ms QuoteServices          GetQuoteItemsModel - GetQuoteItemsModel finished
+INFO  2018-08-02 14:08:28,595 4775846ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-02 14:08:28,623 4775874ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-02 14:08:30,725 4777975ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-02 14:08:30,775 4778026ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-02 14:08:30,793 4778044ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-02 14:09:19,175 4826426ms QuoteServices          GetQuoteItemsModel - enter GetQuoteItemsModel
+DEBUG 2018-08-02 14:09:19,227 4826478ms QuoteServices          GetQuoteItemsModel - QuoteItems count: 0 
+DEBUG 2018-08-02 14:09:19,259 4826510ms QuoteServices          GetQuoteItemsModel - DiscountRequestId: 0 CommissionRequestId: 0
+DEBUG 2018-08-02 14:09:19,284 4826535ms QuoteServices          GetQuoteItemsModel - Awaiting Commision: False Awaiting Discount: False 
+DEBUG 2018-08-02 14:09:19,306 4826557ms QuoteServices          GetQuoteItemsModel - loadDiscountRequest: False LoadCommissionRequest: True 
+DEBUG 2018-08-02 14:09:19,329 4826580ms QuoteServices          GetQuoteItemsModel - QuoteId is Not Null
+DEBUG 2018-08-02 14:09:20,126 4827376ms QuoteServices          GetQuoteItemsModel - Get QuoteItemsModel
+INFO  2018-08-02 14:09:22,039 4829289ms QuoteServices          QuoteItemListModel - Enter GetQuoteItemListModel
+DEBUG 2018-08-02 14:09:22,070 4829320ms QuoteServices          QuoteItemListModel - CurrentFilter:  IsDesc: False QuoteId: 754919392403259392 QuoteItemId:  Totals: True PreviousFilter:  
+INFO  2018-08-02 14:09:22,602 4829852ms QuoteServices          QuoteItemListModel - GetQuoteItemListModel finished.
+DEBUG 2018-08-02 14:09:22,633 4829883ms QuoteServices          GetQuoteItemsModel - loadCommissionRequests equal true
+DEBUG 2018-08-02 14:09:23,422 4830673ms QuoteServices          GetQuoteItemsModel - CommissionRequests count: 2
+DEBUG 2018-08-02 14:09:23,454 4830705ms QuoteServices          GetQuoteItemsModel - Page: 1 PageSize: 100 TotalRecords: 55
+INFO  2018-08-02 14:09:23,489 4830740ms QuoteServices          GetQuoteItemsModel - GetQuoteItemsModel finished
+INFO  2018-08-02 14:10:44,181 4911432ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-02 14:10:44,274 4911525ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-02 14:10:46,171 4913422ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-02 14:10:46,227 4913478ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-02 14:10:46,252 4913503ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-02 14:11:03,970 4931221ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-02 14:11:03,997 4931248ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-02 14:11:05,997 4933248ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-02 14:11:06,060 4933311ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-02 14:11:06,090 4933341ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-02 14:11:06,583 4933834ms QuoteServices          GetQuoteItemsModel - enter GetQuoteItemsModel
+DEBUG 2018-08-02 14:11:06,647 4933898ms QuoteServices          GetQuoteItemsModel - QuoteItems count: 0 
+DEBUG 2018-08-02 14:11:06,698 4933949ms QuoteServices          GetQuoteItemsModel - DiscountRequestId: 0 CommissionRequestId: 0
+DEBUG 2018-08-02 14:11:06,724 4933975ms QuoteServices          GetQuoteItemsModel - Awaiting Commision: False Awaiting Discount: False 
+DEBUG 2018-08-02 14:11:06,763 4934014ms QuoteServices          GetQuoteItemsModel - loadDiscountRequest: False LoadCommissionRequest: True 
+DEBUG 2018-08-02 14:11:06,797 4934048ms QuoteServices          GetQuoteItemsModel - QuoteId is Not Null
+DEBUG 2018-08-02 14:11:07,552 4934802ms QuoteServices          GetQuoteItemsModel - Get QuoteItemsModel
+INFO  2018-08-02 14:11:09,472 4936723ms QuoteServices          QuoteItemListModel - Enter GetQuoteItemListModel
+DEBUG 2018-08-02 14:11:09,506 4936757ms QuoteServices          QuoteItemListModel - CurrentFilter:  IsDesc: False QuoteId: 754919392403259392 QuoteItemId:  Totals: True PreviousFilter:  
+INFO  2018-08-02 14:11:10,065 4937315ms QuoteServices          QuoteItemListModel - GetQuoteItemListModel finished.
+DEBUG 2018-08-02 14:11:10,096 4937346ms QuoteServices          GetQuoteItemsModel - loadCommissionRequests equal true
+DEBUG 2018-08-02 14:11:10,864 4938115ms QuoteServices          GetQuoteItemsModel - CommissionRequests count: 2
+DEBUG 2018-08-02 14:11:10,895 4938146ms QuoteServices          GetQuoteItemsModel - Page: 1 PageSize: 100 TotalRecords: 55
+INFO  2018-08-02 14:11:10,928 4938179ms QuoteServices          GetQuoteItemsModel - GetQuoteItemsModel finished
+INFO  2018-08-02 14:27:00,348 5887598ms QuoteServices          GetQuoteListModel  - Enter GetQuoteListModel for user: test@123.com
+DEBUG 2018-08-02 14:27:00,379 5887629ms QuoteServices          GetQuoteListModel  - SearcH filters: 
+DEBUG 2018-08-02 14:27:00,407 5887657ms QuoteServices          GetQuoteListModel  - Start getting Quotes by search
+INFO  2018-08-02 14:27:00,853 5888103ms QuoteServices          GetQuoteListModel  - GetQuoteListModel finished.
+INFO  2018-08-02 14:27:09,256 5896506ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-02 14:27:09,282 5896532ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-02 14:27:11,230 5898480ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-02 14:27:11,294 5898544ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-02 14:27:11,320 5898570ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-02 14:27:12,176 5899426ms QuoteServices          GetQuoteItemsModel - enter GetQuoteItemsModel
+DEBUG 2018-08-02 14:27:12,245 5899495ms QuoteServices          GetQuoteItemsModel - QuoteItems count: 0 
+DEBUG 2018-08-02 14:27:12,268 5899518ms QuoteServices          GetQuoteItemsModel - DiscountRequestId: 0 CommissionRequestId: 0
+DEBUG 2018-08-02 14:27:12,290 5899540ms QuoteServices          GetQuoteItemsModel - Awaiting Commision: False Awaiting Discount: False 
+DEBUG 2018-08-02 14:27:12,314 5899564ms QuoteServices          GetQuoteItemsModel - loadDiscountRequest: False LoadCommissionRequest: True 
+DEBUG 2018-08-02 14:27:12,337 5899587ms QuoteServices          GetQuoteItemsModel - QuoteId is Not Null
+DEBUG 2018-08-02 14:27:13,194 5900444ms QuoteServices          GetQuoteItemsModel - Get QuoteItemsModel
+INFO  2018-08-02 14:27:14,986 5902236ms QuoteServices          QuoteItemListModel - Enter GetQuoteItemListModel
+DEBUG 2018-08-02 14:27:15,019 5902269ms QuoteServices          QuoteItemListModel - CurrentFilter:  IsDesc: False QuoteId: 754919392403259392 QuoteItemId:  Totals: True PreviousFilter:  
+INFO  2018-08-02 14:27:15,557 5902807ms QuoteServices          QuoteItemListModel - GetQuoteItemListModel finished.
+DEBUG 2018-08-02 14:27:15,589 5902839ms QuoteServices          GetQuoteItemsModel - loadCommissionRequests equal true
+DEBUG 2018-08-02 14:27:16,379 5903629ms QuoteServices          GetQuoteItemsModel - CommissionRequests count: 2
+DEBUG 2018-08-02 14:27:16,410 5903660ms QuoteServices          GetQuoteItemsModel - Page: 1 PageSize: 100 TotalRecords: 55
+INFO  2018-08-02 14:27:16,451 5903701ms QuoteServices          GetQuoteItemsModel - GetQuoteItemsModel finished
+INFO  2018-08-02 14:58:41,128 7788378ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-02 14:58:41,158 7788408ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-02 14:58:43,036 7790286ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-02 14:58:43,104 7790354ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-02 14:58:43,132 7790382ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-02 14:58:44,184 7791434ms QuoteServices          GetQuoteItemsModel - enter GetQuoteItemsModel
+DEBUG 2018-08-02 14:58:44,213 7791463ms QuoteServices          GetQuoteItemsModel - QuoteItems count: 0 
+DEBUG 2018-08-02 14:58:44,235 7791485ms QuoteServices          GetQuoteItemsModel - DiscountRequestId: 0 CommissionRequestId: 0
+DEBUG 2018-08-02 14:58:44,258 7791508ms QuoteServices          GetQuoteItemsModel - Awaiting Commision: False Awaiting Discount: False 
+DEBUG 2018-08-02 14:58:44,282 7791532ms QuoteServices          GetQuoteItemsModel - loadDiscountRequest: False LoadCommissionRequest: True 
+DEBUG 2018-08-02 14:58:44,306 7791556ms QuoteServices          GetQuoteItemsModel - QuoteId is Not Null
+DEBUG 2018-08-02 14:58:45,175 7792425ms QuoteServices          GetQuoteItemsModel - Get QuoteItemsModel
+INFO  2018-08-02 14:58:47,371 7794621ms QuoteServices          QuoteItemListModel - Enter GetQuoteItemListModel
+DEBUG 2018-08-02 14:58:47,395 7794645ms QuoteServices          QuoteItemListModel - CurrentFilter:  IsDesc: False QuoteId: 754919392403259392 QuoteItemId:  Totals: True PreviousFilter:  
+INFO  2018-08-02 14:58:47,860 7795110ms QuoteServices          QuoteItemListModel - GetQuoteItemListModel finished.
+DEBUG 2018-08-02 14:58:47,882 7795132ms QuoteServices          GetQuoteItemsModel - loadCommissionRequests equal true
+DEBUG 2018-08-02 14:58:48,536 7795786ms QuoteServices          GetQuoteItemsModel - CommissionRequests count: 2
+DEBUG 2018-08-02 14:58:48,556 7795806ms QuoteServices          GetQuoteItemsModel - Page: 1 PageSize: 100 TotalRecords: 55
+INFO  2018-08-02 14:58:48,578 7795828ms QuoteServices          GetQuoteItemsModel - GetQuoteItemsModel finished
+INFO  2018-08-02 15:51:16,708 10943958ms QuoteServices          GetQuoteListModel  - Enter GetQuoteListModel for user: test@123.com
+DEBUG 2018-08-02 15:51:16,771 10944021ms QuoteServices          GetQuoteListModel  - SearcH filters: 
+DEBUG 2018-08-02 15:51:16,797 10944047ms QuoteServices          GetQuoteListModel  - Start getting Quotes by search
+INFO  2018-08-02 15:51:17,230 10944480ms QuoteServices          GetQuoteListModel  - GetQuoteListModel finished.
+INFO  2018-08-02 15:51:23,625 10950875ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-02 15:51:23,652 10950902ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-02 15:51:25,631 10952881ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-02 15:51:25,693 10952943ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-02 15:51:25,721 10952971ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-02 15:51:26,405 10953655ms QuoteServices          GetQuoteItemsModel - enter GetQuoteItemsModel
+DEBUG 2018-08-02 15:51:26,470 10953720ms QuoteServices          GetQuoteItemsModel - QuoteItems count: 0 
+DEBUG 2018-08-02 15:51:26,531 10953781ms QuoteServices          GetQuoteItemsModel - DiscountRequestId: 0 CommissionRequestId: 0
+DEBUG 2018-08-02 15:51:26,565 10953815ms QuoteServices          GetQuoteItemsModel - Awaiting Commision: False Awaiting Discount: False 
+DEBUG 2018-08-02 15:51:26,593 10953843ms QuoteServices          GetQuoteItemsModel - loadDiscountRequest: False LoadCommissionRequest: True 
+DEBUG 2018-08-02 15:51:26,620 10953870ms QuoteServices          GetQuoteItemsModel - QuoteId is Not Null
+DEBUG 2018-08-02 15:51:27,548 10954798ms QuoteServices          GetQuoteItemsModel - Get QuoteItemsModel
+INFO  2018-08-02 15:51:29,972 10957222ms QuoteServices          QuoteItemListModel - Enter GetQuoteItemListModel
+DEBUG 2018-08-02 15:51:30,004 10957254ms QuoteServices          QuoteItemListModel - CurrentFilter:  IsDesc: False QuoteId: 754919392403259392 QuoteItemId:  Totals: True PreviousFilter:  
+INFO  2018-08-02 15:51:30,466 10957716ms QuoteServices          QuoteItemListModel - GetQuoteItemListModel finished.
+DEBUG 2018-08-02 15:51:30,489 10957739ms QuoteServices          GetQuoteItemsModel - loadCommissionRequests equal true
+DEBUG 2018-08-02 15:51:31,164 10958414ms QuoteServices          GetQuoteItemsModel - CommissionRequests count: 2
+DEBUG 2018-08-02 15:51:31,192 10958442ms QuoteServices          GetQuoteItemsModel - Page: 1 PageSize: 100 TotalRecords: 55
+INFO  2018-08-02 15:51:31,227 10958477ms QuoteServices          GetQuoteItemsModel - GetQuoteItemsModel finished
+INFO  2018-08-02 15:52:58,442 11045692ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-02 15:52:58,471 11045721ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-02 15:53:00,563 11047813ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-02 15:53:00,620 11047870ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-02 15:53:00,643 11047893ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-02 15:53:01,495 11048745ms QuoteServices          GetQuoteItemsModel - enter GetQuoteItemsModel
+DEBUG 2018-08-02 15:53:01,546 11048796ms QuoteServices          GetQuoteItemsModel - QuoteItems count: 0 
+DEBUG 2018-08-02 15:53:01,571 11048821ms QuoteServices          GetQuoteItemsModel - DiscountRequestId: 0 CommissionRequestId: 0
+DEBUG 2018-08-02 15:53:01,591 11048841ms QuoteServices          GetQuoteItemsModel - Awaiting Commision: False Awaiting Discount: False 
+DEBUG 2018-08-02 15:53:01,610 11048860ms QuoteServices          GetQuoteItemsModel - loadDiscountRequest: False LoadCommissionRequest: True 
+DEBUG 2018-08-02 15:53:01,630 11048880ms QuoteServices          GetQuoteItemsModel - QuoteId is Not Null
+DEBUG 2018-08-02 15:53:02,292 11049542ms QuoteServices          GetQuoteItemsModel - Get QuoteItemsModel
+INFO  2018-08-02 15:53:03,809 11051059ms QuoteServices          QuoteItemListModel - Enter GetQuoteItemListModel
+DEBUG 2018-08-02 15:53:03,841 11051091ms QuoteServices          QuoteItemListModel - CurrentFilter:  IsDesc: False QuoteId: 754919392403259392 QuoteItemId:  Totals: True PreviousFilter:  
+INFO  2018-08-02 15:53:04,356 11051606ms QuoteServices          QuoteItemListModel - GetQuoteItemListModel finished.
+DEBUG 2018-08-02 15:53:04,388 11051638ms QuoteServices          GetQuoteItemsModel - loadCommissionRequests equal true
+DEBUG 2018-08-02 15:53:05,156 11052406ms QuoteServices          GetQuoteItemsModel - CommissionRequests count: 2
+DEBUG 2018-08-02 15:53:05,195 11052445ms QuoteServices          GetQuoteItemsModel - Page: 1 PageSize: 100 TotalRecords: 55
+INFO  2018-08-02 15:53:05,237 11052487ms QuoteServices          GetQuoteItemsModel - GetQuoteItemsModel finished
+INFO  2018-08-02 15:56:09,224 11236474ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-02 15:56:09,248 11236498ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-02 15:56:11,030 11238280ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-02 15:56:11,090 11238340ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-02 15:56:11,108 11238358ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-02 15:56:12,250 11239500ms QuoteServices          GetQuoteItemsModel - enter GetQuoteItemsModel
+DEBUG 2018-08-02 15:56:12,274 11239524ms QuoteServices          GetQuoteItemsModel - QuoteItems count: 0 
+DEBUG 2018-08-02 15:56:12,291 11239541ms QuoteServices          GetQuoteItemsModel - DiscountRequestId: 0 CommissionRequestId: 0
+DEBUG 2018-08-02 15:56:12,306 11239556ms QuoteServices          GetQuoteItemsModel - Awaiting Commision: False Awaiting Discount: False 
+DEBUG 2018-08-02 15:56:12,325 11239575ms QuoteServices          GetQuoteItemsModel - loadDiscountRequest: False LoadCommissionRequest: True 
+DEBUG 2018-08-02 15:56:12,341 11239591ms QuoteServices          GetQuoteItemsModel - QuoteId is Not Null
+DEBUG 2018-08-02 15:56:12,946 11240196ms QuoteServices          GetQuoteItemsModel - Get QuoteItemsModel
+INFO  2018-08-02 15:56:14,850 11242100ms QuoteServices          QuoteItemListModel - Enter GetQuoteItemListModel
+DEBUG 2018-08-02 15:56:14,882 11242132ms QuoteServices          QuoteItemListModel - CurrentFilter:  IsDesc: False QuoteId: 754919392403259392 QuoteItemId:  Totals: True PreviousFilter:  
+INFO  2018-08-02 15:56:15,422 11242672ms QuoteServices          QuoteItemListModel - GetQuoteItemListModel finished.
+DEBUG 2018-08-02 15:56:15,454 11242704ms QuoteServices          GetQuoteItemsModel - loadCommissionRequests equal true
+DEBUG 2018-08-02 15:56:16,329 11243579ms QuoteServices          GetQuoteItemsModel - CommissionRequests count: 2
+DEBUG 2018-08-02 15:56:16,362 11243612ms QuoteServices          GetQuoteItemsModel - Page: 1 PageSize: 100 TotalRecords: 55
+INFO  2018-08-02 15:56:16,390 11243640ms QuoteServices          GetQuoteItemsModel - GetQuoteItemsModel finished
+INFO  2018-08-02 16:01:25,941 11553191ms QuoteServices          GetQuoteListModel  - Enter GetQuoteListModel for user: test@123.com
+DEBUG 2018-08-02 16:01:25,972 11553222ms QuoteServices          GetQuoteListModel  - SearcH filters: 
+DEBUG 2018-08-02 16:01:25,999 11553249ms QuoteServices          GetQuoteListModel  - Start getting Quotes by search
+INFO  2018-08-02 16:01:26,409 11553659ms QuoteServices          GetQuoteListModel  - GetQuoteListModel finished.
+INFO  2018-08-02 16:02:48,961 11636211ms QuoteServices          GetQuoteListModel  - Enter GetQuoteListModel for user: test@123.com
+DEBUG 2018-08-02 16:02:48,990 11636240ms QuoteServices          GetQuoteListModel  - SearcH filters: 
+DEBUG 2018-08-02 16:02:49,019 11636269ms QuoteServices          GetQuoteListModel  - Start getting Quotes by search
+INFO  2018-08-02 16:02:49,524 11636774ms QuoteServices          GetQuoteListModel  - GetQuoteListModel finished.
+INFO  2018-08-02 16:03:38,041 11685291ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-02 16:03:38,071 11685321ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-02 16:03:40,067 11687317ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-02 16:03:40,223 11687473ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-02 16:03:40,251 11687501ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-02 16:03:40,940 11688190ms QuoteServices          GetQuoteItemsModel - enter GetQuoteItemsModel
+DEBUG 2018-08-02 16:03:41,012 11688262ms QuoteServices          GetQuoteItemsModel - QuoteItems count: 0 
+DEBUG 2018-08-02 16:03:41,056 11688306ms QuoteServices          GetQuoteItemsModel - DiscountRequestId: 0 CommissionRequestId: 0
+DEBUG 2018-08-02 16:03:41,084 11688334ms QuoteServices          GetQuoteItemsModel - Awaiting Commision: False Awaiting Discount: False 
+DEBUG 2018-08-02 16:03:41,110 11688360ms QuoteServices          GetQuoteItemsModel - loadDiscountRequest: False LoadCommissionRequest: True 
+DEBUG 2018-08-02 16:03:41,135 11688385ms QuoteServices          GetQuoteItemsModel - QuoteId is Not Null
+DEBUG 2018-08-02 16:03:42,081 11689331ms QuoteServices          GetQuoteItemsModel - Get QuoteItemsModel
+INFO  2018-08-02 16:03:44,409 11691659ms QuoteServices          QuoteItemListModel - Enter GetQuoteItemListModel
+DEBUG 2018-08-02 16:03:44,431 11691681ms QuoteServices          QuoteItemListModel - CurrentFilter:  IsDesc: False QuoteId: 754919392403259392 QuoteItemId:  Totals: True PreviousFilter:  
+INFO  2018-08-02 16:03:44,912 11692162ms QuoteServices          QuoteItemListModel - GetQuoteItemListModel finished.
+DEBUG 2018-08-02 16:03:44,942 11692192ms QuoteServices          GetQuoteItemsModel - loadCommissionRequests equal true
+DEBUG 2018-08-02 16:03:45,700 11692950ms QuoteServices          GetQuoteItemsModel - CommissionRequests count: 2
+DEBUG 2018-08-02 16:03:45,736 11692986ms QuoteServices          GetQuoteItemsModel - Page: 1 PageSize: 100 TotalRecords: 55
+INFO  2018-08-02 16:03:45,769 11693019ms QuoteServices          GetQuoteItemsModel - GetQuoteItemsModel finished
+INFO  2018-08-02 16:04:00,881 11708131ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-02 16:04:00,922 11708172ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-02 16:04:02,968 11710218ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-02 16:04:03,046 11710296ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-02 16:04:03,081 11710331ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-02 16:05:36,505 11803755ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-02 16:05:36,539 11803789ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-02 16:05:38,566 11805816ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-02 16:05:38,630 11805880ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-02 16:05:38,656 11805906ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-02 16:07:23,838 11911088ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-02 16:07:23,872 11911122ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-02 16:07:25,867 11913117ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-02 16:07:25,928 11913178ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-02 16:07:25,951 11913201ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-02 16:10:52,673 12119923ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-02 16:10:52,702 12119952ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-02 16:10:54,758 12122008ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-02 16:10:54,822 12122072ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-02 16:10:54,845 12122095ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-02 16:13:26,026 12273276ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-02 16:13:26,057 12273307ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-02 16:13:28,069 12275319ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-02 16:13:28,135 12275385ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-02 16:13:28,163 12275413ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-02 16:14:22,575 12329825ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-02 16:14:22,588 12329838ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-02 16:14:23,691 12330941ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-02 16:14:23,735 12330985ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-02 16:14:23,752 12331002ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-02 16:16:40,302 12467552ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-02 16:16:40,414 12467664ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-02 16:16:42,468 12469718ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-02 16:16:42,531 12469781ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-02 16:16:42,562 12469812ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-02 16:17:12,045 12499295ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-02 16:17:12,080 12499330ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-02 16:17:14,325 12501575ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-02 16:17:14,402 12501652ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-02 16:17:14,437 12501687ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-02 16:19:25,045 12632295ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-02 16:19:25,054 12632304ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-02 16:19:26,054 12633304ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-02 16:19:26,106 12633356ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-02 16:19:26,117 12633367ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-02 17:07:34,152 15521402ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-02 17:07:34,536 15521786ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-02 17:07:35,457 15522707ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-02 17:07:35,492 15522742ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-02 17:07:35,504 15522754ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-03 09:18:22,118 73769369ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-03 09:18:22,631 73769882ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-03 09:18:23,802 73771052ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-03 09:18:23,961 73771211ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-03 09:18:23,981 73771231ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-03 09:18:41,548 73788799ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-03 09:18:41,558 73788809ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-03 09:18:42,537 73789788ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-03 09:18:42,572 73789823ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-03 09:18:42,581 73789832ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-03 09:19:07,468 73814718ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-03 09:19:07,485 73814735ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-03 09:19:08,442 73815692ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-03 09:19:08,480 73815730ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-03 09:19:08,489 73815740ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-06 09:50:27,319 567505ms QuoteServices          GetQuoteListModel  - Enter GetQuoteListModel for user: test@123.com
+DEBUG 2018-08-06 09:50:27,427 567613ms QuoteServices          GetQuoteListModel  - SearcH filters: 
+DEBUG 2018-08-06 09:50:27,456 567642ms QuoteServices          GetQuoteListModel  - Start getting Quotes by search
+INFO  2018-08-06 09:50:27,956 568142ms QuoteServices          GetQuoteListModel  - GetQuoteListModel finished.
+INFO  2018-08-06 10:21:59,764 2459950ms QuoteServices          GetQuoteListModel  - Enter GetQuoteListModel for user: test@123.com
+DEBUG 2018-08-06 10:22:00,370 2460556ms QuoteServices          GetQuoteListModel  - SearcH filters: 
+DEBUG 2018-08-06 10:22:00,398 2460584ms QuoteServices          GetQuoteListModel  - Start getting Quotes by search
+INFO  2018-08-06 10:22:00,832 2461018ms QuoteServices          GetQuoteListModel  - GetQuoteListModel finished.
+INFO  2018-08-06 10:22:10,002 2470188ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-06 10:22:10,033 2470219ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-06 10:22:13,108 2473294ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-06 10:22:13,226 2473412ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-06 10:22:13,256 2473442ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-06 10:22:14,192 2474378ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-06 10:22:14,224 2474410ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-06 10:22:16,336 2476522ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-06 10:22:16,378 2476564ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-06 10:22:16,408 2476594ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-06 10:22:17,290 2477476ms QuoteServices          GetQuoteItemsModel - enter GetQuoteItemsModel
+DEBUG 2018-08-06 10:22:17,332 2477518ms QuoteServices          GetQuoteItemsModel - QuoteItems count: 0 
+DEBUG 2018-08-06 10:22:17,361 2477547ms QuoteServices          GetQuoteItemsModel - DiscountRequestId: 0 CommissionRequestId: 0
+DEBUG 2018-08-06 10:22:17,391 2477577ms QuoteServices          GetQuoteItemsModel - Awaiting Commision: False Awaiting Discount: False 
+DEBUG 2018-08-06 10:22:17,420 2477606ms QuoteServices          GetQuoteItemsModel - loadDiscountRequest: False LoadCommissionRequest: False 
+DEBUG 2018-08-06 10:22:17,450 2477636ms QuoteServices          GetQuoteItemsModel - QuoteId is Not Null
+DEBUG 2018-08-06 10:22:18,424 2478610ms QuoteServices          GetQuoteItemsModel - Get QuoteItemsModel
+INFO  2018-08-06 10:22:20,556 2480742ms QuoteServices          QuoteItemListModel - Enter GetQuoteItemListModel
+DEBUG 2018-08-06 10:22:20,592 2480778ms QuoteServices          QuoteItemListModel - CurrentFilter:  IsDesc: False QuoteId: 748701689036406784 QuoteItemId:  Totals: True PreviousFilter:  
+INFO  2018-08-06 10:22:21,198 2481384ms QuoteServices          QuoteItemListModel - GetQuoteItemListModel finished.
+DEBUG 2018-08-06 10:22:21,232 2481418ms QuoteServices          GetQuoteItemsModel - Page: 1 PageSize: 100 TotalRecords: 7
+INFO  2018-08-06 10:22:21,283 2481469ms QuoteServices          GetQuoteItemsModel - GetQuoteItemsModel finished
+INFO  2018-08-06 10:22:34,619 2494805ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-06 10:22:34,650 2494836ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-06 10:22:36,735 2496921ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-06 10:22:36,799 2496985ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-06 10:22:36,826 2497012ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-06 10:22:48,393 2508579ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-06 10:22:48,423 2508609ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-06 10:22:50,689 2510875ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-06 10:22:50,760 2510946ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-06 10:22:50,808 2510994ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-06 10:24:43,654 2623840ms ProjectServices        SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.ProjectModel Entity: DPO.Data.Project Description: Project 'More AD Test 08.06.18'
+DEBUG 2018-08-06 10:24:43,688 2623874ms ProjectServices        SaveToDatabase     - Get the Entry
+DEBUG 2018-08-06 10:24:43,716 2623902ms ProjectServices        SaveToDatabase     - NewRecordAdded: True
+DEBUG 2018-08-06 10:24:43,745 2623931ms ProjectServices        SaveToDatabase     - Entry.State == 'Added'
+INFO  2018-08-06 10:24:43,776 2623962ms ProjectServices        SaveToDatabase     - Project 'More AD Test 08.06.18' has been added.
+DEBUG 2018-08-06 10:24:43,810 2623996ms ProjectServices        SaveToDatabase     - try to save to database
+DEBUG 2018-08-06 10:24:44,079 2624265ms ProjectServices        SaveToDatabase     - DPO.Common.Message
+INFO  2018-08-06 10:24:44,109 2624295ms ProjectServices        SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.ProjectModel
+INFO  2018-08-06 10:28:08,389 2828575ms QuoteServices          GetQuoteListModel  - Enter GetQuoteListModel for user: test@123.com
+DEBUG 2018-08-06 10:28:08,418 2828604ms QuoteServices          GetQuoteListModel  - SearcH filters: 
+DEBUG 2018-08-06 10:28:08,446 2828632ms QuoteServices          GetQuoteListModel  - Start getting Quotes by search
+INFO  2018-08-06 10:28:08,996 2829182ms QuoteServices          GetQuoteListModel  - GetQuoteListModel finished.
+INFO  2018-08-06 10:29:05,779 2885965ms QuoteServices          GetQuoteListModel  - Enter GetQuoteListModel for user: test@123.com
+DEBUG 2018-08-06 10:29:05,807 2885993ms QuoteServices          GetQuoteListModel  - SearcH filters: 
+DEBUG 2018-08-06 10:29:05,836 2886022ms QuoteServices          GetQuoteListModel  - Start getting Quotes by search
+INFO  2018-08-06 10:29:06,208 2886394ms QuoteServices          GetQuoteListModel  - GetQuoteListModel finished.
+INFO  2018-08-06 10:30:01,985 2942171ms QuoteServices          GetQuoteListModel  - Enter GetQuoteListModel for user: test@123.com
+DEBUG 2018-08-06 10:30:02,010 2942196ms QuoteServices          GetQuoteListModel  - SearcH filters: 
+DEBUG 2018-08-06 10:30:02,033 2942219ms QuoteServices          GetQuoteListModel  - Start getting Quotes by search
+INFO  2018-08-06 10:30:02,390 2942576ms QuoteServices          GetQuoteListModel  - GetQuoteListModel finished.
+INFO  2018-08-06 10:32:20,421 3080607ms QuoteServices          GetQuoteListModel  - Enter GetQuoteListModel for user: test@123.com
+DEBUG 2018-08-06 10:32:20,457 3080643ms QuoteServices          GetQuoteListModel  - SearcH filters: 
+DEBUG 2018-08-06 10:32:20,488 3080674ms QuoteServices          GetQuoteListModel  - Start getting Quotes by search
+INFO  2018-08-06 10:32:20,942 3081128ms QuoteServices          GetQuoteListModel  - GetQuoteListModel finished.
+INFO  2018-08-06 10:32:49,426 3109612ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-06 10:32:49,457 3109643ms QuoteServices          GetQuoteModel      - QuoteId has value: False
+DEBUG 2018-08-06 10:32:49,487 3109673ms QuoteServices          GetQuoteModel      - start create new QuoteModel
+DEBUG 2018-08-06 10:32:49,692 3109878ms QuoteServices          GetQuoteModel      - projectId: 763205508659167232 ProjectName: More AD Test 08.06.18 IsCommissionSchemeAllowed: False 
+INFO  2018-08-06 10:32:49,732 3109918ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-06 10:32:49,802 3109988ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-06 10:32:49,831 3110017ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-06 10:34:56,058 3236244ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-06 10:34:56,107 3236293ms QuoteServices          GetQuoteModel      - QuoteId has value: False
+DEBUG 2018-08-06 10:34:56,136 3236322ms QuoteServices          GetQuoteModel      - start create new QuoteModel
+DEBUG 2018-08-06 10:34:56,396 3236582ms QuoteServices          GetQuoteModel      - projectId: 763205508659167232 ProjectName: More AD Test 08.06.18 IsCommissionSchemeAllowed: False 
+INFO  2018-08-06 10:34:56,432 3236618ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-06 10:34:56,495 3236681ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-06 10:34:56,522 3236708ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-06 10:35:27,560 3267746ms QuoteServices          GetQuoteListModel  - Enter GetQuoteListModel for user: test@123.com
+DEBUG 2018-08-06 10:35:27,606 3267792ms QuoteServices          GetQuoteListModel  - SearcH filters: 
+DEBUG 2018-08-06 10:35:27,628 3267814ms QuoteServices          GetQuoteListModel  - Start getting Quotes by search
+INFO  2018-08-06 10:35:28,043 3268229ms QuoteServices          GetQuoteListModel  - GetQuoteListModel finished.
+INFO  2018-08-06 10:36:17,918 3318104ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-06 10:36:17,961 3318147ms QuoteServices          GetQuoteModel      - QuoteId has value: False
+DEBUG 2018-08-06 10:36:17,992 3318178ms QuoteServices          GetQuoteModel      - start create new QuoteModel
+DEBUG 2018-08-06 10:36:18,164 3318350ms QuoteServices          GetQuoteModel      - projectId: 763205508659167232 ProjectName: More AD Test 08.06.18 IsCommissionSchemeAllowed: False 
+INFO  2018-08-06 10:36:18,201 3318387ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-06 10:36:18,263 3318449ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-06 10:36:18,289 3318475ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-06 10:36:33,921 3334107ms QuoteServices          PostModel          - Enter PostModel
+DEBUG 2018-08-06 10:36:33,951 3334137ms QuoteServices          PostModel          - Start validate QuoteModel
+INFO  2018-08-06 10:36:33,983 3334169ms QuoteServices          lesOnValidateModel - Enter RulesOnValidateModel for DPO.Common.QuoteModel
+DEBUG 2018-08-06 10:36:34,025 3334211ms QuoteServices          lesOnValidateModel - QuoteId:  ProjectId: 763205508659167232 
+DEBUG 2018-08-06 10:36:34,052 3334238ms QuoteServices          lesOnValidateModel - Start validate QuoteModel's title. Title: More new AD Quotes
+DEBUG 2018-08-06 10:36:34,079 3334265ms QuoteServices          lesOnValidateModel - Title validation: True
+DEBUG 2018-08-06 10:36:34,110 3334296ms QuoteServices          lesOnValidateModel - Start validate QuoteModel's Description. Description: No Description
+DEBUG 2018-08-06 10:36:34,148 3334334ms QuoteServices          lesOnValidateModel - Description validation: True
+DEBUG 2018-08-06 10:36:34,178 3334364ms QuoteServices          lesOnValidateModel - Start validate QuoteModel's Notes: Notes is notes
+DEBUG 2018-08-06 10:36:34,206 3334392ms QuoteServices          lesOnValidateModel - Notes validation: True
+INFO  2018-08-06 10:36:34,243 3334429ms QuoteServices          lesOnValidateModel - RulesOnValidateModel finished.
+DEBUG 2018-08-06 10:36:34,273 3334459ms QuoteServices          PostModel          - Validate model success.
+DEBUG 2018-08-06 10:36:34,332 3334518ms QuoteServices          PostModel          - start Map DPO.Common.QuoteModel to Entity 
+INFO  2018-08-06 10:36:34,510 3334696ms QuoteServices          GetEntity          - Enter GetEntity for quote: More new AD Quotes
+DEBUG 2018-08-06 10:36:34,543 3334729ms QuoteServices          GetEntity          - quoteId is null.Start create new Quote for projectId: 763205508659167232
+DEBUG 2018-08-06 10:36:34,585 3334771ms QuoteServices          GetEntity          - Start getting Project Owner and Businees for projectId: 763205508659167232
+DEBUG 2018-08-06 10:36:34,882 3335068ms QuoteServices          GetEntity          - GetEntity for quote:  finished.
+DEBUG 2018-08-06 10:36:34,913 3335099ms QuoteServices          PostModel          - Map DPO.Common.QuoteModel to DPO.Data.Quote success.
+DEBUG 2018-08-06 10:36:34,943 3335129ms QuoteServices          PostModel          - Start applyBusinessRules
+INFO  2018-08-06 10:36:34,978 3335164ms QuoteServices          RulesOnAdd         - Enter RulesOnAdd for entity: DPO.Data.Quote
+DEBUG 2018-08-06 10:36:35,020 3335206ms QuoteServices          RulesOnAdd         - QuoteId: 763208491534925824 ProjectId: 763205508659167232
+DEBUG 2018-08-06 10:36:35,051 3335237ms QuoteServices          RulesOnAdd         - Start calling RuleOnCommon
+INFO  2018-08-06 10:36:35,092 3335278ms QuoteServices          RulesCommon        - Enter RulesCommon for entity: DPO.Data.Quote
+DEBUG 2018-08-06 10:36:35,125 3335311ms QuoteServices          RulesCommon        - QuoteId: 763208491534925824, ProjectId: 763205508659167232
+DEBUG 2018-08-06 10:36:35,154 3335340ms QuoteServices          RulesCommon        - User: test@123.com
+INFO  2018-08-06 10:36:35,937 3336123ms QuoteServices          alculateUnitCounts - Enter CalculateUnitCounts for Entity: DPO.Data.Quote
+DEBUG 2018-08-06 10:36:35,972 3336158ms QuoteServices          alculateUnitCounts - Start getting QuoteItems
+DEBUG 2018-08-06 10:36:36,013 3336199ms QuoteServices          alculateUnitCounts - Start getting all QuoteItems that are VRV-Outdoor
+DEBUG 2018-08-06 10:36:38,616 3338802ms QuoteServices          alculateUnitCounts - Total VRV-Outdoor QuoteItems: 0
+DEBUG 2018-08-06 10:36:38,649 3338835ms QuoteServices          alculateUnitCounts - Start geeting all QuoteItems that are VRV-Indoor
+DEBUG 2018-08-06 10:36:38,878 3339064ms QuoteServices          alculateUnitCounts - Total VRV-Indoor QuoteItems: 0
+DEBUG 2018-08-06 10:36:38,907 3339093ms QuoteServices          alculateUnitCounts - Start geeting all QuoteItems that are Split-Outdoor
+DEBUG 2018-08-06 10:36:39,144 3339330ms QuoteServices          alculateUnitCounts - Total Split-Outdoor QuoteItems: 0
+DEBUG 2018-08-06 10:36:39,174 3339360ms QuoteServices          alculateUnitCounts - Start getting all QuoteItems that are Split-Indoor
+DEBUG 2018-08-06 10:36:39,401 3339587ms QuoteServices          alculateUnitCounts - Total Split-Indoor QuoteItems: 0
+DEBUG 2018-08-06 10:36:39,433 3339619ms QuoteServices          alculateUnitCounts - Start getting all QuoteItems that are Outdoor and productFamily is packaged
+DEBUG 2018-08-06 10:36:39,466 3339652ms QuoteServices          alculateUnitCounts - Total Outdoor-PackagedType QuoteItems: 0
+DEBUG 2018-08-06 10:36:39,502 3339688ms QuoteServices          alculateUnitCounts - Start getting all QuoteItems that are VRV-Outdoor
+DEBUG 2018-08-06 10:36:39,731 3339917ms QuoteServices          alculateUnitCounts - Total LC-Split Unit Count: 0
+DEBUG 2018-08-06 10:36:39,765 3339951ms QuoteServices          alculateUnitCounts - Start doing calculation for Quote Totals (VRV, SPLIT) 
+DEBUG 2018-08-06 10:36:39,797 3339983ms QuoteServices          alculateUnitCounts - quote.TotalCountVRV: 0, quote.TotalCountVRVIndoor: 0, quote.TotalCountVRVOutdoor: 0
+DEBUG 2018-08-06 10:36:39,830 3340016ms QuoteServices          alculateUnitCounts - quote.TotalCountSplit: 0, quote.TotalCountSplitOutdoor: 0
+DEBUG 2018-08-06 10:36:39,860 3340046ms QuoteServices          alculateUnitCounts - quote.VRVOutdoorCount: 0
+DEBUG 2018-08-06 10:36:39,891 3340077ms QuoteServices          alculateUnitCounts - quote.SplitCount: 0
+DEBUG 2018-08-06 10:36:39,923 3340109ms QuoteServices          alculateUnitCounts - CalculateUnitCounts for Entity DPO.Data.Quote finished.
+DEBUG 2018-08-06 10:36:39,987 3340173ms QuoteServices          RulesOnAdd         - Start get Quote Revision
+DEBUG 2018-08-06 10:36:40,103 3340289ms QuoteServices          RulesOnAdd         - this is the Only Quote in the project.set the quote to Active
+DEBUG 2018-08-06 10:36:40,135 3340321ms QuoteServices          RulesOnAdd         - quote Active: True
+INFO  2018-08-06 10:36:40,166 3340352ms QuoteServices          RulesOnAdd         - RulesOnAdd finished.
+DEBUG 2018-08-06 10:36:40,196 3340382ms QuoteServices          PostModel          - ApplyBusinessRule for DPO.Common.QuoteModel success
+DEBUG 2018-08-06 10:36:40,227 3340413ms QuoteServices          PostModel          - Start write to Database
+INFO  2018-08-06 10:36:40,258 3340444ms QuoteServices          SaveToDatabase     - Enter SaveToDatabase for Model: DPO.Common.QuoteModel Entity: DPO.Data.Quote Description: Quote 'More new AD Quotes'
+DEBUG 2018-08-06 10:36:40,288 3340474ms QuoteServices          SaveToDatabase     - Get the Entry
+DEBUG 2018-08-06 10:36:41,768 3341954ms QuoteServices          SaveToDatabase     - NewRecordAdded: True
+DEBUG 2018-08-06 10:36:41,795 3341981ms QuoteServices          SaveToDatabase     - Entry.State == 'Added'
+INFO  2018-08-06 10:36:41,824 3342010ms QuoteServices          SaveToDatabase     - Quote 'More new AD Quotes' has been added.
+DEBUG 2018-08-06 10:36:41,852 3342038ms QuoteServices          SaveToDatabase     - try to save to database
+DEBUG 2018-08-06 10:36:41,966 3342152ms QuoteServices          SaveToDatabase     - DPO.Common.Message
+INFO  2018-08-06 10:36:41,999 3342185ms QuoteServices          SaveToDatabase     - SaveToDatabase finished for Model: DPO.Common.QuoteModel
+DEBUG 2018-08-06 10:36:42,029 3342215ms QuoteServices          PostModel          - Write to Database success. Enity: More new AD Quotes - QuoteId: 763208491534925824 
+DEBUG 2018-08-06 10:36:42,059 3342245ms QuoteServices          PostModel          - Start finalize DPO.Common.QuoteModel model
+INFO  2018-08-06 10:36:42,089 3342275ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-06 10:36:42,158 3342344ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-06 10:36:42,190 3342376ms QuoteServices          PostModel          - PostModel for DPO.Common.QuoteModel finished
+INFO  2018-08-06 10:36:43,084 3343270ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-06 10:36:43,115 3343301ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-06 10:36:45,404 3345590ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-06 10:36:45,448 3345634ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-06 10:36:45,481 3345667ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-06 10:36:46,563 3346749ms QuoteServices          GetQuoteItemsModel - enter GetQuoteItemsModel
+DEBUG 2018-08-06 10:36:46,589 3346775ms QuoteServices          GetQuoteItemsModel - QuoteItems count: 0 
+DEBUG 2018-08-06 10:36:46,618 3346804ms QuoteServices          GetQuoteItemsModel - DiscountRequestId: 0 CommissionRequestId: 0
+DEBUG 2018-08-06 10:36:46,641 3346827ms QuoteServices          GetQuoteItemsModel - Awaiting Commision: False Awaiting Discount: False 
+DEBUG 2018-08-06 10:36:46,665 3346851ms QuoteServices          GetQuoteItemsModel - loadDiscountRequest: False LoadCommissionRequest: False 
+DEBUG 2018-08-06 10:36:46,689 3346875ms QuoteServices          GetQuoteItemsModel - QuoteId is Not Null
+DEBUG 2018-08-06 10:36:47,569 3347755ms QuoteServices          GetQuoteItemsModel - Get QuoteItemsModel
+DEBUG 2018-08-06 10:36:50,061 3350247ms QuoteServices          GetQuoteItemsModel - Page: 1 PageSize: -1 TotalRecords: 0
+INFO  2018-08-06 10:36:50,094 3350280ms QuoteServices          GetQuoteItemsModel - GetQuoteItemsModel finished
+INFO  2018-08-06 10:37:43,105 3403291ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-06 10:37:43,137 3403323ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-06 10:37:45,243 3405429ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-06 10:37:45,298 3405484ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-06 10:37:45,321 3405507ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-06 10:37:46,088 3406274ms QuoteServices          GetQuoteItemsModel - enter GetQuoteItemsModel
+DEBUG 2018-08-06 10:37:46,176 3406362ms QuoteServices          GetQuoteItemsModel - QuoteItems count: 0 
+DEBUG 2018-08-06 10:37:46,225 3406411ms QuoteServices          GetQuoteItemsModel - DiscountRequestId: 0 CommissionRequestId: 0
+DEBUG 2018-08-06 10:37:46,267 3406453ms QuoteServices          GetQuoteItemsModel - Awaiting Commision: False Awaiting Discount: False 
+DEBUG 2018-08-06 10:37:46,296 3406482ms QuoteServices          GetQuoteItemsModel - loadDiscountRequest: False LoadCommissionRequest: False 
+DEBUG 2018-08-06 10:37:46,322 3406508ms QuoteServices          GetQuoteItemsModel - QuoteId is Not Null
+DEBUG 2018-08-06 10:37:47,343 3407529ms QuoteServices          GetQuoteItemsModel - Get QuoteItemsModel
+DEBUG 2018-08-06 10:37:49,397 3409583ms QuoteServices          GetQuoteItemsModel - Page: 1 PageSize: -1 TotalRecords: 0
+INFO  2018-08-06 10:37:49,428 3409614ms QuoteServices          GetQuoteItemsModel - GetQuoteItemsModel finished
+INFO  2018-08-06 10:40:50,426 3590612ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-06 10:40:50,477 3590663ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-06 10:40:52,680 3592866ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-06 10:40:52,747 3592933ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-06 10:40:52,775 3592961ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-06 10:40:53,484 3593670ms QuoteServices          GetQuoteItemsModel - enter GetQuoteItemsModel
+DEBUG 2018-08-06 10:40:53,582 3593768ms QuoteServices          GetQuoteItemsModel - QuoteItems count: 0 
+DEBUG 2018-08-06 10:40:53,614 3593800ms QuoteServices          GetQuoteItemsModel - DiscountRequestId: 0 CommissionRequestId: 0
+DEBUG 2018-08-06 10:40:53,645 3593831ms QuoteServices          GetQuoteItemsModel - Awaiting Commision: False Awaiting Discount: False 
+DEBUG 2018-08-06 10:40:53,673 3593859ms QuoteServices          GetQuoteItemsModel - loadDiscountRequest: False LoadCommissionRequest: False 
+DEBUG 2018-08-06 10:40:53,696 3593882ms QuoteServices          GetQuoteItemsModel - QuoteId is Not Null
+DEBUG 2018-08-06 10:40:54,677 3594863ms QuoteServices          GetQuoteItemsModel - Get QuoteItemsModel
+DEBUG 2018-08-06 10:40:56,897 3597083ms QuoteServices          GetQuoteItemsModel - Page: 1 PageSize: -1 TotalRecords: 0
+INFO  2018-08-06 10:40:57,067 3597253ms QuoteServices          GetQuoteItemsModel - GetQuoteItemsModel finished
+INFO  2018-08-06 10:42:10,902 3671088ms QuoteServices          GetQuoteModel      - enter GetQuoteModel
+DEBUG 2018-08-06 10:42:10,930 3671116ms QuoteServices          GetQuoteModel      - QuoteId has value: True
+INFO  2018-08-06 10:42:13,021 3673207ms QuoteServices          FinaliseModel      - Enter finaliseModel for DPO.Common.QuoteModel
+INFO  2018-08-06 10:42:13,081 3673267ms QuoteServices          FinaliseModel      - FinaliseModel finished
+INFO  2018-08-06 10:42:13,110 3673296ms QuoteServices          GetQuoteModel      - GetQuoteModel() finished.
+INFO  2018-08-06 10:42:13,938 3674124ms QuoteServices          GetQuoteItemsModel - enter GetQuoteItemsModel
+DEBUG 2018-08-06 10:42:13,965 3674151ms QuoteServices          GetQuoteItemsModel - QuoteItems count: 0 
+DEBUG 2018-08-06 10:42:13,988 3674174ms QuoteServices          GetQuoteItemsModel - DiscountRequestId: 0 CommissionRequestId: 0
+DEBUG 2018-08-06 10:42:14,013 3674199ms QuoteServices          GetQuoteItemsModel - Awaiting Commision: False Awaiting Discount: False 
+DEBUG 2018-08-06 10:42:14,035 3674221ms QuoteServices          GetQuoteItemsModel - loadDiscountRequest: False LoadCommissionRequest: False 
+DEBUG 2018-08-06 10:42:14,090 3674276ms QuoteServices          GetQuoteItemsModel - QuoteId is Not Null
+DEBUG 2018-08-06 10:42:14,948 3675134ms QuoteServices          GetQuoteItemsModel - Get QuoteItemsModel
+DEBUG 2018-08-06 10:42:16,883 3677069ms QuoteServices          GetQuoteItemsModel - Page: 1 PageSize: -1 TotalRecords: 0
+INFO  2018-08-06 10:42:16,921 3677107ms QuoteServices          GetQuoteItemsModel - GetQuoteItemsModel finished

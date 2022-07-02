@@ -1,0 +1,342 @@
+﻿
+<project-tabs [user]="user"></project-tabs>
+
+<div id="main-container" class="container-fluid">
+    <div class="main-content">
+        <div class="tab-header">
+            <header>
+                <h4>Orders Submitted</h4>
+            </header>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="search-button-row">
+                        <input #mainSearchBox
+                               type="text"
+                               class="k-input k-textbox"
+                               id="orderSearchBox"
+                               name="orderSearchFilter"
+                               placeholder="Search Orders.." 
+                               title="Search by project name, active quote title, and po number."/>
+                        <button id="orderSearchButton" (click)="onMainSearchBoxClick($event)">
+                            <span class="k-icon k-i-search"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <button type="button" (click)="onExportToExcelClick()" class="export-to-excel-btn">
+                        <span class="k-icon k-i-excel"></span>Export To Excel
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="order-params-row">
+                    <div class="col-md-2">
+                        <label for="userAutoComplete" class="orders-search-labels">User </label>
+                        <span class="kendo-input-autocomplete">
+                            <kendo-autocomplete #userListNode
+                                                class="kendo-autocomplete"
+                                                [data]="userList"
+                                                [filterable]="true"
+                                                (filterChange)="handleUserListChange($event)"
+                                                (valueChange)="handleUserSelectionChange($event)">
+                            </kendo-autocomplete>
+                        </span>
+                    </div>
+
+                    <div class="col-md-2">
+                        <label for="orderStatusDDL" class="orders-search-labels">Order Status </label>
+                        <kendo-dropdownlist #orderStatusNode
+                                            class="kendo-dropdownlist"
+                                            [data]="orderStatusTypeList"
+                                            [textField]="'text'"
+                                            [valueField]="'value'"
+                                            (valueChange)="handleOrderStatusListChange($event)"
+                                            [valuePrimitive]="true"
+                                            [(ngModel)]="defaultOrderStatus">
+                        </kendo-dropdownlist>
+                    </div>
+
+                    <div class="col-md-2">
+                        <label for="userAutoComplete" class="orders-search-labels">Business Name </label>
+                        <kendo-autocomplete #businessNameNode
+                                            class="kendo-autocomplete"
+                                            [data]="businessNameList"
+                                            [filterable]="true"
+                                            (filterChange)="handleBusinessNameChange($event)"
+                                            (valueChange)="handleBusinessNameSelectionChange($event)">
+                        </kendo-autocomplete>
+                    </div>
+                    <div class="col-md-1">
+
+                    </div>
+                    <div class="col-md-2">
+                        <label for="fromDate" class="orders-search-labels">From Date </label>
+                        <kendo-datepicker #fromDateNode
+                                          class="kendo-datepicker"
+                                          [format]="'MM/dd/yyyy'"
+                                          [value]="startDateValue"
+                                          (valueChange)="handleStartDateChange($event)">
+                        </kendo-datepicker>
+                    </div>
+                    <div class="col-md-2">
+                        <label for="toDate" class="orders-search-labels">To Date </label>
+                        <kendo-datepicker #toDateNode
+                                          class="kendo-datepicker"
+                                          [format]="'MM/dd/yyyy'"
+                                          [value]="endDateValue"
+                                          (valueChange)="handleEndDateChange($event)">
+                        </kendo-datepicker>
+                    </div>
+
+                    <div class="col-md-1">
+                        <span class="btn-reset-span">
+                            <button type="button" class="btn-refresh-all" (click)="onResetButtonClick()">RESET</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+            <!--ORDERS GRID-->
+            <kendo-grid #grid="kendoGrid" id="orderListGrid"
+                        [kendoGridBinding]="orderListGridData"
+                        [pageSize]="pageSize"
+                        [skip]="skip"
+                        [pageable]="{
+                              buttonCount: buttonCount,
+                              info: info,
+                              type: type,
+                              pageSizes: pageSizes,
+                              previousNext: previousNext
+                            }"
+                        [columnMenu]="true"
+                        [filterable]="true"
+                        [sortable]="true"
+                        [resizable]="true"
+                        [rowClass]="rowCallback">
+                <kendo-grid-column field="projectName" media="(min-width: 450px)" title="Project Name"
+                                   [headerStyle]="{ 'color': 'white' }">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        <a class="order-field-anchortag"
+                           href="/v3/#/project/{{dataItem.projectId}}">
+                            {{dataItem.projectName}}
+                        </a>
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column field="activeQuote" media="(min-width: 450px)" title="Active Quote"
+                                   [headerStyle]="{ 'color': 'white' }">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        {{dataItem.activeQuoteTitle}}
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column field="businessName" media="(min-width: 450px)"
+                                   title="Business Name" [headerStyle]="{ 'color': 'white'}">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        {{dataItem.businessName}}
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column field="projectOwnerName" media="(min-width: 450px)"
+                                   title="Project Owner Name" [hidden]="true" [headerStyle]="{ 'color': 'white'}">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        {{dataItem.projectOwnerName}}
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column field="dealerContractorName" media="(min-width: 450px)"
+                                   title="Dealer/Contractor Name" [hidden]="true" [headerStyle]="{ 'color': 'white'}">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        {{dataItem.dealerContractorName}}
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column field="projectDate" media="(min-width: 450px)" title="Project Date"
+                                   [headerStyle]="{ 'color': 'white'}">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        {{dataItem.projectDate | date : 'shortDate'}}
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column field="orderStatusDescription" media="(min-width: 450px)" title="Order Status"
+                                   [class]="{'codeColumn': true}" [headerStyle]="{ 'color': 'white'}">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        <a class="order-field-anchortag"
+                           href="/v3/#/orderForm/{{dataItem.projectId}}/{{dataItem.quoteId}}/submitted">
+                            {{dataItem.orderStatusDescription }}
+                        </a>
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column field="poNumber" media="(min-width: 450px)" title="PO Number"
+                                   [headerStyle]="{ 'color': 'white'}">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        {{dataItem.poNumber}}
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column field="erpOrderNumber" media="(min-width: 450px)" title="ERP Order No."
+                                   [headerStyle]="{ 'color': 'white'}">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        {{dataItem.erpOrderNumber}}
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column field="poAttachmentName" media="(min-width: 450px)" title="PO Attachment"
+                                   [headerStyle]="{ 'color': 'white'}">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        <a class="order-field-anchortag" [routerLink]="">
+                            {{dataItem.poAttachmentName}}
+                        </a>
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column field="additionalDocFileName" media="(min-width: 450px)" title="Additional Docs"
+                                   [hidden]="true" [headerStyle]="{ 'color': 'white'}">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex" >
+                        <a class="order-field-anchortag" (click)="onAdditionalDocsLinkClick(dataItem.quoteId)">
+                            {{dataItem.additionalDocFileName}}
+                        </a>
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column field="submitDate" media="(min-width: 450px)" title="Order Date"
+                                   [headerStyle]="{ 'color': 'white'}">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        {{dataItem.submitDate | date : 'shortDate'}}
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column field="estimatedDeliveryDate" media="(min-width: 450px)"
+                                   title="Est. Delivery Date" [hidden]="true" [headerStyle]="{ 'color': 'white'}">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        {{dataItem.estimatedDeliveryDate | date : 'shortDate'}}
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column field="orderReleaseDate" media="(min-width: 450px)"
+                                   title="Order Release Date" [hidden]="true" [headerStyle]="{ 'color': 'white'}">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        {{dataItem.orderReleaseDate | date : 'shortDate'}}
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column field="totalListPrice" media="(min-width: 450px)"
+                                   title="Total List" [hidden]="true" [headerStyle]="{ 'color': 'white'}">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        {{dataItem.totalListPrice | currency:'USD':true:'1.2-2'}}
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column field="totalNetPrice" media="(min-width: 450px)" title="Total Net"
+                                   [headerStyle]="{ 'color': 'white'}">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        {{dataItem.totalNetPrice | currency:'USD':true:'1.2-2'}}
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column field="totalSellPrice" media="(min-width: 450px)"
+                                   title="Total Sell" [hidden]="true" [headerStyle]="{ 'color': 'white'}">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        {{dataItem.totalSellPrice | currency:'USD':true:'1.2-2'}}
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column field="darComStatus" media="(min-width: 450px)"
+                                   title="DAR/COM Status" [hidden]="true" [headerStyle]="{ 'color': 'white'}">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        {{dataItem.darComStatus}}
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column field="vrvODUcount" media="(min-width: 450px)"
+                                   title="VRV ODU #" [hidden]="true" [headerStyle]="{ 'color': 'white'}">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        {{dataItem.vrvODUcount}}
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column field="splitODUcount" media="(min-width: 450px)"
+                                   title="Split ODU #" [hidden]="true" [headerStyle]="{ 'color': 'white'}">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        {{dataItem.splitODUcount}}
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column field="pricingTypeDescription" media="(min-width: 450px)"
+                                   title="Pricing Strategy" [hidden]="true" [headerStyle]="{ 'color': 'white'}">
+                    <ng-template kendoGridCellTemplate let-dataItem let-rowIndex="rowIndex">
+                        {{dataItem.pricingTypeDescription}}
+                    </ng-template>
+                </kendo-grid-column>
+
+                <ng-template kendoGridDetailTemplate let-dataItem>
+                    <section>
+                        <order-item-products [quoteId]="dataItem.quoteId"></order-item-products>
+                    </section>
+                </ng-template>
+                <kendo-grid-excel fileName="Orders.xlsx"></kendo-grid-excel>
+            </kendo-grid>
+        </div>
+    </div>
+
+    <!--kendo dialog export to excel -->
+    <kendo-dialog *ngIf="exportToExcelDialogOpen" 
+                  title="{{exportToExcelDialogTitle}}" 
+                  (close)="closeExportToExcelDialog()" >
+        <p>{{exportToExcelDialogMessage}}</p> <br />
+        <kendo-dropdownlist #exportToExcelNode
+                            class="kendo-dropdownlist"
+                            [data]="exportToExcelOptions"
+                            [(ngModel)]="defaultExportToExcelOption">
+
+        </kendo-dropdownlist>
+        <br /><br />
+        <kendo-dialog-actions>
+            <button kendoButton class="k-button" (click)="exportToExcel(grid)" primary="true" data-toggle="modal" icon="file-excel">Export</button>
+
+            <kendo-excelexport [data]="orderListWithProducts" fileName="OrdersWithProducts.xlsx" #excelexport>
+                <kendo-excelexport-column field="projectName" title="Project Name">
+                </kendo-excelexport-column>
+                <kendo-excelexport-column field="activeQuoteTitle" title="Active Quote">
+                </kendo-excelexport-column>
+                <kendo-excelexport-column field="businessName" title="Business Name">
+                </kendo-excelexport-column>
+                <kendo-excelexport-column field="projectOwnerName" title="Project Owner Name">
+                </kendo-excelexport-column>
+                <kendo-excelexport-column field="dealerContractorName" title="Dealer/Contractor Name">
+                </kendo-excelexport-column>
+                <kendo-excelexport-column field="projectDate" title="Project Date">
+                </kendo-excelexport-column>
+                <kendo-excelexport-column field="orderStatusDescription" title="Order Status">
+                </kendo-excelexport-column>
+                <kendo-excelexport-column field="poNumber" title="PO Number">
+                </kendo-excelexport-column>
+                <kendo-excelexport-column field="erpOrderNumber" title="ERP Order Number">
+                </kendo-excelexport-column>
+                <kendo-excelexport-column field="poAttachmentName" title="PO Attachment">
+                </kendo-excelexport-column>
+                <kendo-excelexport-column field="submitDate" title="Order Date">
+                </kendo-excelexport-column>
+                <kendo-excelexport-column field="estimatedDeliveryDate" title="Est. Delivery Date">
+                </kendo-excelexport-column>
+                <kendo-excelexport-column field="orderReleaseDate" title="Order Release Date">
+                </kendo-excelexport-column>
+                <kendo-excelexport-column field="totalListPrice" title="Total List">
+                </kendo-excelexport-column>
+                <kendo-excelexport-column field="totalNetPrice" title="Total Net">
+                </kendo-excelexport-column>
+                <kendo-excelexport-column field="totalSellPrice" title="Total Sell">
+                </kendo-excelexport-column>
+                <kendo-excelexport-column field="darComStatus" title="DAR/COM Status">
+                </kendo-excelexport-column>
+                <kendo-excelexport-column field="vrvODUcount" title="VRV ODU #">
+                </kendo-excelexport-column>
+                <kendo-excelexport-column field="splitODUcount" title="Split ODU #">
+                </kendo-excelexport-column>
+                <kendo-excelexport-column field="pricingTypeDescription" title="Pricing Strategy">
+                </kendo-excelexport-column>
+               
+                <kendo-excelexport-column-group title="Products" [headerCellOptions]="{ textAlign: 'center' }">
+                    <kendo-excelexport-column field="productNumber" title="Product Number">
+                    </kendo-excelexport-column>
+                    <kendo-excelexport-column field="description" title="Product Description">
+                    </kendo-excelexport-column>
+                    <kendo-excelexport-column field="quantity" title="Qty">
+                    </kendo-excelexport-column>
+                    <kendo-excelexport-column field="listPrice" title="List Price Each">
+                    </kendo-excelexport-column>
+                    <kendo-excelexport-column field="netPrice" title="Net Price Each">
+                    </kendo-excelexport-column>
+                    <kendo-excelexport-column field="extListPrice" title="Ext. List Price">
+                    </kendo-excelexport-column>
+                    <kendo-excelexport-column field="extNetPrice" title="Ext. Net Price">
+                    </kendo-excelexport-column>
+                </kendo-excelexport-column-group>
+            </kendo-excelexport>
+        </kendo-dialog-actions>
+    </kendo-dialog>
+</div>
+
+

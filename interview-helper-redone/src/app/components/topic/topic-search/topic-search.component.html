@@ -1,0 +1,45 @@
+
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="container">
+            <div></div>
+            <div class="two">
+                <mat-form-field>
+                    <div class="pull-left">
+                        <input matInput #topicInput (keyup)="0" 
+                            placeholder="Search dot net term.." 
+                            aria-label="Term" [matAutocomplete]="auto"
+                            [formControl]="searchTerm">
+                    </div>                    
+                    <div class="pull-right">
+                        <span class="fa fa-remove" (click)="clearInputBox()"></span>
+                    </div>
+                    
+                    <mat-autocomplete #auto="matAutocomplete">
+                        <mat-option (onSelectionChange)="searchTerm.value !=undefined" 
+                            *ngFor="let topic of searchResult | async" 
+                            [value]="topic.termName"
+                            (click)="onTermSelect(topic._id)">                            
+                            <span>{{ topic.termName }}</span>
+                        </mat-option>
+                    </mat-autocomplete>
+                </mat-form-field>  
+            
+                <div *ngIf="hasSelectedTerm">
+                    <h4 class="card-title ">{{selectedTerm.termName}}</h4>
+
+                    <ul *ngFor="let def of selectedTerm.definition">
+                        <li>{{def}}</li>
+                    </ul>
+
+                    <div class="card-footer">
+                        <a href="{{selectedTerm.referenceUrl}}">{{selectedTerm.referenceUrl}}</a>
+                    </div>
+                </div>
+                
+            </div>
+            <div></div>     
+        </div>           
+    </div>
+</div>
+ 

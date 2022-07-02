@@ -1,0 +1,469 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="full">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1280">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+    <title>Welcome to Daikin City</title>
+    <link rel="stylesheet" href="daikincityweb/css/daikincity.css" type="text/css" />
+    <script type="text/javascript" src="//use.typekit.net/dnz0bzd.js"></script>
+    <script type="text/javascript">try { Typekit.load(); } catch (e) { }</script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="daikincityweb/js/animation-frame.js"></script>
+    <script src="daikincityweb/js/sc-accordion.js"></script>
+    <script src="daikincityweb/js/sc-slider.js"></script>
+    <script src="daikincityweb/js/sc-lightbox.js"></script>
+    <script src="daikincityweb/js/jquery-1.11.0.min.js"></script>
+    <script src="daikincityweb/js/jquery.animate-colors-min.js"></script>
+    <script src="daikincityweb/js/daikincity.min.js"></script>
+</head>
+<body class="full">
+    <div id="header">
+        <a id="home_btn" href="/"><img src="daikincityweb/images/daikin-logo.png" width="170" height="55" alt="www.daikin.co.uk" /></a>
+        <div id="headerBtns">
+            <a class="navButton" id="daikin_city_btn"><img src="daikincityweb/images/city-icon.png" width="30" height="55" /><p>Daikin City</p></a>
+            <a class="navButton" href=""><img src="daikincityweb/images/user-icon.png" width="30" height="55" /><p>Sign-in</p></a>
+            <a class="navButton" href=""><img src="daikincityweb/images/menu-icon.png" width="30" height="55" /><p>Menu</p></a>
+        </div>
+    </div>
+    <!--DAIKINCITY-START-->
+    <div id="lightbox" class="lightbox full"></div>
+    <div class="wrapper">
+        <div id="content">
+            <div id="loadingScreen" class="full loadingScreen">
+                <img src="daikincityweb/images/loading.gif" width="42" height="42" alt="loading" />
+                <p>Loading Daikin City</p>
+            </div>
+            <div id="videoPlayer" class="full"></div>
+            <div id="menuScreen" class="screen full">
+                <div id="bottomMenu">
+                    <div id="bottomMenuLeft">
+                        <h1 id="welcomeTitle">Welcome to Daikin City</h1>
+                        <p id="welcomeDescription">Discover a new realm of energy efficiency and see what saving you can achieve. Explore the city to see Daikin’s integrated heating, ventilation and air conditioning solutions</p>
+                        <a href="/Home/PrivacyPolicy" onclick="openTermsConditions(); return false;" target="_blank">Privacy Policy</a>
+                    </div>
+                    <div id="bottomMenuRight">
+                        <ul id="functionalBuildingsMenu"></ul>
+                        <div class="divide"></div>
+                        <ul id="applicationBuildingsMenu"></ul>
+                    </div>
+                </div>
+                <div id="billboard"></div>
+            </div>
+            <div id="buildingScreen" class="screen full">
+                <div id="buildingMenu" class="full">
+                    <div id="buildingFloorMenuContainer" class="buildingFloorMenuContainer">
+                        <h3 id="buildingMenuTitle"></h3>
+                        <p id="buildingMessage"></p>
+                    </div>
+                </div>
+                <div id="applicationBuilding" class="full">
+                    <div id="hotelRoomApplication" class="full">
+                        <div id="scenarioInformation" class="calculatorTemplateLeft">
+                            <div id="scenarioTutorial" class="screen full">
+                                <p>See how Daikin energy controls respond to guest activity, reducing energy use while ensuring guest comfort.</p>
+                                <button id="hotelScenarioSelectBtn"><span>Select a scenario ></span></button>
+                                <p class="textCenter small">Or</p>
+                                <img src="daikincityweb/images/timeline-slider-preview.gif" class="timeline-slider-preview" alt="Timeline Preview" />
+                                <p class="textCenter"><span>drag the slider</span> along the timeline below</p>
+                            </div>
+                            <div id="scenarioMenu" class="screen full">
+                                <h3>What would you like to do?</h3>
+                                <ul id="scenarioOptions"></ul>
+                            </div>
+                            <div id="scenarioDetails" class="screen full">
+                                <button id="scenarioMenuBtn">&lt; View list of scenarios</button>
+                                <p id="scenarioDescription"></p>
+                                <div id="controllerUnit">
+                                    <img class="controller" src="daikincityweb/images/buildings/hotel/controller.png" />
+                                    <img class="controller-highlight" src="daikincityweb/images/buildings/hotel/controller-highlight.png" />
+                                    <p class="time">12:00</p>
+                                    <p id="temperatureRoom" class="temperatureRoom">--</p>
+                                    <p id="temperatureSet" class="temperatureSet">--</p>
+                                </div>
+                                <div id="scenarioPlayerControls" class="scenarioPlayerControls">
+                                    <button id="scenarioPreviousBtn" class="scenarioControlBtn"><img src="daikincityweb/images/scenario-previous-btn.png" /></button>
+                                    <button id="scenarioPlayBtn" class="scenarioControlBtn"><img src="daikincityweb/images/scenario-play-btn.png" /></button>
+                                    <button id="scenarioNextBtn" class="scenarioControlBtn"><img src="daikincityweb/images/scenario-next-btn.png" /></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="hotelRoomFloorNavigation" class="floorNavigation"></div>
+                        <div id="hotelRoomView" class="calculatorTemplateCentre">
+                            <h2>Hotel Room</h2>
+                            <div class="hotelRoomImage"><img id="hotelRoomImage" /></div>
+                            <div class="hotelRoomImage"><img id="hotelRoomOverlayImage" /></div>
+                            <div class="hotelRoomAnimation"><img id="hotelRoomAnimationImage" /></div>
+                        </div>
+                        <div id="hotelRoomSavings" class="calculatorTemplateRight">
+                            <p>KW/H CONSUMED</p>
+                            <div id="hotelRoomWithControlWidget" class="savingsKWHWidget">
+                                <canvas id="savingsWithControlCanvasKWH" width="140" height="140"></canvas>
+                                <p id="savingsWithControlKWHValue">0<br /><span>KW/H</span></p>
+                            </div>
+                            <p class="controlLabel">With Control</p>
+                            <div id="hotelRoomWithoutControlWidget" class="savingsKWHWidget">
+                                <canvas id="savingsWithoutControlCanvasKWH" width="140" height="140"></canvas>
+                                <p id="savingsWithoutControlKWHValue">0<br /><span>KW/H</span></p>
+                            </div>
+                            <p class="controlLabel">Without Control</p>
+                        </div>
+                        <div id="hotelRoomTimeline" class="calculatorTemplateBottom">
+                            <div id="timeline" class="timeline">
+                                <div class="timeline-img">
+                                    <img id="timeline-slider" src="daikincityweb/images/timeline.gif" />
+                                </div>
+                                <div id="timeline-handle" class="timeline-handle">
+                                    <img src="daikincityweb/images/timeline-handle.png" />
+                                    <p id="handleText" class="hotspot-label"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="libraryApplication" class="full">
+                        <div id="libraryMenu" class="full">
+                            <h2>Browse Daikin's Resource Library</h2>
+                            <p>Click on the Daikin categories below to access and download documentation and guides for these products.</p>
+                        </div>
+                        <div id="libraryDocumentsMenu" class="full">
+                            <div id="libraryTabsMenu" class="libraryTabsMenu"></div>
+                            <div id="booksContainer" class="books-container">
+                                <div id="libraryBreadcrumbs" class="libraryBreadcrumbs">Library Home ></div>
+                                <h2 id="libraryDirectoryTitle" class="libraryDirectoryTitle">VRV</h2>
+                                <div id="libraryShelvesWrapper" class="library-shelves-container">
+                                    <div id="libraryShelves"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="communicationsCenter" class="full">
+                        <h2>Communications <span>Center</span></h2>
+                    </div>
+                    <div id="residenceApplication" class="full-padding">
+                        <div class="full-padding residenceContainer">
+                            <h1>Energy Saving Calculator</h1>
+                            <div id="residenceIndicatorContainer" class="residenceIndicatorContainer"></div>
+                            <div id="residenceAboutHome" class="residenceScreen">
+                                <div class="col50">
+                                    <h3>Tell us about your home</h3>
+                                    <div class="divide">&nbsp;</div>
+                                    <div class="option">
+                                        <p class="col50">How big is your home?</p>
+                                        <select id="homeSizeSelect" class="col50 defaultSelect">
+                                            <option value="-1">Select</option>
+                                            <option value="huge">huge</option>
+                                            <option value="sizeable">sizeable</option>
+                                            <option value="shoebox">shoebox</option>
+                                        </select>
+                                    </div>
+                                    <div class="sliderInfo">
+                                        <p class="sliderLabel">Estimated Install System Capacity</p>
+                                        <p class="sliderValue" id="homeSliderValue">0</p>
+                                    </div>
+                                    <div id="homeSizeSlider" class="home-slider">
+                                        <div class="home-slider-highlight slider-highlight-blue" id="homeSizeHighlight"></div>
+                                        <div class="handle">
+                                            <img src="daikincityweb/images/handle.png" />
+                                        </div>
+                                    </div>
+                                    <div class="option">
+                                        <p class="col50">Where is your home located?</p>
+                                        <select id="homeLocationSelect" class="col50 defaultSelect">
+                                            <option value="-1">Select</option>
+                                            <option value="huge">huge</option>
+                                            <option value="sizeable">sizeable</option>
+                                            <option value="shoebox">shoebox</option>
+                                        </select>
+                                    </div>
+                                    <div class="option">
+                                        <p class="col50">When was your home built?</p>
+                                        <select id="homeBuiltSelect" class="col50 defaultSelect">
+                                            <option value="-1">Select</option>
+                                            <option value="huge">huge</option>
+                                            <option value="sizeable">sizeable</option>
+                                            <option value="shoebox">shoebox</option>
+                                        </select>
+                                    </div>
+                                    <div class="option">
+                                        <p class="col50">When was your existing HVAC system installed?</p>
+                                        <select id="homeSystemInstalledSelect" class="col50 defaultSelect">
+                                            <option value="-1">Select</option>
+                                            <option value="huge">huge</option>
+                                            <option value="sizeable">sizeable</option>
+                                            <option value="shoebox">shoebox</option>
+                                        </select>
+                                    </div>
+                                    <div class="divide">&nbsp;</div>
+                                    <div class="residenceNavButtons">
+                                        <button class="refreshBtn" id="homeRefreshBtn"></button>
+                                        <button class="nextBtn" id="homeNextBtn"></button>
+                                    </div>
+                                </div>
+                                <div class="col50"><img class="residenceImg" src="daikincityweb/images/residence.jpg" /></div>
+                            </div>
+                            <div id="residenceAboutSystem" class="residenceScreen">
+                                <div class="col50">
+                                    <h3>Tell us about your existing system</h3>
+                                    <div class="divide"></div>
+                                    <div class="option">
+                                        <p class="col50">How do you cool your home?</p>
+                                        <select id="systemCoolSelect" class="col50 defaultSelect">
+                                            <option value="-1">Select</option>
+                                            <option value="huge">huge</option>
+                                        </select>
+                                    </div>
+                                    <div class="sliderInfo">
+                                        <p class="sliderLabel">Efficiency</p>
+                                        <p class="sliderValue" id="coolingHomeValue">0</p>
+                                    </div>
+                                    <div id="systemCoolingSlider" class="home-slider">
+                                        <div class="home-slider-highlight slider-highlight-blue" id="coolHomeHighlight"></div>
+                                        <div class="handle">
+                                            <img src="daikincityweb/images/handle.png" />
+                                        </div>
+                                    </div>
+                                    <div class="option">
+                                        <p class="col50">How do you heat your home?</p>
+                                        <select id="systemHeatSelect" class="col50 defaultSelect">
+                                            <option value="-1">Select</option>
+                                            <option value="huge">huge</option>
+                                        </select>
+                                    </div>
+                                    <div class="sliderInfo">
+                                        <p class="sliderLabel">Efficiency</p>
+                                        <p class="sliderValue" id="heatingHomeValue">0</p>
+                                    </div>
+                                    <div id="systemHeatingSlider" class="home-slider">
+                                        <div class="home-slider-highlight slider-highlight-red" id="heatHomeHighlight"></div>
+                                        <div class="handle">
+                                            <img src="daikincityweb/images/handle.png" />
+                                        </div>
+                                    </div>
+                                    <div class="option">
+                                        <p>Do you use a programmable thermostat?</p>
+                                        <input type="checkbox" />
+                                    </div>
+                                </div>
+                                <div class="col50">
+                                    <h3>Tell us about your existing system</h3>
+                                    <div class="divide"></div>
+                                    <div class="option">
+                                        <p class="col50">Typical AC solution</p>
+                                        <select id="systemACSolutionSelect" class="col50 defaultSelect">
+                                            <option value="-1">Select</option>
+                                            <option value="huge">huge</option>
+                                        </select>
+                                    </div>
+                                    <div class="sliderInfo">
+                                        <p class="sliderLabel">Typical Efficiency</p>
+                                        <p class="sliderValue" id="typicalACHomeValue">0</p>
+                                    </div>
+                                    <div id="typicalACSlider" class="home-slider">
+                                        <div class="home-slider-highlight slider-highlight-blue" id="typicalACHighlight"></div>
+                                        <div class="handle">
+                                            <img src="daikincityweb/images/handle.png" />
+                                        </div>
+                                    </div>
+                                    <div id="systemACSlider"></div>
+                                    <div class="option">
+                                        <p class="col50">How do you heat your home?</p>
+                                        <select id="systemTypicalHeatingSelect" class="col50 defaultSelect">
+                                            <option value="-1">Select</option>
+                                            <option value="huge">huge</option>
+                                        </select>
+                                    </div>
+                                    <div class="sliderInfo">
+                                        <p class="sliderLabel">Typical Efficiency</p>
+                                        <p class="sliderValue" id="typicalHeatingHomeValue">0</p>
+                                    </div>
+                                    <div id="typicalHeatingSlider" class="home-slider">
+                                        <div class="home-slider-highlight slider-highlight-red" id="typicalHeatingHighlight"></div>
+                                        <div class="handle">
+                                            <img src="daikincityweb/images/handle.png" />
+                                        </div>
+                                    </div>
+                                    <div class="option">
+                                        <p>Programmable thermostat</p>
+                                        <input type="checkbox" />
+                                    </div>
+                                </div>
+                                <div class="residenceNavButtons">
+                                    <button class="previousBtn" id="systemPreviousBtn"></button>
+                                    <button class="refreshBtn" id="systemRefreshBtn"></button>
+                                    <button class="nextBtn" id="systemNextBtn"></button>
+                                </div>
+                            </div>
+                            <div id="residenceRates" class="residenceScreen">
+                                <h3>What are the current utility rates you pay</h3>
+                                <div class="rateContainer">
+                                    <div class="rateConfiguration">
+                                        <canvas id="rateElectricityCanvas" width="220" height="220"></canvas>
+                                        <div class="rateConfigurationValues">
+                                            <img src="daikincityweb/images/electricity-icon.png" width="21" height="32" />
+                                            <p class="rateType">Electricity</p>
+                                            <p id="rateElectricityValue" class="rateValue">0.0</p>
+                                            <p>&cent;/KW</p>
+                                        </div>
+                                        <div id="electricitySlider" class="home-slider">
+                                            <div class="handle">
+                                                <img src="daikincityweb/images/handle.png" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="rateConfiguration">
+                                        <canvas id="rateGasCanvas" width="220" height="220"></canvas>
+                                        <div class="rateConfigurationValues">
+                                            <img src="daikincityweb/images/gas-icon.png" width="21" height="32" />
+                                            <p class="rateType gas">Gas</p>
+                                            <p id="rateGasValue" class="rateValue">0.0</p>
+                                            <p>&cent;/Therm</p>
+                                        </div>
+                                        <div id="gasSlider" class="home-slider">
+                                            <div class="handle">
+                                                <img src="daikincityweb/images/handle.png" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="rateConfiguration">
+                                        <canvas id="rateOilCanvas" width="220" height="220"></canvas>
+                                        <div class="rateConfigurationValues">
+                                            <img src="daikincityweb/images/oil-icon.png" width="23" height="32" />
+                                            <p class="rateType oil">Oil</p>
+                                            <p id="rateOilValue" class="rateValue">0.0</p>
+                                            <p>&cent;/Gal</p>
+                                        </div>
+                                        <div id="oilSlider" class="home-slider">
+                                            <div class="handle">
+                                                <img src="daikincityweb/images/handle.png" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="residenceNavButtons">
+                                    <button class="previousBtn" id="ratesPreviousBtn"></button>
+                                    <button class="refreshBtn" id="ratesRefreshBtn"></button>
+                                    <button class="nextBtn" id="ratesNextBtn"></button>
+                                </div>
+                            </div>
+                            <div id="residenceSavings" class="residenceScreen">
+                                <div class="residenceSavingsLeft">
+                                    <ul id="residenceSavingsMenu" class="accordion">
+                                        <li>
+                                            <div class="accordionContent">
+                                                <div>
+                                                    <img src="daikincityweb/images/residence-savings-menu-bullet.png" />
+                                                    <p class="menuTitle">Selection is based on following criteria</p>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, consectetur </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="accordionContent">
+                                                <div>
+                                                    <img src="daikincityweb/images/residence-savings-menu-bullet.png" />
+                                                    <p class="menuTitle">Select a specific Daikin Solution</p>
+                                                </div>
+                                                <p>Sed ut perspiciatis unde omnis iste natus </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="accordionContent">
+                                                <div>
+                                                    <img src="daikincityweb/images/residence-savings-menu-bullet.png" />
+                                                    <p class="menuTitle">Inverter Compressor Savings Benefit</p>
+                                                </div>
+                                                <p>At vero eos et accusamus et iusto odio.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="accordionContent">
+                                                <div>
+                                                    <img src="daikincityweb/images/residence-savings-menu-bullet.png" />
+                                                    <p class="menuTitle">System Selection Summary</p>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="residenceNavButtons">
+                                        <button class="previousBtn" id="savingsPreviousBtn"></button>
+                                        <button class="refreshBtn" id="savingsRefreshBtn"></button>
+                                    </div>
+                                </div>
+                                <div class="residenceSavingsRight">
+                                    <div id="savingsChartContainer" class="full"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="functionalBuilding" class="full">
+                    <div id="floorImageContainer" class="floorImageContainer">
+                        <div id="floorConfigurationImages"></div>
+                        <img id="floorImage" />
+                    </div>
+                    <div id="buildingInformation" class="calculatorTemplateLeft">
+                        <div id="configurationIcons"></div>
+                        <div id="configurationInformation">
+                            <h6 id="configurationTitle">&nbsp;</h6>
+                            <div id="configurationTabs"></div>
+                            <p id="configurationDescription">&nbsp;</p>
+                            <img id="configurationImage" />
+                        </div>
+                    </div>
+                    <div id="buildingView" class="calculatorTemplateCentre">
+                        <div id="floorNavigation" class="floorNavigation"></div>
+                        <h2 id="floorTitle"></h2>
+                        <button id="zoomBtn" class="zoomIcon">&nbsp;</button>
+                    </div>
+                    <div id="buildingSavings" class="calculatorTemplateRight">
+                        <div id="buildingSavingsKWH" class="savingsKWHWidget">
+                            <canvas id="savingsCanvasKWH" width="220" height="220" class="full"></canvas>
+                            <div id="energySavingsWidgetInfo" class="energySavingsWidgetInfo">
+                                <p>Energy<br />Savings Ratio</p>
+                                <p id="savingsKWHValue">0<br /><span>KW/H</span></p>
+                            </div>
+                            <img src="daikincityweb/images/savings-widget-key.png" />
+                        </div>
+                        <div id="buildingEnergyComparison" class="buildingEnergyComparison"></div>
+                    </div>
+                    <div id="buildingConfiguration" class="calculatorTemplateBottom">
+                        <div id="configurationContainerLeft" class="configurationOptionContainer"></div>
+                        <div id="configurationContainerRight" class="configurationOptionContainer">
+                            <div id="layoutLabels" class="layoutLabels">
+                                <p>Zone Level</p>
+                                <p>System Level</p>
+                            </div>
+                            <div id="layoutColumn1" class="layoutColumn"></div>
+                            <div id="layoutColumn2" class="layoutColumn"></div>
+                            <div id="layoutColumn3" class="layoutColumn"></div>
+                            <canvas id="configurationButtonsCanvas" class="full" width="1000" height="138"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div id="webBuilding" class="full">
+                    <div id="webLinksModal" class="webLinksModal">
+                        <div class="modalTitle">
+                            <h2 id="webFloorTitle"></h2>
+                            <img id="webLinkIcon" />
+                        </div>
+                        <div id="linksContainer" class="linksContainer"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--DAIKINCITY-END-->
+    <script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-51122076-1', 'daikincity.com');
+    ga('send', 'pageview');
+    </script>​
+</body>
+</html>
